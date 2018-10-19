@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "/"
+baseurl = "https://www.tristandefommervault.com/"
 title = "Qualia"
 languageCode = "fr-fr"
 theme = "elate"
