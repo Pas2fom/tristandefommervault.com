@@ -1,7 +1,7 @@
 # Page settings
-baseurl = "/"
-title = "Elate theme"
-languageCode = "en-us"
+baseurl = "https://www.tristandefommervault.com/"
+title = "Qualia"
+languageCode = "fr-fr"
 theme = "elate"
 
 [params]
@@ -9,17 +9,17 @@ theme = "elate"
   custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
-  author = ""
+  author = "Tristan de Fommervault"
   description = ""
-  email = ""
+  email = "tdefommervault@qualia-management.com"
   # Navigation
   [params.navigation]
-    brand = "Elate"
-    home = "Home"
-    work = "Work"
-    testimonials = "Testimonials"
+    brand = "Qualia"
+    home = "Accueil"
+    work = "Références"
+    testimonials = "Témoignages"
     services = "Services"
-    about = "About"
+    about = "À propos"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -39,47 +39,47 @@ theme = "elate"
 
   # Hero section
   [params.hero]
-    title = "Do something you love."
-    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+    title = "Coaching et formations"
+    subtitle = 'Un accompagnement sur mesure pour vos équipes.'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
+    title = "Prochaines sessions"
+    description = "Inscrivez-vous sur notre calendriers des formations."
+    # url = "#"
+    # button = "Get In Touch"
+    icon = "icon-calendar"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
+    title = "Co-développement"
+    description = "Un problème vous résiste, nous trouverons une solution ensemble."
+    # url = "#"
+    # button = "Click Me"
+    icon = "icon-group"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
+    title = "Ateliers de coaching"
+    description = "Améliorez la cohésion de vos équipes."
+    # url = "#"
+    # button = "Why us?"
     icon = "icon-rocket"
     img = "img_10.jpg"
 
   [params.intro.video]
-    enable = true
-    title = "Watch the video"
+    enable = false
+    title = "Voir la vidéo"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
 
 
   # Work section
   [params.work]
-    enable = true
+    enable = false
     title = "Work"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
@@ -123,24 +123,24 @@ theme = "elate"
   # Testimonials section
   [params.testimonials]
     enable = true
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Témoignages"
+    description = "Nos clients sont nos meilleurs ambassadeurs."
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
+      person = 'Sébastien Remond, <a href="https://cib.societegenerale.com/en/" target="_blank">Société Générale CIB</a> <span class="subtext">Directeur Investment Banking</span>'
       img = "person1.jpg"
       alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
+      person = 'Sébastien Remond, <a href="https://cib.societegenerale.com/en/" target="_blank">Société Générale CIB</a> <span class="subtext">Directeur Investment Banking</span>'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
+      person = 'Sébastien Remond, <a href="https://cib.societegenerale.com/en/" target="_blank">Société Générale CIB</a> <span class="subtext">Directeur Investment Banking</span>'
       img = "person3.jpg"
       alt = "Person3"
 
@@ -149,7 +149,7 @@ theme = "elate"
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -174,7 +174,7 @@ theme = "elate"
 
   # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -216,7 +216,7 @@ theme = "elate"
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
 
@@ -229,10 +229,10 @@ theme = "elate"
       speed = 5000
 
     [[params.counters.item]]
-      description = "Lines of code"
+      description = "Formations"
       icon = "icon-code"
       from = 0
-      to = 2343409
+      to = 2000
       interval = 50
       speed = 5000
 
@@ -255,28 +255,28 @@ theme = "elate"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
-    title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Contact"
+    description = "Nous sommes à votre écoute."
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "36 rue de Fleurus, <br> 75006 Paris"],
+        ["icon-phone", "+33(0)6 61 07 90 51"],
+        ["icon-envelope", "tdefommervault@qualia-management.com"],
+        ["icon-globe", '<a href="https://tristandefommervault.com/" target="_blank">tristandefommervault.com</a>']
       ]
 
-    name = "Name"
+    name = "Nom"
     email = "Email"
-    phone = "Phone"
+    phone = "Téléphone"
     message = "Message"
-    button = "Send message"
+    button = "Envoyer"
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
     links = [
         ["icon-twitter", "#twitter"],
