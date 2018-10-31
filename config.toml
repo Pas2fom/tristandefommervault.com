@@ -14,7 +14,7 @@ theme = "elate"
   email = "tdefommervault@qualia-management.com"
   # Navigation
   [params.navigation]
-    brand = "Qualia"
+    brand = "Tristan de Fommervault"
     home = "Accueil"
     work = "Références"
     testimonials = "Témoignages"
