@@ -10,7 +10,7 @@ theme = "elate"
 
   # Meta
   author = "Tristan de Fommervault"
-  description = "Coaching" "Management" "Co-développement"
+  description = "Coaching, Management, Co-développement"
   email = "tdefommervault@qualia-management.com"
   # Navigation
   [params.navigation]
@@ -159,7 +159,6 @@ theme = "elate"
     person = 'Stéphanie Baranger, Chief of staff to the Global Head of HR - Global Banking and Investor Solutions - Société Générale'
     img = "person4.jpg"
     alt = "Person4"
-
 
   # Services section
   [params.services]
