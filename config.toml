@@ -150,10 +150,15 @@ theme = "elate"
 
     [[params.testimonials.item]]
       quote = "&ldquo;J’avais besoin de reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'ont aidé à mettre au point une stratégie pour gérer ma situation de manière optimale.&rdquo;"
-      person = "Grégoire Hallé, Conservateur du Patrimoine, Musée des Beaux-Arts de Draguignan"
+      person = 'Grégoire Hallé, Conservateur du Patrimoine, Musée des Beaux-Arts de Draguignan'
       img = "person3.jpg"
       alt = "Person3"
 
+    [[params.testimonials.item]]
+    quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan dans le cadre de la mise en place d’un parcours d’ateliers auprès d’une population de cadres de haut niveau. Ces ateliers, construits sous la forme d’un parcours de développement agile, ont permis aux managers de réfléchir collectivement sur leurs pratiques individuelles afin de les aider à développer leurs propres ressources dans la perspective des challenges à venir. (…) En faisant émerger une véritable communauté de pratiques managériales, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
+    person = 'Stéphanie Baranger, Chief of staff to the Global Head of HR - Global Banking and Investor Solutions - Société Générale'
+    img = "person4.jpg"
+    alt = "Person4"
 
   # Services section
   [params.services]
