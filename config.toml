@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "https://www.tristandefommervault.com/"
-title = "Qualia"
+title = "Tristan de Fommervault Qualia"
 languageCode = "fr-fr"
 theme = "elate"
 
@@ -14,7 +14,7 @@ theme = "elate"
   email = "tdefommervault@qualia-management.com"
   # Navigation
   [params.navigation]
-    brand = "Qualia"
+    brand = "Tristan de Fommervault"
     home = "Accueil"
     work = "Références"
     testimonials = "Témoignages"
@@ -39,7 +39,7 @@ theme = "elate"
 
   # Hero section
   [params.hero]
-    title = "Coaching et formations"
+    title = "Coaching et formation"
     subtitle = 'Un accompagnement sur mesure pour vos équipes.'
 
   # Intro section
