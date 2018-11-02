@@ -1,10 +1,6 @@
 # Page settings
 baseurl = "https://www.tristandefommervault.com/"
-<<<<<<< HEAD
-title = "Tristan de Fommervault Qualia"
-=======
 title = "Tristan de Fommervault - coach & formateur"
->>>>>>> 109147f2cbded7eaecac46dcaf457db911cc4ff9
 languageCode = "fr-fr"
 theme = "elate"
 
