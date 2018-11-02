@@ -1,6 +1,10 @@
 # Page settings
 baseurl = "https://www.tristandefommervault.com/"
+<<<<<<< HEAD
 title = "Tristan de Fommervault Qualia"
+=======
+title = "Tristan de Fommervault - coach & formateur"
+>>>>>>> 109147f2cbded7eaecac46dcaf457db911cc4ff9
 languageCode = "fr-fr"
 theme = "elate"
 
@@ -10,7 +14,7 @@ theme = "elate"
 
   # Meta
   author = "Tristan de Fommervault"
-  description = ""
+  description = "Coaching, Management, Co-développement"
   email = "tdefommervault@qualia-management.com"
   # Navigation
   [params.navigation]
@@ -46,29 +50,39 @@ theme = "elate"
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
-  [[params.intro.item]]
-    title = "Prochaines sessions"
-    description = "Inscrivez-vous sur notre calendriers des formations."
-    # url = "#"
-    # button = "Get In Touch"
-    icon = "icon-calendar"
-    img = "img_7.jpg"
+
 
   [[params.intro.item]]
-    title = "Co-développement"
-    description = "Un problème vous résiste, nous trouverons une solution ensemble."
-    # url = "#"
-    # button = "Click Me"
-    icon = "icon-group"
-    img = "img_8.jpg"
-
-  [[params.intro.item]]
-    title = "Ateliers de coaching"
-    description = "Améliorez la cohésion de vos équipes."
+    title = "Coaching individuel"
+    description = "Prendre sa place"
     # url = "#"
     # button = "Why us?"
     icon = "icon-rocket"
     img = "img_10.jpg"
+
+    [[params.intro.item]]
+      title = "Coaching d'équipe"
+      description = "Améliorez la cohésion de l'équipe"
+      # url = "#"
+      # button = "Why us?"
+      icon = "icon-group"
+      img = "img_10.jpg"
+
+    [[params.intro.item]]
+      title = "Co-développement"
+      description = "Un problème vous résiste, trouvons une solution ensemble."
+      # url = "#"
+      # button = "Click Me"
+      icon = "icon-group"
+      img = "img_8.jpg"
+
+    [[params.intro.item]]
+      title = "Prochaines sessions"
+      description = "Inscrivez-vous sur notre calendriers des formations."
+      # url = "#"
+      # button = "Get In Touch"
+      icon = "icon-calendar"
+      img = "img_7.jpg"
 
   [params.intro.video]
     enable = false
@@ -124,7 +138,7 @@ theme = "elate"
   [params.testimonials]
     enable = true
     title = "Témoignages"
-    description = "Nos clients sont nos meilleurs ambassadeurs."
+    description = "Nos clients parlent de leur expérience de l'accompagnement."
 
     [[params.testimonials.item]]
       quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
@@ -133,19 +147,22 @@ theme = "elate"
       alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
-      person = 'Sébastien Remond, <a href="https://cib.societegenerale.com/en/" target="_blank">Société Générale CIB</a> <span class="subtext">Directeur Investment Banking</span>'
+      quote = "&ldquo;Par la justesse de ses reformulations et feedbacks, Tristan a réussi à susciter au sein du groupe un changement de regard et l’envie d’oser'.&rdquo;"
+      person = 'O.L, <a href="http://franceurbaine.org" target="_blank"> France Urbaine </a> <span class="subtext">Directeur Général </span>'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
-      person = 'Sébastien Remond, <a href="https://cib.societegenerale.com/en/" target="_blank">Société Générale CIB</a> <span class="subtext">Directeur Investment Banking</span>'
+      quote = "&ldquo;J’avais besoin de reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'ont aidé à mettre au point une stratégie pour gérer ma situation de manière optimale.&rdquo;"
+      person = 'Grégoire Hallé, Conservateur du Patrimoine, Musée des Beaux-Arts de Draguignan'
       img = "person3.jpg"
       alt = "Person3"
 
-
-
+    [[params.testimonials.item]]
+    quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan dans le cadre de la mise en place d’un parcours d’ateliers auprès d’une population de cadres de haut niveau. Ces ateliers, construits sous la forme d’un parcours de développement agile, ont permis aux managers de réfléchir collectivement sur leurs pratiques individuelles afin de les aider à développer leurs propres ressources dans la perspective des challenges à venir. (…) En faisant émerger une véritable communauté de pratiques managériales, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
+    person = 'Stéphanie Baranger, Chief of staff to the Global Head of HR - Global Banking and Investor Solutions - Société Générale'
+    img = "person4.jpg"
+    alt = "Person4"
 
   # Services section
   [params.services]
