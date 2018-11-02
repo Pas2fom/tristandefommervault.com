@@ -169,7 +169,7 @@ theme = "elate"
     [[params.testimonials.item]]
     quote = "&ldquo;Tristan mobilise l'energie du groupe en jouant sur une grande variété de ressorts.&rdquo;"
     person = 'Verbatim évaluation à chaud'
-    img = "person6.jpg"
+    img = "person1.jpg"
     alt = "Person6"
 
   # Services section
