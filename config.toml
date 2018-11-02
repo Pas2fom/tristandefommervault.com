@@ -1,10 +1,6 @@
 # Page settings
 baseurl = "https://www.tristandefommervault.com/"
-<<<<<<< HEAD
-title = "Tristan de Fommervault Qualia"
-=======
 title = "Tristan de Fommervault - coach & formateur"
->>>>>>> 109147f2cbded7eaecac46dcaf457db911cc4ff9
 languageCode = "fr-fr"
 theme = "elate"
 
@@ -144,25 +140,37 @@ theme = "elate"
       quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
       person = 'Sébastien Remond, <a href="https://cib.societegenerale.com/en/" target="_blank">Société Générale CIB</a> <span class="subtext">Directeur Investment Banking</span>'
       img = "person1.jpg"
-      alt = "Person1"
+      alt = "Sébastien Rémond"
 
     [[params.testimonials.item]]
       quote = "&ldquo;Par la justesse de ses reformulations et feedbacks, Tristan a réussi à susciter au sein du groupe un changement de regard et l’envie d’oser'.&rdquo;"
       person = 'O.L, <a href="http://franceurbaine.org" target="_blank"> France Urbaine </a> <span class="subtext">Directeur Général </span>'
       img = "person2.jpg"
-      alt = "Person2"
+      alt = "Verbatim"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;J’avais besoin de reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'ont aidé à mettre au point une stratégie pour gérer ma situation de manière optimale.&rdquo;"
+      quote = "&ldquo;J’avais besoin de reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'a aidé à mettre au point, au fil des séances de coaching, une stratégie pour gérer ma situation de manière optimale.&rdquo;"
       person = 'Grégoire Hallé, Conservateur du Patrimoine, Musée des Beaux-Arts de Draguignan'
       img = "person3.jpg"
-      alt = "Person3"
+      alt = "Grégoire Hailé"
 
     [[params.testimonials.item]]
-    quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan dans le cadre de la mise en place d’un parcours d’ateliers auprès d’une population de cadres de haut niveau. Ces ateliers, construits sous la forme d’un parcours de développement agile, ont permis aux managers de réfléchir collectivement sur leurs pratiques individuelles afin de les aider à développer leurs propres ressources dans la perspective des challenges à venir. (…) En faisant émerger une véritable communauté de pratiques managériales, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
+    quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan sur un parcours de développement managérial 'agile' (...) En faisant émerger une communauté de pratiques managériales consciente da sa valeur ajoutée, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
     person = 'Stéphanie Baranger, Chief of staff to the Global Head of HR - Global Banking and Investor Solutions - Société Générale'
     img = "person4.jpg"
-    alt = "Person4"
+    alt = "Stéphanie Baranger"
+
+    [[params.testimonials.item]]
+    quote = "&ldquo;Tristan est un formateur qui sait créer un climat d'écoute, de bienveillance mais aussi de confrontation constructive.&rdquo;"
+    person = 'Verbatim évaluation à chaud'
+    img = "person2.jpg"
+    alt = "Verbatim1"
+
+    [[params.testimonials.item]]
+    quote = "&ldquo;Tristan mobilise l'energie du groupe en jouant sur une grande variété de ressorts.&rdquo;"
+    person = 'Verbatim évaluation à chaud'
+    img = "person1.jpg"
+    alt = "Verbatim2"
 
   # Services section
   [params.services]
