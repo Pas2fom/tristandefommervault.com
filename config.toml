@@ -163,7 +163,7 @@ theme = "elate"
     [[params.testimonials.item]]
     quote = "&ldquo;Tristan est un formateur qui sait créer un climat d'écoute, de bienveillance mais aussi de confrontation constructive.&rdquo;"
     person = 'Verbatim évaluation à chaud'
-    img = "person5.jpg"
+    img = "person2.jpg"
     alt = "Person5"
 
     [[params.testimonials.item]]
