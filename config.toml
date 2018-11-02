@@ -152,7 +152,7 @@ theme = "elate"
       quote = "&ldquo;J’avais besoin de reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'a aidé à mettre au point, au fil des séances de coaching, une stratégie pour gérer ma situation de manière optimale.&rdquo;"
       person = 'Grégoire Hallé, Conservateur du Patrimoine, Musée des Beaux-Arts de Draguignan'
       img = "person3.jpg"
-      alt = "Person3"
+      alt = "Grégoire Hailé"
 
     [[params.testimonials.item]]
     quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan sur un parcours de développement managérial 'agile' (...) En faisant émerger une communauté de pratiques managériales consciente da sa valeur ajoutée, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
