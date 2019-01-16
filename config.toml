@@ -145,7 +145,7 @@ theme = "elate"
     [[params.testimonials.item]]
       quote = "&ldquo;Tristan a fait preuve d'une grande intelligence des situations dans un contexte de transformation majeure de l'entreprise
       .&rdquo;"
-      person = 'Catherine Belotti, <a href="" target="_blank">
+      person = 'Catherine Belotti, 
       </a> <span class="subtext">Directrice innovation sociale Schneider Electric  </span>'
       img = "person2.jpg"
       alt = "Catherine Belotti"
