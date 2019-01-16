@@ -150,7 +150,7 @@ theme = "elate"
       alt = "Catherine Belotti"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;J’avais besoin des reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'ont aidé à mettre au point, au fil des séances de coaching, une stratégie pour gérer ma situation de manière optimale.&rdquo;"
+      quote = "&ldquo;J’avais besoin de reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'ont aidé à mettre au point, au fil des séances de coaching, une stratégie pour gérer ma situation de manière optimale.&rdquo;"
       person = 'Grégoire Hallé, Conservateur du Patrimoine, Musée des Beaux-Arts de Draguignan'
       img = "person3.jpg"
       alt = "Grégoire hallé"
