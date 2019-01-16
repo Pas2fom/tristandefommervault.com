@@ -143,16 +143,18 @@ theme = "elate"
       alt = "Sébastien Rémond"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Par la justesse de ses reformulations et feedbacks, Tristan a réussi à susciter au sein du groupe un changement de regard et l’envie d’oser'.&rdquo;"
-      person = 'O.L, <a href="http://franceurbaine.org" target="_blank"> France Urbaine </a> <span class="subtext">Directeur Général </span>'
+      quote = "&ldquo;Tristan a fait preuve d'une grande intelligence des situations dans un contexte de transformation majeure de l'entreprise
+      .&rdquo;"
+      person = 'Catherine Belotti, <a href="" target="_blank">
+      </a> <span class="subtext">Directrice innovation sociale Schneider Electric  </span>'
       img = "person2.jpg"
-      alt = "Verbatim"
+      alt = "Catherine Belotti"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;J’avais besoin de reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'a aidé à mettre au point, au fil des séances de coaching, une stratégie pour gérer ma situation de manière optimale.&rdquo;"
+      quote = "&ldquo;J’avais besoin des reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'ont aidé à mettre au point, au fil des séances de coaching, une stratégie pour gérer ma situation de manière optimale.&rdquo;"
       person = 'Grégoire Hallé, Conservateur du Patrimoine, Musée des Beaux-Arts de Draguignan'
-      img = "person3.jpg"
-      alt = "Grégoire Hailé"
+      img = "person3.jpg"s
+      alt = "Grégoire hallé"
 
     [[params.testimonials.item]]
     quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan sur un parcours de développement managérial 'agile' (...) En faisant émerger une communauté de pratiques managériales consciente da sa valeur ajoutée, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
@@ -161,7 +163,7 @@ theme = "elate"
     alt = "Stéphanie Baranger"
 
     [[params.testimonials.item]]
-    quote = "&ldquo;Tristan est un formateur qui sait créer un climat d'écoute, de bienveillance mais aussi de confrontation constructive.&rdquo;"
+    quote = "&ldquo;Par la justesse de ses reformulations et feedbacks, Tristan a réussi à susciter chez les participants un changement de regard et l’envie d’oser. Tristan est un formateur qui sait créer un climat d'écoute, de bienveillance mais aussi de confrontation constructive.&rdquo;"
     person = 'Verbatim évaluation à chaud'
     img = "person2.jpg"
     alt = "Verbatim1"
