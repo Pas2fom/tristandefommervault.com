@@ -22,11 +22,14 @@
     </div>
   </section>
 
-  <section id="fh5co-testimonials">
+  <section id="fh5co-testimonials" class="articles">
     <div class="container">
       <div class="row">
-        {{ range first 6 .Site.RegularPages }}
-        <div class="col-md-6 text-inner">
+        {{ range first 10 .Site.RegularPages }}
+        <div class="col-md-6 text-inner article">
+          {{ with .Params.images }}
+            <img src="{{ index . 0 | absURL }}" alt="" class="img-responsive">
+          {{ end }}
           <h3 class="text-left"><a href="{{ .Permalink}}">{{ with .Title }}{{ . | markdownify }}{{ end }}</a></h3>
           <p class="text-left">{{ .Description | markdownify }}</p>
         </div>

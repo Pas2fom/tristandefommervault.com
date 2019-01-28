@@ -88,8 +88,8 @@ footnoteReturnLinkContents = "↩"
   # Blog section
   [params.blog]
     enable = true
-    title = "Derniers articles"
-    description = ""
+    title = "Articles"
+    description = "Apprendre à manager vos équipes"
 
   # Work section
   [params.work]
@@ -308,6 +308,6 @@ footnoteReturnLinkContents = "↩"
     enable = true
     copyright = '&copy; Tristan de Fommervault. Tous droits réservés.'
     links = [
-        ["icon-github", "#github"],
-        ["icon-linkedin", "#linkedin"]
+        ["icon-github", "https://github.com/qualia"],
+        ["icon-linkedin", "https://fr.linkedin.com/in/tristandefommervault/fr"]
       ]

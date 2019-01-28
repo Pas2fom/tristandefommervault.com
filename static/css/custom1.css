@@ -1,6 +1,6 @@
 .blog #fh5co-home,
 .blog #fh5co-home .text-wrap {
-  height: 600px;
+  height: 480px;
 }
 
 .blog #fh5co-testimonials {
@@ -11,6 +11,20 @@
   padding-bottom: 4em;
   margin-bottom: 2em;
 }
+
+.articles .article {
+  margin-bottom: 2em;
+}
+
+.articles img {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.articles h3 {
+  margin-bottom: .5em;
+}
+
 
 .blog article {
   padding: 2em 0;

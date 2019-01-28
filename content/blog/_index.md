@@ -1,5 +1,5 @@
 ---
-title: Blog
-description: Ressources pour le management de vos équipes
+title: Articles
+description: Apprendre à mieux manager vos équipes.
 permalink: blog
 ---
