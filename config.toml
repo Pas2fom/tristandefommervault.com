@@ -34,7 +34,7 @@ footnoteReturnLinkContents = "↩"
     # postpended links
     [[menu.postpend]]
       url = "/blog"
-      name = "Blog"
+      name = "Articles"
       weight = 10
 
   # Hero section
