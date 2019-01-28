@@ -1,0 +1,32 @@
+.blog #fh5co-home,
+.blog #fh5co-home .text-wrap {
+  height: 600px;
+}
+
+.blog #fh5co-testimonials {
+  position: relative;
+  margin-top: -150px;
+  z-index: 10;
+  background: white;
+  padding-bottom: 4em;
+  margin-bottom: 2em;
+}
+
+.blog article {
+  padding: 2em 0;
+}
+
+article h2 {
+  color: #52d3aa;
+}
+
+figure {
+  margin-bottom: 1em;
+}
+
+.img-responsive img,
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
