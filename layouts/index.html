@@ -14,8 +14,8 @@
 
   {{ partial "intro.html" .}}
 
-  {{ if .Site.Params.blog.enable }}
-    {{ partial "blog.html" .}}
+  {{ if .Site.Params.articles.enable }}
+    {{ partial "articles.html" .}}
   {{ end }}
 
   {{ if .Site.Params.work.enable }}

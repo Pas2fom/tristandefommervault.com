@@ -2,17 +2,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">{{ with .Site.Params.blog.title }}{{ . }}{{ end }}</h2>
+					<h2 class="to-animate">{{ with .Site.Params.articles.title }}{{ . }}{{ end }}</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>{{ with .Site.Params.blog.description }}{{ . | markdownify }}{{ end }}</h3>
+							<h3>{{ with .Site.Params.articles.description }}{{ . | markdownify }}{{ end }}</h3>
 						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="row row-bottom-padded-sm">
-			{{ range first 6 .Site.RegularPages }}
+			{{ range first 6 (where .Pages "Section" "articles") }}
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a class="fh5co-project-item" href="{{ .Permalink }}">
 					{{ with .Params.images }}

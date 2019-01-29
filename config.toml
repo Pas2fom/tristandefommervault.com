@@ -33,7 +33,7 @@ footnoteReturnLinkContents = "↩"
 
     # postpended links
     [[menu.postpend]]
-      url = "/blog"
+      url = "/articles"
       name = "Articles"
       weight = 10
 
@@ -86,7 +86,7 @@ footnoteReturnLinkContents = "↩"
 
 
   # Blog section
-  [params.blog]
+  [params.articles]
     enable = true
     title = "Articles"
     description = "Apprendre à manager vos équipes"
