@@ -1,6 +1,12 @@
+@media screen and (max-width: 768px) {
+  #fh5co-header .navbar-brand {
+  font-size: 1.2em;
+  }
+}
+
 .blog #fh5co-home,
 .blog #fh5co-home .text-wrap {
-  height: 480px;
+  height: 500px;
 }
 
 .blog #fh5co-testimonials {
@@ -10,6 +16,10 @@
   background: white;
   padding-bottom: 4em;
   margin-bottom: 2em;
+}
+
+.articles {
+  padding-top: 2em;
 }
 
 .articles .article {
@@ -25,6 +35,25 @@
   margin-bottom: .5em;
 }
 
+.blog .section-heading {
+  margin:0 auto -4em;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .blog #fh5co-home .section-heading h1 {
+    font-size: 2em;
+  }
+}
+
+.blog #fh5co-home .section-heading h2 {
+  font-size: 1.2em;
+  text-transform: lowercase;
+}
+
+.blog .section-heading h2::after {
+  background: rgba(255, 255, 255, 0.3);
+}
 
 .blog article {
   padding: 2em 0;

@@ -12,8 +12,9 @@
   			<div class="text-wrap">
   				<div class="text-inner">
   					<div class="row">
-  						<div class="col-md-12">
-  							<h1 class="to-animate">{{ with .Title }}{{ . | markdownify }}{{ end }}</h1>
+  						<div class="col-md-12 section-heading text-center">
+  							<h1 class="to-animate fadeInUp animated">{{ with .Title }}{{ . | markdownify }}{{ end }}</h1>
+                <h2 class="">{{ .Date.Format "02 Jan 2006" }}</h2>
   						</div>
   					</div>
   				</div>
