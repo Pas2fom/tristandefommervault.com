@@ -1,12 +1,12 @@
-# Page settings
+# Site settings
 baseurl = "https://www.tristandefommervault.com/"
 title = "Tristan de Fommervault - coach & formateur"
 languageCode = "fr-fr"
 theme = "elate"
-
+footnoteReturnLinkContents = "↩"
 [params]
-
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  # Custom styles
+  custom_css = ["css/custom1.css"]
 
   # Meta
   author = "Tristan de Fommervault"
@@ -32,10 +32,10 @@ theme = "elate"
     #  weight = 10
 
     # postpended links
-    #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
+    [[menu.postpend]]
+      url = "/articles"
+      name = "Articles"
+      weight = 10
 
   # Hero section
   [params.hero]
@@ -45,8 +45,6 @@ theme = "elate"
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
-
-
 
   [[params.intro.item]]
     title = "Coaching individuel"
@@ -86,6 +84,12 @@ theme = "elate"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
 
+
+  # Blog section
+  [params.articles]
+    enable = true
+    title = "Articles"
+    description = "Apprendre à manager vos équipes"
 
   # Work section
   [params.work]
@@ -144,8 +148,7 @@ theme = "elate"
 
     [[params.testimonials.item]]
       quote = "&ldquo;Tristan a fait preuve d'une grande intelligence des situations dans un contexte de transformation majeure de l'entreprise.&rdquo;"
-      person = 'Catherine Belotti, <a href="" target="_blank">
-      </a> <span class="subtext">Directrice innovation sociale Schneider Electric</span>'
+      person = 'Catherine Belotti, <span class="subtext">Directrice innovation sociale Schneider Electric</span>'
       img = "person2.jpg"
       alt = "Catherine Belotti"
 
@@ -302,10 +305,9 @@ theme = "elate"
 
   # Footer section
   [params.footer]
-    enable = false
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    enable = true
+    copyright = '&copy; Tristan de Fommervault. Tous droits réservés.'
     links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        ["icon-github", "https://github.com/qualia"],
+        ["icon-linkedin", "https://fr.linkedin.com/in/tristandefommervault/fr"]
       ]
