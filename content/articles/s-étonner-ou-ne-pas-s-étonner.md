@@ -1,6 +1,6 @@
 +++
 date = "2019-01-29T20:00:00.000+00:00"
-description = "S’étonner, c’est accepter de ne pas tout savoir d’une situation pour mieux en explorer ses nouveautés potentielles."
+description = "S’étonner, c’est accepter de ne pas tout savoir d’une situation pour faire surgir la nouveauté."
 images = ["/uploads/colton-sturgeon-1182138-unsplash.jpg"]
 title = "S'étonner ou ne pas s'étonner ? "
 
