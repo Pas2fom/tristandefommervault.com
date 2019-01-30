@@ -26,3 +26,5 @@ fields:
   label: images
   description: Illustration de l'article (utilisé pour le partage sur les réseaux
     sociaux)
+pages:
+- content/articles/s-étonner-ou-ne-pas-s-étonner.md
