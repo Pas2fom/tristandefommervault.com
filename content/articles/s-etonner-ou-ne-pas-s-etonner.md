@@ -1,10 +1,11 @@
-+++
-date = "2019-01-29T20:00:00.000+00:00"
-description = "S’étonner, c’est accepter de ne pas tout savoir d’une situation pour faire surgir la nouveauté passée jusque là inaperçue."
-images = ["/uploads/colton-sturgeon-1182138-unsplash.jpg"]
-title = "S'étonner ou ne pas s'étonner ? "
+---
+title: S'étonner ou ne pas s'étonner ?
+date: 2019-01-29T20:00:00.000+00:00"
+description: S’étonner, c’est accepter de ne pas tout savoir d’une situation pour faire surgir la nouveauté passée jusque là inaperçue.
+images:
+  - /uploads/colton-sturgeon-1182138-unsplash.jpg
+---
 
-+++
 > « Que ta vision soit à chaque instant nouvelle. – Le sage est celui qui s’étonne de tout» (André Gide)
 
 Notre expérience de l’étonnement vient d’un événement inattendu qui, modifiant notre représentation de la situation, nous conduit à nous poser des questions et à nous ouvrir les yeux sur la réalité. Le comportement d’un collaborateur vous surprend : toujours reconnu pour son enthousiasme, y compris dans les situations difficiles, il prend moins d’initiatives et semble rétif à sortir du cadre de sa fiche de poste. Vous vous dites : « c’est habituel, il traverse une mauvaise passe, mais cela reviendra vite à la normale ».  Ou bien vous estimez que cette inflexion peu traduire un dysfonctionnement plus profond qui nécessite d’en savoir plus. La vie d’une équipe fourmille de signes discrets (messages incohérents, ponctualité, disparition d’un rituel,…) qui mettent chaque fois en jeu notre compréhension de la situation. En ce sens, le manager peut s’inspirer du philosophe qui s’étonne de tout car « apercevoir et s’étonner, c’est reconnaître sa propre ignorance» (Aristote) de la situation. S’étonner, c’est accepter de ne pas tout savoir d’une situation pour pour faire surgir la nouveauté passée jusque là inaperçue.

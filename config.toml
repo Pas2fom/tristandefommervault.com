@@ -4,6 +4,8 @@ title = "Tristan de Fommervault - coach & formateur"
 languageCode = "fr-fr"
 theme = "elate"
 footnoteReturnLinkContents = "↩"
+metaDataFormat = "yaml"
+
 [params]
   # Custom styles
   custom_css = ["css/custom1.css"]
