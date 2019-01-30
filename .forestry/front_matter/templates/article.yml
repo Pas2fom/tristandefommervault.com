@@ -1,0 +1,28 @@
+---
+label: Article
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Titre de l'article
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+  default: 2019-01-29 21:00:00 +0100
+- type: text
+  name: description
+  label: Description
+  description: Description courte (moins de 200 caractères)
+  config:
+    required: true
+- type: image_gallery
+  name: images
+  label: images
+  description: Illustration de l'article (utilisé pour le partage sur les réseaux
+    sociaux)
