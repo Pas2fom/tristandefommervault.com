@@ -5,6 +5,7 @@ languageCode = "fr-fr"
 theme = "elate"
 footnoteReturnLinkContents = "↩"
 metaDataFormat = "yaml"
+removePathAccents = true
 
 [params]
   # Custom styles
