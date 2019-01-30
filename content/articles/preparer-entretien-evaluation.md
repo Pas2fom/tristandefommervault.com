@@ -25,7 +25,7 @@ L’entretien d’évaluation nécessite en effet d’avoir au préalable éluci
 * penser à apprécier le collaborateur dans ses quatre dimensions essentielles : compétences, performance, potentiel, comportement.
 * prendre du recul sur les indicateurs définis en début de période,
 * donner le temps à votre collaborateur de préparer l’entretien,
-* élaborer son argumentaire.
+* construire ses arguments.
 
 ## Se sentir prêt
 
