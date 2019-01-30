@@ -12,7 +12,7 @@
 			</div>
 
 			<div class="row row-bottom-padded-sm">
-			{{ range first 6 (where .Pages "Section" "articles") }}
+			{{ range first 6 (where (where .Pages "Section" "articles" ) ".Params.categories" "!=" "event" )}}
 				<div class="col-md-4 col-sm-6 col-xxs-12">
 					<a class="fh5co-project-item to-animate" href="{{ .Permalink }}">
 					{{ with .Params.images }}
@@ -20,7 +20,10 @@
 					{{ end }}
 						<div class="fh5co-text">
 							<h2>{{ .Title }}</h2>
-							<span>{{ .Description }}</span>
+							<span><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" itemprop="datePublished">
+								{{ $months := .Site.Data.months }}
+								{{ .Date.Day }} {{ index $months (printf "%d" .Date.Month) }} {{ .Date.Year }}
+							</time></span>
 						</div>
 					</a>
 				</div>
