@@ -1,5 +1,5 @@
 ---
-title: Eclairage anthropologique sur la rivalité
+title: Un éclairage anthropologique sur la rivalité
 description: Le désir de l’homme est toujours le désir de l’autre.
 date: 2018-01-01 00:00:00 +0000
 images:
