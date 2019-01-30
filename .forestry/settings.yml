@@ -9,6 +9,9 @@ sections:
   label: articles
   create: all
   match: "**/*"
+  exclude: "**/*index.md"
+  templates:
+  - article
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
