@@ -14,7 +14,7 @@ fields:
   label: Date
   config:
     required: true
-  default: 2019-01-29 21:00:00 +0100
+  default: 2019-01-29 20:00:00 +0000
 - type: text
   name: description
   label: Description
