@@ -26,5 +26,13 @@ fields:
   label: images
   description: Illustration de l'article (utilisé pour le partage sur les réseaux
     sociaux)
-pages:
-- content/articles/s-étonner-ou-ne-pas-s-étonner.md
+- type: select
+  config:
+    source:
+      type: simple
+      section: articles-afd4a8b0-def2-47bd-bcb6-f9a2cd2d1d1f
+    options:
+    - event
+  label: Catégorie
+  name: categories
+  description: Affecter un article à une catégorie
