@@ -36,3 +36,5 @@ fields:
   label: Catégorie
   name: categories
   description: Affecter un article à une catégorie
+pages:
+- content/articles/à-très-bientôt.md
