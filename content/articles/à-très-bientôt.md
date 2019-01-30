@@ -1,6 +1,6 @@
 ---
 date: 2019-01-29 20:00:00 +0000
-title: à très bientôt
+title: À très bientôt
 description: Prochaine formation la semaine prochaine. 10 places dispo.
 images: []
 categories: event
