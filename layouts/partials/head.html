@@ -1,44 +1,41 @@
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-    {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-    {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{{ .Title }} | {{ .Site.Title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ with .Site.Params.author }}
+<meta name="author" content="{{ . }}">{{ end }}
+{{ with .Site.Params.description }}
+<meta name="description" content="{{ . }}">{{ end }}
 
-    <!-- Facebook and Twitter integration -->
-    {{ template "_internal/opengraph.html" . }}
-    {{ template "_internal/twitter_cards.html" . }}
+<!-- Facebook and Twitter integration -->
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
 
-    <!-- canonical link tag -->
-    <link rel="canonical" href="{{ .Permalink }}"/>
+<!-- canonical link tag -->
+<link rel="canonical" href="{{ .Permalink }}" />
 
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="shortcut icon" href="favicon.ico">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="favicon.ico">
 
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="/css/animate.css">
-    <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="/css/icomoon.css">
-    <!-- Simple Line Icons -->
-    <link rel="stylesheet" href="/css/simple-line-icons.css">
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="/css/magnific-popup.css">
-    <!-- Bootstrap  -->
-    <link rel="stylesheet" href="/css/bootstrap.css">
+<!-- Animate.css -->
+<link rel="stylesheet" href="/css/animate.css">
+<!-- Icomoon Icon Fonts-->
+<link rel="stylesheet" href="/css/icomoon.css">
+<!-- Simple Line Icons -->
+<link rel="stylesheet" href="/css/simple-line-icons.css">
+<!-- Magnific Popup -->
+<link rel="stylesheet" href="/css/magnific-popup.css">
+<!-- Bootstrap  -->
+<link rel="stylesheet" href="/css/bootstrap.css">
 
-    <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
-    <!--
-       custom css files can be configured in config.toml:
-       [params]
-          custom_css = ["css/foo.css", "css/bar.css"]
-     -->
-    {{ range .Site.Params.custom_css }}
-      <link rel="stylesheet" href="/{{ . }}">
-    {{ end }}
+<!--custom css files can be configured in config.toml -->
+{{ range .Site.Params.custom_css }}
+<link rel="stylesheet" href="/{{ . }}">
+{{ end }}
 
-    <!-- Modernizr JS -->
-    <script src="js/modernizr-2.6.2.min.js"></script>
+<!-- Modernizr JS -->
+<script src="js/modernizr-2.6.2.min.js"></script>
