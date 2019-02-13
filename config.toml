@@ -229,8 +229,6 @@ removePathAccents = true
         img = "lena.jpg"
         alt = "lena"
         social = [
-          ["icon-twitter", "#"],
-          ["icon-facebook", "#"],
           ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]
         ]
 
