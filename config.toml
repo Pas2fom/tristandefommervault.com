@@ -208,20 +208,12 @@ removePathAccents = true
     [params.about]
       enable = true
       title = "Qui sommes-nous ?"
-      description = "Profils de l'équipe"
+      description = "Profils des intervenants"
 
       [[params.about.item]]
         name = "Tristan de Fommervault"
         position = "Consultant-formateur et coach, fondateur de Qualia Management®"
-        description = "# Diplômes et certifications :
-* Coaching individuel et collectif (DESU Université Paris 8)
-* Codéveloppement (Trajectives)
-* Process Com® Coaching (Kahler)
-* Réussir le Changement (ESSEC)
-* Master 2 Management RH Sciences-Po Paris
-* Master 2 Philosophie des sciences humaines et sociales Paris X-ENS Ulm
-# Parcours : Crée depuis 2009 différents formats d'apprentissage et de dynamisation. 2 expériences clés : le conservatoire de Théâtre et les cours de philo à la Sorbonne.
-"
+        description = "Un regard expérimenté sur les phénomènes de transformation, croisant avec pertinence les expertises et les pratiques, pour fabriquer des lieux vivants catalyseurs de leadership. Diplômes et certifications : DESU de Coaching Université Paris 8; Codéveloppement (Trajectives); Process Com® Coaching (Kahler); Réussir le Changement (ESSEC); Master 2 Management RH Sciences-Po Paris; Master 2 Philosophie des sciences humaines et sociales Paris X-ENS Ulm"
         img = "tristan4x4.png"
         alt = "Tristan de Fommervault"
         social = [
@@ -233,19 +225,13 @@ removePathAccents = true
       [[params.about.item]]
         name = "Léna Badach"
         position = "Partenaire experte en pédagogie, bien-être et communication"
-        description = "# Diplômes et certifications :
-* Coaching Santé et Bien-être (ICI Coach)
-* Process Com® coaching, formation et négociation (Kahler)
-* DESU Pratiques du coaching (Université Paris 8)
-* DEA de droit de l'Union européenne, Université Panthéon-Assas Paris II
- # Parcours : Auparavant Responsable des programmes internationaux de formation à l'ENA. Fondatrice du cabinet de coaching Acara. Ancre sa pratique dans les différents courants de la tradition chinoise""
-
+        description = "Fondatrice du cabinet de coaching Acara. Auparavant Responsable des programmes internationaux de formation à l'ENA. Ancre sa pratique dans les différents courants de la tradition chinoise. Diplômes et certifications : Coaching Santé et Bien-être (ICI Coach); Process Com® coaching, formation et négociation (Kahler); DESU Pratiques du coaching (Université Paris 8); DEA de droit de l'Union européenne, Université Panthéon-Assas Paris II"
         img = "lena.jpg"
         alt = "lena"
         social = [
           ["icon-twitter", "#"],
           ["icon-facebook", "#"],
-          ["icon-github", "#"]
+          ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]
         ]
 
   # Counters section
