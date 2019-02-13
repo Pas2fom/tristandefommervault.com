@@ -204,47 +204,49 @@ removePathAccents = true
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-monitor"
 
-  # About section
-  [params.about]
-    enable = false
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+      # About section
+    [params.about]
+      enable = true
+      title = false
+      description = false
 
-    [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
+      [[params.about.item]]
+        name = "Tristan de Fommervault"
+        position = "Consultant-formateur et coach, fondateur de Qualia Management®"
+        description = "# Diplômes et certifications :
+* Coaching individuel et collectif (DESU Université Paris 8)
+* Codéveloppement (Trajectives)
+* Process Com® Coaching (Kahler)
+* Réussir le Changement (ESSEC)
+* Master 2 Management RH Sciences-Po Paris
+* Master 2 Philosophie des sciences humaines et sociales Paris X-ENS Ulm
+# Parcours : Crée depuis 2009 différents formats d'apprentissage et de dynamisation. 2 expériences clés : le conservatoire de Théâtre et les cours de philo à la Sorbonne.
+"
+        img = "tristan4x4.png"
+        alt = "Tristan de Fommervault"
+        social = [
+          ["icon-twitter", "https://twitter.com/de_Fommervault"],
+          ["icon-facebook", "https://www.facebook.com/fommervault?ref=bookmarks"],
+          ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]
+        ]
 
-    [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
+      [[params.about.item]]
+        name = "Léna Badach"
+        position = "Partenaire experte en pédagogie, bien-être et communication"
+        description = "# Diplômes et certifications :
+* Coaching Santé et Bien-être (ICI Coach)
+* Process Com® coaching, formation et négociation (Kahler)
+* DESU Pratiques du coaching (Université Paris 8)
+* DEA de droit de l'Union européenne, Université Panthéon-Assas Paris II
+ # Parcours : Auparavant Responsable des programmes internationaux de formation à l'ENA. Fondatrice du cabinet de coaching Acara. Ancre sa pratique dans les différents courants de la tradition chinoise""
 
-    [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]
+        img = "lena.jpg"
+        alt = "lena"
+        social = [
+          ["icon-twitter", "#"],
+          ["icon-facebook", "#"],
+          ["icon-github", "#"]
+        ]
 
   # Counters section
   [params.counters]
