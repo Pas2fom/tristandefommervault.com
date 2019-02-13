@@ -207,8 +207,8 @@ removePathAccents = true
       # About section
     [params.about]
       enable = true
-      title = false
-      description = false
+      title = "Qui sommes-nous ?"
+      description = "Profils de l'équipe"
 
       [[params.about.item]]
         name = "Tristan de Fommervault"
