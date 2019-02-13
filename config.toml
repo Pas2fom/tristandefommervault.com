@@ -214,7 +214,7 @@ removePathAccents = true
         name = "Tristan de Fommervault"
         position = "Consultant-formateur et coach, fondateur de Qualia Management®"
         description = "Un regard expérimenté sur les phénomènes de transformation, croisant avec pertinence les expertises et les pratiques, pour fabriquer des lieux vivants catalyseurs de leadership. Diplômes et certifications : DESU de Coaching Université Paris 8; Codéveloppement (Trajectives); Process Com® Coaching (Kahler); Réussir le Changement (ESSEC); Master 2 Management RH Sciences-Po Paris; Master 2 Philosophie des sciences humaines et sociales Paris X-ENS Ulm"
-        img = "tristan4x4.png"
+        img = "tristan.jpg"
         alt = "Tristan de Fommervault"
         social = [
           ["icon-twitter", "https://twitter.com/de_Fommervault"],
