@@ -32,6 +32,7 @@ fields:
     required: true
   label: Type de formation
   description: Le type de la formation
+  default: Intra
 - type: text
   name: target_audience
   label: Public visé
@@ -49,14 +50,6 @@ fields:
     step: '1'
   label: Durée
   name: duration
-- type: select
-  name: ''
-  config:
-    source:
-      type: documents
-  label: Contact
-- type: field_group
-  name: ''
 - type: select
   name: contact
   config:
