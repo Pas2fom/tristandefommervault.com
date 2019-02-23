@@ -15,9 +15,10 @@
   						<div class="col-md-12 section-heading text-center">
   							<h1 class="to-animate fadeInUp animated">{{ with .Title }}{{ . | markdownify }}{{ end }}</h1>
                 <h2 class="">
-                  <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" itemprop="datePublished">
+                  <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .Params.start | safeHTML }}" itemprop="datePublished">
                     {{ $months := .Site.Data.months }}
-                    {{ .Date.Day }} {{ index $months (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                    {{ $month := dateFormat "01" .Params.start }}
+                    {{ dateFormat "02" .Params.start }} {{ index $months (printf "%d" (int $month)) }} {{ dateFormat "2006" .Params.start }}
                   </time>
                 </h2>
   						</div>
