@@ -42,10 +42,31 @@ fields:
   label: Public visé
   config:
     required: true
+- type: field_group
+  name: goals
+  label: Objectifs
+  description: Objectifs de la formation
+  fields:
+  - type: text
+    label: Objectif principal
+    name: main
+    config:
+      required: true
+  - type: text
+    name: secondary
+    label: Objectif secondaire
 - type: number
   name: price
   label: Prix
   description: Prix de la formation inter-entreprises (en EUR)
+- type: number
+  description: Nombres total de jours de formation (en chiffre)
+  config:
+    min: '1'
+    max: '30'
+    step: '1'
+  label: Durée
+  name: duration
 - type: datetime
   name: dateStart
   label: Date de début
@@ -58,14 +79,6 @@ fields:
   description: Fin de la formation
   config:
     date_format: DD/MM/YYYY
-- type: number
-  description: Nombres total de jours de formation (en chiffre)
-  config:
-    min: '1'
-    max: '30'
-    step: '1'
-  label: Durée
-  name: duration
 - type: select
   name: contact
   config:
