@@ -2,7 +2,6 @@
 title: Co-Développement Mentor
 date: 2019-02-18 00:00:00 +0100
 description: Ceci est une courte description de la formation
-type: Intra
 start: 2018-07-03 07:32:00 +0000
 end: 2018-07-09 07:32:00 +0000
 duration: 3
