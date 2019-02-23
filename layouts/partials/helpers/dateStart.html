@@ -1,0 +1,5 @@
+<time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .Params.dateStart | safeHTML }}" itemprop="datePublished">
+  {{ $months := .Site.Data.months }}
+  {{ $month := dateFormat "01" .Params.dateStart }}
+  {{ dateFormat "02" .Params.dateStart }} {{ index $months (printf "%d" (int $month)) }} {{ dateFormat "2006" .Params.dateStart }}
+</time>

@@ -12,7 +12,7 @@
       <div class="text-wrap">
         <div class="text-inner">
           <div class="row">
-            <div class="col-md-12 section-heading text-center">
+            <div class="col-md-12 text-center">
               <h1 class="to-animate fadeInUp animated">{{ with .Title }}{{ . | markdownify }}{{ end }}</h1>
               <h2 class="to-animate fadeInUp animated">{{ with .Description }}{{ . | markdownify }}{{ end }}</h2>
             </div>
@@ -28,7 +28,7 @@
       <div class="row">
         {{ range first 10 (where .Pages "Section" .Section) }}
         {{ $link := .Permalink }}
-        <div class="col-md-6 text-inner article--card">
+        <div class="col-md-6 text-inner article--card to-animate fadeInUpBig animated">
           {{ with .Params.images }}
             <a href="{{ $link }}"><img src="{{ index . 0 | absURL }}" alt="" class="img-responsive"></a>
           {{ end }}

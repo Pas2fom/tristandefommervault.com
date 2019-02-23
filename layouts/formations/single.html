@@ -6,21 +6,16 @@
   <body class="{{ .Section }}">
     {{ partial "nav.html" .}}
 
+    {{ block "hero" . }}
     <section id="fh5co-home" data-section="{{ .Section }}" style="background-image: url(images/full_image_2.jpg);" data-stellar-background-ratio="0.5">
   		<div class="gradient"></div>
   		<div class="container">
   			<div class="text-wrap">
   				<div class="text-inner">
   					<div class="row">
-  						<div class="col-md-12 section-heading text-center">
+  						<div class="col-md-12 text-center">
   							<h1 class="to-animate fadeInUp animated">{{ with .Title }}{{ . | markdownify }}{{ end }}</h1>
-                <h2 class="">
-                  <time datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .Params.start | safeHTML }}" itemprop="datePublished">
-                    {{ $months := .Site.Data.months }}
-                    {{ $month := dateFormat "01" .Params.start }}
-                    {{ dateFormat "02" .Params.start }} {{ index $months (printf "%d" (int $month)) }} {{ dateFormat "2006" .Params.start }}
-                  </time>
-                </h2>
+                <h2 class="to-animate fadeInUp animated">{{ .Description }}</h2>
   						</div>
   					</div>
   				</div>
@@ -28,6 +23,7 @@
   		</div>
   		<div class="slant"></div>
   	</section>
+    {{ end }}
 
     {{ block "main" . }}
     <div class="container">

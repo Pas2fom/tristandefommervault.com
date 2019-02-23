@@ -12,9 +12,9 @@
   			<div class="text-wrap">
   				<div class="text-inner">
   					<div class="row">
-  						<div class="col-md-12 section-heading text-center">
+  						<div class="col-md-12 text-center">
   							<h1 class="to-animate fadeInUp animated">{{ with .Title }}{{ . | markdownify }}{{ end }}</h1>
-                <h2 class="">
+                <h2 class="to-animate fadeInUp animated">
                   <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" itemprop="datePublished">
                     {{ $months := .Site.Data.months }}
                     {{ .Date.Day }} {{ index $months (printf "%d" .Date.Month) }} {{ .Date.Year }}
@@ -33,7 +33,9 @@
       <div class="text-wrap">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <article>{{ .Content }}</article>
+                <article>
+                  {{ .Content }}
+                </article>
             </div>
           </div>
       </div>
