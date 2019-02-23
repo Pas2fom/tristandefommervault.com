@@ -21,6 +21,10 @@ fields:
   description: 'Court descriptif optimisé pour les recherches '
   config:
     required: true
+- type: image_gallery
+  name: images
+  label: Photo
+  description: Illustration de la formation
 - type: select
   name: trainingType
   config:
@@ -34,7 +38,7 @@ fields:
   description: Le type de la formation
   default: Intra
 - type: text
-  name: target_audience
+  name: targetAudience
   label: Public visé
   config:
     required: true
@@ -42,6 +46,18 @@ fields:
   name: price
   label: Prix
   description: Prix de la formation inter-entreprises (en EUR)
+- type: datetime
+  name: dateStart
+  label: Date de début
+  description: Début de la formation
+  config:
+    date_format: DD/MM/YYYY
+- type: datetime
+  name: dateEnd
+  label: Date de fin
+  description: Fin de la formation
+  config:
+    date_format: DD/MM/YYYY
 - type: number
   description: Nombres total de jours de formation (en chiffre)
   config:

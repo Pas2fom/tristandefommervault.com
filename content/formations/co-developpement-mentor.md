@@ -6,11 +6,8 @@ start: 2018-07-03 07:32:00 +0000
 end: 2018-07-09 07:32:00 +0000
 duration: 3
 price: 3150
-place: Paris
 contact: tdefommervault@qualia-management.com
-featured: true
 trainingType: Intra
-target_audience: Ouvert à tous
 dateSstart: 2018-07-03 07:32:00 +0000
 dateEnd: 2018-07-09 07:32:00 +0000
 targetAudience: Directeurs, Chefs de mission ou responsables de pôle aux profils et
