@@ -22,7 +22,7 @@ fields:
   config:
     required: true
 - type: select
-  name: type
+  name: trainingType
   config:
     source:
       type: simple
