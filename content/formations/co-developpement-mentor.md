@@ -3,6 +3,9 @@ title: Co-Développement Mentor
 date: 2019-02-17 23:00:00 +0000
 description: Ceci est une courte description de la formation
 targetAudience: Directeurs, Chefs de mission ou responsables de pôle aux profils et expériences diversifiés
+goals:
+  - Échanger avec d’autres pairs sur ses expériences, ses retours d’expériences, ses problématiques afin de faire émerger des apprentissages et des prises de conscience.
+  - Élaborer des plans d’action managériaux sur cette base.
 trainingType: Inter
 dateStart: 2018-02-03 09:00:00 +0200
 dateEnd: 2018-02-06 17:00:00 +0200
@@ -12,12 +15,6 @@ contact: tdefommervault@qualia-management.com
 images:
   - "/uploads/fred-kloet-1338768-unsplash.jpg"
 ---
-## Objectifs
-
-- Échanger avec d’autres pairs sur ses expériences, ses retours d’expériences, ses problématiques afin de faire émerger des apprentissages et des prises de conscience.
-- Élaborer des plans d’action managériaux sur cette base
-
-## Contenu
 
 L’atelier s’inscrit dans la continuité, en réunissant le groupe des participants, pour des sessions d’une journée.
 

@@ -28,16 +28,22 @@
           <div class="row">
             <div class="col-md-8">
                 <article>
+                  <h2>Public cible</h2>
+                  <p>{{ .Params.targetAudience }}</p>
+                  <h2>Objectifs</h2>
+                  <ul>
+                    {{ range .Params.goals }}
+                      <li>{{ . }}</li>
+                    {{ end }}
+                  </ul>
+                  <h2>Contenu</h2>
                   {{ .Content }}
                 </article>
             </div>
             <div class="col-md-4">
               <h3>Prix (formation {{ .Params.trainingType | lower }}-entreprise)</h3>
               <p>{{ .Params.price }} EUR</p>
-              <h3>Durée</h3>
-              <p>({{ .Params.duration }} jours)</p>
-              <h3>Public cible</h3>
-              <p>{{ .Params.targetAudience }}</p>
+              <h3>Durée: {{ .Params.duration }} jours</h3>
               <h3>Contact</h3>
               <p>Vous souhaitez en savoir plus sur cette formation ?</p>
               <p>
