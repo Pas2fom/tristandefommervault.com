@@ -5,18 +5,19 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content/formations
-  label: Formations
-  create: all
-  match: "**/*"
-- type: directory
   path: content/articles
-  label: articles
+  label: Articles
   create: all
   match: "**/*"
   exclude: "**/*index.md"
   templates:
   - article
+- type: directory
+  path: content/formations
+  label: Formations
+  create: all
+  match: "**/*"
+  exclude: "**/*index.md"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
