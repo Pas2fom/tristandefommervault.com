@@ -1,6 +1,6 @@
 ---
 title: Co-Développement Mentor
-date: 2019-02-18 00:00:00 +0100
+date: 2019-02-17 23:00:00 +0000
 description: Ceci est une courte description de la formation
 start: 2018-07-03 07:32:00 +0000
 end: 2018-07-09 07:32:00 +0000
@@ -9,11 +9,12 @@ price: 3150
 contact: tdefommervault@qualia-management.com
 trainingType: Intra
 dateSstart: 2018-07-03 07:32:00 +0000
-dateEnd: 2018-07-09 07:32:00 +0000
+dateEnd: 2018-07-09 17:00:00 +0200
 targetAudience: Directeurs, Chefs de mission ou responsables de pôle aux profils et
   expériences diversifiés
 images:
 - "/uploads/fred-kloet-1338768-unsplash.jpg"
+dateStart: 2019-07-07 09:00:00 +0200
 
 ---
 ## Objectifs
