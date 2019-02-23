@@ -2,25 +2,20 @@
 title: Co-Développement Mentor
 date: 2019-02-17 23:00:00 +0000
 description: Ceci est une courte description de la formation
-start: 2018-07-03 07:32:00 +0000
-end: 2018-07-09 07:32:00 +0000
+targetAudience: Directeurs, Chefs de mission ou responsables de pôle aux profils et expériences diversifiés
+trainingType: Inter
+dateStart: 2018-02-03 09:00:00 +0200
+dateEnd: 2018-02-06 17:00:00 +0200
 duration: 3
 price: 3150
 contact: tdefommervault@qualia-management.com
-trainingType: Intra
-dateSstart: 2018-07-03 07:32:00 +0000
-dateEnd: 2018-07-09 17:00:00 +0200
-targetAudience: Directeurs, Chefs de mission ou responsables de pôle aux profils et
-  expériences diversifiés
 images:
-- "/uploads/fred-kloet-1338768-unsplash.jpg"
-dateStart: 2019-07-07 09:00:00 +0200
-
+  - "/uploads/fred-kloet-1338768-unsplash.jpg"
 ---
 ## Objectifs
 
-* Échanger avec d’autres pairs sur ses expériences, ses retours d’expériences, ses problématiques afin de faire émerger des apprentissages et des prises de conscience
-* Élaborer des plans d’action managériaux sur cette base
+- Échanger avec d’autres pairs sur ses expériences, ses retours d’expériences, ses problématiques afin de faire émerger des apprentissages et des prises de conscience.
+- Élaborer des plans d’action managériaux sur cette base
 
 ## Contenu
 

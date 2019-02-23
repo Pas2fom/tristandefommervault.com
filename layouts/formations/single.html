@@ -29,8 +29,20 @@
     <div class="container">
       <div class="text-wrap">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <article>{{ .Content }}</article>
+            <div class="col-md-8">
+                <article>
+                  {{ .Content }}
+                </article>
+            </div>
+            <div class="col-md-4">
+              <h3>Prix (formation {{ .Params.trainingType | lower }}-entreprise)</h3>
+              <p>{{ .Params.price }} EUR</p>
+              <h3>Durée</h3>
+              <p>({{ .Params.duration }} jours)</p>
+              <h3>Public cible</h3>
+              <p>{{ .Params.targetAudience }}</p>
+              <h3>Contact</h3>
+              <p>Vous souhaitez en savoir plus sur cette formation ? <a href="mailto:{{ .Params.contact }}">Contactez-nous</a>.</p>
             </div>
           </div>
       </div>
