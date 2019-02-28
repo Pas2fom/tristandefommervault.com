@@ -16,7 +16,7 @@ sections:
   path: content/formations
   label: Formations
   create: all
-  match: "**/*"
+  match: "**/*.md"
   exclude: "**/*index.md"
   templates:
   - formation
@@ -36,3 +36,4 @@ build:
   - HUGO_VERSION=0.54.0
   preview_output_directory: public
   output_directory: public
+version: '0.53'
