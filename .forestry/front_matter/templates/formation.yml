@@ -106,7 +106,7 @@ fields:
     name: trainer
     config:
       source:
-        type: documents
+        type: simple
         section: articles
       required: true
     label: Formateur
