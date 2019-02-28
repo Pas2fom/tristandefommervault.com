@@ -42,6 +42,7 @@ fields:
   label: Public visé
   config:
     required: true
+  description: Quel est le type de public visé pour cette formation ?
 - type: field_group
   name: goals
   label: Objectifs
