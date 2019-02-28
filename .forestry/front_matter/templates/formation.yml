@@ -98,3 +98,15 @@ fields:
     - tdefommervault@qualia-management.com
   label: Contact
   description: Email du référent formation (reception des demandes de devis)
+- type: field_group_list
+  name: trainers
+  label: Formateurs
+  fields:
+  - type: select
+    name: trainer
+    config:
+      source:
+        type: documents
+        section: articles
+      required: true
+    label: Formateur
