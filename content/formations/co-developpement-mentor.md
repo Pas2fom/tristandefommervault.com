@@ -32,3 +32,5 @@ Déroulement d’une session :
 ## Méthodes Pédagogiques
 
 Méthode participative, analyse de situations réelles, échanges d’expériences, apports théoriques ponctuels et plans d’actions individuels
+
+*** Intelligence collective** : domaine qui recouvre plusieurs méthodes comme l'analyse de pratiques, le brainstorming, la résolution de problèmes, et qui repose sur le principe que l'intelligence humaine accède à toute sa puissance lorsque les individus acceptent de la mettre en commun et de coopérer.  
