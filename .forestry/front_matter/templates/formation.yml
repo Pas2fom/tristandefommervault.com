@@ -55,14 +55,6 @@ fields:
   - type: text
     name: secondary
     label: Objectif secondaire
-- type: textarea
-  name: evaluation
-  label: Modalités d'évaluation
-  hidden: false
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
 - type: number
   name: price
   label: Prix
