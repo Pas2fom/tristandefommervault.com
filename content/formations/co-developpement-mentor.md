@@ -10,7 +10,7 @@ goals:
 trainingType: Inter
 dateStart: 2019-11-17T08:00:00+01:00
 dateEnd: 2019-03-17T16:00:00+01:00
-duration: ''
+duration: '3'
 price: '750'
 contact: tdefommervault@qualia-management.com
 images:
