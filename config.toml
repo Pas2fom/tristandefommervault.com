@@ -39,6 +39,10 @@ removePathAccents = true
       url = "/articles"
       name = "Articles"
       weight = 10
+    [[menu.postpend]]
+      url = "/formations"
+      name = "Formations"
+      weight = 20
 
   # Hero section
   [params.hero]

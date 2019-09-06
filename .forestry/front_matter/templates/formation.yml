@@ -1,0 +1,103 @@
+---
+label: Formation
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Intitulé
+  description: Intitulé de la formation
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  description: Date de publication sur le site
+  config:
+    date_format: DD/MM/YYYY
+- type: text
+  name: description
+  label: Description
+  description: 'Court descriptif optimisé pour les recherches '
+  config:
+    required: true
+- type: image_gallery
+  name: images
+  label: Photo
+  description: Illustration de la formation
+- type: select
+  name: trainingType
+  config:
+    source:
+      type: simple
+    options:
+    - Intra
+    - Inter
+    required: true
+  label: Type de formation
+  description: Le type de la formation
+  default: Intra
+- type: text
+  name: targetAudience
+  label: Public visé
+  config:
+    required: true
+  description: Quel est le type de public visé pour cette formation ?
+- type: field_group
+  name: goals
+  label: Objectifs
+  description: Objectifs de la formation
+  fields:
+  - type: text
+    label: Objectif principal
+    name: main
+    config:
+      required: true
+  - type: text
+    name: secondary
+    label: Objectif secondaire
+- type: number
+  name: price
+  label: Prix
+  description: Prix de la formation inter-entreprises (en EUR)
+- type: number
+  description: Nombres total de jours de formation (en chiffre)
+  config:
+    min: '1'
+    max: '30'
+    step: '1'
+  label: Durée
+  name: duration
+- type: datetime
+  name: dateStart
+  label: Date de début
+  description: Début de la formation
+  config:
+    date_format: DD/MM/YYYY
+- type: datetime
+  name: dateEnd
+  label: Date de fin
+  description: Fin de la formation
+  config:
+    date_format: DD/MM/YYYY
+- type: select
+  name: contact
+  config:
+    source:
+      type: simple
+    required: false
+    options:
+    - tdefommervault@qualia-management.com
+  label: Contact
+  description: Email du référent formation (reception des demandes de devis)
+- type: field_group_list
+  name: trainers
+  label: Formateurs
+  fields:
+  - type: select
+    name: trainer
+    config:
+      source:
+        type: simple
+        section: articles
+      required: true
+    label: Formateur
