@@ -4,9 +4,8 @@ date: 2019-08-20T00:00:00+02:00
 description: Ceci est une courte description de la formation
 targetAudience: Managers de projet, Managers d'équipe aux profils et expériences diversifiés
 goals:
-  main: Échanger avec d’autres pairs sur ses expériences afin de faire émerger des
-    apprentissages.
-  secondary: Élaborer des plans d’action.
+  main: Définir une stratégie relationnelle
+  secondary: 'Développer un comportement stratégique '
 trainingType: Inter
 dateStart: 2018-02-03T07:00:00.000+00:00
 dateEnd: 2018-02-06T15:00:00.000+00:00
