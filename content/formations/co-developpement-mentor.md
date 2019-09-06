@@ -10,10 +10,10 @@ goals:
   main: Définir une stratégie relationnelle
   secondary: 'Développer un comportement stratégique '
 trainingType: Inter
-dateStart: 2018-02-03T07:00:00.000+00:00
-dateEnd: 2018-02-06T15:00:00.000+00:00
-duration: 3
-price: '998'
+dateStart: 2019-11-17T08:00:00+01:00
+dateEnd: 2019-03-17T16:00:00+01:00
+duration: ''
+price: '750'
 contact: tdefommervault@qualia-management.com
 images:
 - "/uploads/fred-kloet-1338768-unsplash.jpg"
