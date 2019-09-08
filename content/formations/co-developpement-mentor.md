@@ -17,7 +17,6 @@ images:
 - "/uploads/fred-kloet-1338768-unsplash.jpg"
 trainers: []
 evaluation: 'Questionnaire individuel transmis à chaque participant à chaud et à froid. '
-draft: true
 
 ---
 # **Dans quel cas recourir au co-développement ?** 
