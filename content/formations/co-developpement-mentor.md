@@ -19,16 +19,19 @@ trainers: []
 evaluation: 'Questionnaire individuel transmis à chaque participant à chaud et à froid. '
 
 ---
-Déroulement d’une session :
+# **Dans quel cas recourir au co-développement ?** 
 
-* Présentation d'une situation apportée par un des participants
-* Apports des feed-back formalisés et concis par les autres participants
-* Le bénéficiaire reformule les apports du groupe et ouvre des perspectives
-* Chacun identifie ce qu'il a appris pour lui-même de la situation traitée
-* Mise en commun et ancrage des apprentissages du groupe
+* Permettre à des personnes ayant des sujets professionnels en commun d’échanger sur des situations difficiles. Exemple : permettre aux acteurs d'un changement de s'enrichir mutuellement sur les situations rencontrées.
+* Permettre aux membres d'une équipe d'aborder les questions touchant au fonctionnement du collectif.
+* Décliner une culture en actions et comportements managériaux.
+* Développer la capacité à travailler ensemble au sein d'une équipe-projet.   
 
-## Méthodes Pédagogiques
+  # **Déroulement d’une session :**
 
-Méthode participative, analyse de situations réelles, échanges d’expériences, apports théoriques ponctuels et plans d’actions individuels
+1. Présentation d'une situation apportée par un des participants
+2. Apports des feed-back formalisés et concis par les autres participants
+3. Le bénéficiaire reformule les apports du groupe et ouvre des perspectives
+4. Chacun identifie ce qu'il a appris pour lui-même de la situation traitée
+5. Mise en commun et ancrage des apprentissages du groupe
 
 \* Intelligence collective : domaine qui recouvre plusieurs méthodes comme l'analyse de pratiques, le brainstorming, la résolution de problèmes, et qui repose sur le principe que l'intelligence humaine accède à toute sa puissance lorsque les individus acceptent de la mettre en commun et de coopérer.
