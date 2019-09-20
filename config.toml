@@ -47,7 +47,7 @@ removePathAccents = true
   # Hero section
   [params.hero]
     title = ""
-    subtitle = "Le coaching tel que je le pratique aide la personne à mettre en résonance les vécus sensibles exprimés avec leur intention sous-jacente pour centrés     Mes accompagnements visent à faire résonner les qualités distinctives des personnes"
+    subtitle = "Le coaching tel que je le pratique consiste en un itinéraire dialogué à la fois ouvert et guidé qui permet à la personne d’aller puiser dans ses situations vécues pour remonter graduellement vers ses intentions directrices, son désir profond et son énergie d’action. Recentrée sur ces différents niveaux,  la personne accompagnée développe une conscience de ses interactions avec le monde extérieur et une capacité à adapter ses actions à une diversité d’enjeux et de contraintes dans le respect de son identité."
 
   # Intro section
   # Available icons: http://simplelineicons.com/
