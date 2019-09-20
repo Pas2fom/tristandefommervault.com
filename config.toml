@@ -77,14 +77,6 @@ removePathAccents = true
       icon = "icon-group"
       img = "img_8.jpg"
 
-    [[params.intro.item]]
-      enable = false
-      title = "Prochaines sessions"
-      description = "Inscrivez-vous sur notre calendrier des formations."
-      # url = "#"
-      # button = "Get In Touch"
-      icon = "icon-calendar"
-      img = "img_7.jpg"
 
   [params.intro.video]
     enable = false
