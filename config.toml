@@ -77,8 +77,6 @@ removePathAccents = true
       icon = "icon-group"
       img = "img_8.jpg"
 
-
-
   # Blog section
     [[params.intro.item]]
       title = "Prochaines sessions"
