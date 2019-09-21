@@ -1,6 +1,6 @@
 # Site settings
 baseurl = "https://www.tristandefommervault.com/"
-title = "Tristan de Fommervault - coach formateur"
+title = "Tristan de Fommervault - coach & formateur"
 languageCode = "fr-fr"
 theme = "elate"
 footnoteReturnLinkContents = "↩"
@@ -13,12 +13,12 @@ removePathAccents = true
 
   # Meta
   author = "Tristan de Fommervault"
-  description = "Coaching professionnel, mentoring, co-développement, intelligence émotionnelle, gestion du stress, prise de décision, régulation des conflits, médiation en entreprise, prévention des risques psychosociaux"
+  description = "Coaching, Management, Co-développement"
   email = "tdefommervault@qualia-management.com"
   # Navigation
   [params.navigation]
     brand = "Tristan de Fommervault"
-    home = ""
+    home = "Accueil"
     work = "Références"
     testimonials = "Témoignages"
     services = "Services"
@@ -46,8 +46,8 @@ removePathAccents = true
 
   # Hero section
   [params.hero]
-    title = ""
-    subtitle = "Le coaching tel que je le pratique consiste en un itinéraire dialogué à la fois ouvert et guidé qui permet à la personne d’aller puiser dans ses situations vécues pour remonter graduellement vers ses intentions directrices, son désir profond et son énergie d’action. Recentrée sur ces différents niveaux,  la personne accompagnée développe une conscience de ses interactions avec le monde extérieur et une capacité à adapter ses actions à une diversité d’enjeux et de contraintes dans le respect de son identité."
+    title = "Coaching"
+    subtitle = 'Un accompagnement sur mesure pour vos équipes.'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -77,7 +77,6 @@ removePathAccents = true
       icon = "icon-group"
       img = "img_8.jpg"
 
-  # Blog section
     [[params.intro.item]]
       title = "Prochaines sessions"
       description = "Inscrivez-vous sur notre calendriers des formations."
@@ -86,18 +85,18 @@ removePathAccents = true
       icon = "icon-calendar"
       img = "img_7.jpg"
 
+  [params.intro.video]
+    enable = false
+    title = "Voir la vidéo"
+    icon = "icon-play2"
+    url = "https://vimeo.com/channels/staffpicks/93951774"
 
-     [params.intro.video]
-          enable = false
-          title = "Voir la vidéo"
-          icon = "icon-play2"
-          url = "https://vimeo.com/channels/staffpicks/93951774"
 
-          # Blog section
-      [params.articles]
-      enable = true
-      title = "Articles"
-      description = "Apprendre à manager vos équipes"
+  # Blog section
+  [params.articles]
+    enable = true
+    title = "Articles"
+    description = "Apprendre à manager vos équipes"
 
   # Work section
   [params.work]
@@ -117,6 +116,7 @@ removePathAccents = true
       alt = "Image2"
       title = "Project 2"
       subtitle = "Design"
+
     [[params.work.row]]
       img = "work_3.jpg"
       alt = "Image3"
@@ -128,6 +128,7 @@ removePathAccents = true
       alt = "Image4"
       title = "Project 4"
       subtitle = "Design"
+
     [[params.work.row]]
       img = "work_5.jpg"
       alt = "Image5"
