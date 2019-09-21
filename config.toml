@@ -89,7 +89,7 @@ removePathAccents = true
   [params.articles]
     enable = true
     title = "Articles"
-    description = "Transhumer, il en restera toujours quelque chose !"
+    description = "Apprendre à manager vos équipes"
 
   # Work section
   [params.work]
