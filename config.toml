@@ -18,7 +18,7 @@ removePathAccents = true
   # Navigation
   [params.navigation]
     brand = "Tristan de Fommervault"
-    home = ""
+    home = "Accueil"
     work = "Références"
     testimonials = "Témoignages"
     services = "Services"
