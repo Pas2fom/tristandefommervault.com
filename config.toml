@@ -77,8 +77,6 @@ removePathAccents = true
       icon = "icon-group"
       img = "img_8.jpg"
 
-
-
   # Blog section
     [[params.intro.item]]
       title = "Prochaines sessions"
@@ -89,11 +87,17 @@ removePathAccents = true
       img = "img_7.jpg"
 
 
-     [[params.intro.video]]
+     [params.intro.video]
           enable = false
           title = "Voir la vidéo"
           icon = "icon-play2"
           url = "https://vimeo.com/channels/staffpicks/93951774"
+
+          # Blog section
+      [params.articles]
+      enable = true
+      title = "Articles"
+      description = "Apprendre à manager vos équipes"
 
   # Work section
   [params.work]
