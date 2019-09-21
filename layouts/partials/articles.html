@@ -1,4 +1,4 @@
-<section id="fh5co-work" data-section="{{ .Section }}">
+<section id="fh5co-work" data-section="articles">
 
 	<div class="container">
 		<div class="row">
@@ -13,7 +13,7 @@
 		</div>
 
 		<div class="row row-bottom-padded-sm">
-			{{ range first 6 (where (where .Pages "Section" .Section ) ".Params.categories" "!=" "event" )}}
+			{{ range first 6 (where (where site.RegularPages "Section" "articles" ) ".Params.categories" "!=" "event" )}}
 			<div class="col-md-4 col-sm-6 col-xxs-12">
 				<a class="fh5co-project-item to-animate" href="{{ .Permalink }}">
 					{{ with .Params.images }}
