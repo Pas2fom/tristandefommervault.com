@@ -78,18 +78,22 @@ removePathAccents = true
       img = "img_8.jpg"
 
 
-  [params.intro.video]
-    enable = false
-    title = "Voir la vidéo"
-    icon = "icon-play2"
-    url = "https://vimeo.com/channels/staffpicks/93951774"
-
 
   # Blog section
-  [params.articles]
-    enable = true
-    title = "Articles"
-    description = "Apprendre à manager vos équipes"
+    [[params.intro.item]]
+      title = "Prochaines sessions"
+      description = "Inscrivez-vous sur notre calendriers des formations."
+      # url = "#"
+      # button = "Get In Touch"
+      icon = "icon-calendar"
+      img = "img_7.jpg"
+
+
+     [[params.intro.video]]
+          enable = false
+          title = "Voir la vidéo"
+          icon = "icon-play2"
+          url = "https://vimeo.com/channels/staffpicks/93951774"
 
   # Work section
   [params.work]
@@ -109,7 +113,6 @@ removePathAccents = true
       alt = "Image2"
       title = "Project 2"
       subtitle = "Design"
-
     [[params.work.row]]
       img = "work_3.jpg"
       alt = "Image3"
@@ -121,7 +124,6 @@ removePathAccents = true
       alt = "Image4"
       title = "Project 4"
       subtitle = "Design"
-
     [[params.work.row]]
       img = "work_5.jpg"
       alt = "Image5"
