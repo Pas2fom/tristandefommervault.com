@@ -62,7 +62,7 @@ removePathAccents = true
     img = ""
 
     [[params.intro.item]]
-      title = "Vous avez besoin de retrouver confiance en vous pour jouer avec plus d'assurance votre rôle "
+      title = "Vous avez besoin de retrouver confiance en vous pour jouer, avec plus d'assurance, votre rôle "
       description = ""
       # url = "#"
       # button = "Why us?"
@@ -118,7 +118,7 @@ removePathAccents = true
                 img = ""
 
                 [[params.intro.item]]
-                  title = "Un autre besoin vous préoccupe et c'est le moment pour vous d'en parler avec un tiers bienveillant et respectueux de la confidentialité"
+                  title = "Un autre besoin vous préoccupe et le moment est venu pour vous d'en parler avec un tiers bienveillant et respectueux de la confidentialité"
                   description = ""
                   # url = "#"
                   # button = "Click Me"
