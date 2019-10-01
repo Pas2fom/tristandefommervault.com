@@ -1,6 +1,6 @@
 # Site settings
 baseurl = "https://www.tristandefommervault.com/"
-title = "Tristan de Fommervault - coach formateur"
+title = "Tristan de Fommervault coach"
 languageCode = "fr-fr"
 theme = "elate"
 footnoteReturnLinkContents = "↩"
@@ -47,44 +47,85 @@ removePathAccents = true
   # Hero section
   [params.hero]
     title = ""
-    subtitle = "Le coaching tel que je le pratique consiste en un itinéraire dialogué à la fois ouvert et guidé qui permet à la personne d’aller puiser dans ses situations vécues pour remonter graduellement vers ses intentions directrices, son désir profond et son énergie d’action. Recentrée sur ces différents niveaux,  la personne accompagnée développe une conscience de ses interactions avec le monde extérieur et une capacité à adapter ses actions à une diversité d’enjeux et de contraintes dans le respect de son identité."
+    subtitle = "Le coaching tel que je le pratique consiste en un itinéraire dialogué à la fois ouvert et guidé qui permet à la personne d’aller puiser dans ses situations vécues pour remonter graduellement à la source de ses intentions directrices, de son désir profond et de son énergie d’action. Ainsi recentrée sur ces différents niveaux,  la personne accompagnée développe sa conscience sur ses modes d'interaction et aiguise sa capacité à agir sur la base de stratégies efficaces dans le respect de son identité."
 
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Coaching individuel"
-    description = "Prendre sa place"
+    title = "Vous avez besoin de lever un blocage qui stoppe l'avancée d'un projet"
+    description = ""
     # url = "#"
     # button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
+    icon = ""
+    img = ""
 
     [[params.intro.item]]
-      title = "Coaching d'équipe"
-      description = "Améliorez la cohésion de l'équipe"
+      title = "Vous avez besoin de retrouver confiance en vous pour jouer, avec plus d'assurance, votre rôle "
+      description = ""
       # url = "#"
       # button = "Why us?"
-      icon = "icon-group"
-      img = "img_10.jpg"
+      icon = ""
+      img = ""
 
     [[params.intro.item]]
-      title = "Co-développement"
-      description = "Un problème vous résiste, trouvons une solution ensemble."
+      title = " Vous devez prendre une décision et souhaitez mettre toutes les chances de votre côté "
+      description = ""
       # url = "#"
       # button = "Click Me"
-      icon = "icon-group"
-      img = "img_8.jpg"
+      icon = ""
+      img = ""
+
+      [[params.intro.item]]
+        title = " Vous désirez vivre un changement dans votre vie professionnelle et/ou vous posez des questions "
+        description = ""
+        # url = "#"
+        # button = "Click Me"
+        icon = ""
+        img = ""
+
+        [[params.intro.item]]
+          title = " Vous avez 100 jours pour réussir dans votre poste et devez mettre en place une stratégie de réussite "
+          description = ""
+          # url = "#"
+          # button = "Click Me"
+          icon = ""
+          img = ""
+
+          [[params.intro.item]]
+            title = " Vous aspirez à retrouver dans la durée un équilibre entre votre performance individuelle et votre bien-être "
+            description = ""
+            # url = "#"
+            # button = "Click Me"
+            icon = ""
+            img = ""
+
+            [[params.intro.item]]
+              title = " Vous ressentez le besoin de reprendre en main votre GPS émotionnel "
+              description = ""
+              # url = "#"
+              # button = "Click Me"
+              icon = ""
+              img = ""
+
+              [[params.intro.item]]
+                title = " Vous prenez conscience des limites de vos comportements sous stress et souhaitez développer une posture relationnelle constructive  "
+                description = ""
+                # url = "#"
+                # button = "Click Me"
+                icon = ""
+                img = ""
+
+                [[params.intro.item]]
+                  title = "Un autre besoin vous préoccupe et le moment est venu pour vous d'en parler avec un tiers bienveillant et respectueux de la confidentialité"
+                  description = ""
+                  # url = "#"
+                  # button = "Click Me"
+                  icon = ""
+                  img = ""
 
   # Blog section
-    [[params.intro.item]]
-      title = "Prochaines sessions"
-      description = "Inscrivez-vous sur notre calendriers des formations."
-      # url = "#"
-      # button = "Get In Touch"
-      icon = "icon-calendar"
-      img = "img_7.jpg"
 
 
      [params.intro.video]
@@ -97,7 +138,7 @@ removePathAccents = true
       [params.articles]
       enable = true
       title = "Articles"
-      description = "Apprendre à manager vos équipes"
+      description = "Food for thought"
 
   # Work section
   [params.work]
@@ -215,8 +256,8 @@ removePathAccents = true
 
       [[params.about.item]]
         name = "Tristan de Fommervault"
-        position = "Consultant-formateur et coach, fondateur de Qualia Management®"
-        description = "Un regard expérimenté sur les phénomènes de transformation, croisant avec pertinence les expertises et les pratiques, pour fabriquer des lieux vivants catalyseurs de leadership."
+        position = "Coach et formateur certifié (Process Com., Desu Paris 8 et Trajectives). Sciences Po, M2 Philosophie Sorbonne, Conservatoire de théâtre Paris. Tristan a développé durant 15 ans une approche humaniste* de l'accompagnement des personnes et des collectifs en situation de transformation. Qualité d'écoute et de présence, enthousiasme communicatif, théâtralise avec justesse pour rendre acteur.  *éthique et nourrie de nos humanités"
+        description = "."
         img = "tristan.jpg"
         alt = "Tristan de Fommervault"
         social = [
@@ -227,8 +268,8 @@ removePathAccents = true
 
       [[params.about.item]]
         name = "Léna Badach"
-        position = "Partenaire experte en pédagogie, bien-être et communication"
-        description = "Fondatrice du cabinet de coaching Acara. Auparavant Responsable des programmes internationaux de formation à l'ENA. Ancre sa pratique dans les différents courants de la tradition chinoise."
+        position = "Partenaire experte en pédagogie, coach et formatrice certifiée Process Com."
+        description = "Fondatrice du cabinet de coaching Acara. Auparavant Responsable des programmes internationaux de formation à l'ENA."
         img = "lena.jpg"
         alt = "lena"
         social = [
