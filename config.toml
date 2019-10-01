@@ -128,7 +128,7 @@ removePathAccents = true
                 [[params.intro.item]]
                   title = "Un autre besoin vous préoccupe et le moment est venu pour vous d'en parler avec un tiers bienveillant et respectueux de la confidentialité"
                   description = ""
-                  button = "Prendre contact avec moi pour un prermier RDV"
+                  button = "Prendre contact avec moi"
                   # url = "#"
                   # button = "Click Me"
                   icon = ""
