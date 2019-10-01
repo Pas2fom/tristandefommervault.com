@@ -1,5 +1,5 @@
 ---
-title: 'je te développe, tu me développes ... nous nous co-développons ! '
+title: 'Je te développe, tu me développes ... nous nous co-développons ! '
 date: 2019-08-19T22:00:00.000+00:00
 description: Dans le champ de l'intelligence collective*, le co-développement permet
   un impact rapide, perceptible et durable dans la traversée des transformations.
