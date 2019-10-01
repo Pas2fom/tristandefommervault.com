@@ -54,7 +54,7 @@ removePathAccents = true
   [params.intro]
 
   [[params.intro.item]]
-    title = "Vous avez besoin de lever un blocage qui stoppe l'avancée d'un projet"
+    title = "Vous avez besoin de lever une difficulté ou un blocage qui stoppent l'avancée d'un projet"
     description = ""
     button = "Ma proposition d'accompagnement"
     url = "https://www.tristandefommervault.com"
@@ -63,7 +63,7 @@ removePathAccents = true
     img = ""
 
     [[params.intro.item]]
-      title = "Vous avez besoin de retrouver confiance en vous pour jouer, avec plus d'assurance, votre rôle "
+      title = "Vous avez besoin de retrouver confiance en vous pour pouvoir jouer votre rôle "
       description = ""
       button = "Ma proposition d'accompagnement"
       # url = "#"
@@ -81,7 +81,7 @@ removePathAccents = true
       img = ""
 
       [[params.intro.item]]
-        title = " Vous désirez vivre un changement dans votre vie professionnelle et/ou vous posez des questions "
+        title = " Vous désirez initier un changement dans votre vie professionnelle mais vous vous posez des questions "
         description = ""
         button = "Ma proposition d'accompagnement"
         # url = "#"
@@ -90,7 +90,7 @@ removePathAccents = true
         img = ""
 
         [[params.intro.item]]
-          title = " Vous avez 100 jours pour réussir dans votre poste et devez mettre en place une stratégie de réussite "
+          title = " Vous avez 100 jours pour réussir votre prise de poste et avez besoin de vous recentrer sur vos priorités "
           description = ""
           button = "Ma proposition d'accompagnement"
           # url = "#"
@@ -128,7 +128,7 @@ removePathAccents = true
                 [[params.intro.item]]
                   title = "Un autre besoin vous préoccupe et le moment est venu pour vous d'en parler avec un tiers bienveillant et respectueux de la confidentialité"
                   description = ""
-                  button = "Ma proposition d'accompagnement"
+                  button = "Prendre contact avec moi pour un prermier RDV"
                   # url = "#"
                   # button = "Click Me"
                   icon = ""
