@@ -56,7 +56,8 @@ removePathAccents = true
   [[params.intro.item]]
     title = "Vous avez besoin de lever un blocage qui stoppe l'avancée d'un projet"
     description = ""
-    # url = "#"
+    button = "Click Me" 
+    url = "https://www.tristandefommervault.com"
     # button = "Why us?"
     icon = ""
     img = ""
