@@ -1,4 +1,4 @@
 # tristandefommervault.com
 
-Trainer &amp; coach
+Coach
 
