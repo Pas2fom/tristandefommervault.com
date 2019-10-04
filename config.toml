@@ -46,8 +46,8 @@ removePathAccents = true
 
   # Intro section
   [params.hero]
-    title = "Coaching d'accomplissment de soi dans son activité professionnelles"
-    subtitle = ""
+    title = "COACHING"
+    subtitle = "Se recentrer sur ses essentiels pour s'accomplir pleinement"
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
