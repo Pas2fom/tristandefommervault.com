@@ -48,6 +48,7 @@ removePathAccents = true
   [params.hero]
     title = "COACHING"
     subtitle = "Se recentrer sur ses essentiels pour s'accomplir pleinement"
+    
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
