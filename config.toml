@@ -372,6 +372,5 @@ removePathAccents = true
     copyright = '&copy; Tristan de Fommervault. Tous droits réservés.'
     links = [
         ["icon-linkedin", "https://fr.linkedin.com/in/tristandefommervault/fr"]
-        ["icon-facebook", "https://www.facebook.com/tristandefommervault"]
-
-      ]
+        ["icon-facebook", "https://www.facebook.com/tristandefommervault"],
+        ]
