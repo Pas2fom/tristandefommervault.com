@@ -13,7 +13,7 @@ removePathAccents = true
 
   # Meta
   author = "Tristan de Fommervault"
-  description = "Coaching professionnel, mentoring, co-développement, intelligence émotionnelle, gestion du stress, prise de décision, régulation des conflits, médiation en entreprise, prévention des risques psychosociaux"
+  description = "Coaching professionnel,mentoring,codéveloppement,process communication, approche systémique, analyse transactionnelle, communication non violente, intelligence émotionnelle, psychologie de la motivation, gestion du stress,prise de décision,régulation des conflits, médiation en entreprise, prévention des risques psychosociaux, "
   email = "tdefommervault@qualia-management.com"
   # Navigation
   [params.navigation]
@@ -44,11 +44,6 @@ removePathAccents = true
       name = "Formations"
       weight = 20
 
-  # Hero section
-  [params.hero]
-    title = ""
-    subtitle = "Le coaching tel que je le pratique consiste en un itinéraire dialogué à la fois ouvert et guidé qui permet à la personne d’aller puiser dans ses situations vécues pour remonter graduellement à la source de ses intentions directrices, de son désir profond et de son énergie d’action. Ainsi recentrée sur ces différents niveaux,  la personne accompagnée développe sa conscience sur ses modes d'interaction et aiguise sa capacité à agir sur la base de stratégies efficaces dans le respect de son identité."
-
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
@@ -65,7 +60,6 @@ removePathAccents = true
     [[params.intro.item]]
       title = "Vous avez besoin de retrouver confiance en vous pour pouvoir jouer votre rôle "
       description = ""
-      button = "Ma proposition d'accompagnement"
       # url = "#"
       # button = "Why us?"
       icon = ""
@@ -74,7 +68,6 @@ removePathAccents = true
     [[params.intro.item]]
       title = " Vous devez prendre une décision et souhaitez mettre toutes les chances de votre côté "
       description = ""
-      button = "Ma proposition d'accompagnement"
       # url = "#"
       # button = "Click Me"
       icon = ""
@@ -83,7 +76,6 @@ removePathAccents = true
       [[params.intro.item]]
         title = " Vous désirez initier un changement dans votre vie professionnelle mais vous vous posez des questions "
         description = ""
-        button = "Ma proposition d'accompagnement"
         # url = "#"
         # button = "Click Me"
         icon = ""
@@ -92,7 +84,6 @@ removePathAccents = true
         [[params.intro.item]]
           title = " Vous avez 100 jours pour réussir votre prise de poste et avez besoin de vous recentrer sur vos priorités "
           description = ""
-          button = "Ma proposition d'accompagnement"
           # url = "#"
           # button = "Click Me"
           icon = ""
@@ -101,7 +92,6 @@ removePathAccents = true
           [[params.intro.item]]
             title = " Vous aspirez à retrouver dans la durée un équilibre entre votre performance individuelle et votre bien-être "
             description = ""
-            button = "Ma proposition d'accompagnement"
             # url = "#"
             # button = "Click Me"
             icon = ""
@@ -110,30 +100,57 @@ removePathAccents = true
             [[params.intro.item]]
               title = " Vous ressentez le besoin de reprendre en main votre GPS émotionnel "
               description = ""
-              button = "Ma proposition d'accompagnement"
               # url = "#"
               # button = "Click Me"
               icon = ""
               img = ""
 
               [[params.intro.item]]
-                title = " Vous prenez conscience des limites de vos comportements sous stress et souhaitez développer une posture relationnelle constructive  "
+                title = "Vous prenez conscience des limites de vos comportements sous stress et souhaitez développer une posture relationnelle constructive"
                 description = ""
-                button = "Ma proposition d'accompagnement"
                 # url = "#"
                 # button = "Click Me"
                 icon = ""
                 img = ""
 
                 [[params.intro.item]]
-                  title = "Un autre besoin vous préoccupe et le moment est venu pour vous d'en parler avec un tiers bienveillant et respectueux de la confidentialité"
+                  title = "La question du sens de votre travail vous 'travaille' et vous avez besoin d'un espace pour consacrer à cette question essentielle le temps nécessaire"
                   description = ""
-                  button = "Prendre contact avec moi"
                   # url = "#"
                   # button = "Click Me"
                   icon = ""
                   img = ""
 
+                  [[params.intro.item]]
+                    title = "Vous avez besoin de résoudre un conflit avec l'impression d'avoir déjà tout essayé"
+                    description = ""
+                    # url = "#"
+                    # button = "Click Me"
+                    icon = ""
+                    img = ""
+
+                    [[params.intro.item]]
+                      title = "Vous avez besoin de vous recentrer sur ce qui fait vos qualités distinctives tout en explorant l'horizon des possibles"
+                      description = ""
+                      # url = "#"
+                      # button = "Click Me"
+                      icon = ""
+                      img = ""
+
+                      [[params.intro.item]]
+                        title = "Concerné.e par l'une de ces situations ? le moment est venu pour vous d'en parler avec un tiers bienveillant et respectueux de la confidentialité ?
+                        description = ""
+                        button = ""
+                        # url = "#"
+                        # button = "Click Me"
+                        icon = ""
+                        img = ""
+
+
+                        # Hero section
+                        [params.hero]
+                          title = ""
+                          subtitle = "Le coaching tel que je le pratique consiste en un itinéraire dialogué à la fois ouvert et guidé qui permet à la personne d’aller puiser dans ses situations vécues pour remonter graduellement à la source de ses intentions directrices, de son désir profond et de son énergie d’action. Ainsi recentrée sur ces différents niveaux,  la personne accompagnée développe sa conscience sur ses modes d'interaction et aiguise sa capacité à agir sur la base de stratégies efficaces dans le respect de son identité."
   # Blog section
 
 
@@ -143,11 +160,6 @@ removePathAccents = true
           icon = "icon-play2"
           url = "https://vimeo.com/channels/staffpicks/93951774"
 
-          # Blog section
-      [params.articles]
-      enable = true
-      title = "Articles"
-      description = "Food for thought"
 
   # Work section
   [params.work]
@@ -190,47 +202,7 @@ removePathAccents = true
       title = "Project 6"
       subtitle = "Design"
 
-  # Testimonials section
-  [params.testimonials]
-    enable = true
-    title = "Témoignages"
-    description = "Nos clients parlent de leur expérience de l'accompagnement."
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
-      person = 'Sébastien Remond, <a href="https://cib.societegenerale.com/en/" target="_blank">Société Générale CIB</a> <span class="subtext">Directeur Investment Banking</span>'
-      img = "person1.jpg"
-      alt = "Sébastien Rémond"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Tristan a fait preuve d'une grande intelligence des situations dans un contexte de transformation majeure de l'entreprise.&rdquo;"
-      person = 'Catherine Belotti, <span class="subtext">Directrice innovation sociale Schneider Electric</span>'
-      img = "person2.jpg"
-      alt = "Catherine Belotti"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;J’avais besoin de reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'ont aidé à mettre au point, au fil des séances de coaching, une stratégie pour gérer ma situation de manière optimale.&rdquo;"
-      person = 'Grégoire Hallé, Conservateur du Patrimoine, Musée des Beaux-Arts de Draguignan'
-      img = "person3.jpg"
-      alt = "Grégoire hallé"
-
-    [[params.testimonials.item]]
-    quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan sur un parcours de développement managérial 'agile' (...) En faisant émerger une communauté de pratiques managériales consciente da sa valeur ajoutée, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
-    person = 'Stéphanie Baranger, Chief of staff to the Global Head of HR - Global Banking and Investor Solutions - Société Générale'
-    img = "person4.jpg"
-    alt = "Stéphanie Baranger"
-
-    [[params.testimonials.item]]
-    quote = "&ldquo;Par la justesse de ses reformulations et feedbacks, Tristan a réussi à susciter chez les participants un changement de regard et l’envie d’oser. Tristan est un formateur qui sait créer un climat d'écoute, de bienveillance mais aussi de confrontation constructive.&rdquo;"
-    person = 'Verbatim évaluation à chaud'
-    img = "person2.jpg"
-    alt = "Verbatim1"
-
-    [[params.testimonials.item]]
-    quote = "&ldquo;Tristan mobilise l'energie du groupe en jouant sur une grande variété de ressorts.&rdquo;"
-    person = 'Verbatim évaluation à chaud'
-    img = "person1.jpg"
-    alt = "Verbatim2"
 
   # Services section
   [params.services]
@@ -345,11 +317,61 @@ removePathAccents = true
     message = "Message"
     button = "Envoyer"
 
+    # Testimonials section
+    [params.testimonials]
+      enable = true
+      title = "Témoignages"
+      description = "Nos clients parlent de leur expérience de l'accompagnement."
+
+      [[params.testimonials.item]]
+        quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
+        person = 'Sébastien Remond, <a href="https://cib.societegenerale.com/en/" target="_blank">Société Générale CIB</a> <span class="subtext">Directeur Investment Banking</span>'
+        img = "person1.jpg"
+        alt = "Sébastien Rémond"
+
+      [[params.testimonials.item]]
+        quote = "&ldquo;Tristan a fait preuve d'une grande intelligence des situations dans un contexte de transformation majeure de l'entreprise.&rdquo;"
+        person = 'Catherine Belotti, <span class="subtext">Directrice innovation sociale Schneider Electric</span>'
+        img = "person2.jpg"
+        alt = "Catherine Belotti"
+
+      [[params.testimonials.item]]
+        quote = "&ldquo;J’avais besoin de reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'ont aidé à mettre au point, au fil des séances de coaching, une stratégie pour gérer ma situation de manière optimale.&rdquo;"
+        person = 'Grégoire Hallé, Conservateur du Patrimoine, Musée des Beaux-Arts de Draguignan'
+        img = "person3.jpg"
+        alt = "Grégoire hallé"
+
+      [[params.testimonials.item]]
+      quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan sur un parcours de développement managérial 'agile' (...) En faisant émerger une communauté de pratiques managériales consciente da sa valeur ajoutée, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
+      person = 'Stéphanie Baranger, Chief of staff to the Global Head of HR - Global Banking and Investor Solutions - Société Générale'
+      img = "person4.jpg"
+      alt = "Stéphanie Baranger"
+
+      [[params.testimonials.item]]
+      quote = "&ldquo;Par la justesse de ses reformulations et feedbacks, Tristan a réussi à susciter chez les participants un changement de regard et l’envie d’oser. Tristan est un formateur qui sait créer un climat d'écoute, de bienveillance mais aussi de confrontation constructive.&rdquo;"
+      person = 'Verbatim évaluation à chaud'
+      img = "person2.jpg"
+      alt = "Verbatim1"
+
+      [[params.testimonials.item]]
+      quote = "&ldquo;Tristan mobilise l'energie du groupe en jouant sur une grande variété de ressorts.&rdquo;"
+      person = 'Verbatim évaluation à chaud'
+      img = "person1.jpg"
+      alt = "Verbatim2"
+
+      # Blog section
+  [params.articles]
+  enable = true
+  title = "Articles"
+  description = "Food for thought"
+
+
   # Footer section
   [params.footer]
     enable = true
     copyright = '&copy; Tristan de Fommervault. Tous droits réservés.'
     links = [
-        ["icon-github", "https://github.com/qualia"],
         ["icon-linkedin", "https://fr.linkedin.com/in/tristandefommervault/fr"]
+        ["icon-facebook", "https://www.facebook.com/tristandefommervault"]
+
       ]
