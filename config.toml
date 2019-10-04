@@ -342,7 +342,7 @@ removePathAccents = true
         alt = "Grégoire hallé"
 
       [[params.testimonials.item]]
-      quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan sur un parcours de développement managérial 'agile' (...) En faisant émerger une communauté de pratiques managériales consciente da sa valeur ajoutée, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
+      quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan sur un parcours de développement managérial (...) En faisant émerger une communauté de pratiques managériales consciente da sa valeur ajoutée, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
       person = 'Stéphanie Baranger, Chief of staff to the Global Head of HR - Global Banking and Investor Solutions - Société Générale'
       img = "person4.jpg"
       alt = "Stéphanie Baranger"
