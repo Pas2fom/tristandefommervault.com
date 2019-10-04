@@ -150,7 +150,7 @@ removePathAccents = true
                         # Hero section
                         [params.hero]
                           title = ""
-                          subtitle = "Le coaching tel que je le pratique consiste en un itinéraire dialogué à la fois ouvert et guidé qui permet à la personne d’aller puiser dans ses situations vécues pour remonter graduellement à la source de ses intentions directrices, de son désir profond et de son énergie d’action. Ainsi recentrée sur ces différents niveaux,  la personne accompagnée développe sa conscience sur ses modes d'interaction et aiguise sa capacité à agir sur la base de stratégies efficaces dans le respect de son identité."
+                          subtitle = "Le coaching tel que je le pratique consiste en un itinéraire dialogué à la fois ouvert et guidé qui permet à la personne d’aller puiser dans ses situations vécues pour remonter graduellement à la source de ses intentions directrices, de son désir profond et de son énergie d’action. Ainsi recentrée, la personne développe durant l'accompagnement sa conscience de ses modes d'interaction et aiguise sa capacité à agir sur la base de stratégies efficaces dans le respect de son identité."
   # Blog section
 
 
@@ -231,7 +231,7 @@ removePathAccents = true
 
       # About section
     [params.about]
-      enable = true
+      enable = false
       title = "Qui sommes-nous ?"
       description = "Profils des intervenants"
 
