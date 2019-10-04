@@ -14,12 +14,12 @@
 
   {{ partial "hero.html" .}}
 
-  {{ if .Site.Params.testimonials.enable }}
-    {{ partial "testimonials.html" .}}
-  {{ end }}
-
   {{ if .Site.Params.contact.enable }}
     {{ partial "contact.html" .}}
+  {{ end }}
+
+  {{ if .Site.Params.testimonials.enable }}
+    {{ partial "testimonials.html" .}}
   {{ end }}
 
   {{ if .Site.Params.articles.enable }}
