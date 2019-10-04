@@ -51,7 +51,7 @@ removePathAccents = true
   [[params.intro.item]]
     title = "Vous avez besoin de lever une difficulté ou un blocage qui stoppent l'avancée d'un projet"
     description = ""
-    button = "Ma proposition d'accompagnement"
+    button = ""
     url = ""
     # button = "Why us?"
     icon = ""
