@@ -45,11 +45,14 @@ removePathAccents = true
       weight = 20
 
   # Intro section
+  [params.hero]
+    title = "Coaching d'accomplissment de soi dans son activité professionnelles"
+    subtitle = ""
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Vous avez besoin de lever une difficulté ou un blocage qui stoppent votre avancée d'un projet"
+    title = "Vous avez besoin de lever une difficulté ou un blocage qui stoppe votre avancée dans un projet"
     description = ""
     button = ""
     url = ""
@@ -75,7 +78,7 @@ removePathAccents = true
           img = ""
 
           [[params.intro.item]]
-            title = " Vous aspirez à retrouver dans la durée un équilibre entre votre performance individuelle et votre bien-être"
+            title = " Vous avez besoin de faire le point sur vos véritables forces et qualités pour retrouver confiance en vous et pouvoir jouer pleinement votre rôle"
             description = ""
             # url = "#"
             # button = "Click Me"
@@ -115,7 +118,7 @@ removePathAccents = true
                     img = ""
 
                     [[params.intro.item]]
-                      title = "Vous avez besoin de vous recentrer sur ce qui fait vos qualités distinctives tout en explorant l'horizon des possibles"
+                      title = "Vous avez besoin de vous recentrer sur ce qui fait vos qualités distinctives"
                       description = ""
                       # url = "#"
                       # button = "Click Me"
@@ -124,8 +127,8 @@ removePathAccents = true
 
 
                         # Hero section
-                        [params.hero]
-                          title = ""
+                        [params.hero0]
+                          title = "Mon approche"
                           subtitle = "Le coaching tel que je le pratique consiste en un itinéraire dialogué à la fois ouvert et guidé qui permet à la personne d’aller puiser dans ses situations vécues pour remonter graduellement à la source de ses intentions directrices, de son désir profond et de son énergie d’action. Ainsi recentrée, la personne développe durant l'accompagnement sa conscience de ses modes d'interaction et aiguise sa capacité à agir sur la base de stratégies efficaces dans le respect de son identité."
   # Blog section
 
