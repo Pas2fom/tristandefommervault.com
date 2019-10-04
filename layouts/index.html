@@ -14,6 +14,16 @@
 
   {{ partial "intro.html" .}}
 
+  {{ partial "hero0.html" .}}
+
+  {{ if .Site.Params.contact.enable }}
+    {{ partial "contact.html" .}}
+  {{ end }}
+
+  {{ if .Site.Params.testimonials.enable }}
+    {{ partial "testimonials.html" .}}
+  {{ end }}
+
   {{ if .Site.Params.articles.enable }}
     {{ partial "articles.html" .}}
   {{ end }}
@@ -22,9 +32,6 @@
     {{ partial "work.html" .}}
   {{ end }}
 
-  {{ if .Site.Params.testimonials.enable }}
-    {{ partial "testimonials.html" .}}
-  {{ end }}
 
   {{ if .Site.Params.services.enable }}
     {{ partial "services.html" .}}
@@ -36,10 +43,6 @@
 
   {{ if .Site.Params.counters.enable }}
     {{ partial "counters.html" .}}
-  {{ end }}
-
-  {{ if .Site.Params.contact.enable }}
-    {{ partial "contact.html" .}}
   {{ end }}
 
   {{ if .Site.Params.footer.enable }}

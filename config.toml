@@ -49,7 +49,7 @@ removePathAccents = true
   [params.intro]
 
   [[params.intro.item]]
-    title = "Vous avez besoin de lever une difficulté ou un blocage qui stoppent l'avancée d'un projet"
+    title = "Vous avez besoin de lever une difficulté ou un blocage qui stoppent votre avancée d'un projet"
     description = ""
     button = ""
     url = ""
@@ -57,21 +57,6 @@ removePathAccents = true
     icon = ""
     img = ""
 
-    [[params.intro.item]]
-      title = "Vous avez besoin de retrouver confiance en vous pour pouvoir jouer votre rôle"
-      description = ""
-      # url = "#"
-      # button = "Why us?"
-      icon = ""
-      img = ""
-
-    [[params.intro.item]]
-      title = " Vous devez prendre une décision et souhaitez mettre toutes les chances de votre côté"
-      description = ""
-      # url = "#"
-      # button = "Click Me"
-      icon = ""
-      img = ""
 
       [[params.intro.item]]
         title = " Vous désirez initier un changement dans votre vie professionnelle mais vous vous posez des questions"
@@ -136,15 +121,6 @@ removePathAccents = true
                       # button = "Click Me"
                       icon = ""
                       img = ""
-
-                      [[params.intro.item]]
-                        title = "Concerné.e par l'une de ces situations ? le moment est venu pour vous d'en parler avec un tiers bienveillant et respectueux de la confidentialité ?"
-                        description = ""
-                        button = ""
-                        # url = "#"
-                        # button = "Click Me"
-                        icon = ""
-                        img = ""
 
 
                         # Hero section
