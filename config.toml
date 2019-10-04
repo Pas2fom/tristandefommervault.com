@@ -118,7 +118,7 @@ removePathAccents = true
                     img = ""
 
                     [[params.intro.item]]
-                      title = "Vous avez besoin de vous recentrer sur ce qui fait vos qualités distinctives"
+                      title = "Vous avez besoin de vous recentrer sur vos véritables qualités distinctives qui font votre réelle différence"
                       description = ""
                       # url = "#"
                       # button = "Click Me"
