@@ -301,7 +301,7 @@ removePathAccents = true
     map = false
     form = true
     title = "Contact"
-    description = "Nous sommes à votre écoute."
+    description = ""
 
     # Available icons: http://simplelineicons.com/
     details = [
@@ -321,7 +321,7 @@ removePathAccents = true
     [params.testimonials]
       enable = true
       title = "Témoignages"
-      description = "Nos clients parlent de leur expérience de l'accompagnement."
+      description = ""
 
       [[params.testimonials.item]]
         quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
@@ -371,6 +371,6 @@ removePathAccents = true
     enable = true
     copyright = '&copy; Tristan de Fommervault. Tous droits réservés.'
     links = [
-        ["icon-linkedin", "https://fr.linkedin.com/in/tristandefommervault/fr"]
         ["icon-facebook", "https://www.facebook.com/tristandefommervault"],
-        ]
+        ["icon-linkedin", "https://fr.linkedin.com/in/tristandefommervault/fr"]
+      ]
