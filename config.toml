@@ -58,7 +58,7 @@ removePathAccents = true
     img = ""
 
     [[params.intro.item]]
-      title = "Vous avez besoin de retrouver confiance en vous pour pouvoir jouer votre rôle "
+      title = "Vous avez besoin de retrouver confiance en vous pour pouvoir jouer votre rôle"
       description = ""
       # url = "#"
       # button = "Why us?"
@@ -66,7 +66,7 @@ removePathAccents = true
       img = ""
 
     [[params.intro.item]]
-      title = " Vous devez prendre une décision et souhaitez mettre toutes les chances de votre côté "
+      title = " Vous devez prendre une décision et souhaitez mettre toutes les chances de votre côté"
       description = ""
       # url = "#"
       # button = "Click Me"
@@ -74,7 +74,7 @@ removePathAccents = true
       img = ""
 
       [[params.intro.item]]
-        title = " Vous désirez initier un changement dans votre vie professionnelle mais vous vous posez des questions "
+        title = " Vous désirez initier un changement dans votre vie professionnelle mais vous vous posez des questions"
         description = ""
         # url = "#"
         # button = "Click Me"
@@ -82,7 +82,7 @@ removePathAccents = true
         img = ""
 
         [[params.intro.item]]
-          title = " Vous avez 100 jours pour réussir votre prise de poste et avez besoin de vous recentrer sur vos priorités "
+          title = " Vous avez 100 jours pour réussir votre prise de poste et avez besoin de vous recentrer sur vos priorités"
           description = ""
           # url = "#"
           # button = "Click Me"
@@ -90,7 +90,7 @@ removePathAccents = true
           img = ""
 
           [[params.intro.item]]
-            title = " Vous aspirez à retrouver dans la durée un équilibre entre votre performance individuelle et votre bien-être "
+            title = " Vous aspirez à retrouver dans la durée un équilibre entre votre performance individuelle et votre bien-être"
             description = ""
             # url = "#"
             # button = "Click Me"
@@ -138,7 +138,7 @@ removePathAccents = true
                       img = ""
 
                       [[params.intro.item]]
-                        title = "Concerné.e par l'une de ces situations ? le moment est venu pour vous d'en parler avec un tiers bienveillant et respectueux de la confidentialité ?
+                        title = "Concerné.e par l'une de ces situations ? le moment est venu pour vous d'en parler avec un tiers bienveillant et respectueux de la confidentialité ?"
                         description = ""
                         button = ""
                         # url = "#"
