@@ -1,9 +1,16 @@
 ---
 label: Bio
-hide_body: true
+hide_body: false
 fields:
 - name: bio
   type: text
   config:
     required: false
   label: Bio
+  description: Tristan blabla blablabla
+- name: bio2
+  type: text
+  config:
+    required: false
+  label: Bio
+  description: Parcours de coach
