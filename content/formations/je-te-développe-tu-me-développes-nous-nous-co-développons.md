@@ -1,6 +1,6 @@
 ---
 title: 'je te développe, tu me développes ... nous nous co-développons ! '
-date: 2019-08-19T22:00:00.000+00:00
+date: 2019-12-21T00:00:00+01:00
 description: Dans le champ de l'intelligence collective*, le co-développement permet
   un impact rapide, perceptible et durable dans la traversée des transformations.
 targetAudience: Managers de projet, Managers d'équipe aux profils et expériences diversifiés
