@@ -1,249 +1,338 @@
+# Site settings
 baseurl = "https://www.tristandefommervault.com/"
-footnoteReturnLinkContents = "↩"
+title = "Tristan de Fommervault - Coach"
 languageCode = "fr-fr"
+theme = "elate"
+footnoteReturnLinkContents = "↩"
 metaDataFormat = "yaml"
 removePathAccents = true
-theme = "elate"
-title = "Tristan de Fommervault coach"
-[[menu.postpend]]
-name = "Bio"
-url = "/bio"
-weight = 3
-[[menu.postpend]]
-name = "Formations"
-url = "/formations"
-weight = 2
-[[menu.postpend]]
-name = "Articles"
-url = "/articles"
-weight = 1
+
 [params]
-author = "Tristan de Fommervault"
-custom_css = ["css/custom1.css"]
-description = "Coaching professionnel,mentoring,codéveloppement,process communication, approche systémique, analyse transactionnelle, communication non violente, intelligence émotionnelle, psychologie de la motivation, gestion du stress,prise de décision,régulation des conflits, médiation en entreprise, prévention des risques psychosociaux, "
-email = "tdefommervault@qualia-management.com"
-[params.about]
-description = "Profils des intervenants"
-enable = false
-title = "Qui sommes-nous ?"
-[[params.about.item]]
-alt = "Tristan de Fommervault"
-description = "."
-img = "tristan.jpg"
-name = "Tristan de Fommervault"
-position = "Coach et formateur certifié (Process Com., Desu Paris 8 et Trajectives). Sciences Po, M2 Philosophie Sorbonne, Conservatoire de théâtre Paris. Tristan a développé durant 15 ans une approche humaniste* de l'accompagnement des personnes et des collectifs en situation de transformation. Qualité d'écoute et de présence, enthousiasme communicatif, théâtralise avec justesse pour rendre acteur.  *éthique et nourrie de nos humanités"
-social = [["icon-twitter", "https://twitter.com/de_Fommervault"], ["icon-facebook", "https://www.facebook.com/fommervault?ref=bookmarks"], ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]]
-[[params.about.item]]
-alt = "lena"
-description = "Fondatrice du cabinet de coaching Acara. Auparavant Responsable des programmes internationaux de formation à l'ENA."
-img = "lena.jpg"
-name = "Léna Badach"
-position = "Partenaire experte en pédagogie, coach et formatrice certifiée Process Com."
-social = [["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]]
-[params.articles]
-description = "Food for thought"
-enable = true
-title = "Articles"
-[params.contact]
-button = "Envoyer"
-description = ""
-details = [["icon-home", "36 rue de Fleurus, <br> 75006 Paris"], ["icon-phone", "+33(0)6 61 07 90 51"], ["icon-envelope", "tdefommervault@qualia-management.com"], ["icon-globe", "<a href=\"https://tristandefommervault.com/\" target=\"_blank\">tristandefommervault.com</a>"]]
-email = "Email"
-enable = true
-form = true
-map = false
-message = "Message"
-name = "Nom"
-phone = "Téléphone"
-title = "Contact"
-[params.counters]
-background = "full_image_1.jpg"
-enable = false
-title = "Stats"
-[[params.counters.item]]
-description = "Finished projects"
-from = 0
-icon = "icon-briefcase"
-interval = 50
-speed = 5000
-to = 89
-[[params.counters.item]]
-description = "Formations"
-from = 0
-icon = "icon-code"
-interval = 50
-speed = 5000
-to = 2000
-[[params.counters.item]]
-description = "Cups of coffee"
-from = 0
-icon = "icon-cup"
-interval = 50
-speed = 5000
-to = 1302
-[[params.counters.item]]
-description = "Happy clients"
-from = 0
-icon = "icon-people"
-interval = 50
-speed = 5000
-to = 52
-[params.footer]
-copyright = "&copy; Tristan de Fommervault. Tous droits réservés."
-enable = true
-links = [["icon-facebook", "https://www.facebook.com/tristandefommervault"], ["icon-linkedin", "https://fr.linkedin.com/in/tristandefommervault/fr"]]
-[params.hero]
-subtitle = "Se recentrer sur ses essentiels pour s'accomplir pleinement"
-title = "COACHING"
-[params.hero0]
-subtitle = "Le coaching tel que je le pratique consiste en un itinéraire dialogué à la fois ouvert et guidé qui permet à la personne d’aller puiser dans ses situations vécues pour remonter graduellement à la source de ses intentions directrices, de son désir profond et de son énergie d’action. Ainsi recentrée, la personne développe durant l'accompagnement sa conscience de ses modes d'interaction et aiguise sa capacité à agir sur la base de stratégies efficaces dans le respect de son identité."
-title = "Mon approche"
-[params.intro.video]
-enable = false
-icon = "icon-play2"
-title = "Voir la vidéo"
-url = "https://vimeo.com/channels/staffpicks/93951774"
-[[params.intro.item]]
-button = ""
-description = ""
-icon = ""
-img = ""
-title = "Vous avez besoin de lever une difficulté ou un blocage qui stoppe votre avancée dans un projet"
-url = ""
-[[params.intro.item]]
-description = ""
-icon = ""
-img = ""
-title = " Vous désirez initier un changement dans votre vie professionnelle mais vous vous posez des questions"
-[[params.intro.item]]
-description = ""
-icon = ""
-img = ""
-title = " Vous avez 100 jours pour réussir votre prise de poste et avez besoin de vous recentrer sur vos priorités"
-[[params.intro.item]]
-description = ""
-icon = ""
-img = ""
-title = " Vous avez besoin de faire le point sur vos véritables forces et qualités pour retrouver confiance en vous et pouvoir jouer pleinement votre rôle"
-[[params.intro.item]]
-description = ""
-icon = ""
-img = ""
-title = " Vous ressentez le besoin de reprendre en main votre GPS émotionnel "
-[[params.intro.item]]
-description = ""
-icon = ""
-img = ""
-title = "Vous prenez conscience des limites de vos comportements sous stress et souhaitez développer une posture relationnelle constructive"
-[[params.intro.item]]
-description = ""
-icon = ""
-img = ""
-title = "La question du sens de votre travail vous 'travaille' et vous avez besoin d'un espace pour consacrer à cette question essentielle le temps nécessaire"
-[[params.intro.item]]
-description = ""
-icon = ""
-img = ""
-title = "Vous avez besoin de résoudre un conflit avec l'impression d'avoir déjà tout essayé"
-[[params.intro.item]]
-description = ""
-icon = ""
-img = ""
-title = "Vous avez besoin de vous recentrer sur vos véritables qualités distinctives qui font votre réelle différence"
-[params.navigation]
-about = "À propos"
-brand = "Tristan de Fommervault"
-contact = "Contact"
-home = "Accueil"
-services = "Services"
-testimonials = "Témoignages"
-work = "Références"
-[params.services]
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-enable = false
-title = "Services"
-[[params.services.item]]
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-icon = "icon-anchor"
-title = "Brand &amp; Strategy"
-[[params.services.item]]
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-icon = "icon-layers2"
-title = "Web &amp; Interface"
-[[params.services.item]]
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-icon = "icon-video2"
-title = "Photo &amp; Video"
-[[params.services.item]]
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-icon = "icon-monitor"
-title = "CMS &amp; eCommerce"
-[params.testimonials]
-description = ""
-enable = true
-title = "Témoignages"
-[[params.testimonials.item]]
-alt = "Sébastien Rémond"
-img = "person1.jpg"
-person = "Sébastien Remond, <a href=\"https://cib.societegenerale.com/en/\" target=\"_blank\">Société Générale CIB</a> <span class=\"subtext\">Directeur Investment Banking</span>"
-quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
-[[params.testimonials.item]]
-alt = "Catherine Belotti"
-img = "person2.jpg"
-person = "Catherine Belotti, <span class=\"subtext\">Directrice innovation sociale Schneider Electric</span>"
-quote = "&ldquo;Tristan a fait preuve d'une grande intelligence des situations dans un contexte de transformation majeure de l'entreprise.&rdquo;"
-[[params.testimonials.item]]
-alt = "Grégoire hallé"
-img = "person3.jpg"
-person = "Grégoire Hallé, Conservateur du Patrimoine, Musée des Beaux-Arts de Draguignan"
-quote = "&ldquo;J’avais besoin de reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'ont aidé à mettre au point, au fil des séances de coaching, une stratégie pour gérer ma situation de manière optimale.&rdquo;"
-[[params.testimonials.item]]
-alt = "Stéphanie Baranger"
-img = "person4.jpg"
-person = "Stéphanie Baranger, Chief of staff to the Global Head of HR - Global Banking and Investor Solutions - Société Générale"
-quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan sur un parcours de développement managérial (...) En faisant émerger une communauté de pratiques managériales consciente da sa valeur ajoutée, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
-[[params.testimonials.item]]
-alt = "Verbatim1"
-img = "person2.jpg"
-person = "Verbatim évaluation à chaud"
-quote = "&ldquo;Par la justesse de ses reformulations et feedbacks, Tristan a réussi à susciter chez les participants un changement de regard et l’envie d’oser. Tristan est un formateur qui sait créer un climat d'écoute, de bienveillance mais aussi de confrontation constructive.&rdquo;"
-[[params.testimonials.item]]
-alt = "Verbatim2"
-img = "person1.jpg"
-person = "Verbatim évaluation à chaud"
-quote = "&ldquo;Tristan mobilise l'energie du groupe en jouant sur une grande variété de ressorts.&rdquo;"
-[params.work]
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-enable = false
-footertext = "** Demo images from <a href=\"http://plmd.me/\" target=\"_blank\">plmd.me</a>"
-title = "Work"
-[[params.work.row]]
-alt = "Image2"
-img = "work_1.jpg"
-subtitle = "Branding"
-title = "Project 1"
-[[params.work.row]]
-alt = "Image2"
-img = "work_2.jpg"
-subtitle = "Design"
-title = "Project 2"
-[[params.work.row]]
-alt = "Image3"
-img = "work_3.jpg"
-subtitle = "Design"
-title = "Project 3"
-[[params.work.row]]
-alt = "Image4"
-img = "work_4.jpg"
-subtitle = "Design"
-title = "Project 4"
-[[params.work.row]]
-alt = "Image5"
-img = "work_5.jpg"
-subtitle = "Design"
-title = "Project 5"
-[[params.work.row]]
-alt = "Image6"
-img = "work_6.jpg"
-subtitle = "Design"
-title = "Project 6"
+  # Custom styles
+  custom_css = ["css/custom1.css"]
+
+  # Meta
+  author = "Tristan de Fommervault"
+  description = "Coaching professionnel,mentoring,codéveloppement,process communication,approche systémique,analyse transactionnelle,communication non violente, intelligence émotionnelle, psychologie de la motivation, gestion du stress,prise de décision,régulation des conflits, médiation en entreprise, prévention des risques psychosociaux"
+  email = "tdefommervault@qualia-management.com"
+  # Navigation
+  [params.navigation]
+    brand = "Tristan de Fommervault - Coach"
+    home = "Accueil"
+    work = "Références"
+    testimonials = "Témoignages"
+    services = "Services"
+    about = "À propos"
+    contact = "Contact"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+      url = "/articles"
+      name = "Articles"
+      weight = 10
+    [[menu.postpend]]
+      url = "/formations"
+      name = "Formations"
+      weight = 20
+
+  # Intro section
+  [params.hero]
+    title = ""
+    subtitle = "Commençons par éclaircir le besoin d'être accompagné"
+
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Vous avez besoin de lever une difficulté qui freine votre avancée dans un projet"
+    description = ""
+    button = ""
+    url = ""
+    # button = "Why us?"
+    icon = ""
+    img = ""
+
+          [[params.intro.item]]
+            title = "Vous avez besoin de faire le point sur vos véritables forces et qualités pour retrouver confiance en vous et pouvoir jouer pleinement votre rôle"
+            description = ""
+            # url = "#"
+            # button = "Click Me"
+            icon = ""
+            img = ""
+
+            [[params.intro.item]]
+              title = "Vous ressentez le besoin de reprendre en main votre GPS émotionnel"
+              description = ""
+              # url = "#"
+              # button = "Click Me"
+              icon = ""
+              img = ""
+
+              [[params.intro.item]]
+                title = "Vous prenez conscience des limites de vos comportements sous stress et souhaitez développer des posture relationnelles constructives"
+                description = ""
+                # url = "#"
+                # button = "Click Me"
+                icon = ""
+                img = ""
+
+
+                  [[params.intro.item]]
+                    title = "Vous avez besoin de résoudre un conflit et ressentez l'impression d'avoir déjà tout essayé"
+                    description = ""
+                    # url = "#"
+                    # button = "Click Me"
+                    icon = ""
+                    img = ""
+
+                    [[params.intro.item]]
+                      title = " Vous avez 100 jours pour réussir votre prise de poste et avez besoin de vous recentrer sur vos priorités"
+                      description = ""
+                      # url = "#"
+                      # button = "Click Me"
+                      icon = ""
+                      img = ""
+
+
+                        # Hero section
+                        [params.hero0]
+                          title = "Mon approche du coaching"
+                          subtitle = "La personne accompagnée retrouve progressivement, au travers des situations revisitées, ses sources d'énergie d’action. Elle développe une conscience de ses modes d'interaction et aiguise sa capacité à agir sur la base de stratégies efficaces."
+  # Blog section
+
+
+     [params.intro.video]
+          enable = false
+          title = "Voir la vidéo"
+          icon = "icon-play2"
+          url = "https://vimeo.com/channels/staffpicks/93951774"
+
+
+  # Work section
+  [params.work]
+    enable = false
+    title = "Work"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+
+    [[params.work.row]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Project 1"
+      subtitle = "Branding"
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "Project 2"
+      subtitle = "Design"
+    [[params.work.row]]
+      img = "work_3.jpg"
+      alt = "Image3"
+      title = "Project 3"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_4.jpg"
+      alt = "Image4"
+      title = "Project 4"
+      subtitle = "Design"
+    [[params.work.row]]
+      img = "work_5.jpg"
+      alt = "Image5"
+      title = "Project 5"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_6.jpg"
+      alt = "Image6"
+      title = "Project 6"
+      subtitle = "Design"
+
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Bio du coach - Tristan de Fommervault"
+    description = ""
+
+    [[params.services.item]]
+      title = "En bref, je ..."
+      description = "Je développe une approche de l'accompagnement des personnes et des collectifs engagés dans une histoire de transformation."
+      icon =
+
+
+    [[params.services.item]]
+      title = "Mes fondamentaux"
+      description = "Trois cursus, trois clés de lecture : l'individu, le collectif, la relation. Une formation de 18 mois en coaching professionnel à l'Université de Paris 8 (Diplôme d'Etudes Supérieures de Coaching) et un parcours d'approfondissement en Philosophie, Histoire et Sociologie de l'entreprise (Diplôme d'Etudes Approfondies de l'Université Paris X / Master 2 Sciences Po Paris). Ma formation d'acteur au Conservatoire de Théâtre de Paris 7. "
+      icon =
+
+    [[params.services.item]]
+      title = "Les modèles et outils que je mobilise"
+      description = "J'intègre dans mes accompagnements : l'approche systémique, l'Analyse Transactionnelle, la Process Communication Model Coaching, les techniques du coaching cognitif et comportemental, les mises en situation"
+      icon =
+
+      [[params.services.item]]
+      title = "Trois expériences marquantes"
+      description = "Jouer sur scène, Explorer l'entreprise comme acteur intégré (Responsable RH) et intervenant extérieur en entreprise, Ecouter le nouveau"
+      icon =
+
+      [[params.services.item]]
+      title = "Trois qualités"
+      description = "Qualité d'écoute et de présence, enthousiasme, met en situation avec justesse pour rendre acteur"
+      icon =
+
+      # About section
+    [params.about]
+      enable = false
+      title = "Qui sommes-nous ?"
+      description = "Profils des intervenants"
+
+      [[params.about.item]]
+        name = "Tristan de Fommervault"
+        position = "Coach et formateur certifié (Process Com., Desu Paris 8, Codeveloppement Mentor Trajectives). Sciences Po, M2 Philosophie et Humanités Sorbonne, Conservatoire de théâtre Paris. Tristan développe une approche de l'accompagnement des personnes et des collectifs en situation de transformation. Qualité d'écoute et de présence, enthousiasme communicatif, théâtralise avec justesse pour rendre acteur.
+        img = "tristan.jpg"
+        alt = "Tristan de Fommervault"
+        social = [
+          ["icon-twitter", "https://twitter.com/de_Fommervault"],
+          ["icon-facebook", "https://www.facebook.com/fommervault?ref=bookmarks"],
+          ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]
+        ]
+
+      [[params.about.item]]
+        name = "Léna Badach"
+        position = "Partenaire experte en pédagogie, coach et formatrice certifiée Process Com."
+        description = "Fondatrice du cabinet de coaching Acara. Auparavant Responsable des programmes internationaux de formation à l'ENA."
+        img = "lena.jpg"
+        alt = "lena"
+        social = [
+          ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]
+        ]
+
+  # Counters section
+  [params.counters]
+    enable = false
+    title = "Stats"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Finished projects"
+      icon = "icon-briefcase"
+      from = 0
+      to = 89
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Formations"
+      icon = "icon-code"
+      from = 0
+      to = 2000
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Cups of coffee"
+      icon = "icon-cup"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Happy clients"
+      icon = "icon-people"
+      from = 0
+      to = 52
+      interval = 50
+      speed = 5000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = false
+    form = true
+    title = "Contact"
+    description = ""
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "36 rue de Fleurus, <br> 75006 Paris"],
+        ["icon-phone", "+33(0)6 61 07 90 51"],
+        ["icon-envelope", "tdefommervault@qualia-management.com"],
+        ["icon-globe", '<a href="https://tristandefommervault.com/" target="_blank">tristandefommervault.com</a>']
+      ]
+
+    name = "Nom"
+    email = "Email"
+    phone = "Téléphone"
+    message = "Message"
+    button = "Envoyer"
+
+    # Testimonials section
+    [params.testimonials]
+      enable = true
+      title = "Témoignages"
+      description = ""
+
+      [[params.testimonials.item]]
+        quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
+        person = 'Sébastien Remond, <a href="https://cib.societegenerale.com/en/" target="_blank">Société Générale CIB</a> <span class="subtext">Directeur Investment Banking</span>'
+        img = "person1.jpg"
+        alt = "Sébastien Rémond"
+
+      [[params.testimonials.item]]
+        quote = "&ldquo;Tristan a fait preuve d'une grande intelligence des situations dans un contexte de transformation majeure de l'entreprise.&rdquo;"
+        person = 'Catherine Belotti, <span class="subtext">Directrice innovation sociale Schneider Electric</span>'
+        img = "person2.jpg"
+        alt = "Catherine Belotti"
+
+      [[params.testimonials.item]]
+        quote = "&ldquo;J’avais besoin de reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'ont aidé à mettre au point, au fil des séances de coaching, une stratégie pour gérer ma situation de manière optimale.&rdquo;"
+        person = 'Grégoire Hallé, Conservateur du Patrimoine, Musée des Beaux-Arts de Draguignan'
+        img = "person3.jpg"
+        alt = "Grégoire hallé"
+
+      [[params.testimonials.item]]
+      quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan sur un parcours de développement managérial (...) En faisant émerger une communauté de pratiques managériales consciente da sa valeur ajoutée, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
+      person = 'Stéphanie Baranger, Chief of staff to the Global Head of HR - Global Banking and Investor Solutions - Société Générale'
+      img = "person4.jpg"
+      alt = "Stéphanie Baranger"
+
+      [[params.testimonials.item]]
+      quote = "&ldquo;Par la justesse de ses reformulations et feedbacks, Tristan a réussi à susciter chez les participants un changement de regard et l’envie d’oser. Tristan est un formateur qui sait créer un climat d'écoute, de bienveillance mais aussi de confrontation constructive.&rdquo;"
+      person = 'Verbatim évaluation à chaud'
+      img = "person2.jpg"
+      alt = "Verbatim1"
+
+      [[params.testimonials.item]]
+      quote = "&ldquo;Tristan mobilise l'energie du groupe en jouant sur une grande variété de ressorts.&rdquo;"
+      person = 'Verbatim évaluation à chaud'
+      img = "person1.jpg"
+      alt = "Verbatim2"
+
+      # Blog section
+  [params.articles]
+  enable = true
+  title = "Articles"
+  description = "Food for thought"
+
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; Tristan de Fommervault. Tous droits réservés.'
+    links = [
+        ["icon-facebook", "https://www.facebook.com/tristandefommervault"],
+        ["icon-linkedin", "https://fr.linkedin.com/in/tristandefommervault/fr"]
+      ]
