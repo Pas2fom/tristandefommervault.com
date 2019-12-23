@@ -47,7 +47,7 @@ removePathAccents = true
   # Intro section
   [params.hero]
     title = ""
-    subtitle = "Commençons par éclaircir le besoin d'être accompagné"
+    subtitle = "Commençons par éclaircir votre besoin d'être accompagné"
 
   # Available icons: http://simplelineicons.com/
   [params.intro]
