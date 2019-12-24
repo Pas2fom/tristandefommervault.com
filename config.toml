@@ -169,13 +169,13 @@ removePathAccents = true
 
     [[params.services.item]]
       title = "Tristan de Fommervault"
-      description = "J'ai développé pendant 12 ans une approche de l'accompagnement des personnes engagées dans une histoire de transformation professionnelle et personnelle. Celle-ci offre un parcours pour mieux se connaître afin de devenir pleinement acteur de sa vie profesionnelle et personnelle. Elle permet de se rapprocher du Sens de son expérience vécue - en passant par les 5 sens - pour retrouver la source de son énergie d'action et s'épanouir dans la joie.   
+      description = "Après un début de carrière en Ressources Humaines, j'ai développé pendant 12 ans une approche de l'accompagnement des personnes engagées dans une histoire de transformation professionnelle et personnelle. Celle-ci offre un parcours pour mieux se connaître afin de devenir pleinement acteur de sa vie profesionnelle et personnelle. Elle permet de se rapprocher du Sens de son expérience vécue - en passant par les 5 sens - pour retrouver la source de son énergie d'action et s'épanouir dans la joie."   
       icon = ""
 
 
     [[params.services.item]]
       title = "Mes fondamentaux"
-      description = "Trois cursus, trois clés de lecture : l'individu, le collectif, la relation. Une formation de 18 mois en coaching professionnel à l'Université de Paris 8 (Diplôme d'Etudes Supérieures de Coaching) et un parcours d'approfondissement en Philosophie, Histoire et Sociologie de l'entreprise (Diplôme d'Etudes Approfondies de l'Université Paris X / Master 2 Sciences Po Paris). Ma formation d'acteur au Conservatoire de Théâtre de Paris 7. "
+      description = "Trois cursus, trois clés de lecture : l'individu, le collectif, la relation. Une formation de 18 mois en coaching professionnel à l'Université de Paris 8 (Diplôme d'Etudes Supérieures de Coaching) et un parcours d'approfondissement en Philosophie, Histoire et Sociologie de l'entreprise (Diplôme d'Etudes Approfondies de l'Université Paris X / Master 2 Sciences Po Paris). Sans oublier ma formation d'acteur au Conservatoire de Théâtre de Paris 7. "
       icon = ""
 
     [[params.services.item]]
