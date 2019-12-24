@@ -286,34 +286,41 @@ removePathAccents = true
       title = "Témoignages"
       description = ""
 
-      [[params.testimonials.item]]
+          [[params.testimonials.item]]
         quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
         person = 'Sébastien Remond, <a href="https://cib.societegenerale.com/en/" target="_blank">Société Générale CIB</a> <span class="subtext">Directeur Investment Banking</span>'
-       
+        img = "person1.jpg"
+        alt = "Sébastien Rémond"
 
       [[params.testimonials.item]]
         quote = "&ldquo;Tristan a fait preuve d'une grande intelligence des situations dans un contexte de transformation majeure de l'entreprise.&rdquo;"
         person = 'Catherine Belotti, <span class="subtext">Directrice innovation sociale Schneider Electric</span>'
-        
+        img = "person2.jpg"
+        alt = "Catherine Belotti"
 
       [[params.testimonials.item]]
         quote = "&ldquo;J’avais besoin de reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'ont aidé à mettre au point, au fil des séances de coaching, une stratégie pour gérer ma situation de manière optimale.&rdquo;"
         person = 'Grégoire Hallé, Conservateur du Patrimoine, Musée des Beaux-Arts de Draguignan'
-        
+        img = "person3.jpg"
+        alt = "Grégoire hallé"
 
       [[params.testimonials.item]]
       quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan sur un parcours de développement managérial (...) En faisant émerger une communauté de pratiques managériales consciente da sa valeur ajoutée, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
       person = 'Stéphanie Baranger, Chief of staff to the Global Head of HR - Global Banking and Investor Solutions - Société Générale'
-      
+      img = "person4.jpg"
+      alt = "Stéphanie Baranger"
 
       [[params.testimonials.item]]
       quote = "&ldquo;Par la justesse de ses reformulations et feedbacks, Tristan a réussi à susciter chez les participants un changement de regard et l’envie d’oser. Tristan est un formateur qui sait créer un climat d'écoute, de bienveillance mais aussi de confrontation constructive.&rdquo;"
       person = 'Verbatim évaluation à chaud'
-     
+      img = "person2.jpg"
+      alt = "Verbatim1"
 
       [[params.testimonials.item]]
       quote = "&ldquo;Tristan mobilise l'energie du groupe en jouant sur une grande variété de ressorts.&rdquo;"
       person = 'Verbatim évaluation à chaud'
+      img = "person1.jpg"
+      alt = "Verbatim2"
      
 
       # Blog section
