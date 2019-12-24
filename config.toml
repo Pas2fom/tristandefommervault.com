@@ -175,7 +175,7 @@ removePathAccents = true
 
     [[params.services.item]]
       title = "Mes fondamentaux"
-      description = "Trois cursus, trois clés de lecture : l'individu, le collectif, la relation. Une formation de 18 mois en coaching professionnel à l'Université de Paris 8 (Diplôme d'Etudes Supérieures de Coaching) et un parcours d'approfondissement en Philosophie, Histoire et Sociologie de l'entreprise (Diplôme d'Etudes Approfondies de l'Université Paris X / Master 2 Sciences Po Paris). Ma formation d'acteur au Conservatoire de Théâtre de Paris 7. "
+      description = "Trois cursus, trois clés de lecture : l'individu, le collectif, la relation. Une formation de 18 mois en coaching professionnel à l'Université de Paris 8 (Diplôme d'Etudes Supérieures de Coaching) et un parcours d'approfondissement en Philosophie, Histoire et Sociologie de l'entreprise (Diplôme d'Etudes Approfondies de l'Université Paris X / Master 2 Sciences Po Paris). Sans oublier ma formation d'acteur au Conservatoire de Théâtre de Paris 7. "
       icon = ""
 
     [[params.services.item]]
