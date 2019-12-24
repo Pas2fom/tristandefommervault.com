@@ -17,7 +17,7 @@ removePathAccents = true
   email = "tdefommervault@qualia-management.com"
   # Navigation
   [params.navigation]
-    brand = "Tristan de Fommervault - Coach"
+    brand = "Tristan de Fommervault-Coach"
     home = "Accueil"
     work = "Références"
     services = "Bio"
@@ -185,7 +185,7 @@ removePathAccents = true
 
       [[params.services.item]]
       title = "Trois expériences marquantes"
-      description = "Jouer sur scène, Explorer l'entreprise comme acteur intégré (Responsable RH) et intervenant extérieur en entreprise, Ecouter le nouveau"
+      description = "Jouer sur scène, Explorer l'entreprise comme acteur intégré à l'entreprise (Responsable RH) et intervenant transhumant dans une mutliplicité d'organisations, Ecouter le nouveau"
       icon = ""
 
       [[params.services.item]]
