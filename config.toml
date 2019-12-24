@@ -171,7 +171,6 @@ removePathAccents = true
       title = "Tristan de Fommervault"
       description = "Je développe une approche de l'accompagnement des personnes et des collectifs engagés dans une histoire de transformation."
       icon = ""
-      img = "tristan.jpg"
 
 
     [[params.services.item]]
