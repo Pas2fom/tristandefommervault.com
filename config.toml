@@ -47,7 +47,7 @@ removePathAccents = true
   # Intro section
   [params.hero]
     title = ""
-    subtitle = "Commençons par éclaircir votre besoin d'être accompagné"
+    subtitle = "Commençons par éclaircir le besoin d'être accompagné"
 
   # Available icons: http://simplelineicons.com/
   [params.intro]
@@ -169,28 +169,28 @@ removePathAccents = true
     [[params.services.item]]
       title = "En bref, je ..."
       description = "Je développe une approche de l'accompagnement des personnes et des collectifs engagés dans une histoire de transformation."
-      icon =
+      icon = ""
 
 
     [[params.services.item]]
       title = "Mes fondamentaux"
       description = "Trois cursus, trois clés de lecture : l'individu, le collectif, la relation. Une formation de 18 mois en coaching professionnel à l'Université de Paris 8 (Diplôme d'Etudes Supérieures de Coaching) et un parcours d'approfondissement en Philosophie, Histoire et Sociologie de l'entreprise (Diplôme d'Etudes Approfondies de l'Université Paris X / Master 2 Sciences Po Paris). Ma formation d'acteur au Conservatoire de Théâtre de Paris 7. "
-      icon =
+      icon = ""
 
     [[params.services.item]]
       title = "Les modèles et outils que je mobilise"
       description = "J'intègre dans mes accompagnements : l'approche systémique, l'Analyse Transactionnelle, la Process Communication Model Coaching, les techniques du coaching cognitif et comportemental, les mises en situation"
-      icon =
+      icon = ""
 
       [[params.services.item]]
       title = "Trois expériences marquantes"
       description = "Jouer sur scène, Explorer l'entreprise comme acteur intégré (Responsable RH) et intervenant extérieur en entreprise, Ecouter le nouveau"
-      icon =
+      icon = ""
 
       [[params.services.item]]
       title = "Trois qualités"
       description = "Qualité d'écoute et de présence, enthousiasme, met en situation avec justesse pour rendre acteur"
-      icon =
+      icon = ""
 
       # About section
     [params.about]
