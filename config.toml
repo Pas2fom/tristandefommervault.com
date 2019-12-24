@@ -20,10 +20,11 @@ removePathAccents = true
     brand = "Tristan de Fommervault - Coach"
     home = "Accueil"
     work = "Références"
+    services = "Bio"
     testimonials = "Témoignages"
-    services = "Services"
-    about = "À propos"
     contact = "Contact"
+    about = "À propos"
+    
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
