@@ -47,7 +47,7 @@ removePathAccents = true
   # Intro section
   [params.hero]
     title = ""
-    subtitle = "Commençons par éclaircir le besoin d'être accompagné"
+    subtitle = "Commençons par éclaircir votre besoin d'être accompagné"
 
   # Available icons: http://simplelineicons.com/
   [params.intro]
@@ -163,13 +163,14 @@ removePathAccents = true
   # Services section
   [params.services]
     enable = true
-    title = "Bio du coach - Tristan de Fommervault"
+    title = "Bio du coach"
     description = ""
 
     [[params.services.item]]
-      title = "En bref, je ..."
+      title = "Tristan de Fommervault"
       description = "Je développe une approche de l'accompagnement des personnes et des collectifs engagés dans une histoire de transformation."
       icon = ""
+      img = "tristan.jpg"
 
 
     [[params.services.item]]
