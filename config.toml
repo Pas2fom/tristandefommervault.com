@@ -44,6 +44,9 @@ removePathAccents = true
       name = "Formations"
       weight = 20
 
+[params.navigation]
+testimonials = "Témoignages"
+
   # Intro section
   [params.hero]
     title = ""
