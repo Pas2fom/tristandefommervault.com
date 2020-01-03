@@ -13,14 +13,14 @@ removePathAccents = true
 
   # Meta
   author = "Tristan de Fommervault"
-  description = "Coaching professionnel,mentoring,codéveloppement,process communication,approche systémique,analyse transactionnelle,communication non violente, intelligence émotionnelle, psychologie de la motivation, gestion du stress,prise de décision,régulation des conflits, médiation en entreprise, prévention des risques psychosociaux"
+  description = "Coaching professionnel,mentoring,codéveloppement,process communication coaching,approche systémique,analyse transactionnelle,communication non violente, intelligence émotionnelle, psychologie de la motivation, gestion du stress,prise de décision,régulation des conflits, médiation en entreprise, prévention des risques psychosociaux"
   email = "tdefommervault@qualia-management.com"
   # Navigation
   [params.navigation]
     brand = "Tristan de Fommervault-Coach"
     home = "Accueil"
-    work = "Références"
     services = "Bio"
+    work = "Références"
     testimonials = "Témoignages"
     contact = "Contact"
     about = "À propos"
@@ -36,6 +36,7 @@ removePathAccents = true
     #  weight = 10
 
     # postpended links
+    
     [[menu.postpend]]
       url = "/articles"
       name = "Articles"
@@ -333,7 +334,7 @@ removePathAccents = true
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Tristan de Fommervault. Tous droits réservés.'
+    copyright = '&copy; Tristan de Fommervault. &copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>Tous droits réservés.'
     links = [
         ["icon-facebook", "https://www.facebook.com/tristandefommervault"],
         ["icon-linkedin", "https://fr.linkedin.com/in/tristandefommervault/fr"]
