@@ -21,7 +21,6 @@ removePathAccents = true
     home = "Accueil"
     services = "Bio"
     contact = "Contact"
-    testimonials = "Témoignages"
     
 
     # You can add custom links before or after the default links
