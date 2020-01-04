@@ -181,6 +181,11 @@ removePathAccents = true
       description = "J'intègre dans mes accompagnements : l'approche systémique, l'Analyse Transactionnelle, la Process Communication Model Coaching, les techniques du coaching cognitif et comportemental, les mises en situation"
       icon = ""
 
+     [[params.services.item]]
+     title = "Le coaching selon Tristan"
+     description = "Le coaching est pour moi un processus d'apprentissage du changement dans lequel les individus deviennent conteurs et acteurs de leur expérience vécue"
+     icon = ""
+     
       [[params.services.item]]
       title = "Trois expériences marquantes"
       description = "Jouer sur scène, Explorer l'entreprise comme acteur intégré à l'entreprise (Responsable RH) et intervenant transhumant dans une mutliplicité d'organisations, Ecouter le nouveau"
