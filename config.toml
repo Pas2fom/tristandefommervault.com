@@ -178,22 +178,22 @@ removePathAccents = true
 
     [[params.services.item]]
       title = "Les modèles et outils que je mobilise"
-      description = "J'intègre dans mes accompagnements : l'approche systémique, l'Analyse Transactionnelle, la Process Communication Model Coaching, les techniques du coaching cognitif et comportemental, les mises en situation"
+      description = "J'intègre dans mes accompagnements : l'approche systémique, l'Analyse Transactionnelle, la Process Communication Model Coaching, les techniques du coaching cognitif et comportemental, les mises en situation."
       icon = ""
 
      [[params.services.item]]
      title = "Le coaching selon Tristan"
-     description = "Le coaching est pour moi un processus d'apprentissage du changement dans lequel les individus deviennent conteurs et acteurs de leur expérience vécue"
+     description = "Le coaching est pour moi un processus d'apprentissage du changement dans lequel les individus deviennent conteurs et acteurs de leur expérience vécue."
      icon = ""
      
       [[params.services.item]]
       title = "Trois expériences marquantes"
-      description = "Jouer sur scène, Explorer l'entreprise comme acteur intégré à l'entreprise (Responsable RH) et intervenant transhumant dans une mutliplicité d'organisations, Ecouter le nouveau"
+      description = "Jouer sur scène, Explorer l'entreprise comme acteur intégré à l'entreprise (Responsable RH) et intervenant transhumant dans une mutliplicité d'organisations, Ecouter le nouveau."
       icon = ""
 
       [[params.services.item]]
       title = "Trois qualités"
-      description = "Qualité d'écoute et de présence, enthousiasme, met en situation avec justesse pour rendre acteur"
+      description = "Qualité d'écoute et de présence, enthousiasme, met en situation avec justesse pour rendre acteur."
       icon = ""
 
       # About section
