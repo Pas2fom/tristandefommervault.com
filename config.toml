@@ -167,7 +167,7 @@ removePathAccents = true
 
     [[params.services.item]]
       title = "Tristan de Fommervault"
-      description = "Coach formateur certifié, j'accompagne depuis 15 ans des personnes engagées dans une histoire de transformation profesionnelle et personnelle. Dans une première partie de carrière, j'ai exercé différents rôles dans la fonction Ressources Humaines au sein d'entreprises dans lesquelles j'ai eu l'opportunité de développer une pratique des relations humaines sous haute tension culturelle. Enrichi de cette expérience, j'ai ensuite pris le virage entrepreneurial. Je développe depuis 10 ans des activités de conseil, coaching et formation au sein d'environnements clients très variés en lien avec un réseau de partenaires animés par une commune philosophie du métier."   
+      description = "Coach formateur certifié, j'accompagne depuis 15 ans des personnes engagées dans une histoire de transformation profesionnelle et personnelle. Dans une première partie de carrière, j'ai exercé différents rôles dans la fonction Ressources Humaines dans des entreprises qui m'ont donné l'occasion de développer une première approche des cultures de travail sous tension et de leurs incidences sur les individus. Enrichi par ces histoires de tranformation, après un virage entrepreneurial, je développe depuis 10 ans des activités de conseil, coaching et formation au sein d'environnements clients très variés en lien avec un réseau de partenaires animés par une commune philosophie du métier."   
       icon = ""
 
     [[params.services.item]]
