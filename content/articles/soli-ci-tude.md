@@ -1,11 +1,11 @@
 ---
-date: 2020-03-31T21:00:00+02:00
+date: 2020-03-31T19:00:00+02:00
 title: 'Soli[ci]tude '
 description: Comment passer de l’éloignement contraint à la distanciation créatrice,
   de la solitude passive à la solitude créatrice ?
 images:
 - "/uploads/Image.png"
-categories: ''
+categories: event
 draft: true
 
 ---
