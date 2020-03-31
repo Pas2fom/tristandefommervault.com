@@ -8,7 +8,9 @@ images:
 categories: ''
 
 ---
-Comment passer de l’éloignement contraint à la distanciation créatrice ? Qu’est-ce qui distingue la solitude créatrice, joyeuse, de l’esseulement, voire de la désolation ?
+##### Comment passer de l’éloignement contraint à la distanciation créatrice ? 
+
+##### Qu’est-ce qui distingue la solitude créatrice, joyeuse, de l’esseulement, voire de la désolation ?
 
 15 ème jour. Je tombe sur ce texte d’Hannah Arendt qui m’aide à mettre des mots sur un état émotionnel confus, qui m’aide à distinguer solitude contrainte et solitude créatrice. La première  tend vers l'isolement ou l’esseulement, la seconde correspond à un désir, une intention, donc potentiellement porteuse d’une dimension créatrice.
 
