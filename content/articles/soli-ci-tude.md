@@ -6,7 +6,6 @@ description: Comment passer de l’éloignement contraint à la distanciation cr
 images:
 - "/uploads/Image.png"
 categories: event
-draft: true
 
 ---
 ##### Comment passer de l’éloignement contraint à la distanciation créatrice ? 
