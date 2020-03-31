@@ -6,7 +6,6 @@ description: Comment passer de l’éloignement contraint à la distanciation cr
 images:
 - "/uploads/Image.png"
 categories: ''
-draft: true
 
 ---
 Comment passer de l’éloignement contraint à la distanciation créatrice ? Qu’est-ce qui distingue la solitude créatrice, joyeuse, de l’esseulement, voire de la désolation ?
