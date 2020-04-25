@@ -4,6 +4,17 @@
 
 Site développé avec [Hugo](https://gohugo.io) sur la base du thème [Elate](https://github.com/saey55/hugo-elate-theme).
 
+## Gestion de contenu
+
+Le dépôt est synchronisé avec [Forestry.io](https://app.forestry.io], qui permet d'éditer les fichiers Markdown, YAML et TOML dans une interface utilisateur épurée.
+
+Il est possible d'importer plusieurs branches dans Forestry.
+Chaque changement est enregistré dans le dépot GitHub. 
+
+Forestry est pratique pour faire des mises à jour de contenu, créer de nouveaux articles, éditer le fichier de configuration, prévisualiser les changements avant de les enregistrer.
+
+![Forestry.io](static/images/docs/forestry.png)
+
 ## Pré-requis
 
 - [Brew](https://brew.sh)
