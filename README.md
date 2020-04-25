@@ -6,7 +6,7 @@ Site développé avec [Hugo](https://gohugo.io) sur la base du thème [Elate](ht
 
 ## Gestion de contenu
 
-Le dépôt est synchronisé avec [Forestry.io](https://app.forestry.io], qui permet d'éditer les fichiers Markdown, YAML et TOML dans une interface utilisateur épurée.
+Le dépôt est synchronisé avec [Forestry.io](https://app.forestry.io), qui permet d'éditer les fichiers Markdown, YAML et TOML dans une interface utilisateur épurée.
 
 Il est possible d'importer plusieurs branches dans Forestry.
 Chaque changement est enregistré dans le dépot GitHub. 
