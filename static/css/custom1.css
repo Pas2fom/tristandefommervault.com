@@ -1,11 +1,37 @@
 @media screen and (max-width: 768px) {
   #fh5co-header .navbar-brand {
-  font-size: 1.2em;
+    font-size: 1.2em;
   }
 }
 
+.fh5co-person {
+  border: 2px solid #f2f2f2;
+  padding: 100px 30px 30px 30px;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.fh5co-person figure {
+  position: absolute;
+  margin-top: -80px;
+  top: 0;
+  left: 50%;
+  margin-left: -80px;
+  display: block;
+  margin-bottom: 50px;
+}
+.fh5co-person figure img {
+  width: 160px;
+  border: 2px solid #f2f2f2;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
 .articles #fh5co-home,
-.articles #fh5co-home .text-wrap ,
+.articles #fh5co-home .text-wrap,
 .formations #fh5co-home,
 .formations #fh5co-home .text-wrap {
   height: 500px;
@@ -35,12 +61,12 @@
 }
 
 .article--card h3 {
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 .articles .section-heading,
-.formations .section-heading  {
-  margin:0 auto -4em;
+.formations .section-heading {
+  margin: 0 auto -4em;
   padding: 0;
 }
 
