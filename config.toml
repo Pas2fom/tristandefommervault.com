@@ -21,7 +21,7 @@ removePathAccents = true
     home = "Accueil"
     services = "Bio"
     contact = "Contact"
-    
+
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -33,7 +33,7 @@ removePathAccents = true
     #  weight = 10
 
     # postpended links
-    
+
     [[menu.postpend]]
       url = "/articles"
       name = "Articles"
@@ -167,14 +167,14 @@ removePathAccents = true
 
     [[params.services.item]]
       title = "Tristan de Fommervault"
-      description = "Coach formateur certifié, j'accompagne depuis 15 ans des personnes engagées dans une histoire de transformation profesionnelle et personnelle. Dans une première partie de carrière, j'ai exercé différents rôles dans la fonction Ressources Humaines dans des entreprises qui m'ont donné l'occasion de développer une première approche des cultures de travail sous tension et de leurs incidences sur les individus. Enrichi par ces histoires de tranformation, après un virage entrepreneurial, je développe depuis 10 ans des activités de conseil, coaching et formation au sein d'environnements clients très variés en lien avec un réseau de partenaires animés par une commune philosophie du métier."   
+      description = "Coach formateur certifié, j'accompagne depuis 15 ans des personnes engagées dans une histoire de transformation profesionnelle et personnelle. Dans une première partie de carrière, j'ai exercé différents rôles dans la fonction Ressources Humaines dans des entreprises qui m'ont donné l'occasion de développer une première approche des cultures de travail sous tension et de leurs incidences sur les individus. Enrichi par ces histoires de tranformation, après un virage entrepreneurial, je développe depuis 10 ans des activités de conseil, coaching et formation au sein d'environnements clients très variés en lien avec un réseau de partenaires animés par une commune philosophie du métier."
       icon = ""
 
     [[params.services.item]]
       title = "Mes fondamentaux"
       description = "Trois cursus, trois clés de lecture : l'individu, le collectif, la relation. Une formation de 18 mois en coaching professionnel à l'Université de Paris 8 (Diplôme d'Etudes Supérieures de Coaching) et un parcours d'approfondissement en Philosophie, Histoire et Sociologie de l'entreprise (Diplôme d'Etudes Approfondies de l'Université Paris X / Master 2 Sciences Po Paris). Sans oublier ma formation d'acteur au Conservatoire de Théâtre de Paris 7. "
       icon = ""
-      
+
     [[params.services.item]]
       title = "Les modèles et outils que je mobilise"
       description = "J'intègre dans mes accompagnements : l'approche systémique, l'Analyse Transactionnelle, la Process Communication Model Coaching, les techniques du coaching cognitif et comportemental, les mises en situation."
@@ -184,7 +184,7 @@ removePathAccents = true
      title = "Le coaching selon Tristan"
      description = "Le coaching est pour moi un processus d'apprentissage du changement dans lequel les individus deviennent conteurs et acteurs de leur expérience vécue."
      icon = ""
-     
+
       [[params.services.item]]
       title = "Trois expériences marquantes"
       description = "Jouer sur scène, Explorer l'entreprise comme acteur intégré à l'entreprise (Responsable RH) et intervenant transhumant dans une mutliplicité d'organisations, Ecouter le nouveau."
@@ -323,7 +323,7 @@ removePathAccents = true
       person = 'Verbatim évaluation à chaud'
       img = "person1.jpg"
       alt = "Verbatim2"
-     
+
 
       # Blog section
   [params.articles]
@@ -335,7 +335,7 @@ removePathAccents = true
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Tristan de Fommervault. &copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>Tous droits réservés.'
+    copyright = '&copy; Tristan de Fommervault, Formateur, Coach. Tous droits réservés.'
     links = [
         ["icon-facebook", "https://www.facebook.com/tristandefommervault"],
         ["icon-linkedin", "https://fr.linkedin.com/in/tristandefommervault/fr"]
