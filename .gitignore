@@ -1,1 +1,5 @@
+# Hugo
 public/
+
+# macOS
+.DS_Store
