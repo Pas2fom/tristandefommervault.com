@@ -19,7 +19,25 @@ fields:
   label: Description
   description: 'Court descriptif optimisé pour les recherches '
   config:
-    required: true
+    required: false
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Leadership
+    - Management d’équipe
+    - Management transversal
+    - Communication interpersonnelle
+    - Développement des qualités humaines et des compétences relationnelles
+    - Réussir une transition professionnelle
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Catégorie
 - type: image_gallery
   name: images
   label: Photo
@@ -40,7 +58,7 @@ fields:
   name: targetAudience
   label: Public visé
   config:
-    required: true
+    required: false
   description: Quel est le type de public visé pour cette formation ?
 - type: field_group
   name: goals
@@ -51,7 +69,7 @@ fields:
     label: Objectif principal
     name: main
     config:
-      required: true
+      required: false
   - type: text
     name: secondary
     label: Objectif secondaire
