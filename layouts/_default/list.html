@@ -26,7 +26,7 @@
   <section class="{{ .Section}}--list">
     <div class="container">
       <div class="row">
-        {{ range first 10 (where .Pages "Section" .Section) }}
+        {{ range first 25 (where .Pages "Section" .Section) }}
         {{ $link := .Permalink }}
         <div class="col-md-6 text-inner article--card to-animate fadeInUpBig animated">
           {{ with .Params.images }}

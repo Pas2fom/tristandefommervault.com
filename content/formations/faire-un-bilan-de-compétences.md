@@ -5,5 +5,5 @@ title: Faire un bilan de compétences
 description: ''
 goals: ''
 draft: true
-
+weight: 30
 ---

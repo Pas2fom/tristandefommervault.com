@@ -5,5 +5,5 @@ description: "Comprendre les rouages de la prise de décision pour s’exercer �
   des décisions dans des situations complexes"
 goals: ''
 draft: true
-
+weight: 10
 ---

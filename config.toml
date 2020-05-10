@@ -6,6 +6,7 @@ theme = "elate"
 footnoteReturnLinkContents = "↩"
 metaDataFormat = "yaml"
 removePathAccents = true
+pluralizeListTitles= false
 
 [params]
 # Custom styles
@@ -17,31 +18,30 @@ description = "Coaching professionnel,mentoring,codéveloppement,process communi
 email = "tdefommervault@qualia-management.com"
 # Navigation
 [params.navigation]
-brand = "Tristan de Fommervault-Coach"
+brand = "Tristan de Fommervault"
+
 home = "Accueil"
-services = "Bio"
+about= "À propos"
 contact = "Contact"
 
-
-# You can add custom links before or after the default links
-# Assign a weight to define the order
-
 # prepended links
-#[[menu.prepend]]
-#  url = "http://gohugo.io"
-#  name = "Hugo"
-#  weight = 10
+
+[[menu.prepend]]
+url = "/coaching"
+name = "Coaching"
+weight = 20
+
+[[menu.prepend]]
+url = "/formations"
+name = "Formations"
+weight = 20
 
 # postpended links
 
 [[menu.postpend]]
 url = "/articles"
 name = "Articles"
-weight = 10
-[[menu.postpend]]
-url = "/formations"
-name = "Formations"
-weight = 20
+weight = 30
 
 # Intro section
 [params.hero]
@@ -160,7 +160,7 @@ subtitle = "Design"
 # Services section
 [params.services]
 enable = true
-title = "Bio du coach"
+title = "Qui suis-je ?"
 description = ""
 
 [[params.services.item]]

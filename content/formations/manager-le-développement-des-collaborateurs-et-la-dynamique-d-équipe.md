@@ -4,5 +4,5 @@ description: ''
 goals:
 category: Leadership
 draft: true
-
+weight: 10
 ---

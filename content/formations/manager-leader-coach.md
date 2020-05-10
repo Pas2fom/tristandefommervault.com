@@ -5,5 +5,5 @@ description: "S’entraîner à intégrer ces trois postures pour concilier atte
   objectifs, maturité de l’équipe et développement des coéquipiers."
 goals: ''
 draft: true
-
+weight: 15
 ---
