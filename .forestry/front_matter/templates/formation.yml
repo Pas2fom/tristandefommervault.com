@@ -66,6 +66,8 @@ fields:
   description: Date de publication sur le site
   config:
     date_format: DD/MM/YYYY
+  hidden: true
+  default: now
 - type: datetime
   name: dateStart
   label: Date de début
