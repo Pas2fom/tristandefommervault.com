@@ -25,11 +25,9 @@ sections:
 - type: document
   path: content/formations/_index.md
   label: Formations
-  match: "**/*"
 - type: document
   path: content/coaching/index.md
   label: Coaching
-  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
