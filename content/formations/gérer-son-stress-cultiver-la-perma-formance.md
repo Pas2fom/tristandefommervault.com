@@ -12,7 +12,7 @@ price:
 duration: 
 dateStart: 
 dateEnd: 
-contact: ''
+contact: tdefommervault@qualia-management.com
 trainers: []
 category: Leadership
 draft: true
