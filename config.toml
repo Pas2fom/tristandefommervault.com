@@ -26,10 +26,10 @@ contact = "Contact"
 
 # prepended links
 
-[[menu.prepend]]
-url = "/coaching"
-name = "Coaching"
-weight = 20
+# [[menu.prepend]]
+# url = "/coaching"
+# name = "Coaching"
+# weight = 20
 
 [[menu.prepend]]
 url = "/formations"
