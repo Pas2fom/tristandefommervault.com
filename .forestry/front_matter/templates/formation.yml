@@ -46,7 +46,6 @@ fields:
 - type: image_gallery
   name: images
   label: Photo
-  description: Illustration de la formation
 - type: number
   name: price
   label: Prix
