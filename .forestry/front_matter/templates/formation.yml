@@ -43,10 +43,6 @@ fields:
       file: 
       path: 
   label: Catégorie
-- type: number
-  name: price
-  label: Prix
-  description: Prix de la formation inter-entreprises (en EUR)
 - type: select
   name: contact
   config:
