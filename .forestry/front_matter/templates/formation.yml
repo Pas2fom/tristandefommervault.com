@@ -55,10 +55,11 @@ fields:
   description: Nombres total de jours de formation (en chiffre)
   config:
     min: '1'
-    max: '30'
+    max: 3
     step: '1'
   label: Durée
   name: duration
+  default: 1
 - type: datetime
   name: date
   label: Date
