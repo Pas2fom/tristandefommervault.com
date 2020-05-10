@@ -1,20 +1,8 @@
 ---
-category: ''
-trainingType: Intra
-contact: tdefommervault@qualia-management.com
+category: 'Leadership'
 title: Développer son leadership pour conduire équipes et projets vers le succès
-date: 
 description: ''
-images: []
-targetAudience: ''
-goals:
-  main: ''
-  secondary: ''
-price: 
-duration: 
-dateStart: 
-dateEnd: 
-trainers: []
+goals: ''
 draft: true
 
 ---
