@@ -43,9 +43,6 @@ fields:
       file: 
       path: 
   label: Catégorie
-- type: image_gallery
-  name: images
-  label: Photo
 - type: number
   name: price
   label: Prix
