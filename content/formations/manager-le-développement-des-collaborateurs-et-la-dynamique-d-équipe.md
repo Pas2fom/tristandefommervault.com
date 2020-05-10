@@ -2,11 +2,11 @@
 trainingType: Intra
 title: Manager le développement des collaborateurs et la dynamique d’équipe
 date: 
-description: "(à renseigner)"
+description: ''
 images: []
-targetAudience: "(à renseigner)"
+targetAudience: ''
 goals:
-  main: "(à renseigner)"
+  main: ''
   secondary: ''
 price: 
 duration: 
@@ -14,6 +14,7 @@ dateStart:
 dateEnd: 
 contact: tdefommervault@qualia-management.com
 trainers: []
+category: Leadership
 draft: true
 
 ---
