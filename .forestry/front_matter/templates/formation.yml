@@ -51,35 +51,6 @@ fields:
   name: price
   label: Prix
   description: Prix de la formation inter-entreprises (en EUR)
-- type: number
-  description: Nombres total de jours de formation (en chiffre)
-  config:
-    min: '1'
-    max: 3
-    step: '1'
-  label: Durée
-  name: duration
-  default: 1
-- type: datetime
-  name: date
-  label: Date
-  description: Date de publication sur le site
-  config:
-    date_format: DD/MM/YYYY
-  hidden: true
-  default: now
-- type: datetime
-  name: dateStart
-  label: Date de début
-  description: Début de la formation
-  config:
-    date_format: DD/MM/YYYY
-- type: datetime
-  name: dateEnd
-  label: Date de fin
-  description: Fin de la formation
-  config:
-    date_format: DD/MM/YYYY
 - type: select
   name: contact
   config:
