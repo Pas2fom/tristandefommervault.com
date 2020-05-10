@@ -42,16 +42,6 @@ fields:
   name: images
   label: Photo
   description: Illustration de la formation
-- type: field_group
-  name: goals
-  label: Objectifs
-  description: Objectifs de la formation
-  fields:
-  - type: text
-    label: Objectif principal
-    name: main
-    config:
-      required: false
 - type: number
   name: price
   label: Prix
@@ -101,6 +91,15 @@ fields:
     label: Formateur
   config:
     labelField: trainer
+- name: goals
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Objectifs
 pages:
 - content/formations/apprendre-à-s-affirmer-en-groupe.md
 - content/formations/comprendre-et-mobiliser-le-langage-des-émotions.md
