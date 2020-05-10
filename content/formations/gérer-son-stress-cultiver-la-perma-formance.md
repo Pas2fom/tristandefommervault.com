@@ -2,11 +2,11 @@
 trainingType: Intra
 title: 'Gérer son stress : Cultiver la perma-formance'
 date: 
-description: "(à renseigner)"
+description: ''
 images: []
-targetAudience: "(à renseigner)"
+targetAudience: ''
 goals:
-  main: "(à renseigner)"
+  main: ''
   secondary: ''
 price: 
 duration: 
@@ -14,6 +14,7 @@ dateStart:
 dateEnd: 
 contact: ''
 trainers: []
+category: Leadership
 draft: true
 
 ---
