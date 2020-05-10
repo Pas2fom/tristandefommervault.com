@@ -119,6 +119,8 @@ fields:
         section: articles
       required: true
     label: Formateur
+  config:
+    labelField: trainer
 pages:
 - content/formations/apprendre-à-s-affirmer-en-groupe.md
 - content/formations/comprendre-et-mobiliser-le-langage-des-émotions.md
