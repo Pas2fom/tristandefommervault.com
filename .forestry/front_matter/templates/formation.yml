@@ -43,17 +43,6 @@ fields:
       file: 
       path: 
   label: Catégorie
-- type: select
-  name: contact
-  config:
-    source:
-      type: simple
-    required: false
-    options:
-    - tdefommervault@qualia-management.com
-  label: Contact
-  description: Email du référent formation (reception des demandes de devis)
-  default: tdefommervault@qualia-management.com
 pages:
 - content/formations/apprendre-à-s-affirmer-en-groupe.md
 - content/formations/atelier-co-développement.md
