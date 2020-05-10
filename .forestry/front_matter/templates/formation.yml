@@ -54,12 +54,6 @@ fields:
   label: Type de formation
   description: Le type de la formation
   default: Intra
-- type: text
-  name: targetAudience
-  label: Public visé
-  config:
-    required: false
-  description: Quel est le type de public visé pour cette formation ?
 - type: field_group
   name: goals
   label: Objectifs
@@ -70,9 +64,6 @@ fields:
     name: main
     config:
       required: false
-  - type: text
-    name: secondary
-    label: Objectif secondaire
 - type: number
   name: price
   label: Prix
