@@ -101,3 +101,5 @@ fields:
         section: articles
       required: true
     label: Formateur
+pages:
+- content/formations/apprendre-à-s-affirmer-en-groupe.md
