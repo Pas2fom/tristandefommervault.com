@@ -4,9 +4,9 @@ title: Comprendre et mobiliser le langage des émotions
 date: 
 description: "(à renseigner)"
 images: []
-targetAudience: "(à renseigner)"
+targetAudience: ''
 goals:
-  main: "(à renseigner)"
+  main: ''
   secondary: ''
 price: 
 duration: 
