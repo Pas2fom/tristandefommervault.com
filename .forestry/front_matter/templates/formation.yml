@@ -8,18 +8,21 @@ fields:
   description: Intitulé de la formation
   config:
     required: true
-- type: datetime
-  name: date
-  label: Date
-  description: Date de publication sur le site
-  config:
-    date_format: DD/MM/YYYY
 - type: text
   name: description
   label: Description
   description: 'Court descriptif optimisé pour les recherches '
   config:
     required: false
+- name: goals
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Objectifs
 - name: category
   type: select
   default: []
@@ -54,6 +57,12 @@ fields:
     step: '1'
   label: Durée
   name: duration
+- type: datetime
+  name: date
+  label: Date
+  description: Date de publication sur le site
+  config:
+    date_format: DD/MM/YYYY
 - type: datetime
   name: dateStart
   label: Date de début
@@ -91,15 +100,6 @@ fields:
     label: Formateur
   config:
     labelField: trainer
-- name: goals
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Objectifs
 pages:
 - content/formations/apprendre-à-s-affirmer-en-groupe.md
 - content/formations/comprendre-et-mobiliser-le-langage-des-émotions.md
