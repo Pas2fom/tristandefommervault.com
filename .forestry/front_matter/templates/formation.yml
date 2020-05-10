@@ -42,18 +42,6 @@ fields:
   name: images
   label: Photo
   description: Illustration de la formation
-- type: select
-  name: trainingType
-  config:
-    source:
-      type: simple
-    options:
-    - Intra
-    - Inter
-    required: true
-  label: Type de formation
-  description: Le type de la formation
-  default: Intra
 - type: field_group
   name: goals
   label: Objectifs
