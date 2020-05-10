@@ -2,7 +2,7 @@
 trainingType: Intra
 title: Comprendre et mobiliser le langage des émotions
 date: 
-description: "(à renseigner)"
+description: ''
 images: []
 targetAudience: ''
 goals:
