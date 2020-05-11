@@ -44,6 +44,7 @@ fields:
       path: 
   label: Catégorie
 pages:
+- content/formations/accompagnement-du-changement-et-des-transformations-1.md
 - content/formations/accompagnement-du-changement-et-des-transformations.md
 - content/formations/animer-son-équipe-avec-efficacité.md
 - content/formations/apprendre-à-s-affirmer-en-groupe.md
