@@ -37,6 +37,7 @@ fields:
     - Réussir une transition professionnelle
     - Ateliers
     - Bilan de compétences
+    - Consultation
     source:
       type: simple
       section: 
