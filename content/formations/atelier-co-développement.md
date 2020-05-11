@@ -1,14 +1,13 @@
 ---
-category: 'Ateliers'
+category: Ateliers
 title: Atelier co-développement
 description: ''
-goals: 'Echanger sur sa pratique et ses expériences, Apprendre et s’enrichir des expériences et feed-backs de pairs (applicable aux thèmes de formation préalablement mentionnés)'
+goals: Echanger sur sa pratique et ses expériences, Apprendre et s’enrichir des expériences
+  et feed-backs de pairs (applicable aux thèmes de formation préalablement mentionnés)
 images: []
-draft: true
 weight: 20
+
 ---
-
-
 Déroulement d’une session :
 
 * Présentation d'une situation apportée par un des participants
