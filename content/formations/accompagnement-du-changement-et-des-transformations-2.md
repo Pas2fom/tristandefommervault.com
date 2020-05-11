@@ -1,8 +1,8 @@
 ---
-category: Management d’équipe
-title: Accompagnement du changement et des transformations
-description: Comprendre les réactions et les étapes du changement pour l’appréhender
-  et accompagner les équipes plus sereinement
+category: Développement des qualités humaines et des compétences relationnelles
+title: 'Prévenir et gérer le stress '
+description: 'Identifier les déclencheurs de stress et se préparer à y faire face
+  en puisant dans ses ressources émotionnelles, mentales et corporelles. '
 goals: ''
 weight: 15
 draft: true
