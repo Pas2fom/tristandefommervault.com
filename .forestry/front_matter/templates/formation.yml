@@ -25,7 +25,7 @@ fields:
     required: false
 - name: category
   type: select
-  default: []
+  default: ''
   config:
     required: false
     options:
