@@ -11,7 +11,7 @@ goals: |-
 
   \- La structuration du temps : 30 minutes entretien + 15 minutes débriefing
 
-  **- Protocole d’une consultation :**
+  **- Déroulement de la consultation :**
 
   \- **Ecouter** et clarifier la demande
 
@@ -19,7 +19,7 @@ goals: |-
 
   \- **Agir** et élaborer une première piste possible
 description: ''
-category: ''
+category: Consultation
 draft: true
 
 ---
