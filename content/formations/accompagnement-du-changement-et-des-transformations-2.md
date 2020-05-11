@@ -12,9 +12,6 @@ weight: 15
 * Évaluer son stress sur le plan physique, émotionnel, comportemental 
 * Transformer son stress en énergie positive
 * Acquérir des techniques de relaxation physiques et mentales
-* Modifier ses habitudes émotionnelles et ses automatismes
-
-de pensée
-
+* Modifier ses habitudes émotionnelles et ses automatismes de pensée
 * Diversifier ses stratégies pour faire face aux contraintes (Coping)
 * Agir sur son environnement physique et professionnel
