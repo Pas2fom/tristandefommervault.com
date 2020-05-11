@@ -5,6 +5,5 @@ goals: ''
 description: Clarifier ses priorités et organiser la délégation, limiter l’impact
   des dérangements et structurer le temps en réunion, faire de la procrastination
   un levier
-draft: true
 
 ---
