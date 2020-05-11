@@ -1,5 +1,6 @@
 ---
 title: Formations
-description: Notre catalogue de formations inter et intra entreprise.
+description: Notre catalogue de formations
 permalink: formations
+
 ---
