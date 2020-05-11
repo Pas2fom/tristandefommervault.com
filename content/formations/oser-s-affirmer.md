@@ -3,6 +3,5 @@ category: Développement des qualités humaines et des compétences relationnell
 title: Oser s’affirmer
 goals: ''
 description: Oser exprimer nos priorités dans le respect de ses interlocuteurs
-draft: true
 
 ---
