@@ -10,7 +10,7 @@ category: Leadership
 weight: 10
 
 ---
-Les récentes recherches sur le cerveau émotionnel révèlent des axes de développement et apportent des réponses pratiques pour cultiver un leadership multi-dimensionnel.
+Les récentes recherches en neurosciences sur le cerveau émotionnel révèlent des axes de développement et apportent des réponses pratiques pour cultiver un leadership incarné et multi-dimensionnel.
 
 1. Prendre conscience des ses émotions
 2. Comprendre le processus émotionnelle 
