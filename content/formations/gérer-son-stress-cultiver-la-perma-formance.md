@@ -4,6 +4,5 @@ description: Transformer son stress en énergie d'action dans le respect de son 
 goals: ''
 category: Développement des qualités humaines et des compétences relationnelles
 weight: 10
-draft: true
 
 ---
