@@ -1,8 +1,8 @@
 ---
 category: Réussir une transition professionnelle
-title: 'Construire son projet professionnel '
+title: Réussir sa prise de poste
 goals: ''
-description: Identifier ses talents pour construire un projet professionnel adapté
+description: Assumer une nouvelle fonction en adoptant la posture adéquate
 draft: true
 
 ---
