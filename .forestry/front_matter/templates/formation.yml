@@ -8,12 +8,6 @@ fields:
   description: Intitulé de la formation
   config:
     required: true
-- type: text
-  name: description
-  label: Description
-  description: 'Court descriptif optimisé pour les recherches '
-  config:
-    required: false
 - name: goals
   type: textarea
   default: ''
@@ -23,6 +17,12 @@ fields:
     schema:
       format: markdown
   label: Objectifs
+- type: text
+  name: description
+  label: Description
+  description: 'Court descriptif optimisé pour les recherches '
+  config:
+    required: false
 - name: category
   type: select
   default: []
