@@ -20,6 +20,5 @@ goals: |-
   \- **Agir** et élaborer une première piste possible
 description: ''
 category: Consultation
-draft: true
 
 ---
