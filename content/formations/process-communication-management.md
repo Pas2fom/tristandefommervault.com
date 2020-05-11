@@ -1,8 +1,12 @@
 ---
 category: Management transversal
-title: Process communication management
-description: Manager efficacement en transversal avec la Process communication management
+title: Manager en transversal avec la Process communication
+description: ''
 goals: ''
 weight: 15
 
 ---
+*  Optimiser la coopération au sein de son projet
+* Gagner en efficacité en adaptant sa communication aux 6 types de personnalité.
+* Transmettre l’information et la communiquer efficacement pour les 6 types de personnalité.
+* Renforcer la motivation de vos contributeurs pour les faire adhérer à votre projet et leur inspirer le désir de s'engager davantage.
