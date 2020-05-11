@@ -5,6 +5,5 @@ goals: ''
 description: Prendre confiance dans ses capacités et oser s’accepter, comprendre le
   fonctionnement de l’estime de soi et acquérir des routines permettant de la développer
   et de la cultiver
-draft: true
 
 ---
