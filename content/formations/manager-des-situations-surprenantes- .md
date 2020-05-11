@@ -1,5 +1,5 @@
 ---
-category: ''
+category: Développement des qualités humaines et des compétences relationnelles
 title: Manager des situations surprenantes  
 goals: ''
 description: Cultiver les automatismes, l’intuition, les bons réflexes, se préparer
