@@ -30,7 +30,7 @@
                 <article>
                     {{ with .Params.goals }}
                       <h2>Objectifs</h2>
-                      <p>{{ . }}</p>
+                      <p>{{ . | markdownify }}</p>
                     {{ end }}
                   <h2>Contenu de la formation</h2>
                   {{ .Content }}
