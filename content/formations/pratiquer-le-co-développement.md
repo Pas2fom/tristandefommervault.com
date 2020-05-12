@@ -7,6 +7,7 @@ description: Cette méthode de co-développement démultiplie la puissance du tr
   collaboratif en un processus structuré. Echanger sur sa pratique et ses expériences,
   Apprendre et s’enrichir des expériences et feed-back de pairs (applicable aux thèmes
   des formation préalablement mentionnés
+draft: true
 
 ---
 * Permettre à des pairs de différents niveaux, sites, branches d’activité…
