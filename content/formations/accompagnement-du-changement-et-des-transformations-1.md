@@ -52,10 +52,4 @@ Déroulement :
 
 –      Gérer le processus pour revenir à une communication positive.
 
- Des formateurs coachs certifiés au modèle Process Com® : grâce à leur connaissance approfondie du modèle, leur expérience terrain diversifiée et significative, ils sont les acteurs de l’application concrète du modèle en entreprise
-
-\* Un modèle pertinent et opérationnel : la *Process Com**®* est un outil de compréhension des comportements et de mise en place de stratégies de communication développé par Taibi Kahler, docteur en psychologie, et financé par la NASA dans le cadre du recrutement des astronautes
-
-\* Une approche bienveillante et respectueuse de la personne, qui place le client au centre de la relation
-
-\* Une pédagogie dynamique et adaptée aux besoins des stagiaires.
+ Des formateurs coachs certifiés au modèle Process Com® : grâce à leur connaissance approfondie du modèle, leur expérience terrain diversifiée et significative, ils sont les acteurs de l’application concrète du modèle en entreprise.
