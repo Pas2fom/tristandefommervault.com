@@ -1,14 +1,14 @@
 ---
 category: Communication interpersonnelle
 title: Mieux communiquer grâce à la Process Com©
-description: 'La formation*Process Com®*vise à fluidifier les relations managériales
-  à proximité comme à distance. Elle permet d’identifier les situations source de
-  stress et de développer des relations dans la durée. L’objectif est de permettre
-  à chaque collaborateur de développer une autonomie constructive. Le module *Process
-  Com®* s’inscrit dans cette dynamique car elle donne au manager les moyens de mieux
-  se comprendre, de mieux comprendre ses collaborateurs. Le modèle *Process Com®*
-  a été créé par le psychologue américain Taibi Kahler, en collaboration avec la NASA
-  à la fin des années 70. '
+description: 'Fluidifier les relations à proximité comme à distance avec la Process
+  Com©. Elle permet d’identifier les situations source de stress et de développer
+  des relations dans la durée. L’objectif est de permettre à chaque collaborateur
+  de développer une autonomie constructive. Le module *Process Com®* s’inscrit dans
+  cette dynamique car elle donne au manager les moyens de mieux se comprendre, de
+  mieux comprendre ses collaborateurs. Le modèle *Process Com®* a été créé par le
+  psychologue américain Taibi Kahler, en collaboration avec la NASA à la fin des années
+  70. '
 goals: Prendre conscience de ses modes de fonctionnement pour mieux se connaître
 weight: 15
 
@@ -22,19 +22,16 @@ weight: 15
 * Optimiser ses relations
 * Maintenir la motivation de ses collaborateurs.
 
-Déroulement : 
+Programme 
 
-1. Travail individuel
+* Travail individuel sur l'inventaire de personnalité Process Com©
+* Découvrir le modèle Process Com®
 
-–      Répondre aux questions de l'inventaire de personnalité Process Com©
-
-2. Découvrir le modèle Process Com®
-
-–      Découvrir les "canaux" et "perceptions" préférentiels 
+–      Découvrir son profil au travers du débriefing personnalisé de l'inventaire de personnalité Process Com©
 
 –      Les "six types de personnalité" et leur manière spécifique de communiquer
 
-–      Comprendre les notions de "base" et de "phase"
+–      Comprendre les notions de "base" et de "phase", –      Identifier ses "canaux" et "perceptions" préférentiels 
 
 **Savoir utiliser le modèle *Process Com®**
 
@@ -51,5 +48,3 @@ Déroulement :
 –      Identifier les séquences précurseuses des comportements de communication sous stress 
 
 –      Gérer le processus pour revenir à une communication positive.
-
- Des formateurs coachs certifiés au modèle Process Com® : grâce à leur connaissance approfondie du modèle, leur expérience terrain diversifiée et significative, ils sont les acteurs de l’application concrète du modèle en entreprise.
