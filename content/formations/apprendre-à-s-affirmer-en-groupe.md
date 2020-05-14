@@ -5,5 +5,6 @@ images: []
 goals: ''
 category: Leadership
 weight: 10
+draft: true
 
 ---
