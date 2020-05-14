@@ -1,9 +1,12 @@
 ---
 category: Management d’équipe
 title: Accompagnement du changement et des transformations
-description: Comprendre les réactions et les étapes du changement pour l’appréhender
-  et accompagner les équipes plus sereinement
-goals: ''
+description: Sur 100 projets, 70 sont des échecs du fait d'un manque d'accompagnement
+  au changement (source Rapport Chaos). L'écueil principal et la principale cause
+  d'échec des projets de transformation est la perte de repère des collaborateurs.
+  Elle peut être évitée en les rendant acteurs du changement.
+goals: Comprendre les réactions et les étapes du changement pour l’appréhender et
+  accompagner les équipes plus sereinement
 weight: 15
 
 ---
