@@ -1,10 +1,10 @@
 ---
 title: Manager le développement des collaborateurs et la dynamique d’équipe
 description: Clarifier son rôle de manager, individualiser son management en fonction
-  de la situation et du profil, conduire les entretiens, mobiliser les leviers qui
-  favorisent un fonctionnement autonome de l’équipe, Adopter la posture du manager
-  coach et faciliter le développement du coéquipier
+  de la situation et du profil
 goals: |-
+  * Adopter la posture du manager coach et faciliter le développement du coéquipier
+  * Conduire les entretiens, mobiliser les leviers qui favorisent un fonctionnement autonome de l’équipe.
   * Mesurer les enjeux et les conditions de l’efficacité de l'action managériale
   * Activer les bons leviers d’actions
 category: Leadership
@@ -21,4 +21,4 @@ weight: 10
 * Communiquer à son équipe sa vision sur la mission et le sens de la mission
 * Les 3 niveaux de la parole pour accompagner le changement: sens, processus, contenu
 * S'entraîner à communiquer une vision
-* Renforcement des pratiques managériales : mise en situation et co-développement. 
+* Renforcement des pratiques managériales : mise en situation et co-développement.
