@@ -22,7 +22,7 @@ Le modèle Process Com® a été créé par le psychologue américain Taibi Kah
 * Optimiser ses relations
 * Maintenir la motivation de ses collaborateurs.
 
-#### Programme
+### Programme
 
 * Travail individuel sur l'inventaire de personnalité Process Com©
 * Découvrir le modèle Process Com®
