@@ -9,9 +9,9 @@ weight: 15
 ---
 L’objectif est de permettre à chaque collaborateur de développer une autonomie constructive. 
 
-Le module *Process Com®* s’inscrit dans cette dynamique car elle donne au manager les moyens de mieux se comprendre, de mieux comprendre ses collaborateurs. 
+Le module Process Com® s’inscrit dans cette dynamique car elle donne au manager les moyens de mieux se comprendre, de mieux comprendre ses collaborateurs. 
 
-Le modèle *Process Com®* a été créé par le psychologue américain Taibi Kahler, en collaboration avec la NASA à la fin des années 70.
+Le modèle Process Com® a été créé par le psychologue américain Taibi Kahler, en collaboration avec la NASA à la fin des années 70.
 
 ### **Une communication efficace grâce à la Process Com©**
 
