@@ -8,7 +8,8 @@ images: []
 weight: 20
 
 ---
-Déroulement d’une session :
+
+## Déroulement d’une session
 
 * Présentation d'une situation apportée par un des participants
 * Apports des feed-back formalisés et concis par les autres participants

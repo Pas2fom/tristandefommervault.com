@@ -3,10 +3,8 @@ title: Comprendre et mobiliser le langage des émotions pour renforcer son leade
 date: '2020-05-09T22:00:00.000+00:00'
 description: Apprendre à écouter ses émotions et celles de ses interlocuteurs. Augmenter
   son quotient émotionnel pour améliorer la qualité relationnelle.
-goals: |-
+goals: |
   * Développer la conscience de ses émotions pour mieux les réguler
-
-
   * S'entraîner à décrypter les émotions en présence et leurs besoins associés pour gagner en souplesse et en fluidité dans ses interactions
 category: Leadership
 weight: 10
