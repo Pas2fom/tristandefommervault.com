@@ -7,3 +7,8 @@ goals: Adapter son style et ses modes de management aux personnes, aux situation
 weight: 15
 
 ---
+
+* Diagnostic de ses styles de leadership 
+* Communiquer à son équipe une vision 
+* Mobiliser les leviers qui favorisent un fonctionnement autonome de l’équipe.
+* Les 3 niveaux de la parole pour accompagner une équipe dans le changement: sens, processus, contenu
