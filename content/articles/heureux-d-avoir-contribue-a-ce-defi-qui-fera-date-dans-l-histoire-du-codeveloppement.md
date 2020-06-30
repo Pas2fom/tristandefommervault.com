@@ -1,7 +1,7 @@
 ---
 date: 2019-01-29T20:00:00.000+00:00
 title: Heureux d'avoir contribué à ce défi qui fera date dans l'histoire du Codéveloppement
-description: Un"giga"- codéveloppement rassemble 300 participants, 40 facilitateurs,
+description: Un giga codéveloppement rassemble 300 participants, 40 facilitateurs,
   40 séances simultanées
 images:
 - "/uploads/annonce-jour-j-evenement-19-juin-va.png"
