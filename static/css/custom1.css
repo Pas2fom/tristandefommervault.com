@@ -4,6 +4,14 @@
   }
 }
 
+#fh5co-intro {
+  padding-bottom: 0;
+}
+
+#fh5co-intro .fh5co-block {
+  width: 50%;
+}
+
 .fh5co-person {
   border: 2px solid #f2f2f2;
   padding: 100px 30px 30px 30px;
@@ -30,22 +38,6 @@
   border-radius: 50%;
 }
 
-.coaching #fh5co-home,
-.coaching #fh5co-home .text-wrap,
-.articles #fh5co-home,
-.articles #fh5co-home .text-wrap {
-  height: 500px;
-}
-
-.articles #fh5co-testimonials {
-  position: relative;
-  margin-top: -150px;
-  z-index: 10;
-  background: white;
-  padding-bottom: 4em;
-  margin-bottom: 2em;
-}
-
 .articles--list,
 .formations--list {
   padding-top: 2em;
@@ -68,12 +60,6 @@
 .formations .section-heading {
   margin: 0 auto -4em;
   padding: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .articles #fh5co-home .section-heading h1 {
-    font-size: 2em;
-  }
 }
 
 .articles .section-heading h2::after {

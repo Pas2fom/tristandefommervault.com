@@ -1,20 +1,12 @@
 ---
 title: Coaching
-description:  ''
+description: "Redéfinir sa propre valeur et l’inscrire dans une réalité"
 date: 2020-05-10
-draft: true
+draft: false
 ---
 
-Présentation de l'activité Coaching
+## Mon approche du coaching
 
-## Résumé de l'activité de Coaching
+La personne accompagnée retrouve progressivement, au travers des situations revisitées, ses sources d'énergie d’action. Elle développe une conscience de ses modes d'interaction et aiguise sa capacité à agir sur la base de stratégies efficaces.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-[Contactez-moi](mailto:tristan@gmail.com)
-
-## Détails
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Témoignages
+[Contacter Tristan](mailto:tdefommervault@qualia-management.com)

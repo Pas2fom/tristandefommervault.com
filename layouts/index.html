@@ -14,6 +14,10 @@
 
   {{ partial "intro.html" .}}
 
+  {{ if .Site.Params.testimonials.enable }}
+    {{ partial "testimonials.html" .}}
+  {{ end }}
+
   {{ if .Site.Params.about.enable }}
     {{ partial "about.html" .}}
   {{ end }}
@@ -21,12 +25,6 @@
   {{ if .Site.Params.services.enable }}
     {{ partial "services.html" .}}
   {{ end }}
-
-  {{ if .Site.Params.testimonials.enable }}
-    {{ partial "testimonials.html" .}}
-  {{ end }}
-
-  {{ partial "hero0.html" .}}
 
   {{ if .Site.Params.contact.enable }}
     {{ partial "contact.html" .}}

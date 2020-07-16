@@ -16,12 +16,15 @@ custom_css = ["css/custom1.css"]
 author = "Tristan de Fommervault"
 description = "Coaching professionnel,mentoring,codéveloppement,process communication coaching,approche systémique,analyse transactionnelle,communication non violente, intelligence émotionnelle, psychologie de la motivation, gestion du stress,prise de décision,régulation des conflits, médiation en entreprise, prévention des risques psychosociaux"
 email = "tdefommervault@qualia-management.com"
+
 # Navigation
 [params.navigation]
 brand = "Tristan de Fommervault"
 
 home = "Accueil"
-about= "À propos"
+intro = "Services"
+testimonials = "Témoignages"
+about= "Coach"
 contact = "Contact"
 
 # prepended links
@@ -31,12 +34,12 @@ contact = "Contact"
 # name = "Coaching"
 # weight = 20
 
-[[menu.prepend]]
+# postpended links
+
+[[menu.postpend]]
 url = "/formations"
 name = "Formations"
 weight = 20
-
-# postpended links
 
 [[menu.postpend]]
 url = "/articles"
@@ -45,240 +48,28 @@ weight = 30
 
 # Intro section
 [params.hero]
-title = ""
-subtitle = "Commençons par éclaircir votre besoin d'être accompagné"
+title = "Transmettre et accompagner, former et coacher"
+subtitle = "Des formules d’accompagnement sur mesure pour vous aider à atteindre vos objectifs."
 
 # Available icons: http://simplelineicons.com/
 [params.intro]
+enable= true
 
 [[params.intro.item]]
-title = "Vous avez besoin de lever une difficulté qui freine votre avancée dans un projet"
-description = ""
-button = ""
-url = ""
-# button = "Why us?"
-icon = ""
-img = ""
+title = "Coaching"
+description = "Un accompagnement personnalisé pour redéfinir sa propre valeur et l’inscrire dans une réalité."
+url = "/coaching"
+button = "En savoir plus"
+icon = "icon-badge"
+img = "img_7.jpg"
 
 [[params.intro.item]]
-title = "Vous avez besoin de faire le point sur vos véritables forces et qualités pour retrouver confiance en vous et pouvoir jouer pleinement votre rôle"
-description = ""
-# url = "#"
-# button = "Click Me"
-icon = ""
-img = ""
-
-[[params.intro.item]]
-title = "Vous ressentez le besoin de reprendre en main votre GPS émotionnel"
-description = ""
-# url = "#"
-# button = "Click Me"
-icon = ""
-img = ""
-
-[[params.intro.item]]
-title = "Vous prenez conscience des limites de vos comportements sous stress et souhaitez développer des posture relationnelles constructives"
-description = ""
-# url = "#"
-# button = "Click Me"
-icon = ""
-img = ""
-
-
-[[params.intro.item]]
-title = "Vous avez besoin de résoudre un conflit et ressentez l'impression d'avoir déjà tout essayé"
-description = ""
-# url = "#"
-# button = "Click Me"
-icon = ""
-img = ""
-
-[[params.intro.item]]
-title = " Vous avez 100 jours pour réussir votre prise de poste et avez besoin de vous recentrer sur vos priorités"
-description = ""
-# url = "#"
-# button = "Click Me"
-icon = ""
-img = ""
-
-
-# Hero section
-[params.hero0]
-title = "Mon approche du coaching"
-subtitle = "La personne accompagnée retrouve progressivement, au travers des situations revisitées, ses sources d'énergie d’action. Elle développe une conscience de ses modes d'interaction et aiguise sa capacité à agir sur la base de stratégies efficaces."
-
-# Blog section
-[params.intro.video]
-enable = false
-title = "Voir la vidéo"
-icon = "icon-play2"
-url = "https://vimeo.com/channels/staffpicks/93951774"
-
-
-# Work section
-[params.work]
-enable = false
-title = "Work"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
-
-[[params.work.row]]
-img = "work_1.jpg"
-alt = "Image2"
-title = "Project 1"
-subtitle = "Branding"
-
-[[params.work.row]]
-img = "work_2.jpg"
-alt = "Image2"
-title = "Project 2"
-subtitle = "Design"
-[[params.work.row]]
-img = "work_3.jpg"
-alt = "Image3"
-title = "Project 3"
-subtitle = "Design"
-
-[[params.work.row]]
-img = "work_4.jpg"
-alt = "Image4"
-title = "Project 4"
-subtitle = "Design"
-
-[[params.work.row]]
-img = "work_5.jpg"
-alt = "Image5"
-title = "Project 5"
-subtitle = "Design"
-
-[[params.work.row]]
-img = "work_6.jpg"
-alt = "Image6"
-title = "Project 6"
-subtitle = "Design"
-
-# Services section
-[params.services]
-enable = true
-title = "Qui suis-je ?"
-description = ""
-
-[[params.services.item]]
-title = "Tristan de Fommervault"
-description = "Coach formateur certifié, j'accompagne depuis 15 ans des personnes engagées dans une histoire de transformation profesionnelle et personnelle. Dans une première partie de carrière, j'ai exercé différents rôles dans la fonction Ressources Humaines dans des entreprises qui m'ont donné l'occasion de développer une première approche des cultures de travail sous tension et de leurs incidences sur les individus. Enrichi par ces histoires de tranformation, après un virage entrepreneurial, je développe depuis 10 ans des activités de conseil, coaching et formation au sein d'environnements clients très variés en lien avec un réseau de partenaires animés par une commune philosophie du métier."
-icon = ""
-
-[[params.services.item]]
-title = "Mes fondamentaux"
-description = "Trois cursus, trois clés de lecture : l'individu, le collectif, la relation. Une formation de 18 mois en coaching professionnel à l'Université de Paris 8 (Diplôme d'Etudes Supérieures de Coaching) et un parcours d'approfondissement en Philosophie, Histoire et Sociologie de l'entreprise (Diplôme d'Etudes Approfondies de l'Université Paris X / Master 2 Sciences Po Paris). Sans oublier ma formation d'acteur au Conservatoire de Théâtre de Paris 7. "
-icon = ""
-
-[[params.services.item]]
-title = "Les modèles et outils que je mobilise"
-description = "J'intègre dans mes accompagnements : l'approche systémique, l'Analyse Transactionnelle, la Process Communication Model Coaching, les techniques du coaching cognitif et comportemental, les mises en situation."
-icon = ""
-
-[[params.services.item]]
-title = "Le coaching selon Tristan"
-description = "Le coaching est pour moi un processus d'apprentissage du changement dans lequel les individus deviennent conteurs et acteurs de leur expérience vécue."
-icon = ""
-
-[[params.services.item]]
-title = "Trois expériences marquantes"
-description = "Jouer sur scène, Explorer l'entreprise comme acteur intégré à l'entreprise (Responsable RH) et intervenant transhumant dans une mutliplicité d'organisations, Ecouter le nouveau."
-icon = ""
-
-[[params.services.item]]
-title = "Trois qualités"
-description = "Qualité d'écoute et de présence, enthousiasme, met en situation avec justesse pour rendre acteur."
-icon = ""
-
-# About section
-[params.about]
-enable = true
-title = "À propos"
-description = "Coach et formateur certifié"
-
-[[params.about.item]]
-name = "Tristan de Fommervault"
-position = "Tristan développe une approche de l'accompagnement des personnes et des collectifs en situation de transformation. Qualité d'écoute et de présence, enthousiasme communicatif, théâtralise avec justesse pour rendre acteur. Formation: Process Com., Desu Paris 8, Codeveloppement Mentor Trajectives). Sciences Po, M2 Philosophie et Humanités Sorbonne, Conservatoire de théâtre Paris."
-img = "tristan.jpg"
-alt = "Tristan de Fommervault"
-social = [
-  ["icon-twitter", "https://twitter.com/de_Fommervault"],
-  ["icon-facebook", "https://www.facebook.com/fommervault?ref=bookmarks"],
-  ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]
-]
-
-# [[params.about.item]]
-#   name = "Léna Badach"
-#   position = "Partenaire experte en pédagogie, coach et formatrice certifiée Process Com."
-#   description = "Fondatrice du cabinet de coaching Acara. Auparavant Responsable des programmes internationaux de formation à l'ENA."
-#   img = "lena.jpg"
-#   alt = "lena"
-#   social = [
-#     ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]
-#   ]
-
-# Counters section
-[params.counters]
-enable = false
-title = "Stats"
-background = "full_image_1.jpg"
-
-[[params.counters.item]]
-description = "Finished projects"
-icon = "icon-briefcase"
-from = 0
-to = 89
-interval = 50
-speed = 5000
-
-[[params.counters.item]]
-description = "Formations"
-icon = "icon-code"
-from = 0
-to = 2000
-interval = 50
-speed = 5000
-
-[[params.counters.item]]
-description = "Cups of coffee"
-icon = "icon-cup"
-from = 0
-to = 1302
-interval = 50
-speed = 5000
-
-[[params.counters.item]]
-description = "Happy clients"
-icon = "icon-people"
-from = 0
-to = 52
-interval = 50
-speed = 5000
-
-# Contact section
-[params.contact]
-enable = true
-map = false
-form = true
-title = "Contact"
-description = ""
-
-# Available icons: http://simplelineicons.com/
-details = [
-  ["icon-home", "36 rue de Fleurus, <br> 75006 Paris"],
-  ["icon-phone", "+33(0)6 61 07 90 51"],
-  ["icon-envelope", "tdefommervault@qualia-management.com"],
-  ["icon-globe", '<a href="https://tristandefommervault.com/" target="_blank">tristandefommervault.com</a>']
-]
-
-name = "Nom"
-email = "Email"
-phone = "Téléphone"
-message = "Message"
-button = "Envoyer"
+title = "Formation"
+description = "Des formations sur mesure, ludiques  concrètes et digitalisées pour développer vos compétences de leadership"
+url = "/formations"
+button = "Voir le catalogue"
+icon = "icon-graduation"
+img = "img_7.jpg"
 
 # Testimonials section
 [params.testimonials]
@@ -321,6 +112,181 @@ quote = "&ldquo;Tristan mobilise l'energie du groupe en jouant sur une grande va
 person = 'Verbatim évaluation à chaud'
 img = "person1.jpg"
 alt = "Verbatim2"
+
+
+# About section
+[params.about]
+enable = true
+title = "À propos"
+description = ""
+
+[[params.about.item]]
+name = "Tristan de Fommervault"
+position = "Coach et formateur certifié"
+description= "Tristan développe une approche de l'accompagnement des personnes et des collectifs en situation de transformation. Qualité d'écoute et de présence, enthousiasme communicatif, théâtralise avec justesse pour rendre acteur. Formation: Process Com., Desu Paris 8, Codeveloppement Mentor Trajectives). Sciences Po, M2 Philosophie et Humanités Sorbonne, Conservatoire de théâtre Paris."
+img = "tristan.jpg"
+alt = "Tristan de Fommervault"
+social = [
+  ["icon-twitter", "https://twitter.com/de_Fommervault"],
+  ["icon-facebook", "https://www.facebook.com/fommervault?ref=bookmarks"],
+  ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]
+]
+
+# [[params.about.item]]
+#   name = "Léna Badach"
+#   position = "Partenaire experte en pédagogie, coach et formatrice certifiée Process Com."
+#   description = "Fondatrice du cabinet de coaching Acara. Auparavant Responsable des programmes internationaux de formation à l'ENA."
+#   img = "lena.jpg"
+#   alt = "lena"
+#   social = [
+#     ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]
+#   ]
+
+# Blog section
+[params.intro.video]
+enable = false
+# title = "Voir la vidéo"
+# icon = "icon-play2"
+# url = "https://vimeo.com/channels/staffpicks/93951774"
+
+
+# Work section
+[params.work]
+enable = false
+# title = "Work"
+# description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+# footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+#
+# [[params.work.row]]
+# img = "work_1.jpg"
+# alt = "Image2"
+# title = "Project 1"
+# subtitle = "Branding"
+#
+# [[params.work.row]]
+# img = "work_2.jpg"
+# alt = "Image2"
+# title = "Project 2"
+# subtitle = "Design"
+# [[params.work.row]]
+# img = "work_3.jpg"
+# alt = "Image3"
+# title = "Project 3"
+# subtitle = "Design"
+#
+# [[params.work.row]]
+# img = "work_4.jpg"
+# alt = "Image4"
+# title = "Project 4"
+# subtitle = "Design"
+#
+# [[params.work.row]]
+# img = "work_5.jpg"
+# alt = "Image5"
+# title = "Project 5"
+# subtitle = "Design"
+#
+# [[params.work.row]]
+# img = "work_6.jpg"
+# alt = "Image6"
+# title = "Project 6"
+# subtitle = "Design"
+
+# Services section
+[params.services]
+enable = false
+# title = "Votre formateur"
+# description = ""
+#
+# [[params.services.item]]
+# title = "Tristan de Fommervault"
+# description = "Coach formateur certifié, j'accompagne depuis 15 ans des personnes engagées dans une histoire de transformation profesionnelle et personnelle. Dans une première partie de carrière, j'ai exercé différents rôles dans la fonction Ressources Humaines dans des entreprises qui m'ont donné l'occasion de développer une première approche des cultures de travail sous tension et de leurs incidences sur les individus. Enrichi par ces histoires de tranformation, après un virage entrepreneurial, je développe depuis 10 ans des activités de conseil, coaching et formation au sein d'environnements clients très variés en lien avec un réseau de partenaires animés par une commune philosophie du métier."
+# icon = ""
+#
+# [[params.services.item]]
+# title = "Mes fondamentaux"
+# description = "Trois cursus, trois clés de lecture : l'individu, le collectif, la relation. Une formation de 18 mois en coaching professionnel à l'Université de Paris 8 (Diplôme d'Etudes Supérieures de Coaching) et un parcours d'approfondissement en Philosophie, Histoire et Sociologie de l'entreprise (Diplôme d'Etudes Approfondies de l'Université Paris X / Master 2 Sciences Po Paris). Sans oublier ma formation d'acteur au Conservatoire de Théâtre de Paris 7. "
+# icon = ""
+#
+# [[params.services.item]]
+# title = "Les modèles et outils que je mobilise"
+# description = "J'intègre dans mes accompagnements : l'approche systémique, l'Analyse Transactionnelle, la Process Communication Model Coaching, les techniques du coaching cognitif et comportemental, les mises en situation."
+# icon = ""
+#
+# [[params.services.item]]
+# title = "Le coaching selon Tristan"
+# description = "Le coaching est pour moi un processus d'apprentissage du changement dans lequel les individus deviennent conteurs et acteurs de leur expérience vécue."
+# icon = ""
+#
+# [[params.services.item]]
+# title = "Trois expériences marquantes"
+# description = "Jouer sur scène, Explorer l'entreprise comme acteur intégré à l'entreprise (Responsable RH) et intervenant transhumant dans une mutliplicité d'organisations, Ecouter le nouveau."
+# icon = ""
+#
+# [[params.services.item]]
+# title = "Trois qualités"
+# description = "Qualité d'écoute et de présence, enthousiasme, met en situation avec justesse pour rendre acteur."
+# icon = ""
+
+# Counters section
+[params.counters]
+enable = false
+# title = "Stats"
+# background = "full_image_1.jpg"
+#
+# [[params.counters.item]]
+# description = "Finished projects"
+# icon = "icon-briefcase"
+# from = 0
+# to = 89
+# interval = 50
+# speed = 5000
+#
+# [[params.counters.item]]
+# description = "Formations"
+# icon = "icon-code"
+# from = 0
+# to = 2000
+# interval = 50
+# speed = 5000
+#
+# [[params.counters.item]]
+# description = "Cups of coffee"
+# icon = "icon-cup"
+# from = 0
+# to = 1302
+# interval = 50
+# speed = 5000
+#
+# [[params.counters.item]]
+# description = "Happy clients"
+# icon = "icon-people"
+# from = 0
+# to = 52
+# interval = 50
+# speed = 5000
+
+# Contact section
+[params.contact]
+enable = true
+map = false
+form = true
+title = "Contact"
+description = ""
+
+# Available icons: http://simplelineicons.com/
+details = [
+  ["icon-home", "36 rue de Fleurus, <br> 75006 Paris"],
+  ["icon-phone", "+33(0)6 61 07 90 51"],
+  ["icon-envelope", "tdefommervault@qualia-management.com"],
+  ["icon-globe", '<a href="https://tristandefommervault.com/" target="_blank">tristandefommervault.com</a>']
+]
+
+name = "Nom"
+email = "Email"
+phone = "Téléphone"
+message = "Message"
+button = "Envoyer"
 
 # Blog section
 [params.articles]
