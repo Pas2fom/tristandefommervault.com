@@ -1,5 +1,7 @@
 ---
 title: Formations
-description: 'Des formations à distance, pour améliorer son leadership et la cohésionde vos équipes.'
+description: 'Apprendre en faisant, en jouant, en présence ou à distance, pour redynamiser
+  l''intelligence relationnelle et managériale. '
 permalink: formations
+
 ---
