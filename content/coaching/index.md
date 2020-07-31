@@ -1,12 +1,11 @@
 ---
 title: Coaching
-description: "Redéfinir sa propre valeur et l’inscrire dans une réalité"
+description: Redéfinir sa propre valeur et l’inscrire dans une réalité
 date: 2020-05-10
-draft: false
+
 ---
+## Pourquoi le coaching ?
 
-## Mon approche du coaching
-
-La personne accompagnée retrouve progressivement, au travers des situations revisitées, ses sources d'énergie d’action. Elle développe une conscience de ses modes d'interaction et aiguise sa capacité à agir sur la base de stratégies efficaces.
+Retrouvez vos sources dynamisatrices, vos gisements d'énergie. Vivez l'émotion en conscience. Regardez votre but dans les yeux. Laissez-vous surprendre par votre magnifique liberté. Accepter de voyager léger. Laisser les autres s'habituer à vous voir vous transformer.
 
 [Contacter Tristan](mailto:tdefommervault@qualia-management.com)
