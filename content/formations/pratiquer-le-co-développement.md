@@ -22,10 +22,12 @@ description: Cette méthode démultiplie la puissance du travail collaboratif en
 * Créer une communauté vecteur de changement, de pairs, de réseau
   apprenant…
 
-## Déroulement du Co-développement méthode MENTOR
+##### Déroulement du Co-développement méthode MENTOR
 
 **M** Matériaux : sélection des situations
 **E** Expériences : présentation de la situation par un volontaire
-**N** Nouveautés : chacun fait part de ses ressentis et suggestions **T** Traitement : intégration des retours reçus
+**N** Nouveautés : chacun fait part de ses ressentis et suggestions 
+
+**T** Traitement : intégration des retours reçus
 **O** Ouvertures : partage des apprentissages et structuration
 **R** Renforcement : le groupe traite d'autres situations en s'appuyant sur les apprentissages de la session.
