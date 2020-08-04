@@ -2,8 +2,8 @@
 category: Management transversal
 title: Manager en transversal avec la Process communication
 description: ''
-goals: Accélérer votre décryptage des comportements et capter les sources d'énergie
-  positive dans un projet
+goals: Décrypter les comportements et capter les sources d'énergie positive dans un
+  projet
 weight: 15
 
 ---
