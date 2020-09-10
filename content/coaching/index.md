@@ -1,6 +1,6 @@
 ---
 title: Coaching
-description: Redéfinir sa propre valeur et l’inscrire dans une réalité
+description: De l'envie de changer à la joie de l'accomplir
 date: 2020-05-10
 
 ---
