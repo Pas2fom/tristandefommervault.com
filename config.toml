@@ -60,7 +60,7 @@ title = "Coaching"
 description = "Un accompagnement personnalisé pour accélérer l'atteinte de son objectif et accomplir son rêve."
 url = "/coaching"
 button = "En savoir plus"
-icon = "icon-bulb"
+icon = "icon-target"
 img = "img_7.jpg"
 
 [[params.intro.item]]
@@ -68,7 +68,7 @@ title = "Formation"
 description = "Des formations sur mesure, ludiques, concrètes et digitalisées pour développer vos compétences de leadership"
 url = "/formations"
 button = "Voir le catalogue"
-icon = "icon-target"
+icon = "icon-bulb"
 img = "img_7.jpg"
 
 # Testimonials section
