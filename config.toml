@@ -60,7 +60,7 @@ title = "Coaching"
 description = "Un accompagnement personnalisé pour accélérer l'atteinte de son objectif et accomplir son rêve."
 url = "/coaching"
 button = "En savoir plus"
-icon = "icon-bulb"
+icon = "icon-target"
 img = "img_7.jpg"
 
 [[params.intro.item]]
@@ -68,7 +68,7 @@ title = "Formation"
 description = "Des formations sur mesure, ludiques, concrètes et digitalisées pour développer vos compétences de leadership"
 url = "/formations"
 button = "Voir le catalogue"
-icon = "icon-target"
+icon = "icon-bulb"
 img = "img_7.jpg"
 
 # Testimonials section
@@ -123,8 +123,7 @@ description = ""
 [[params.about.item]]
 name = "Tristan de Fommervault"
 position = "Coach et formateur certifié"
-description= "Un parcours en 3 temps : Comédien, RH, Coach Formateur. J'accompagne les personnes et les collectifs en situation de transformation. Une citation qui m'inspire : "&ldquo; Veille à tes pensées, elles deviennent des mots.
-Veille à tes mots, ils deviennent des actions.Veille à tes actions, elles deviennent des habitudes. Veille à tes habitudes, elles deviennent ton caractère. Veille à ton caractère, il devient ton destin. Lao Tseu &rdquo;"
+description= "Un parcours en 3 temps : Comédien, RH, Coach Formateur. J'accompagne les personnes et les collectifs en situation de transformation. Une citation qui m'inspire : "&ldquo; Veille à tes pensées, elles deviennent des mots. Veille à tes mots, ils deviennent des actions. Veille à tes actions, elles deviennent des habitudes. Veille à tes habitudes, elles deviennent ton caractère. Veille à ton caractère, il devient ton destin. Lao Tseu &rdquo;"
 img = "tristan.jpg"
 alt = "Tristan de Fommervault"
 social = [
