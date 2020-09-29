@@ -1,304 +1,124 @@
-# Site settings
 baseurl = "https://www.tristandefommervault.com/"
-title = "Tristan de Fommervault - Coach"
-languageCode = "fr-fr"
-theme = "elate"
 footnoteReturnLinkContents = "↩"
+languageCode = "fr-fr"
 metaDataFormat = "yaml"
+pluralizeListTitles = false
 removePathAccents = true
-pluralizeListTitles= false
-
+theme = "elate"
+title = "Tristan de Fommervault - Coach"
+[[menu.postpend]]
+name = "Prendre RDV "
+url = "https://calendly.com/tristandefommervault/seance-exploratoire"
+weight = 3
+[[menu.postpend]]
+name = "Formations"
+url = "/formations"
+weight = 1
+[[menu.postpend]]
+name = "Articles"
+url = "/articles"
+weight = 2
 [params]
-# Custom styles
-custom_css = ["css/custom1.css"]
-
-# Meta
 author = "Tristan de Fommervault"
+custom_css = ["css/custom1.css"]
 description = "Coach professionnel certifié, j'accompagne les personnes en transition pour accélérer l'atteinte de leur objectif et transformer leur ambition en joie de la réaliser. Me contacter : 0661079051. Possibilité de séances en visio"
 email = "tdefommervault@qualia-management.com"
-
-# Navigation
+[params.about]
+description = ""
+enable = true
+title = "À propos"
+[[params.about.item]]
+alt = "Tristan de Fommervault"
+description = "Un parcours en 3 temps : Comédien, RH, Coach Formateur. J'accompagne les personnes et les collectifs en situation de transformation. Une citation qui m'inspire : Veille à tes pensées, elles deviennent des mots. Veille à tes mots, ils deviennent des actions. Veille à tes actions, elles deviennent des habitudes. Veille à tes habitudes, elles deviennent ton caractère. Veille à ton caractère, il devient ton destin. Lao Tseu "
+img = "tristan.jpg"
+name = "Tristan de Fommervault"
+position = "Coach et formateur certifié"
+social = [["icon-twitter", "https://twitter.com/de_Fommervault"], ["icon-facebook", "https://www.facebook.com/fommervault?ref=bookmarks"], ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]]
+[params.articles]
+description = "Food for thought"
+enable = true
+title = "Articles"
+[params.contact]
+button = "Envoyer"
+description = ""
+details = [["icon-home", "36 rue de Fleurus, <br> 75006 Paris"], ["icon-phone", "+33(0)6 61 07 90 51"], ["icon-envelope", "tdefommervault@qualia-management.com"], ["icon-globe", "<a href=\"https://tristandefommervault.com/\" target=\"_blank\">tristandefommervault.com</a>"]]
+email = "Email"
+enable = true
+form = true
+map = false
+message = "Message"
+name = "Nom"
+phone = "Téléphone"
+title = "Contact"
+[params.counters]
+enable = false
+[params.footer]
+copyright = "Tristan de Fommervault, [Formateur](/formations) & Coach."
+enable = true
+links = [["icon-facebook", "https://www.facebook.com/tristandefommervault"], ["icon-linkedin", "https://fr.linkedin.com/in/tristandefommervault/fr"]]
+[params.hero]
+subtitle = "Des formules d’accompagnement sur mesure pour vous aider à atteindre vos objectifs."
+title = "Transmettre et accompagner, former et coacher"
+[params.intro]
+enable = true
+[params.intro.video]
+enable = false
+[[params.intro.item]]
+button = "En savoir plus"
+description = "Un accompagnement personnalisé pour accélérer l'atteinte de son objectif et accomplir son rêve."
+icon = "icon-target"
+img = "img_7.jpg"
+title = "Coaching"
+url = "/coaching"
+[[params.intro.item]]
+button = "Voir le catalogue"
+description = "Des formations sur mesure, ludiques, concrètes et digitalisées pour développer vos compétences de leadership"
+icon = "icon-bulb"
+img = "img_7.jpg"
+title = "Formation"
+url = "/formations"
 [params.navigation]
+about = "Coach"
 brand = "Tristan de Fommervault"
-
+contact = "Contact"
 home = "Accueil"
 intro = "Services"
 testimonials = "Témoignages"
-about= "Coach"
-contact = "Contact"
-
-# prepended links
-
-# [[menu.prepend]]
-# url = "/coaching"
-# name = "Coaching"
-# weight = 20
-
-# postpended links
-
-[[menu.postpend]]
-url = "/formations"
-name = "Formations"
-weight = 20
-
-[[menu.postpend]]
-url = "/articles"
-name = "Articles"
-weight = 30
-
-# Intro section
-[params.hero]
-title = "Transmettre et accompagner, former et coacher"
-subtitle = "Des formules d’accompagnement sur mesure pour vous aider à atteindre vos objectifs."
-
-# Available icons: http://simplelineicons.com/
-[params.intro]
-enable= true
-
-[[params.intro.item]]
-title = "Coaching"
-description = "Un accompagnement personnalisé pour accélérer l'atteinte de son objectif et accomplir son rêve."
-url = "/coaching"
-button = "En savoir plus"
-icon = "icon-target"
-img = "img_7.jpg"
-
-[[params.intro.item]]
-title = "Formation"
-description = "Des formations sur mesure, ludiques, concrètes et digitalisées pour développer vos compétences de leadership"
-url = "/formations"
-button = "Voir le catalogue"
-icon = "icon-bulb"
-img = "img_7.jpg"
-
-# Testimonials section
-[params.testimonials]
-enable = true
-title = "Témoignages"
-description = ""
-
-[[params.testimonials.item]]
-quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
-person = 'Sébastien Remond, <a href="https://cib.societegenerale.com/en/" target="_blank">Société Générale CIB</a> <span class="subtext">Directeur Investment Banking</span>'
-img = "person1.jpg"
-alt = "Sébastien Rémond"
-
-[[params.testimonials.item]]
-quote = "&ldquo;Tristan a fait preuve d'une grande intelligence des situations dans un contexte de transformation majeure de l'entreprise.&rdquo;"
-person = 'Catherine Belotti, <span class="subtext">Directrice innovation sociale Schneider Electric</span>'
-img = "person2.jpg"
-alt = "Catherine Belotti"
-
-[[params.testimonials.item]]
-quote = "&ldquo;J’avais besoin de reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'ont aidé à mettre au point, au fil des séances de coaching, une stratégie pour gérer ma situation de manière optimale.&rdquo;"
-person = 'Grégoire Hallé, Conservateur du Patrimoine, Musée des Beaux-Arts de Draguignan'
-img = "person3.jpg"
-alt = "Grégoire hallé"
-
-[[params.testimonials.item]]
-quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan sur un parcours de développement managérial (...) En faisant émerger une communauté de pratiques managériales consciente da sa valeur ajoutée, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
-person = 'Stéphanie Baranger, Chief of staff to the Global Head of HR - Global Banking and Investor Solutions - Société Générale'
-img = "person4.jpg"
-alt = "Stéphanie Baranger"
-
-[[params.testimonials.item]]
-quote = "&ldquo;Par la justesse de ses reformulations et feedbacks, Tristan a réussi à susciter chez les participants un changement de regard et l’envie d’oser. Tristan est un formateur qui sait créer un climat d'écoute, de bienveillance mais aussi de confrontation constructive.&rdquo;"
-person = 'Verbatim évaluation à chaud'
-img = "person2.jpg"
-alt = "Verbatim1"
-
-[[params.testimonials.item]]
-quote = "&ldquo;Tristan mobilise l'energie du groupe en jouant sur une grande variété de ressorts.&rdquo;"
-person = 'Verbatim évaluation à chaud'
-img = "person1.jpg"
-alt = "Verbatim2"
-
-
-# About section
-[params.about]
-enable = true
-title = "À propos"
-description = ""
-
-[[params.about.item]]
-name = "Tristan de Fommervault"
-position = "Coach et formateur certifié"
-description= "Un parcours en 3 temps : Comédien, RH, Coach Formateur. J'accompagne les personnes et les collectifs en situation de transformation. Une citation qui m'inspire : Veille à tes pensées, elles deviennent des mots. Veille à tes mots, ils deviennent des actions. Veille à tes actions, elles deviennent des habitudes. Veille à tes habitudes, elles deviennent ton caractère. Veille à ton caractère, il devient ton destin. Lao Tseu "
-img = "tristan.jpg"
-alt = "Tristan de Fommervault"
-social = [
-  ["icon-twitter", "https://twitter.com/de_Fommervault"],
-  ["icon-facebook", "https://www.facebook.com/fommervault?ref=bookmarks"],
-  ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]
-]
-
-# [[params.about.item]]
-#   name = "Léna Badach"
-#   position = "Partenaire experte en pédagogie, coach et formatrice certifiée Process Com."
-#   description = "Fondatrice du cabinet de coaching Acara. Auparavant Responsable des programmes internationaux de formation à l'ENA."
-#   img = "lena.jpg"
-#   alt = "lena"
-#   social = [
-#     ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]
-#   ]
-
-# Blog section
-[params.intro.video]
-enable = false
-# title = "Voir la vidéo"
-# icon = "icon-play2"
-# url = "https://vimeo.com/channels/staffpicks/93951774"
-
-
-# Work section
-[params.work]
-enable = false
-# title = "Work"
-# description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-# footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
-#
-# [[params.work.row]]
-# img = "work_1.jpg"
-# alt = "Image2"
-# title = "Project 1"
-# subtitle = "Branding"
-#
-# [[params.work.row]]
-# img = "work_2.jpg"
-# alt = "Image2"
-# title = "Project 2"
-# subtitle = "Design"
-# [[params.work.row]]
-# img = "work_3.jpg"
-# alt = "Image3"
-# title = "Project 3"
-# subtitle = "Design"
-#
-# [[params.work.row]]
-# img = "work_4.jpg"
-# alt = "Image4"
-# title = "Project 4"
-# subtitle = "Design"
-#
-# [[params.work.row]]
-# img = "work_5.jpg"
-# alt = "Image5"
-# title = "Project 5"
-# subtitle = "Design"
-#
-# [[params.work.row]]
-# img = "work_6.jpg"
-# alt = "Image6"
-# title = "Project 6"
-# subtitle = "Design"
-
-# Services section
 [params.services]
 enable = false
-# title = "Votre formateur"
-# description = ""
-#
-# [[params.services.item]]
-# title = "Tristan de Fommervault"
-# description = "Coach formateur certifié, j'accompagne depuis 15 ans des personnes engagées dans une histoire de transformation profesionnelle et personnelle. Dans une première partie de carrière, j'ai exercé différents rôles dans la fonction Ressources Humaines dans des entreprises qui m'ont donné l'occasion de développer une première approche des cultures de travail sous tension et de leurs incidences sur les individus. Enrichi par ces histoires de tranformation, après un virage entrepreneurial, je développe depuis 10 ans des activités de conseil, coaching et formation au sein d'environnements clients très variés en lien avec un réseau de partenaires animés par une commune philosophie du métier."
-# icon = ""
-#
-# [[params.services.item]]
-# title = "Mes fondamentaux"
-# description = "Trois cursus, trois clés de lecture : l'individu, le collectif, la relation. Une formation de 18 mois en coaching professionnel à l'Université de Paris 8 (Diplôme d'Etudes Supérieures de Coaching) et un parcours d'approfondissement en Philosophie, Histoire et Sociologie de l'entreprise (Diplôme d'Etudes Approfondies de l'Université Paris X / Master 2 Sciences Po Paris). Sans oublier ma formation d'acteur au Conservatoire de Théâtre de Paris 7. "
-# icon = ""
-#
-# [[params.services.item]]
-# title = "Les modèles et outils que je mobilise"
-# description = "J'intègre dans mes accompagnements : l'approche systémique, l'Analyse Transactionnelle, la Process Communication Model Coaching, les techniques du coaching cognitif et comportemental, les mises en situation."
-# icon = ""
-#
-# [[params.services.item]]
-# title = "Le coaching selon Tristan"
-# description = "Le coaching est pour moi un processus d'apprentissage du changement dans lequel les individus deviennent conteurs et acteurs de leur expérience vécue."
-# icon = ""
-#
-# [[params.services.item]]
-# title = "Trois expériences marquantes"
-# description = "Jouer sur scène, Explorer l'entreprise comme acteur intégré à l'entreprise (Responsable RH) et intervenant transhumant dans une mutliplicité d'organisations, Ecouter le nouveau."
-# icon = ""
-#
-# [[params.services.item]]
-# title = "Trois qualités"
-# description = "Qualité d'écoute et de présence, enthousiasme, met en situation avec justesse pour rendre acteur."
-# icon = ""
-
-# Counters section
-[params.counters]
-enable = false
-# title = "Stats"
-# background = "full_image_1.jpg"
-#
-# [[params.counters.item]]
-# description = "Finished projects"
-# icon = "icon-briefcase"
-# from = 0
-# to = 89
-# interval = 50
-# speed = 5000
-#
-# [[params.counters.item]]
-# description = "Formations"
-# icon = "icon-code"
-# from = 0
-# to = 2000
-# interval = 50
-# speed = 5000
-#
-# [[params.counters.item]]
-# description = "Cups of coffee"
-# icon = "icon-cup"
-# from = 0
-# to = 1302
-# interval = 50
-# speed = 5000
-#
-# [[params.counters.item]]
-# description = "Happy clients"
-# icon = "icon-people"
-# from = 0
-# to = 52
-# interval = 50
-# speed = 5000
-
-# Contact section
-[params.contact]
-enable = true
-map = false
-form = true
-title = "Contact"
+[params.testimonials]
 description = ""
-
-# Available icons: http://simplelineicons.com/
-details = [
-  ["icon-home", "36 rue de Fleurus, <br> 75006 Paris"],
-  ["icon-phone", "+33(0)6 61 07 90 51"],
-  ["icon-envelope", "tdefommervault@qualia-management.com"],
-  ["icon-globe", '<a href="https://tristandefommervault.com/" target="_blank">tristandefommervault.com</a>']
-]
-
-name = "Nom"
-email = "Email"
-phone = "Téléphone"
-message = "Message"
-button = "Envoyer"
-
-# Blog section
-[params.articles]
 enable = true
-title = "Articles"
-description = "Food for thought"
-
-# Footer section
-[params.footer]
-enable = true
-copyright = 'Tristan de Fommervault, [Formateur](/formations) & Coach.'
-links = [
-  ["icon-facebook", "https://www.facebook.com/tristandefommervault"],
-  ["icon-linkedin", "https://fr.linkedin.com/in/tristandefommervault/fr"]
-]
+title = "Témoignages"
+[[params.testimonials.item]]
+alt = "Sébastien Rémond"
+img = "person1.jpg"
+person = "Sébastien Remond, <a href=\"https://cib.societegenerale.com/en/\" target=\"_blank\">Société Générale CIB</a> <span class=\"subtext\">Directeur Investment Banking</span>"
+quote = "&ldquo;Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité engageante, son esprit d’ouverture et sa capacité à connecter des problématiques professionnelles avec une approche différente.&rdquo;"
+[[params.testimonials.item]]
+alt = "Catherine Belotti"
+img = "person2.jpg"
+person = "Catherine Belotti, <span class=\"subtext\">Directrice innovation sociale Schneider Electric</span>"
+quote = "&ldquo;Tristan a fait preuve d'une grande intelligence des situations dans un contexte de transformation majeure de l'entreprise.&rdquo;"
+[[params.testimonials.item]]
+alt = "Grégoire hallé"
+img = "person3.jpg"
+person = "Grégoire Hallé, Conservateur du Patrimoine, Musée des Beaux-Arts de Draguignan"
+quote = "&ldquo;J’avais besoin de reprendre confiance en moi dans le cadre d’une négociation. Ses grandes qualités d’écoute et d’analyse m'ont aidé à mettre au point, au fil des séances de coaching, une stratégie pour gérer ma situation de manière optimale.&rdquo;"
+[[params.testimonials.item]]
+alt = "Stéphanie Baranger"
+img = "person4.jpg"
+person = "Stéphanie Baranger, Chief of staff to the Global Head of HR - Global Banking and Investor Solutions - Société Générale"
+quote = "&ldquo;J’ai eu le plaisir de travailler avec Tristan sur un parcours de développement managérial (...) En faisant émerger une communauté de pratiques managériales consciente da sa valeur ajoutée, l’accompagnement de Tristan nous a permis d’aller bien au delà de l’objectif initial.&rdquo;"
+[[params.testimonials.item]]
+alt = "Verbatim1"
+img = "person2.jpg"
+person = "Verbatim évaluation à chaud"
+quote = "&ldquo;Par la justesse de ses reformulations et feedbacks, Tristan a réussi à susciter chez les participants un changement de regard et l’envie d’oser. Tristan est un formateur qui sait créer un climat d'écoute, de bienveillance mais aussi de confrontation constructive.&rdquo;"
+[[params.testimonials.item]]
+alt = "Verbatim2"
+img = "person1.jpg"
+person = "Verbatim évaluation à chaud"
+quote = "&ldquo;Tristan mobilise l'energie du groupe en jouant sur une grande variété de ressorts.&rdquo;"
+[params.work]
+enable = false
