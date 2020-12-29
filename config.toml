@@ -7,7 +7,7 @@ removePathAccents = true
 theme = "elate"
 title = "Tristan de Fommervault - Coach"
 [[menu.postpend]]
-name = "Prendre RDV "
+name = "Séance gratuite"
 url = "https://calendly.com/tristandefommervault/seance-exploratoire"
 weight = 3
 [[menu.postpend]]
