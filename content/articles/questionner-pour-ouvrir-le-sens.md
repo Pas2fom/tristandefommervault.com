@@ -4,7 +4,6 @@ title: 'Questionner pour ouvrir le sens '
 description: Poser des questions ou s'affirmer ? Les concilier plutôt que les opposer.
 images: []
 categories: ''
-draft: true
 
 ---
 Pour communiquer avec des personnes dans un milieu professionnel, il est souvent recommandé de préférer l’affirmation à l'interrogation. Dans une réunion, on pense qu’il est bien vu d'enchaîner les "Je pense que...", "J’ai la ferme conviction que..." ; de présenter toutes sortes d’arguments comme « irréfutables » .... A contrario, celui qui sollicite fréquemment l'avis de son entourage peut rapidement être perçu comme manquant d’assurance ou de charisme.
