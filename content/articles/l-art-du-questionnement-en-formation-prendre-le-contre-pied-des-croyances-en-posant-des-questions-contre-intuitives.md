@@ -6,7 +6,6 @@ description: ": prendre le contre-pied des croyances en posant des questions con
 images:
 - "/uploads/formation-neurosciences.jpeg"
 categories: ''
-draft: true
 
 ---
 Cet article est issue à l'origine d'une contribution à l'ouvrage "Réinventez vos formations avec les neurosciences" auquel j'ai participé avec Aurélie Van Dijk.
