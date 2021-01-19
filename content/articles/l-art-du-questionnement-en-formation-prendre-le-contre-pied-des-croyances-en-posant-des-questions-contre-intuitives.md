@@ -1,5 +1,5 @@
 ---
-date: 2019-01-29T20:00:00.000+00:00
+date: 2021-01-19T21:00:00+01:00
 title: 'L''art du questionnement en formation : prendre le contre-pied des croyances
   en posant des questions contre-intuitives'
 description: 'Se défaire de ses croyances pour apprendre '
