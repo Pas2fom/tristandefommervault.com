@@ -2,7 +2,8 @@
 date: 2019-01-29T20:00:00.000+00:00
 title: 'Questionner pour ouvrir le sens '
 description: Poser des questions ou s'affirmer ? Les concilier plutôt que les opposer.
-images: []
+images:
+- "/uploads/matt-walsh-tvkdgtee2c4-unsplash.jpg"
 categories: ''
 
 ---
