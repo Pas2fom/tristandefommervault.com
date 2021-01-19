@@ -1,6 +1,6 @@
 ---
 date: 2021-01-19T21:00:00+01:00
-title: L'art du questionnement en formation.
+title: L'art du questionnement en formation
 description: ": prendre le contre-pied des croyances en posant des questions contre-intuitives.
   Se défaire de ses croyances pour apprendre."
 images:
