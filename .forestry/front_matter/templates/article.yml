@@ -36,6 +36,7 @@ fields:
   name: categories
   description: Affecter un article à une catégorie
 pages:
+- content/articles/crise-de-cooperation-le-moment-pour-reconstruire-2-3.md
 - content/articles/heureux-d-avoir-contribue-a-ce-defi-qui-fera-date-dans-l-histoire-du-codeveloppement.md
 - content/articles/l-art-du-questionnement-en-formation-prendre-le-contre-pied-des-croyances-en-posant-des-questions-contre-intuitives.md
 - content/articles/questionner-pour-ouvrir-le-sens.md
