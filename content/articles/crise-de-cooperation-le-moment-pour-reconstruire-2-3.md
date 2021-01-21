@@ -1,5 +1,5 @@
 ---
-date: 2019-01-31T21:00:00+01:00
+date: 2019-01-29T21:00:00+01:00
 title: 'Crise de coopération : le moment pour reconstruire 2/3'
 description: Recréer un environnement de confiance
 images:
