@@ -1,5 +1,5 @@
 ---
-date: 2019-01-29T20:00:00.000+00:00
+date: 2019-01-28T21:00:00+01:00
 title: Surmonter la crise de coopération 1/2
 description: Comment stopper la spirale de la défiance ?
 images:
