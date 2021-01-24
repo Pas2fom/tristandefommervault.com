@@ -9,6 +9,7 @@ goals: |-
   * Activer les bons leviers d’actions
 category: Leadership
 weight: 10
+theme: Développer le management
 
 ---
 * Clarifier son rôle de manager : mission, environnement, composition de l’équipe, atouts et faiblesses
