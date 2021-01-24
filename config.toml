@@ -35,7 +35,7 @@ name = "Tristan de Fommervault"
 position = "Coach et formateur certifié"
 social = [["icon-twitter", "https://twitter.com/de_Fommervault"], ["icon-facebook", "https://www.facebook.com/fommervault?ref=bookmarks"], ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]]
 [params.articles]
-description = "Food for thought"
+description = "Derniers écrits"
 enable = true
 title = "Articles"
 [params.contact]

@@ -18,6 +18,10 @@
     {{ partial "testimonials.html" .}}
   {{ end }}
 
+  {{ if .Site.Params.articles.enable }}
+    {{ partial "articles.html" .}}
+  {{ end }}
+
   {{ if .Site.Params.about.enable }}
     {{ partial "about.html" .}}
   {{ end }}
