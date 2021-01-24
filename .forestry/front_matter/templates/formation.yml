@@ -23,7 +23,7 @@ fields:
   description: 'Court descriptif optimisé pour les recherches '
   config:
     required: false
-    max: 200
+    max: 400
 - name: category
   type: select
   default: ''
