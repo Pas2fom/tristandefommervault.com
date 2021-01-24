@@ -34,7 +34,7 @@
 
     <section class="{{ .Section}}--list">
       <div class="container">
-        <div class="row">
+        <div class="row to-animate fadeInUpBig animated">
           {{ range .Pages.GroupByParam "theme" }}
           <h2>{{ .Key }}</h2>
           {{ range .Pages }}
