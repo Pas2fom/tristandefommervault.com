@@ -8,6 +8,7 @@ goals: |
   * S'entraîner à décrypter les émotions en présence et leurs besoins associés pour gagner en souplesse et en fluidité dans ses interactions
 category: Leadership
 weight: 10
+theme: Relier l'individu à son environnement
 
 ---
 Nos "intelligences multiples" (Howard Gardner) restent le plus souvent à l'état de potentiel inexploité.Les récentes recherches en neurosciences sur le cerveau émotionnel révèlent des axes de développement et apportent des réponses pratiques pour cultiver un leadership incarné et multi-dimensionnel.
