@@ -6,54 +6,71 @@
   <body class="{{ .Section }}">
     {{ partial "nav.html" .}}
 
-    <section id="fh5co-home" data-section="{{ .Section }}" style="background-image: url(images/full_image_2.jpg);" data-stellar-background-ratio="0.5">
-  		<div class="gradient"></div>
-  		<div class="container">
-  			<div class="text-wrap">
-  				<div class="text-inner">
-  					<div class="row">
-  						<div class="col-md-12 text-center">
-  							<h1 class="to-animate fadeInUp animated">{{ with .Title }}{{ . | markdownify }}{{ end }}</h1>
+    <section
+      id="fh5co-home"
+      data-section="{{ .Section }}"
+      style="background-image: url(images/full_image_2.jpg)"
+      data-stellar-background-ratio="0.5"
+    >
+      <div class="gradient"></div>
+      <div class="container">
+        <div class="text-wrap">
+          <div class="text-inner">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h1 class="to-animate fadeInUp animated">
+                  {{ with .Title }}{{ . | markdownify }}{{ end }}
+                </h1>
                 <h2 class="to-animate fadeInUp animated">{{ .Description }}</h2>
-  						</div>
-  					</div>
-  				</div>
-  			</div>
-  		</div>
-  		<div class="slant"></div>
-  	</section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slant"></div>
+    </section>
 
     <div class="container">
       <div class="text-wrap">
-          <div class="row">
-            <div class="col-md-8">
-                <article>
-                    {{ with .Params.goals }}
-                      <h2>Objectifs</h2>
-                      <p>{{ . | markdownify }}</p>
-                    {{ end }}
-                  <h2>Contenu de la formation</h2>
-                  {{ .Content }}
-                </article>
-            </div>
-            <div class="col-md-4 sidebar">
-              <h3>Modalités pratiques</h3>
-              <h4>Formation réalisable en distanciel</h4>
-              <p>Les contenus et la pédagogie de ce programme sont adaptés pour répondre aux contraintes du télétravail et du management à distance</p>
-              <h3>Contact</h3>
-              <p>Vous souhaitez en savoir plus sur cette formation ?</p>
-              <p>
-                <a class="btn btn-default" href="mailto:{{ .Site.Params.Email }}" role="button">Contactez-nous</a>
-              </p>
-            </div>
+        <div class="row">
+          <div class="col-md-8">
+            <article>
+              {{ with .Params.goals }}
+              <h2>Objectifs</h2>
+              <p>{{ . | markdownify }}</p>
+              {{ end }}
+              <h2>Contenu de la formation</h2>
+              {{ .Content }}
+            </article>
           </div>
+          <div class="col-md-4 sidebar">
+            {{ with .Params.theme }}
+            <h3>Ensemble thématique</h3>
+            <p><strong>{{ . | markdownify }}</strong></p>
+            {{ end }}
+            <h3>Modalités pratiques</h3>
+            <h4>Formation réalisable en distanciel</h4>
+            <p>
+              Les contenus et la pédagogie de ce programme sont adaptés pour
+              répondre aux contraintes du télétravail et du management à
+              distance
+            </p>
+            <h3>Contact</h3>
+            <p>Vous souhaitez en savoir plus sur cette formation ?</p>
+            <p>
+              <a
+                class="btn btn-default"
+                href="mailto:{{ .Site.Params.Email }}"
+                role="button"
+                >Contactez-nous</a
+              >
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
-    {{ if .Site.Params.footer.enable }}
-      {{ partial "footer.html" .}}
-    {{ end }}
-
+    {{ if .Site.Params.footer.enable }} {{ partial "footer.html" .}} {{ end }}
     {{ partial "js.html" .}}
   </body>
 </html>
