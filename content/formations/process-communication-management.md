@@ -5,6 +5,7 @@ description: 'Affirmer son leadership de manager de projet '
 goals: Décrypter les comportements et capter les sources d'énergie positive dans un
   projet
 weight: 15
+theme: Développer le management
 
 ---
 * Optimiser la coopération au sein de son projet
