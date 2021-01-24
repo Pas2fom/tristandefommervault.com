@@ -44,7 +44,22 @@ fields:
       section: 
       file: 
       path: 
-  label: Catégorie
+  label: Thème de formation
+- name: theme
+  type: select
+  default: Développer le management
+  config:
+    required: true
+    options:
+    - Développer le management
+    - Construire les équilibres
+    - Relier l'individu à son environnement
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Ensemble thématique
 pages:
 - content/formations/accompagnement-du-changement-et-des-transformations-1.md
 - content/formations/accompagnement-du-changement-et-des-transformations-2.md
