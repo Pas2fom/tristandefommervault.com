@@ -6,6 +6,7 @@ goals: |-
   * Communiquer pour être entendu
   * Gagner en assertivité
 description: Oser exprimer nos priorités dans le respect de ses interlocuteurs
+theme: Relier l'individu à son environnement
 
 ---
 * S'approprier sa communication verbale et non-verbale
