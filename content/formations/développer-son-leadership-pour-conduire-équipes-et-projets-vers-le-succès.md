@@ -4,5 +4,6 @@ title: Développer son leadership pour conduire équipes et projets vers le succ
 description: ''
 goals: ''
 weight: 10
+theme: Développer le management
 
 ---
