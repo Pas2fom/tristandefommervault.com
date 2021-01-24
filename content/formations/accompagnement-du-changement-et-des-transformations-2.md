@@ -5,6 +5,7 @@ description: 'Identifier les déclencheurs de stress et se préparer à y faire 
   en puisant dans ses ressources émotionnelles, mentales et corporelles. '
 goals: ''
 weight: 15
+theme: Construire les équilibres
 
 ---
 * Comprendre les mécanismes du stress
