@@ -6,6 +6,7 @@ description: 'Accélération, complexification, perturbation profonde des schém
 goals: Transformer son stress en énergie d'action dans le respect de son éco-système
 category: Développement des qualités humaines et des compétences relationnelles
 weight: 10
+theme: Relier l'individu à son environnement
 
 ---
 **Définir les mécanismes du stress**
