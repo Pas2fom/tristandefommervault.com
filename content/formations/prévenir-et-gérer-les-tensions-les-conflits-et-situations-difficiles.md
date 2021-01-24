@@ -5,6 +5,7 @@ goals: Communiquer de manière pro-active pour réguler les tensions et préveni
   crises et les conflits
 description: Communiquer de manière pro-active pour réguler les tensions et éviter
   les crises et les conflits
+theme: Construire les équilibres
 
 ---
 * Définir les notions de crises et de conflit
