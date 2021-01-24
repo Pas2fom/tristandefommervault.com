@@ -7,6 +7,7 @@ goals: |-
   * Prendre conscience de ses modes de fonctionnement pour mieux se connaître
   * Permettre à chaque collaborateur de développer une autonomie constructive
 weight: 15
+theme: Développer le management
 
 ---
 Le module Process Com® s’inscrit dans cette dynamique car elle donne au manager les moyens de mieux se comprendre, de mieux comprendre ses collaborateurs. 
