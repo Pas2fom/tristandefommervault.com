@@ -6,9 +6,9 @@ goals: Echanger sur sa pratique et ses expériences, Apprendre et s’enrichir d
   et feed-backs de pairs (applicable aux thèmes de formation préalablement mentionnés)
 images: []
 weight: 20
+theme: Développer le management
 
 ---
-
 ## Déroulement d’une session
 
 * Présentation d'une situation apportée par un des participants
