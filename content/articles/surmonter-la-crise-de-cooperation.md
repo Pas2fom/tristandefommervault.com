@@ -1,9 +1,9 @@
 ---
-date: 2019-01-28T21:00:00+01:00
-title: Surmonter la crise de coopération 1/2
+date: 2021-01-21T21:00:00+01:00
+title: "Surmonter la crise de coopération"
 description: Comment stopper la spirale de la défiance ?
 images:
-- "/uploads/aubrey-odom-t1l9q5g7eiq-unsplash-1.jpg"
+- "/uploads/aubrey-odom-t1l9q5g7eiq-unsplash.jpg"
 categories: ''
 
 ---

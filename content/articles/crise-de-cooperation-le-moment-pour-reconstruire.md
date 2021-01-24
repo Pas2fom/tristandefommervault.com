@@ -1,6 +1,6 @@
 ---
-date: 2019-01-29T21:00:00+01:00
-title: 'Crise de coopération : le moment pour reconstruire 2/2'
+date: 2021-01-21T21:00:00+01:00
+title: Le moment de reconstruire
 description: Recréer un environnement de confiance
 images:
 - "/uploads/randy-fath-ymf4_9y9s_a-unsplash.jpg"
