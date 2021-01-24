@@ -8,6 +8,7 @@ description: Sur 100 projets, 70 sont des échecs du fait d'un manque d'accompag
 goals: Comprendre les réactions et les étapes du changement pour l’appréhender et
   accompagner les équipes plus sereinement
 weight: 15
+theme: Construire les équilibres
 
 ---
 * Poser un diagnostic éclairant pour l’action
