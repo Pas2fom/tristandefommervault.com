@@ -1,8 +1,7 @@
 ---
 category: Management d’équipe
 title: Manager une équipe à distance
-description:
-  Transformer la distance en opportunité pour renforcer le cadre et la
+description: Transformer la distance en opportunité pour renforcer le cadre et la
   qualité de la relation
 goals: |-
   * Organiser la coopération à distance
@@ -12,8 +11,9 @@ goals: |-
   * Déjouer les pièges de la communication à distance
   * Organiser les circuits de partage de l'information
 weight: 15
----
+theme: Développer le management
 
+---
 - Comprendre les spécificités du « remote management »
 - Les opportunités et les contraintes du management à distance
 - Développer le remote leadership
