@@ -5,6 +5,7 @@ goals: Faire de la distance une opportunité pour activer des leviers de coopér
   efficace
 description: Apprendre à déjouer les écueils et à tirer le meilleur de la coopération
   à distance
+theme: Relier l'individu à son environnement
 
 ---
 * Organiser la coopération à distance
