@@ -14,25 +14,25 @@ L’approche World Café vise avant tout à organiser l’échange d’idées et
 
 L’objectif est de conduire efficacement un grand nombre de personnes à engager des conversations constructives, permettant d’imaginer une solution à un problème. La méthodologie consiste à introduire des ruptures dans les modalités de travail habituelles afin de stimuler la coopération et la créativité.
 
-1) Conduire chacun à remettre en cause ses hypothèses
+1. Conduire chacun à remettre en cause ses hypothèses
 
 Le principal obstacle à la créativité et au dialogue réside dans la conviction de bien connaître le problème. En contexte professionnel, il est jugé parfaitement naturel – et souvent valorisé – que chacun aborde un débat en cherchant à défendre la solution qu’il recommande. De fait, pour de nombreux problèmes du quotidien, cette approche a le grand mérite de l’efficacité : les débats se limitent à trancher entre les options imaginées par chacun. Mais dès lors que le problème est complexe, et que l’enjeu le justifie, ce souci d’efficacité devient contre-productif. En effet, il est hautement improbable que quiconque dispose de l’ensemble des éléments nécessaires pour imaginer une solution appropriée: il faut donc veiller à ce que chacun prenne le temps d’appréhender le problème dans sa globalité avant de commencer à imaginer une solution.
 
 Or les réflexes professionnels sont fortement ancrés. Pour engager efficacement une réflexion collective, il faut donc lutter délibérément contre la tendance à vouloir défendre son point de vue initial. Plusieurs techniques permettent de conduire chacun à reconnaître que son point de vue est partiel ou mérite d’être remis en cause
 
-2) Instaurer des mécanismes d’écoute.
+1. Instaurer des mécanismes d’écoute.
 
 Quelques règles simples peuvent avoir un impact majeur sur la qualité d’écoute. Ainsi les organisateurs de World Cafés ont volontiers recours à la "pierre de dialogue". Il s’agit simplement d’une pierre, ou de tout autre objet, qui confère à son seul détenteur le droit de parler: les 3 ou 4 autres participants assis à sa table ne sont pas autorisés à l’interrompre. Paradoxalement, cela conduit chacun à être plus efficace dans ses propos, la conscience de monopoliser la parole étant plus aiguë. Un autre mécanisme consiste à inviter les participants à décider régulièrement d’une à deux minutes de réflexion silencieuse pour faire le point sur les échanges. Dans les deux cas, on évite la dynamique de ping-pong verbal qui freine l’écoute en focalisant chacun sur la préparation de sa prochaine répartie.
 
-3) Focaliser l’attention sur la production collective
+1. Focaliser l’attention sur la production collective
 
 Certaines techniques incitent les participants à se concentrer sur la globalité des échanges plutôt que sur la défense de leur propre point de vue. Ainsi, les participants à un World Café sont invités à représenter graphiquement, sur la nappe en papier qui couvre la table, les associations d’idées qui émergent des échanges: cette construction graphique collective, à laquelle chacun contribue au fil des discussions, aide à focaliser l’attention sur une vue d’ensemble des débats. De même, lorsque les participants changent de table pour entamer un autre tour de discussions, ils ont pour consigne de se faire l’ambassadeur des échanges auxquels ils viennent de participer: ce rôle les incite naturellement à prendre du recul sur leur point de vue d’origine.
 
-4) Conduire chacun à se rapprocher des autres
+1. Conduire chacun à se rapprocher des autres
 
 La qualité de la coopération entre individus est d’autant plus élevée que ceux-ci ont le sentiment d’appartenir à une même communauté, qui partage les mêmes enjeux. Le simple fait de partager une expérience commune riche en intensité constitue un facteur de rapprochement.
 
-5) Organiser la combinaison des idées
+1. Organiser la combinaison des idées
 
 La combinaison des réflexions de tous peut être organisée au moyen de méthodologies rigoureuses. Comment parvenir à combiner les contributions de plusieurs dizaines de personnes pour aboutir à une production collective cohérente? La réponse réside bien sûr pour partie dans la succession des différentes étapes qui constituent les séminaires. Mais la structuration des étapes de travail n’est pas tout.
 
@@ -72,13 +72,13 @@ Quelques principes simples sont au cœur du World Café :
 
 _D’après_ The World Café_, Juanita Brown avec David Isaacs, éd. Berrett-Koehler, 2005_
 
-Vous souhaitez digitaliser tout ou partie de votre Worldcafé ? l'animer en distanciel ou intégrer le digital dans la session en présentiel ? 
+Vous souhaitez digitaliser tout ou partie de votre Worldcafé ? l'animer en distanciel ou intégrer le digital dans la session en présentiel ?
 
 L'application Klaxoon propose un espace digital adapté pour ce type de situation. En voici un aperçu :
 
- [https://app.klaxoon.com/join/KZ7WXNF](https://app.klaxoon.com/join/KZ7WXNF "https://app.klaxoon.com/join/KZ7WXNF").
+[https://app.klaxoon.com/join/KZ7WXNF](https://app.klaxoon.com/join/KZ7WXNF "https://app.klaxoon.com/join/KZ7WXNF").
 
-Vous avez déjà animé un World Café en distanciel et êtes prêt(e)s à témoigner de votre expérience ? Je serais ravi de partager nos expériences. 
+Vous avez déjà animé un World Café en distanciel et êtes prêt(e)s à témoigner de votre expérience ? Je serais ravi de partager nos expériences.
 
 Merci de m'écrire à l'adresse suivante : tdefommervault@qualia-management.com
 
