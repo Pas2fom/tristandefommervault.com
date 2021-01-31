@@ -4,7 +4,6 @@ title: 'A paraître très prochainement '
 description: En cours d'écriture ...
 images: []
 categories: ''
-draft: true
 
 ---
 En cours d'écriture ...
