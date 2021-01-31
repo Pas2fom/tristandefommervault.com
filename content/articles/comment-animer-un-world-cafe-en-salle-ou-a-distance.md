@@ -1,7 +1,7 @@
 ---
 date: 2019-01-29T20:00:00.000+00:00
 title: Comment animer un World Café en salle ou à distance ?
-description: Rappel des fondamentaux de la méthode du world cafe et de son processus
+description: Rappel des fondamentaux de la méthode du World Café et de son processus
   d'animation. Pistes pour animer un World Café en distanciel.
 images:
 - "/uploads/worldcafeillustr.jpg"
