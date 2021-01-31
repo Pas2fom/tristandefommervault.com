@@ -72,9 +72,9 @@ Quelques principes simples sont au cœur du World Café :
 
 _D’après_ The World Café_, Juanita Brown avec David Isaacs, éd. Berrett-Koehler, 2005_
 
-Vous souhaitez digitaliser tout ou partie de votre Worldcafé ? l'animer en distanciel ou intégrer le digital dans la session en présentiel ?
+**Vous souhaitez digitaliser tout ou partie de votre Worldcafé ? l'animer en distanciel ou intégrer le digital dans la session en présentiel ?**
 
-L'application Klaxoon propose un espace digital adapté pour ce type de situation. En voici un aperçu :
+L'application Klaxoon propose un espace digital adapté spécialement pour ce type de situation. En voici un aperçu :
 
 [https://app.klaxoon.com/join/KZ7WXNF](https://app.klaxoon.com/join/KZ7WXNF "https://app.klaxoon.com/join/KZ7WXNF").
 
