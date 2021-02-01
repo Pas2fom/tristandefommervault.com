@@ -32,6 +32,14 @@ fields:
       section: articles-afd4a8b0-def2-47bd-bcb6-f9a2cd2d1d1f
     options:
     - event
+    - synthèses
+    - " CommentFairePour"
+    - " philolab"
+    - " food4thought"
+    - " philOtravail"
+    - " définir"
+    - " comprendre"
+    - " expérimenter"
   label: Catégorie
   name: categories
   description: Affecter un article à une catégorie
