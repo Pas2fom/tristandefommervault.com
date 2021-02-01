@@ -4,7 +4,7 @@ title: Comment animer un World Café en salle ou à distance ?
 description: Rappel des fondamentaux de la méthode du World Café et de son processus
   d'animation. Pistes pour animer un World Café en distanciel.
 images:
-- https://res.cloudinary.com/qualia-management/image/upload/v1612172799/tdf/image_worldcafe.jpg
+- https://res.cloudinary.com/qualia-management/image/upload/v1612186716/tdf/worldcafe_dockcn.jpg
 categories: " CommentFairePour"
 
 ---
