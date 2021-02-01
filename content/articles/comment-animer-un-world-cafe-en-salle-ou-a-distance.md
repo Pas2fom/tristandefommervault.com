@@ -1,5 +1,5 @@
 ---
-date: 2019-01-29T20:00:00.000+00:00
+date: 2021-01-31T21:00:00+01:00
 title: Comment animer un World Café en salle ou à distance ?
 description: Rappel des fondamentaux de la méthode du World Café et de son processus
   d'animation. Pistes pour animer un World Café en distanciel.
@@ -77,6 +77,18 @@ _D’après_ The World Café_, Juanita Brown avec David Isaacs, éd. Berrett-Koe
 L'application Klaxoon propose un espace digital adapté spécialement pour ce type de situation. En voici un aperçu :
 
 [https://app.klaxoon.com/join/KZ7WXNF](https://app.klaxoon.com/join/KZ7WXNF "https://app.klaxoon.com/join/KZ7WXNF").
+
+Souvenez-vous, en distanciel, restez SIMP & CLARH
+
+le plus **sim**ple pour les outils, le plus **cla**ir, **p**récis, **r**ythmé sur la production collective et la **r**elation **h**umaine ou le **p**laisir d'être ensemble.
+
+Il existe une belle palette d'outils au service du distanciel (Klaxoon, padlet, Framapad, Mural, Miro, ...). Cependant ces outils peuvent être énergivores sur le plan cognitif. Avant de les utiliser, veiller à vérifier le background technique des participants.  
+
+En visio, redoubler d'attention à la relation humaine (météo émotionnelle, brise-glace,...) et proposer des temps synchrones ou asynchrones de co-production en petits groupes de 2 ou 3 personnes avec une consigne claire et précise (Zoom, Teams, Webex proposent la création de salles pour les sous-groupes). 
+
+Partager les enseignements clés issus des travaux en sous-groupe (possible sur framapad ou Klaxoon).
+
+Pour la validation collective, cela peut se faire également en synchrone ou asynchrone en fonction de l'ordre du jour). Klaxoon propose la fonction sondage ou le like pour recueillir les préférences des participants. 
 
 Vous avez déjà animé un World Café en distanciel et êtes prêt(e)s à témoigner de votre expérience ? Je serais ravi de partager nos expériences.
 
