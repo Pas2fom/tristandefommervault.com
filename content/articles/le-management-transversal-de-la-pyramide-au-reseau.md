@@ -4,7 +4,6 @@ title: 'Le management transversal : de la pyramide au réseau'
 description: Comment faire évoluer les pratiques de management transversal ?
 images: []
 categories: " food4thought"
-draft: true
 
 ---
 Comment faire émerger des compétences à manager et coopérer en transversal au sein d’organisations où le principal étalon de reconnaissance est l’expertise technique ?
