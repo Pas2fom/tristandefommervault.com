@@ -74,10 +74,6 @@ _D’après_ The World Café_, Juanita Brown avec David Isaacs, éd. Berrett-Koe
 
 **Vous souhaitez digitaliser tout ou partie de votre Worldcafé ? l'animer en distanciel ou intégrer le digital dans la session en présentiel ?**
 
-L'application Klaxoon propose un espace digital adapté spécialement pour ce type de situation. En voici un aperçu :
-
-[https://app.klaxoon.com/join/KZ7WXNF](https://app.klaxoon.com/join/KZ7WXNF "https://app.klaxoon.com/join/KZ7WXNF").
-
 Souvenez-vous, en distanciel, restez SIMP & CLARH
 
 le plus **sim**ple pour les outils, le plus **cla**ir, **p**récis, **r**ythmé sur la production collective et la **r**elation **h**umaine ou le **p**laisir d'être ensemble.
@@ -89,6 +85,8 @@ En visio, redoubler d'attention à la relation humaine (météo émotionnelle, b
 Partager les enseignements clés issus des travaux en sous-groupe (possible sur framapad ou Klaxoon).
 
 Pour la validation collective, cela peut se faire également en synchrone ou asynchrone en fonction de l'ordre du jour). Klaxoon propose la fonction sondage ou le like pour recueillir les préférences des participants. 
+
+L'application Klaxoon propose un espace digital adapté spécialement pour ce type de situation. En voici [ici](https://klaxoon.com/fr/template/brainstorming-fr/world-cafe-lideation-collaborative-avec-plusieurs-sous-groupes) un [aperçu](https://app.klaxoon.com/join/KZ7WXNF).
 
 Vous avez déjà animé un World Café en distanciel et êtes prêt(e)s à témoigner de votre expérience ? Je serais ravi de partager nos expériences.
 
