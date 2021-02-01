@@ -4,7 +4,6 @@ title: Se faire confiance et coopérer
 description: 'La confiance, un concept mou ? '
 images: []
 categories: " food4thought"
-draft: true
 
 ---
 Nos activités de travail se caractérisent par des interactions et échanges d’information toujours plus intenses, fondés sur des liens de confiance. 
