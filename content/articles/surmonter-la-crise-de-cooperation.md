@@ -1,8 +1,9 @@
 ---
-date: 2021-01-21T21:00:00+01:00
-title: "Surmonter la crise de coopération"
+date: 2021-01-21T21:00:00.000+01:00
+title: Surmonter la crise de coopération
 description: Comment stopper la spirale de la défiance ?
 images:
+- https://res.cloudinary.com/qualia-management/image/upload/v1612185241/tdf/aubrey-odom-t1l9q5g7eiq-unsplash_omisds.jpg
 - "/uploads/aubrey-odom-t1l9q5g7eiq-unsplash.jpg"
 categories: ''
 
