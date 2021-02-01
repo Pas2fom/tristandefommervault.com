@@ -1,5 +1,5 @@
 ---
-date: 2019-01-29T20:00:00.000+00:00
+date: 2020-02-02T21:00:00+01:00
 title: 'Le management transversal : de la pyramide au réseau'
 description: Comment faire évoluer les pratiques de management transversal ?
 images: []
