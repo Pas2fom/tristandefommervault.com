@@ -5,7 +5,7 @@ description: Rappel des fondamentaux de la méthode du World Café et de son pro
   d'animation. Pistes pour animer un World Café en distanciel.
 images:
 - "/uploads/worldcafeillustr.jpg"
-categories: ''
+categories: " CommentFairePour"
 
 ---
 L’approche World Café vise avant tout à organiser l’échange d’idées et la réflexion collective. Très souple dans sa mise en œuvre, son champ d’application est étendu : de stimuler l’instauration d’échanges entre personnes qui ne se connaissent pas jusqu’à élaborer une politique ou le plan stratégique d’une organisation.
@@ -20,19 +20,19 @@ Le principal obstacle à la créativité et au dialogue réside dans la convicti
 
 Or les réflexes professionnels sont fortement ancrés. Pour engager efficacement une réflexion collective, il faut donc lutter délibérément contre la tendance à vouloir défendre son point de vue initial. Plusieurs techniques permettent de conduire chacun à reconnaître que son point de vue est partiel ou mérite d’être remis en cause
 
-1. Instaurer des mécanismes d’écoute.
+2. Instaurer des mécanismes d’écoute.
 
 Quelques règles simples peuvent avoir un impact majeur sur la qualité d’écoute. Ainsi les organisateurs de World Cafés ont volontiers recours à la "pierre de dialogue". Il s’agit simplement d’une pierre, ou de tout autre objet, qui confère à son seul détenteur le droit de parler: les 3 ou 4 autres participants assis à sa table ne sont pas autorisés à l’interrompre. Paradoxalement, cela conduit chacun à être plus efficace dans ses propos, la conscience de monopoliser la parole étant plus aiguë. Un autre mécanisme consiste à inviter les participants à décider régulièrement d’une à deux minutes de réflexion silencieuse pour faire le point sur les échanges. Dans les deux cas, on évite la dynamique de ping-pong verbal qui freine l’écoute en focalisant chacun sur la préparation de sa prochaine répartie.
 
-1. Focaliser l’attention sur la production collective
+3. Focaliser l’attention sur la production collective
 
 Certaines techniques incitent les participants à se concentrer sur la globalité des échanges plutôt que sur la défense de leur propre point de vue. Ainsi, les participants à un World Café sont invités à représenter graphiquement, sur la nappe en papier qui couvre la table, les associations d’idées qui émergent des échanges: cette construction graphique collective, à laquelle chacun contribue au fil des discussions, aide à focaliser l’attention sur une vue d’ensemble des débats. De même, lorsque les participants changent de table pour entamer un autre tour de discussions, ils ont pour consigne de se faire l’ambassadeur des échanges auxquels ils viennent de participer: ce rôle les incite naturellement à prendre du recul sur leur point de vue d’origine.
 
-1. Conduire chacun à se rapprocher des autres
+4. Conduire chacun à se rapprocher des autres
 
 La qualité de la coopération entre individus est d’autant plus élevée que ceux-ci ont le sentiment d’appartenir à une même communauté, qui partage les mêmes enjeux. Le simple fait de partager une expérience commune riche en intensité constitue un facteur de rapprochement.
 
-1. Organiser la combinaison des idées
+5. Organiser la combinaison des idées
 
 La combinaison des réflexions de tous peut être organisée au moyen de méthodologies rigoureuses. Comment parvenir à combiner les contributions de plusieurs dizaines de personnes pour aboutir à une production collective cohérente? La réponse réside bien sûr pour partie dans la succession des différentes étapes qui constituent les séminaires. Mais la structuration des étapes de travail n’est pas tout.
 
@@ -78,13 +78,13 @@ Souvenez-vous, en distanciel, restez SIMP & CLARH
 
 le plus **sim**ple pour les outils, le plus **cla**ir, **p**récis, **r**ythmé sur la production collective et la **r**elation **h**umaine ou le **p**laisir d'être ensemble.
 
-Il existe une belle palette d'outils au service du distanciel (Klaxoon, padlet, Framapad, Mural, Miro, ...). Cependant ces outils peuvent être énergivores sur le plan cognitif. Avant de les utiliser, veiller à vérifier le background technique des participants.  
+Il existe une belle palette d'outils au service du distanciel (Klaxoon, padlet, Framapad, Mural, Miro, ...). Cependant ces outils peuvent être énergivores sur le plan cognitif. Avant de les utiliser, veiller à vérifier le background technique des participants.
 
-En visio, redoubler d'attention à la relation humaine (météo émotionnelle, brise-glace,...) et proposer des temps synchrones ou asynchrones de co-production en petits groupes de 2 ou 3 personnes avec une consigne claire et précise (Zoom, Teams, Webex proposent la création de salles pour les sous-groupes). 
+En visio, redoubler d'attention à la relation humaine (météo émotionnelle, brise-glace,...) et proposer des temps synchrones ou asynchrones de co-production en petits groupes de 2 ou 3 personnes avec une consigne claire et précise (Zoom, Teams, Webex proposent la création de salles pour les sous-groupes).
 
 Partager les enseignements clés issus des travaux en sous-groupe (possible sur framapad ou Klaxoon).
 
-Pour la validation collective, cela peut se faire également en synchrone ou asynchrone en fonction de l'ordre du jour). Klaxoon propose la fonction sondage ou le like pour recueillir les préférences des participants. 
+Pour la validation collective, cela peut se faire également en synchrone ou asynchrone en fonction de l'ordre du jour). Klaxoon propose la fonction sondage ou le like pour recueillir les préférences des participants.
 
 L'application Klaxoon propose un espace digital adapté spécialement pour ce type de situation. En voici [ici](https://klaxoon.com/fr/template/brainstorming-fr/world-cafe-lideation-collaborative-avec-plusieurs-sous-groupes) un [aperçu](https://app.klaxoon.com/join/KZ7WXNF).
 
