@@ -29,8 +29,8 @@ sections:
   path: content/coaching/index.md
   label: Coaching
 upload_dir: tdf
-public_path: https://res.cloudinary.com/qualia-management/image/upload
-front_matter_path: ''
+public_path: https://res.cloudinary.com/qualia-management/image/upload/ar_1.6,c_crop,w_649,g_auto,f_auto,q_auto
+front_matter_path: https://res.cloudinary.com/qualia-management/image/upload
 use_front_matter_path: true
 file_template: ":filename: "
 build:
