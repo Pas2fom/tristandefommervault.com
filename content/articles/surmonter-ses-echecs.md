@@ -1,15 +1,14 @@
 ---
 title: Surmonter ses échecs
-description: >-
-  L’intelligence humaine fonctionne par essais, erreurs et corrections.
+description: L’intelligence humaine fonctionne par essais, erreurs et corrections.
   Nous apprenons autant de nos réussites que de nos échecs.
 date: 2018-01-21
 images:
-  - /uploads/shirly-niv-marton-377770-unsplash.jpg
+- https://res.cloudinary.com/qualia-management/image/upload/v1612185224/tdf/shirly-niv-marton-377770-unsplash_zy3lwx.jpg
+- "/uploads/shirly-niv-marton-377770-unsplash.jpg"
 canonicalURL: http://www.qualia-management.com/?p=240
+
 ---
-
-
 > « C’est dur d’échouer, mais c’est pire de n’avoir jamais essayé de réussir. » — Roosevelt
 
 > « Point n’est besoin d’espérer pour entreprendre, ni de réussir pour persévérer. » (attribué à Guillaume d’Orange)
