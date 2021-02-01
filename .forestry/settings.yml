@@ -32,7 +32,7 @@ upload_dir: ''
 public_path: https://res.cloudinary.com/qualia-management/image/upload
 front_matter_path: https://res.cloudinary.com/qualia-management/image/upload
 use_front_matter_path: true
-file_template: ":filename:"
+file_template: ":filename:tdf"
 build:
   preview_env:
   - HUGO_ENV=staging
