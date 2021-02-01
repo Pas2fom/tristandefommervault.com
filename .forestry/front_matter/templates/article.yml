@@ -44,7 +44,6 @@ fields:
   name: categories
   description: Affecter un article à une catégorie
 pages:
-- content/articles/a-paraitre-tres-prochainement.md
 - content/articles/comment-animer-un-world-cafe-en-salle-ou-a-distance.md
 - content/articles/heureux-d-avoir-contribue-a-ce-defi-qui-fera-date-dans-l-histoire-du-codeveloppement.md
 - content/articles/l-art-du-questionnement-en-formation-prendre-le-contre-pied-des-croyances-en-posant-des-questions-contre-intuitives.md
