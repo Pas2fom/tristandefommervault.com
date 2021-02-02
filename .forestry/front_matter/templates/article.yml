@@ -13,7 +13,7 @@ fields:
   label: Date
   config:
     required: true
-  default: '2019-01-29T20:00:00.000+00:00'
+  default: now
 - type: text
   name: description
   label: Description
