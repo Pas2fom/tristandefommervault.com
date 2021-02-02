@@ -1,13 +1,14 @@
 ---
 date: 2021-01-31T21:00:00.000+01:00
 title: Animer un World Café en salle ou à distance
-description: Rappel des fondamentaux de la méthode du World Café et de son processus
+description:
+  Rappel des fondamentaux de la méthode du World Café et de son processus
   d'animation. Pistes pour animer un World Café en distanciel.
 images:
-- https://res.cloudinary.com/qualia-management/image/upload/v1612186716/tdf/worldcafe_dockcn.jpg
+  - https://res.cloudinary.com/qualia-management/image/upload/v1612186716/tdf/worldcafe_dockcn.jpg
 categories: " CommentFairePour"
-
 ---
+
 L’approche World Café vise avant tout à organiser l’échange d’idées et la réflexion collective. Très souple dans sa mise en œuvre, son champ d’application est étendu : de stimuler l’instauration d’échanges entre personnes qui ne se connaissent pas jusqu’à élaborer une politique ou le plan stratégique d’une organisation.
 
 **Les principes fondamentaux**
@@ -62,15 +63,12 @@ L’enjeu consiste à créer une atmosphère et des conditions de travail qui in
 
 Quelques principes simples sont au cœur du World Café :
 
-1\. La création d’un espace agréable, invitant à des discussions détendues.
+1. La création d’un espace agréable, invitant à des discussions détendues.
+2. L’organisation des discussions par petites tables de 4 ou 5 participants, échangeant pendant environ 20 à 30 minutes, et invités à garder trace des échanges en dessinant sur la table ou à écrire leurs idées.
+3. L’organisation de tours de discussion successifs au cours desquels les participants changent de table et se font l’ambassadeur des enseignements de la discussion à laquelle ils viennent de participer.
+4. Souvent, la mise en commun des enseignements lors d’une session plénière.
 
-2\. L’organisation des discussions par petites tables de 4 ou 5 participants, échangeant pendant environ 20 à 30 minutes, et invités à garder trace des échanges en dessinant sur la table ou à écrire leurs idées.
-
-3\. L’organisation de tours de discussion successifs au cours desquels les participants changent de table et se font l’ambassadeur des enseignements de la discussion à laquelle ils viennent de participer.
-
-4\. Souvent, la mise en commun des enseignements lors d’une session plénière.
-
-_D’après_ The World Café_, Juanita Brown avec David Isaacs, éd. Berrett-Koehler, 2005_
+_D’après_ The World Café*, Juanita Brown avec David Isaacs, éd. Berrett-Koehler, 2005*
 
 **Vous souhaitez digitaliser tout ou partie de votre Worldcafé ? l'animer en distanciel ou intégrer le digital dans la session en présentiel ?**
 
@@ -89,7 +87,3 @@ Pour la validation collective, cela peut se faire également en synchrone ou asy
 L'application Klaxoon propose un espace digital adapté spécialement pour ce type de situation. En voici [ici](https://klaxoon.com/fr/template/brainstorming-fr/world-cafe-lideation-collaborative-avec-plusieurs-sous-groupes) un [aperçu](https://app.klaxoon.com/join/KZ7WXNF).
 
 Vous avez déjà animé un World Café en distanciel et êtes prêt(e)s à témoigner de votre expérience ? Je serais ravi de partager nos expériences.
-
-Merci de m'écrire à l'adresse suivante : tdefommervault@qualia-management.com
-
-Tristan de Fommervault
