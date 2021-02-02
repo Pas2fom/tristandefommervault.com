@@ -28,6 +28,12 @@ sections:
 - type: document
   path: content/coaching/index.md
   label: Coaching
+- type: heading
+  label: Configuration
+- type: document
+  path: config.toml
+  label: Paramètres
+  match: "**/*"
 upload_dir: tdf
 public_path: https://res.cloudinary.com/qualia-management/image/upload/ar_1.6,c_crop,w_649,g_auto,f_auto,q_auto
 front_matter_path: https://res.cloudinary.com/qualia-management/image/upload
