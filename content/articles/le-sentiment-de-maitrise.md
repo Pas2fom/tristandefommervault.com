@@ -4,7 +4,6 @@ title: Le sentiment de maîtrise
 description: 'maîtrise contrôle apprentissage '
 images: []
 categories: " food4thought"
-draft: true
 
 ---
 Qui n’a pas déjà éprouvé ce sentiment intense de joie que procure la maîtrise d’une action ? Une langue, une technique, une méthode, pratiquées avec adresse, élargissent notre champ d’action et nous donnent davantage prise sur le monde. Sur nous même aussi. Toute maîtrise de quelque chose est aussi maîtrise de soi. Un processus en trois temps :
