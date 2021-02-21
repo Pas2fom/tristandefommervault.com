@@ -30,4 +30,4 @@ La maîtrise est intuitive, synthétique, créative ; le contrôle est cérébra
 
 **Le contrôle demande de la maîtrise.**
 
-Le contrôle porte sur ce qui est extérieur à soi. La maîtrise est d'abord relation à soi et maîtrise _de soi. "_On ne contrôle que ce que l’on ne maîtrise pas, que ce qui nous est extérieur. La maîtrise, au contraire, est celle de ses propres limites. On s'exerce, par exemple, à maîtriser son désir de contrôler (...) Maîtriser, c’est toujours maîtriser un sujet, à commencer par celui que l’on est à soi-même." (Thibaud Brière).
+Le contrôle porte sur ce qui est extérieur à soi. La maîtrise est d'abord relation à soi et maîtrise _de soi. "_On ne contrôle que ce que l’on ne maîtrise pas, que ce qui nous est extérieur. La maîtrise, au contraire, est celle de ses propres limites. On s'exerce, par exemple, à maîtriser son désir de contrôler (...) Maîtriser, c’est toujours maîtriser un sujet, à commencer par celui que l’on est à soi-même." ([Thibaud Brière](https://www.linkedin.com/feed/update/urn:li:activity:6659097040745824256/)).
