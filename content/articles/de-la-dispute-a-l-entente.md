@@ -12,11 +12,11 @@ De l’antiquité au moyen-âge les hommes se "disputaient"volontiers. La _dispu
 
 En se donnant les moyens d’une confrontation véritable, en laissant les différents points de vue s’exprimer et se confronter aux autres, la discussion progresse : il lève les oppositions apparentes, explicite les représentations sous-jacentes, crée une entente autour d’une vision commune, et stimule l’émergence d’idées nouvelles pour résoudre les problèmes.
 
-Les échanges professionnels peuvent être des « bases d’entraînement » privilégiées pour s’exercer à cet esprit de confrontation. 
+Les échanges professionnels peuvent être des « bases d’entraînement » privilégiées pour s’exercer à cet esprit de confrontation.
 
-Envie de jouter ?  Hyperconsensuel s'abstenir ! 
+Envie de jouter ?  Hyperconsensuel s'abstenir !
 
-Croire à l'intelligence collective
+Miser sur l'intelligence collective de la "dispute"
 
 Les volontaires forment ensemble le projet d'atteindre par la discussion un résultat d´une plus grande valeur que celui qu’ils auraient pu atteindre seul et acceptent de remettre en question leurs positions.
 
