@@ -3,7 +3,8 @@ date: 2021-03-10T19:48:46+01:00
 title: De la dispute à l'entente
 description: En se donnant les moyens d’une confrontation véritable, en laissant les
   différents points de vue s’exprimer et se confronter aux autres, la discussion progresse
-images: []
+images:
+- https://res.cloudinary.com/qualia-management/image/upload/v1612185239/tdf/joshua-ness-225844-unsplash_bsnekj.jpg
 categories: " food4thought"
 
 ---
