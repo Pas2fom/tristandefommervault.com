@@ -127,7 +127,7 @@ description = "Les outils que nous mobilisons font référence au niveau interna
     footertext = '** <a href="http://plmd.me/" target="_blank"> </a>'
 
     [[params.work.row]]
-      img = "AEC_1.jpg"
+      img = "AEC_1.png"
       alt = "DISC"
       title = "Arc-En-Ciel DISC"
       subtitle = "Connaître sa personnalité et ses motivations; mapping d'équipe"
