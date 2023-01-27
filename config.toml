@@ -134,7 +134,7 @@ description = "Les outils que nous mobilisons font référence au niveau interna
 
     [[params.work.row]]
       img = "PCM-logo classic-2021-rgb.jpg"
-      alt = "Process Com"
+      alt = "Process Communication Model"
       title = "Process Com"
       subtitle = "comprendre son comportement sous stress et mieux coopérer en équipe "
 
