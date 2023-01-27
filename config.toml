@@ -139,7 +139,7 @@ description = "Les outils que nous mobilisons font référence au niveau interna
       subtitle = "Comprendre son comportement sous stress et mieux coopérer en équipe "
 
     [[params.work.row]]
-      img = "https://res.cloudinary.com/qualia-management/image/upload/v1674817705/tdf/Mentor_qram5e.jpg"
+      img = "< img src="https://res.cloudinary.com/qualia-management/image/upload/v1674817705/tdf/Mentor_qram5e.jpg" >"
       alt = "Codéveloppement"
       title = "Codéveloppement"
       subtitle = "Favoriser l'intelligence du groupe"
