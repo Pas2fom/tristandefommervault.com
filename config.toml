@@ -122,23 +122,24 @@ person = "Verbatim évaluation à chaud"
 quote = "&ldquo;Tristan mobilise l'energie du groupe en jouant sur une grande variété de ressorts.&rdquo;"
 [params.work]
 enable = true
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+title = "Outils & certifications"
+description = "Les outils que nous mobilisons font référence au niveau international et font l’objet d’une évaluation régulière. Process Communication©, Arc-en-Ciel DISC, Intelligence Emotionnelle, Psychologie Positive, Communication Non Violente, Codéveloppement."
+    footertext = '** <a href="http://plmd.me/" target="_blank"> </a>'
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      img = "AEC_1.jpg"
+      alt = "DISC"
+      title = "Arc-En-Ciel DISC"
+      subtitle = "Connaître sa personnalité et ses motivations; mapping d'équipe"
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      img = "PCM_1.jpg"
+      alt = "Process Com"
+      title = "Process Com"
+      subtitle = "comprendre son comportement sous stress et mieux coopérer en équipe "
 
     [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      img = "Codev.jpg"
+      alt = "Codéveloppement"
+      title = "Codéveloppement"
+      subtitle = "Favoriser l'intelligence du groupe"
