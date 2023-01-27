@@ -7,9 +7,6 @@
   <head>
     {{ partial "head.html" .}}
     {{ partial "logo.html" .}}
-    {{ with .Params.images }}
-<figure class="title-image"><img src="{{ index . 0 }}" alt=""></figure>
-{{ end }}
     
     {{ if .Site.Params.logo.enable }}
        		{{ partial "logo.html" .}}
