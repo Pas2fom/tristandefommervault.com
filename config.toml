@@ -121,4 +121,4 @@ img = "person1.jpg"
 person = "Verbatim évaluation à chaud"
 quote = "&ldquo;Tristan mobilise l'energie du groupe en jouant sur une grande variété de ressorts.&rdquo;"
 [params.work]
-enable = true
+enable = false
