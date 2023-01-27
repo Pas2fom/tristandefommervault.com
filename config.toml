@@ -2,7 +2,6 @@ baseurl = "https://www.tristandefommervault.com/"
 footnoteReturnLinkContents = "↩"
 languageCode = "fr-fr"
 metaDataFormat = "yaml"
-img = "ICONA-2.png"
 pluralizeListTitles = false
 removePathAccents = true
 theme = "github.com/saey55/hugo-elate-theme"
