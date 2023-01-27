@@ -5,6 +5,7 @@
 <!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html lang="{{ .Site.LanguageCode }}">
   <head>
+    {{ partial "logo.html" .}}
     {{ partial "head.html" .}}
   </head>
   <body>
@@ -13,6 +14,10 @@
   {{ partial "hero.html" .}}
 
   {{ partial "intro.html" .}}
+    
+      {{ if .Site.Params.logo.enable }}
+       		{{ partial "logo.html" .}}
+       	{{ end }}
     
     {{ if .Site.Params.work.enable }}
        		{{ partial "work.html" .}}
