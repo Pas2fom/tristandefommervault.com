@@ -124,7 +124,7 @@ quote = "&ldquo;Tristan mobilise l'energie du groupe en jouant sur une grande va
 enable = true
 title = "Outils & certifications"
 description = "Les outils que nous mobilisons font référence au niveau international et font l’objet d’une évaluation régulière. Process Communication©, Arc-en-Ciel DISC, Intelligence Emotionnelle, Psychologie Positive, Communication Non Violente, Codéveloppement."
-    footertext = '** <a href="http://plmd.me/" target="_blank"> </a>'
+    footertext = '<a href="" target="_blank"> </a>'
 
     [[params.work.row]]
       img = "AEC_1.png"
@@ -139,7 +139,7 @@ description = "Les outils que nous mobilisons font référence au niveau interna
       subtitle = "Comprendre son comportement sous stress et mieux coopérer en équipe "
 
     [[params.work.row]]
-      img = "Codev.jpg"
+      img = "https://res.cloudinary.com/qualia-management/image/upload/v1674817705/tdf/Mentor_qram5e.jpg"
       alt = "Codéveloppement"
       title = "Codéveloppement"
       subtitle = "Favoriser l'intelligence du groupe"
