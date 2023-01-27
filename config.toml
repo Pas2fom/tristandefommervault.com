@@ -30,7 +30,7 @@ title = "À propos"
 [[params.about.item]]
 alt = "Tristan de Fommervault"
 description = "Un parcours en 3 temps : Comédien, RH, Coach Formateur. J'accompagne les personnes et les collectifs en situation de transformation. Une citation qui m'inspire : Veille à tes pensées, elles deviennent des mots. Veille à tes mots, ils deviennent des actions. Veille à tes actions, elles deviennent des habitudes. Veille à tes habitudes, elles deviennent ton caractère. Veille à ton caractère, il devient ton destin. Lao Tseu "
-img = "tristan.jpg"
+img = "tristan2.jpg"
 name = "Tristan de Fommervault"
 position = "Coach et formateur certifié"
 social = [["icon-twitter", "https://twitter.com/de_Fommervault"], ["icon-facebook", "https://www.facebook.com/fommervault?ref=bookmarks"], ["icon-linkedin", "https://www.linkedin.com/in/tristandefommervault/"]]
@@ -62,7 +62,7 @@ title = "Transmettre et accompagner, former et coacher"
 [params.intro]
 enable = true
 [params.intro.video]
-enable = false
+enable = true
 [[params.intro.item]]
 button = "En savoir plus"
 description = "Un accompagnement personnalisé pour accélérer l'atteinte de son objectif et accomplir son rêve."
@@ -121,4 +121,4 @@ img = "person1.jpg"
 person = "Verbatim évaluation à chaud"
 quote = "&ldquo;Tristan mobilise l'energie du groupe en jouant sur une grande variété de ressorts.&rdquo;"
 [params.work]
-enable = false
+enable = true
