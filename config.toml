@@ -1,6 +1,5 @@
 baseurl = "https://www.tristandefommervault.com/"
 footnoteReturnLinkContents = "↩"
-brand : Qualia
 languageCode = "fr-fr"
 metaDataFormat = "yaml"
 pluralizeListTitles = false
