@@ -84,8 +84,7 @@ contact = "Contact"
 home = "Accueil"
 intro = "Services"
 testimonials = "Témoignages"
-logo = "logo.png"
-<img src=“/images/logo.png” alt=“logo” >
+logo = "/images/logo.png"
 [params.services]
 enable = false
 [params.testimonials]
