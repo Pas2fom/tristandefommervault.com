@@ -84,6 +84,7 @@ contact = "Contact"
 home = "Accueil"
 intro = "Services"
 testimonials = "Témoignages"
+logo = "logo.png"
 [params.services]
 enable = false
 [params.testimonials]
