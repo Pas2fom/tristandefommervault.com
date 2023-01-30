@@ -6,12 +6,11 @@
 <html lang="{{ .Site.LanguageCode }}">
   <head>
     {{ partial "head.html" .}}
-   
+  {{ partial "nav.html" .}}
+ {{ partial "logo.html" .}}  
  
   </head>
   <body>
-  {{ partial "nav.html" .}}
- {{ partial "logo.html" .}}
     
     {{ if .Site.Params.logo.enable }}
        		{{ partial "logo.html" .}}
