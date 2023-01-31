@@ -2,7 +2,8 @@
 date: 2021-02-21T18:03:35.000+01:00
 title: Distinguer la maîtrise du contrôle
 description: 'maîtrise contrôle apprentissage '
-images: []
+images:
+- https://res.cloudinary.com/qualia-management/image/upload/v1675158666/tdf/DALL_E_2023-01-31_10.48.48_gz6dsf.png
 categories: " food4thought"
 
 ---
@@ -26,8 +27,8 @@ A travers une activité que nous maîtrisons et qui nous stimule dans la durée,
 
 **La maîtrise n’est pas le contrôle**
 
-La maîtrise est intuitive, synthétique, créative ; le contrôle est cérébral, analytique, peut-être besogneux. La maîtrise vient de la personne, le contrôle de la fonction ou de l’organisation. La maîtrise tend à l’économie, le contrôle à l’abondance (procédures, ...). La maîtrise est ouverture à l’incertain, le contrôle écarte toute surprise. La maîtrise est à la joie, ce que le contrôle est à la peur.
+La maîtrise est intuitive, synthétique, créative ; le contrôle est cérébral, analytique, peut-être besogneux. La maîtrise vient de la personne, le contrôle de la fonction ou de l’organisation. La maîtrise tend à l’économie, le contrôle à l’abondance (procédures, ...). La maîtrise est ouverture à l’incertain, le contrôle écarte toute surprise. La maîtrise est à la joie ce que le contrôle est à la peur.
 
 **Le contrôle demande de la maîtrise.**
 
-Le contrôle porte sur ce qui est extérieur à soi. La maîtrise est d'abord relation à soi et maîtrise _de soi. "_On ne contrôle que ce que l’on ne maîtrise pas, que ce qui nous est extérieur. La maîtrise, au contraire, est celle de ses propres limites. On s'exerce, par exemple, à maîtriser son désir de contrôler (...) Maîtriser, c’est toujours maîtriser un sujet, à commencer par celui que l’on est à soi-même." ([Thibaud Brière](https://www.linkedin.com/feed/update/urn:li:activity:6659097040745824256/)).
+Le contrôle porte sur ce qui est extérieur à soi. La maîtrise est d'abord relation à soi et maîtrise _de soi. "On ne contrôle que ce que l’on ne maîtrise pas, que ce qui nous est extérieur. La maîtrise, au contraire, est celle de ses propres limites. On s'exerce, par exemple, à maîtriser son désir de contrôler (...) Maîtriser, c’est toujours maîtriser un sujet, à commencer par celui que l’on est à soi-même." ([Thibaud Brière](https://www.linkedin.com/feed/update/urn:li:activity:6659097040745824256/)).
