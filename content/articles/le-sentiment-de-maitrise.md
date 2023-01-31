@@ -1,5 +1,5 @@
 ---
-date: 2021-02-21T18:03:35+01:00
+date: 2021-02-21T18:03:35.000+01:00
 title: Distinguer la maîtrise du contrôle
 description: 'maîtrise contrôle apprentissage '
 images: []
@@ -18,11 +18,11 @@ Mythe de la caverne, La République de Platon. Les prisonniers tout au fond de l
 
 **3 : Je ne sais plus que je sais**
 
-Demandez à un artiste comment il crée ses couleurs et ses formes : il vous répondra souvent soit qu'il ne sais pas lui même soit qu'il se laisser guider par son intuition et qu'à force d'expérimenter...  
+Demandez à un artiste comment il crée ses couleurs et ses formes : il vous répondra souvent soit qu'il ne sais pas lui même soit qu'il se laisse guider par son intuition et qu'à force d'expérimenter...
 
-Quelle est la place de l'intuition dans l'expérience de la maîtrise ? 
+Quelle est la place de l'intuition dans l'expérience de la maîtrise ?
 
- A travers une activité que nous maîtrisons et qui nous stimule dans la durée, nous faisons l'expérience du _flow_ (Mihaly Csikszentmihalyi). Notre attention se trouve toute entière investie dans l'oeuvre en cours. Nous ressentons la joie de créer, d'accomplir et d'accroitre notre potentiel d'action. 
+A travers une activité que nous maîtrisons et qui nous stimule dans la durée, nous faisons l'expérience du _flow_ (Mihaly Csikszentmihalyi). Notre attention se trouve toute entière investie dans l'oeuvre en cours. Nous ressentons la joie de créer, d'accomplir et d'accroitre notre potentiel d'action.
 
 **La maîtrise n’est pas le contrôle**
 
