@@ -5,7 +5,6 @@ description: Se mettre en mouvement et décider dans l'incertitude
 images:
 - https://res.cloudinary.com/qualia-management/image/upload/v1675708918/tdf/VIE_changement_conduite_-_Page_1_nh3uzu.png
 categories: ''
-draft: true
 
 ---
 Un premier outil d'auto-coaching : le visioning.   
