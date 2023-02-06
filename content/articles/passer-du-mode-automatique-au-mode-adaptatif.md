@@ -16,4 +16,4 @@ Il est important de reconnaître les biais de perception qui influencent nos com
 3. Développer le sens de la nuance : il est important de ne pas simplifier la réalité en la considérant comme blanche ou noire. La réalité est souvent plus nuancée et nécessite notre sens de la nuance pour être perçue correctement.
 4. Mettre en suspens ses certitudes : les certitudes peuvent être rassurantes, mais elles peuvent également nous enfermer. Il est important de se rappeler que notre opinion ou représentation n'est pas toujours la réalité.
 
-En suivant ces étapes, nous pouvons passer du mode automatique au mode adaptatif et développer notre capacité à faire face aux changements et à l'incertitude avec plus de sérénité. Un processus continu qui nécessite attention élargie et prise de responsabilité personnelle.
+En suivant ces étapes, nous pouvons passer du mode automatique au mode adaptatif et développer notre capacité à faire face aux changements et à l'incertitude avec plus de sérénité. Un processus continu qui nécessite attention élargie et engagement personnel.
