@@ -6,5 +6,6 @@ goals: ''
 category: Leadership
 weight: 10
 draft: true
-
+_template: formation
 ---
+

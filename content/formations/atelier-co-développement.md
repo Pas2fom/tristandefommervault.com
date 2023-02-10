@@ -2,13 +2,16 @@
 category: Ateliers
 title: Atelier co-développement
 description: ''
-goals: Echanger sur sa pratique et ses expériences, Apprendre et s’enrichir des expériences
-  et feed-backs de pairs (applicable aux thèmes de formation préalablement mentionnés)
+goals: >-
+  Echanger sur sa pratique et ses expériences, Apprendre et s’enrichir des
+  expériences et feed-backs de pairs (applicable aux thèmes de formation
+  préalablement mentionnés)
 images: []
 weight: 20
 theme: Développer le management
-
+_template: formation
 ---
+
 ## Déroulement d’une session
 
 * Présentation d'une situation apportée par un des participants

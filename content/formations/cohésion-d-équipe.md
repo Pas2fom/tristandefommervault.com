@@ -5,5 +5,6 @@ description: Développer la confiance et travailler efficacement en complémenta
 goals: ''
 weight: 15
 theme: Développer le management
-
+_template: formation
 ---
+

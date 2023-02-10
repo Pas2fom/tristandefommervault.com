@@ -1,12 +1,14 @@
 ---
-date: 2019-01-29T20:00:00.000+00:00
+date: 2019-01-29T20:00:00.000Z
 title: 'Questionner pour ouvrir le sens '
 description: Poser des questions ou s'affirmer ? Les concilier plutôt que les opposer.
 images:
-- https://res.cloudinary.com/qualia-management/image/upload/v1612185215/tdf/matt-walsh-tvkdgtee2c4-unsplash_uwt4r4.jpg
+  - >-
+    https://res.cloudinary.com/qualia-management/image/upload/v1612185215/tdf/matt-walsh-tvkdgtee2c4-unsplash_uwt4r4.jpg
 categories: ''
-
+_template: article
 ---
+
 Pour communiquer avec des personnes dans un milieu professionnel, il est souvent recommandé de préférer l’affirmation à l'interrogation. Dans une réunion, on pense qu’il est bien vu d'enchaîner les "Je pense que...", "J’ai la ferme conviction que..." ; de présenter toutes sortes d’arguments comme « irréfutables » .... A contrario, celui qui sollicite fréquemment l'avis de son entourage peut rapidement être perçu comme manquant d’assurance ou de charisme.
 
 L’absence de questionnement peut occulter les débats nécessaires dans une prise de décision. Le seul mode affirmatif peut mener à s’aveugler sur la réalité.

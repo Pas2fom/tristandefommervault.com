@@ -1,13 +1,16 @@
 ---
-date: 2021-01-31T21:00:00.000+01:00
+date: 2021-01-31T20:00:00.000Z
 title: Animer un World Café en salle ou à distance
-description:
+description: >-
   Rappel des fondamentaux de la méthode du World Café et de son processus
   d'animation. Pistes pour animer un World Café en distanciel.
 images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1612186716/tdf/worldcafe_dockcn.jpg
-categories: " CommentFairePour"
+  - >-
+    https://res.cloudinary.com/qualia-management/image/upload/v1612186716/tdf/worldcafe_dockcn.jpg
+categories: ' CommentFairePour'
+_template: article
 ---
+
 
 L’approche World Café vise avant tout à organiser l’échange d’idées et la réflexion collective. Très souple dans sa mise en œuvre, son champ d’application est étendu : de stimuler l’instauration d’échanges entre personnes qui ne se connaissent pas jusqu’à élaborer une politique ou le plan stratégique d’une organisation.
 

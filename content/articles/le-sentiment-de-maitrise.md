@@ -1,12 +1,14 @@
 ---
-date: 2021-02-21T18:03:35.000+01:00
+date: 2021-02-21T17:03:35.000Z
 title: Distinguer la maîtrise du contrôle
 description: 'maîtrise contrôle apprentissage '
 images:
-- https://res.cloudinary.com/qualia-management/image/upload/v1675158666/tdf/DALL_E_2023-01-31_10.48.48_gz6dsf.png
-categories: " food4thought"
-
+  - >-
+    https://res.cloudinary.com/qualia-management/image/upload/v1675158666/tdf/DALL_E_2023-01-31_10.48.48_gz6dsf.png
+categories: ' food4thought'
+_template: article
 ---
+
 Qui n’a pas déjà éprouvé ce sentiment intense de joie que procure la maîtrise d’une action ? Une langue, une technique, une méthode, pratiquées avec adresse, élargissent notre champ d’action et nous donnent davantage prise sur le monde. Un processus en trois temps :
 
 **1 : Je ne sais pas que je ne sais pas**

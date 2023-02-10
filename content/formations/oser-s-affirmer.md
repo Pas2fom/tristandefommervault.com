@@ -7,8 +7,9 @@ goals: |-
   * Gagner en assertivité
 description: Oser exprimer nos priorités dans le respect de ses interlocuteurs
 theme: Relier l'individu à son environnement
-
+_template: formation
 ---
+
 * S'approprier sa communication verbale et non-verbale
 * Soigner la forme et le fond, la relation et le contenu
 * L'impact d'un franc et authentique OUI et d'un franc et authentique NON 

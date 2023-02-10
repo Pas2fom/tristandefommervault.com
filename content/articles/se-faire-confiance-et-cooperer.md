@@ -1,13 +1,16 @@
 ---
-date: 2020-02-03T21:00:00.000+01:00
+date: 2020-02-03T20:00:00.000Z
 title: Se faire confiance et coopérer
 description: 'La confiance, un concept mou ? '
 images:
-- https://res.cloudinary.com/qualia-management/image/upload/v1612185246/tdf/randy-fath-ymf4_9y9s_a-unsplash_orig_rkp6ti.jpg
-- https://res.cloudinary.com/qualia-management/image/upload/v1612185241/tdf/aubrey-odom-t1l9q5g7eiq-unsplash_omisds.jpg
-categories: " food4thought"
-
+  - >-
+    https://res.cloudinary.com/qualia-management/image/upload/v1612185246/tdf/randy-fath-ymf4_9y9s_a-unsplash_orig_rkp6ti.jpg
+  - >-
+    https://res.cloudinary.com/qualia-management/image/upload/v1612185241/tdf/aubrey-odom-t1l9q5g7eiq-unsplash_omisds.jpg
+categories: ' food4thought'
+_template: article
 ---
+
 Nos activités de travail se caractérisent par des interactions et échanges d’information toujours plus intenses, fondés sur des liens de confiance. 
 
 **Pas de confiance sans risque**: Pourquoi avons-nous besoin de nous faire confiance ? Imaginez un monde totalement prévisible, où l’inattendu n’aurait pas droit de cité: aurions-nous besoin de nous faire mutuellement confiance ? C’est parce que le monde dans lequel nous vivons est en perpétuel changement – devant sans cesse naviguer dans l’incertain – que nous avons besoin de nous appuyer sur des liens de cette nature. Nous avons besoin de nous faire confiance pour nous projeter dans l’avenir, pour bâtir un projet commun. Or ces alliances que nous tissons, bien sûr, ne sont pas sans risque. Elles se font **au risque de la trahison**. Faire confiance c’est aussi assumer ce risque là. En ce sens, il n’y a pas de confiance sans le risque assumé d’être trahi, sans prendre le risque de se rendre vulnérable face à autrui (Marzano).   
