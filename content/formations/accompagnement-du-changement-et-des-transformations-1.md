@@ -1,15 +1,17 @@
 ---
 category: Communication interpersonnelle
 title: Mieux communiquer grâce à la Process Com©
-description: 'Fluidifier vos relations. Identifier les situations source de stress
-  et développer des relations durables à proximité comme à distance. '
+description: >-
+  Fluidifier vos relations. Identifier les situations source de stress et
+  développer des relations durables à proximité comme à distance. 
 goals: |-
   * Prendre conscience de ses modes de fonctionnement pour mieux se connaître
   * Permettre à chaque collaborateur de développer une autonomie constructive
 weight: 15
 theme: Développer le management
-
+_template: formation
 ---
+
 Le module Process Com® s’inscrit dans cette dynamique car elle donne au manager les moyens de mieux se comprendre, de mieux comprendre ses collaborateurs. 
 
 Le modèle Process Com® a été créé par le psychologue américain Taibi Kahler, en collaboration avec la NASA à la fin des années 70.

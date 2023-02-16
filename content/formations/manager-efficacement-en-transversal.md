@@ -1,16 +1,21 @@
 ---
 category: Management transversal
 title: Manager efficacement en transversal
-description: Faire émerger des compétences à coopérer en transversal, développer un
-  leadership d’influence chez les responsables appelés à jouer un role transversale,
-  embarquer avec soi un collectif sans autorité hiérarchique, encourager les coopérations
-  transversales. Apprendre à communiquer une vision claire et mobilisatrice
-goals: Saisir les spécificités du management non-hiérarchique pour susciter le désir
-  de s’impliquer, obtenir le meilleur de chaque coéquipier pour réussir le projet.
+description: >-
+  Faire émerger des compétences à coopérer en transversal, développer un
+  leadership d’influence chez les responsables appelés à jouer un role
+  transversale, embarquer avec soi un collectif sans autorité hiérarchique,
+  encourager les coopérations transversales. Apprendre à communiquer une vision
+  claire et mobilisatrice
+goals: >-
+  Saisir les spécificités du management non-hiérarchique pour susciter le désir
+  de s’impliquer, obtenir le meilleur de chaque coéquipier pour réussir le
+  projet.
 weight: 15
 theme: Développer le management
-
+_template: formation
 ---
+
 Comment faire émerger des compétences à coopérer en transversal au sein d’organisations où le principal étalon de reconnaissance est l’expertise technique ?
 
 Pour relever ce défi, comment développer un leadership d’influence chez les responsables appelés à jouer un role transversale (par ex. pilote de projets ou de processus) tout en évitant le choc des cultures intérieures ?

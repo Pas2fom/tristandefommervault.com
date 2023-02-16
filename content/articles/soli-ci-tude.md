@@ -1,13 +1,15 @@
 ---
-date: 2020-03-31T19:00:00+02:00
+date: 2020-03-31T17:00:00.000Z
 title: 'Soli[ci]tude '
-description: Comment passer de l’éloignement contraint à la distanciation créatrice,
-  de la solitude passive à la solitude créatrice ?
+description: >-
+  Comment passer de l’éloignement contraint à la distanciation créatrice, de la
+  solitude passive à la solitude créatrice ?
 images:
-- "/uploads/Image.png"
+  - /uploads/Image.png
 categories: event
-
+_template: article
 ---
+
 ##### Comment passer de l’éloignement contraint à la distanciation créatrice ? 
 
 15 ème jour. Je tombe sur ce texte d’Hannah Arendt qui m’aide à mettre des mots sur un état émotionnel confus, qui m’aide à distinguer solitude contrainte et solitude créatrice. La première tend vers l'isolement ou l’esseulement, la seconde procède du désir.

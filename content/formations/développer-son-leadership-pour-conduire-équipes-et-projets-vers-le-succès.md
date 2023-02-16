@@ -5,5 +5,6 @@ description: ''
 goals: ''
 weight: 10
 theme: Développer le management
-
+_template: formation
 ---
+

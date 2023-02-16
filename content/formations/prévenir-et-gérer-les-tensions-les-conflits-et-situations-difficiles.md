@@ -1,13 +1,16 @@
 ---
 category: Développement des qualités humaines et des compétences relationnelles
-title: Prévenir et gérer les tensions, les conflits et situations difficiles
-goals: Communiquer de manière pro-active pour réguler les tensions et prévenir les
+title: 'Prévenir et gérer les tensions, les conflits et situations difficiles'
+goals: >-
+  Communiquer de manière pro-active pour réguler les tensions et prévenir les
   crises et les conflits
-description: Communiquer de manière pro-active pour réguler les tensions et éviter
-  les crises et les conflits
+description: >-
+  Communiquer de manière pro-active pour réguler les tensions et éviter les
+  crises et les conflits
 theme: Construire les équilibres
-
+_template: formation
 ---
+
 * Définir les notions de crises et de conflit
 * Réaliser un diagnostic de la crise ou du conflit
 * Identifier les causes du conflit

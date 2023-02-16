@@ -1,15 +1,17 @@
 ---
 category: Management d’équipe
-title: Manager, leader, coach
-description: S’entraîner à intégrer ces trois postures pour concilier atteinte des
+title: 'Manager, leader, coach'
+description: >-
+  S’entraîner à intégrer ces trois postures pour concilier atteinte des
   objectifs, maturité de l’équipe et développement des coéquipiers.
 goals: |-
   Développer les postures de Leader et de Coach dans le management de ses
   collaborateurs.
 weight: 15
 theme: Développer le management
-
+_template: formation
 ---
+
 * Accroître la performance du collaborateur et son autonomie
 * S’approprier la démarche et les outils du manager coach
 * Reconnaître les compétences, les talents et potentiels de chacun

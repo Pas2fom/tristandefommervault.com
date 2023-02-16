@@ -1,13 +1,17 @@
 ---
-date: 2019-01-29T20:00:00.000+00:00
-title: Heureux d'avoir contribué à ce défi qui fera date dans l'histoire du Codéveloppement
-description: Un giga codéveloppement rassemble 300 participants, 40 facilitateurs,
-  40 séances simultanées
+date: 2019-01-29T20:00:00.000Z
+title: >-
+  Heureux d'avoir contribué à ce défi qui fera date dans l'histoire du
+  Codéveloppement
+description: >-
+  Un giga codéveloppement rassemble 300 participants, 40 facilitateurs, 40
+  séances simultanées
 images:
-- "/uploads/annonce-jour-j-evenement-19-juin-va.png"
+  - /uploads/annonce-jour-j-evenement-19-juin-va.png
 categories: event
-
+_template: article
 ---
+
 300 participants, 40 facilitateurs, 40 séances simultanées !
 
 et oui, le codev a désormais aussi son jour de fête et ce n'est que le début de la vague dans un monde qui a tant soif de coopération, de soutien et d'empathie. 

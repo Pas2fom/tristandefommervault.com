@@ -1,12 +1,14 @@
 ---
-date: 2021-01-19T21:00:00.000+01:00
+date: 2021-01-19T20:00:00.000Z
 title: L'art du questionnement en formation
 description: Les questions "contre-intuitives" pour pendre le contre-pied de nos croyances.
 images:
-- https://res.cloudinary.com/qualia-management/image/upload/v1612185244/tdf/neurosciences_ebm4lk.png
+  - >-
+    https://res.cloudinary.com/qualia-management/image/upload/v1612185244/tdf/neurosciences_ebm4lk.png
 categories: ''
-
+_template: article
 ---
+
 Cet article est issue à l'origine d'une contribution à l'ouvrage "Réinventez vos formations avec les neurosciences" auquel j'ai participé avec Aurélie Van Dijk.
 
 Pour commencer, quelques exemples de questions contre-intuitives : 

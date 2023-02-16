@@ -1,13 +1,16 @@
 ---
 category: Ateliers
 title: Pratiquer le co-développement
-goals: Générer des pistes de solution créatives sur des situations concrètes apportées
-  par chaque participant.
-description: Cette méthode démultiplie la puissance du travail collaboratif en un
-  processus structuré. Echanger sur sa pratique et ses expériences, Apprendre et s’enrichir
-  des expériences et feed-back de pairs
-
+goals: >-
+  Générer des pistes de solution créatives sur des situations concrètes
+  apportées par chaque participant.
+description: >-
+  Cette méthode démultiplie la puissance du travail collaboratif en un processus
+  structuré. Echanger sur sa pratique et ses expériences, Apprendre et
+  s’enrichir des expériences et feed-back de pairs
+_template: formation
 ---
+
 * Permettre à des pairs de différents niveaux, sites, branches d’activité…
   d’échanger sur des situations difficiles. Exemple : permettre aux
   managers de proximité de sortir de l’isolement, de résoudre leur
