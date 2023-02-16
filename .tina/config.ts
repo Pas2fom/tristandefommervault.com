@@ -25,7 +25,6 @@ export default defineConfig({
         path: "content/formations",
         fields: [
           {
-
             type: "rich-text",
             name: "body",
             label: "Body of Document",
