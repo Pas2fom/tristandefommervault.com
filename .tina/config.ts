@@ -25,15 +25,7 @@ export default defineConfig({
         path: "content/formations",
         fields: [
           {
-            {
-          name: "json_field",
-          label: "JSON Field",
-          component: "json",
-        },
-      ],
-  },
-],
-},
+
             type: "rich-text",
             name: "body",
             label: "Body of Document",
