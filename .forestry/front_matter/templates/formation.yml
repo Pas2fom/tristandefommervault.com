@@ -61,10 +61,8 @@ fields:
       path: 
   label: Ensemble thématique
 pages:
-- content/formations/accompagnement-du-changement-et-des-transformations-1.md
 - content/formations/accompagnement-du-changement-et-des-transformations-2.md
 - content/formations/accompagnement-du-changement-et-des-transformations.md
-- content/formations/animer-son-équipe-avec-efficacité.md
 - content/formations/apprendre-à-s-affirmer-en-groupe.md
 - content/formations/atelier-co-développement.md
 - content/formations/cohésion-d-équipe.md
