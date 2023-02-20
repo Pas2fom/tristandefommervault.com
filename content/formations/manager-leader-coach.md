@@ -12,6 +12,7 @@ theme: Développer le management
 _template: formation
 ---
 
+
 * Accroître la performance du collaborateur et son autonomie
 * S’approprier la démarche et les outils du manager coach
 * Reconnaître les compétences, les talents et potentiels de chacun

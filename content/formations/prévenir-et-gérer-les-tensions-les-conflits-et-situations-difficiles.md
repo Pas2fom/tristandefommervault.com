@@ -11,6 +11,7 @@ theme: Construire les équilibres
 _template: formation
 ---
 
+
 * Définir les notions de crises et de conflit
 * Réaliser un diagnostic de la crise ou du conflit
 * Identifier les causes du conflit

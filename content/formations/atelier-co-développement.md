@@ -12,6 +12,7 @@ theme: Développer le management
 _template: formation
 ---
 
+
 ## Déroulement d’une session
 
 * Présentation d'une situation apportée par un des participants

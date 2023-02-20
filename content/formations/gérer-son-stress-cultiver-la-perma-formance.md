@@ -11,6 +11,7 @@ theme: Relier l'individu à son environnement
 _template: formation
 ---
 
+
 **Définir les mécanismes du stress**
 
 \- Définitions et distinctions stress ponctuel et stress chronique;  symptômes, causes, et conséquences 

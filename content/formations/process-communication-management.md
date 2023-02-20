@@ -10,6 +10,7 @@ theme: Développer le management
 _template: formation
 ---
 
+
 * Optimiser la coopération au sein de son projet
 * Gagner en efficacité en adaptant sa communication aux 6 types de personnalité
 * Transmettre l’information et la communiquer efficacement pour les 6 types de personnalité de la Process Communication

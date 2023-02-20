@@ -10,6 +10,7 @@ theme: Construire les équilibres
 _template: formation
 ---
 
+
 * Comprendre les mécanismes du stress
 * Comprendre les effets visibles du stress ponctuel et du stress chronique
 * Évaluer son stress sur le plan physique, émotionnel, comportemental 

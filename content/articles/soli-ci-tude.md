@@ -10,6 +10,7 @@ categories: event
 _template: article
 ---
 
+
 ##### Comment passer de l’éloignement contraint à la distanciation créatrice ? 
 
 15 ème jour. Je tombe sur ce texte d’Hannah Arendt qui m’aide à mettre des mots sur un état émotionnel confus, qui m’aide à distinguer solitude contrainte et solitude créatrice. La première tend vers l'isolement ou l’esseulement, la seconde procède du désir.

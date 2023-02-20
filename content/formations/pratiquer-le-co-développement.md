@@ -11,6 +11,7 @@ description: >-
 _template: formation
 ---
 
+
 * Permettre à des pairs de différents niveaux, sites, branches d’activité…
   d’échanger sur des situations difficiles. Exemple : permettre aux
   managers de proximité de sortir de l’isolement, de résoudre leur

@@ -14,6 +14,7 @@ theme: Construire les équilibres
 _template: formation
 ---
 
+
 * Poser un diagnostic éclairant pour l’action
 * Définir les ajustements nécessaires pour atteindre la situation souhaitée, structurer l’action et en préciser les étapes
 * Appréhender le fonctionnement réel des dispositifs et lieux de régulations propres à l’organisation (circuits de décisions, réunions, modalités d’apprentissage)

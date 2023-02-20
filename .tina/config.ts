@@ -5,7 +5,7 @@ const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
 export default defineConfig({
   branch,
-  clientId: "e6837cfb-edf5-4858-82cb-4b82f7f165c5", // Get this from tina.io
+  clientId: "48d089d3-b5ed-4784-a821-1c7ebf0dae35", // Get this from tina.io
   token: "b9750f73dac9e66aa977dd5481de3a3f90f79acb", // Get this from tina.io
   build: {
     outputFolder: "admin",
@@ -20,66 +20,66 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        label: "Formations",
-        name: "formations",
-        path: "content/formations",
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-          {
-            type: "string",
-            name: "title",
-            label: "Intitulé",
-            required: true,
-          },
-          {
-            type: "string",
-            name: "goals",
-            label: "Objectifs",
-            ui: {
-              component: "textarea",
-            },
-          },
-          {
-            type: "string",
-            name: "description",
-            label: "Description",
-          },
-          {
-            type: "string",
-            name: "category",
-            label: "Thème de formation",
-            options: [
-              "Leadership",
-              "Management d’équipe",
-              "Management transversal",
-              "Communication interpersonnelle",
-              "Développement des qualités humaines et des compétences relationnelles",
-              "Réussir une transition professionnelle",
-              "Ateliers",
-              "Bilan de compétences",
-              "Consultation",
-            ],
-          },
-          {
-            type: "string",
-            name: "theme",
-            label: "Ensemble thématique",
-            options: [
-              "Développer le management",
-              "Construire les équilibres",
-              "Relier l'individu à son environnement",
-            ],
-            required: true,
-          },
-        ],
-      },
-      {
+  label: "Formations",
+  name: "formations",
+  path: "content/formations",
+  format: "yaml",
+  extension: "yml",
+  create: true,
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+  fields: [
+    {
+      name: "title",
+      label: "Intitulé",
+      component: "text",
+      required: true,
+    },
+    {
+      name: "goals",
+      label: "Objectifs",
+      component: "textarea",
+    },
+    {
+      name: "description",
+      label: "Description",
+      component: "textarea",
+    },
+    {
+      name: "category",
+      label: "Thème de formation",
+      component: "select",
+      options: [
+        "Leadership",
+        "Management d’équipe",
+        "Management transversal",
+        "Communication interpersonnelle",
+        "Développement des qualités humaines et des compétences relationnelles",
+        "Réussir une transition professionnelle",
+        "Ateliers",
+        "Bilan de compétences",
+        "Consultation",
+      ],
+    },
+    {
+      name: "theme",
+      label: "Ensemble thématique",
+      component: "select",
+      options: [
+        "Développer le management",
+        "Construire les équilibres",
+        "Relier l'individu à son environnement",
+      ],
+      required: true,
+    },
+    {
+      name: "body",
+      label: "Body of Document",
+      component: "markdown",
+      required: true,
+    },
+  ],
+}
+
         label: "Articles",
         name: "articles",
         path: "content/articles",

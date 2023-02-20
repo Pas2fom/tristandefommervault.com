@@ -8,6 +8,7 @@ draft: true
 _template: article
 ---
 
+
 Nous sommes souvent pris dans l'adrénaline de l'action, dans le stress et nous avons besoin d'agir pour nous rassurer. Cependant, cette réaction peut parfois nous pousser à prendre des risques et à faire des erreurs. Il est donc important de se recentrer pour se dire que ce n'est pas toujours le moment opportun pour agir.
 
 Il est important de reconnaître les biais de perception qui influencent nos comportements, nos émotions et notre façon de communiquer avec les autres. Pour développer nos ressources internes et passer du mode automatique au mode adaptatif, voici quelques étapes que nous pouvons suivre :

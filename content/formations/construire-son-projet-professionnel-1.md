@@ -6,6 +6,7 @@ description: Assumer une nouvelle fonction en adoptant la posture adéquate
 _template: formation
 ---
 
+
 * Comprendre son rôle, sa fonction, le contexte de la prise de poste
 * Réussir son intégration dans un nouvel écosystème professionnel
 * Construire des relations fiables dans un environnement professionnel nouveau

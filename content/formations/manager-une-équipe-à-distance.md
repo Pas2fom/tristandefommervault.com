@@ -16,6 +16,7 @@ theme: Développer le management
 _template: formation
 ---
 
+
 - Comprendre les spécificités du « remote management »
 - Les opportunités et les contraintes du management à distance
 - Développer le remote leadership

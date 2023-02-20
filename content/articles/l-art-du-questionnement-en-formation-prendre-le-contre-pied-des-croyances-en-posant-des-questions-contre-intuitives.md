@@ -9,6 +9,7 @@ categories: ''
 _template: article
 ---
 
+
 Cet article est issue à l'origine d'une contribution à l'ouvrage "Réinventez vos formations avec les neurosciences" auquel j'ai participé avec Aurélie Van Dijk.
 
 Pour commencer, quelques exemples de questions contre-intuitives : 

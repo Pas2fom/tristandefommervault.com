@@ -12,6 +12,7 @@ categories: event
 _template: article
 ---
 
+
 300 participants, 40 facilitateurs, 40 séances simultanées !
 
 et oui, le codev a désormais aussi son jour de fête et ce n'est que le début de la vague dans un monde qui a tant soif de coopération, de soutien et d'empathie. 
