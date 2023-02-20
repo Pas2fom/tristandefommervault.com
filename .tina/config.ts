@@ -79,7 +79,7 @@ export default defineConfig({
     },
   ],
 }
-
+[
         label: "Articles",
         name: "articles",
         path: "content/articles",
