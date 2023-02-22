@@ -7,7 +7,7 @@ description: >-
 images:
   - >-
     https://res.cloudinary.com/qualia-management/image/upload/v1612186716/tdf/worldcafe_dockcn.jpg
-categories: ' CommentFairePour'
+categories: ' CommentFairePour"é"é='
 _template: article
 ---
 A venir&nbsp;
