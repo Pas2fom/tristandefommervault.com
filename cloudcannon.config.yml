@@ -1,0 +1,94 @@
+collections_config:
+  formations:
+    name: Formations
+    path: content/formations
+    schemas:
+      default:
+        path: .cloudcannon/schemas/formation.md
+        name: Formation
+        _enabled_editors:
+          - content
+        _inputs:
+          $.title:
+            label: Intitulé
+            comment: Intitulé de la formation
+          $.goals:
+            type: markdown
+            label: Objectifs
+          $.description:
+            comment: 'Court descriptif optimisé pour les recherches '
+          $.category:
+            type: select
+            label: Thème de formation
+            options:
+              values: _select_data.category
+          $.theme:
+            type: select
+            label: Ensemble thématique
+            options:
+              values: _select_data.theme
+  articles:
+    name: Articles
+    path: content/articles
+    schemas:
+      default:
+        path: .cloudcannon/schemas/article.md
+        name: Article
+        _enabled_editors:
+          - content
+        _inputs:
+          $.title:
+            comment: Titre de l'article
+          $.date:
+            instance_value: NOW
+          $.description:
+            comment: Description courte (moins de 200 caractères)
+          $.images[*]:
+            type: image
+          $.images:
+            type: array
+            comment: >-
+              Illustration de l'article (utilisé pour le partage sur les réseaux
+              sociaux)
+          $.categories:
+            type: select
+            label: Catégorie
+            comment: Affecter un article à une catégorie
+            options:
+              values: _select_data.categories
+  default_hugo_pages:
+    name: Pages
+    path: content/
+collection_groups:
+  - heading: Content
+    collections:
+      - formations
+      - articles
+_select_data:
+  category:
+    - Leadership
+    - Management d’équipe
+    - Management transversal
+    - Communication interpersonnelle
+    - Développement des qualités humaines et des compétences relationnelles
+    - Réussir une transition professionnelle
+    - Ateliers
+    - Bilan de compétences
+    - Consultation
+  theme:
+    - Développer le management
+    - Construire les équilibres
+    - Relier l'individu à son environnement
+  categories:
+    - event
+    - synthèses
+    - ' CommentFairePour'
+    - ' philolab'
+    - ' food4thought'
+    - ' philOtravail'
+    - ' définir'
+    - ' comprendre'
+    - ' expérimenter'
+_inputs:
+  template:
+    hidden: true
