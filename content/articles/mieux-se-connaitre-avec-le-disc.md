@@ -8,9 +8,9 @@ images:
     https://res.cloudinary.com/qualia-management/image/upload/v1677108371/tdf/DALL_E_2023-02-23_00.25.48_-_red_yellow_green_blue_visual_effect_of_speed_in_a_city_geometrical_art_vd178c.png
 categories: ' CommentFairePour'
 ---
-Imaginez ... vous vous réveiller chaque matin en sachant que vous allez rencontrer des gens de toutes sortes tout au long de votre journée - humble, fier, gentil, agressif, et plus encore. Maintenant, imaginez-vous les accueillir avec enthousiasme à bras ouverts, en disant : "Bonjour, te voilà !"
+Imaginez ... vous vous réveiller chaque matin en sachant que vous allez rencontrer des gens de toutes sortes tout au long de votre journée - humble, fier, gentil, agressif, et plus encore. Maintenant, imaginez-vous les accueillir avec enthousiasme à bras ouverts, en disant : "Bonjour, sois le bienvenu !"
 
-Tel est l'état d'esprit pour restituer un profil Arc-en-ciel DISC : précision, maîtrise, nuance.&nbsp;
+Tel est l'état d'esprit pour restituer un profil Arc-en-ciel DISC : ouverture, précision, maîtrise, nuance.&nbsp;
 
 Dans ce profil, il n'y a pas de bonnes ou de mauvaises couleurs ou valeurs, que ce soit au-dessus ou en dessous de la barre des 50%. Chaque profil a sa propre dynamique unique, et chaque personne fait toujours de son mieux avec ce qu'elle a à chaque instant.
 
