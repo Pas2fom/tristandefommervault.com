@@ -7,10 +7,6 @@ removePathAccents = true
 theme = "github.com/saey55/hugo-elate-theme"
 title = "Tristan de Fommervault - Coach"
 [[menu.postpend]]
-name = "Séance gratuite"
-url = "https://calendly.com/tristandefommervault/seance-exploratoire"
-weight = 3
-[[menu.postpend]]
 name = "Formations"
 url = "/formations"
 weight = 1
