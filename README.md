@@ -1,1 +1,0 @@
-# Aratall Website Guide
