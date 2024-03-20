@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <div class="mx-auto mb-20 mt-4 flex max-w-6xl flex-col px-6">
+    <h1 class="mx-auto my-8 max-w-2xl text-center text-4xl font-bold capitalize text-gray-900 sm:text-5xl lg:my-16">{{ .Title | humanize }}</h1>
+    <div class="mx-auto grid max-w-7xl gap-8 lg:max-w-none lg:grid-cols-3">
+      {{ $paginator := .Paginate (where .RegularPages "Type" "articles").ByDate.Reverse 12 }}
+      {{ range $paginator.Pages }}
+        {{ partial "components/card.html" . }}
+      {{ end }}
+    </div>
+    <div class="mt-14">
+      {{ partial "pagination.html" . }}
+    </div>
+  </div>
+{{ end }}

@@ -1,0 +1,46 @@
+{{ with .Site.Data.owner }}
+  <div class="bg-zinc-50">
+    <div class="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+      {{ with .heading }}
+        <h2 class="mb-2 text-center text-3xl font-semibold text-gray-600">
+          {{ . }}
+        </h2>
+      {{ end }}
+      {{ with .subheading }}
+        <h3 class="m-0 mb-12 text-center text-xl font-light text-gray-500">
+          {{ . }}
+        </h3>
+      {{ end }}
+
+
+      <div class="mx-auto max-w-7xl py-8">
+        <div class="items-center lg:grid lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-16 xl:gap-24">
+          <div class="">
+            <div class="space-y-4">
+              <div class="prose text-gray-900">
+                <div class="prose text-base leading-loose lg:prose-lg prose-a:text-primary-500 prose-a:no-underline hover:prose-a:text-primary-600">{{ .copy | markdownify }}</div>
+              </div>
+            </div>
+          </div>
+
+          <div class=" mt-12 sm:mt-16 lg:mt-0">
+            {{ with .image }}
+              {{ partial "components/image-responsive" (dict "src" (.)  "class" "h-full w-full rounded-md object-cover" "sizes" "(min-width: 1024px) 50vw, 100vw" "widths" (slice 640 1024 2048)) }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+
+      {{ with .buttons }}
+        <div class="mt-2 flex flex-wrap justify-center gap-3">
+          {{ range . }}
+            <a href="{{ .url | relLangURL }}" {{ if in .url "http" }}target="_blank" rel="noopener noreferrer"{{ end }} class="block w-full rounded-md bg-primary-500 px-6 py-3 text-center text-lg font-medium tracking-wide text-white transition duration-300 hover:bg-primary-600 focus:outline-none sm:inline-block sm:w-auto md:px-8 md:py-4 md:text-xl">
+              {{ .text }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+
+    </div>
+  </div>
+{{ end }}

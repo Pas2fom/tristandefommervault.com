@@ -1,0 +1,47 @@
+{{ define "main" }}
+  <section class="bg-white py-12 sm:py-16 lg:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-5xl text-center">
+        <!-- <nav class="flex items-center justify-center">
+          <ol class="flex flex-wrap items-center justify-center space-x-2">
+            <li>
+              <a href="/articles" title="" class="hover:text-secondary text-xs font-medium uppercase text-gray-900 lg:text-sm"> Articles </a>
+            </li>
+          </ol>
+        </nav> -->
+
+        <h1 class="mx-auto mt-6 max-w-2xl text-4xl font-bold text-gray-900 sm:text-5xl">{{ .Title }}</h1>
+
+        <div class="mt-8 flex items-center justify-center space-x-2">
+          <!-- <p class="flex items-center text-base font-medium text-gray-900">
+            <img src="/images/tim-west.webp" alt="Tim West" class="mr-2 h-6 w-6 rounded-full border border-gray-200" />
+            <span class=""> Tim West </span>
+          </p> -->
+          <!-- <span class="text-base font-medium text-gray-500"> • </span> -->
+          <p class="text-xl font-normal text-gray-500">{{ .Date | time.Format ":date_long" }} <span class=""> </span></p>
+        </div>
+      </div>
+      <div class="lg:aspect-h-6 mt-8 aspect-video sm:mt-12 lg:mt-16">
+        {{ with .Params.images }}
+          <img src="{{ index . 0 | absURL }}" alt="" class="h-full w-full transform object-cover transition-all duration-200 group-hover:scale-110" loading="lazy" decoding="async" />
+        {{ end }}
+      </div>
+      {{ with .Params.tags }}
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
+          {{ range . }}
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" title="{{ . }}" class="rounded-md bg-primary-500 px-3 py-1.5 text-sm font-medium text-white hover:bg-primary-600">
+              {{ . | humanize | title }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+      <div class="mt-8 grid grid-cols-1 gap-y-8 sm:mt-12 lg:mt-16 lg:grid-cols-12 lg:gap-x-12">
+        <div class="hidden lg:col-span-2 lg:block"></div>
+
+        <div class="prose prose-gray max-w-none prose-blockquote:border-l-2 prose-blockquote:border-gray-900 prose-blockquote:bg-gray-100 prose-blockquote:px-8 prose-blockquote:py-3 prose-blockquote:text-lg prose-blockquote:font-medium prose-blockquote:not-italic prose-blockquote:leading-8 prose-blockquote:text-gray-900 lg:col-span-8 prose-blockquote:lg:text-xl prose-blockquote:lg:leading-9">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

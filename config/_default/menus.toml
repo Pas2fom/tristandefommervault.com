@@ -1,0 +1,91 @@
+[[main]]
+name = "Accueil"
+identifier = "accueil"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Qui sommes-nous ?"
+identifier = "qui-sommes-nous"
+url = "/qui-sommes-nous"
+weight = 2
+
+[[main]]
+name = "Coach formateur"
+identifier = "coach-formateur"
+parent = "qui-sommes-nous"
+url = "/#coach"
+weight = 1
+
+[[main]]
+name = "Références"
+identifier = "references"
+parent = "qui-sommes-nous"
+url = "/#references"
+weight = 2
+
+
+[[main]]
+name = "Offres"
+identifier = "offres"
+url = ""
+weight = 3
+
+[[main]]
+name = "Accompagnement individuel"
+identifier = "accompagnement-individuel"
+parent = "offres"
+url = "/coaching/#individuel"
+weight = 1
+
+[[main]]
+name = "Accompagnement collectif"
+identifier = "accompagnement-collectif"
+parent = "offres"
+url = "/coaching/#collectif"
+weight = 2
+
+[[main]]
+name = "Codéveloppement"
+identifier = "codeveloppement"
+parent = "offres"
+url = "/formations/atelier-co-developpement"
+weight = 3
+
+[[main]]
+name = "Renforcement de pratiques"
+identifier = "renforcement-pratiques"
+parent = "offres"
+url = "/formations"
+weight = 4
+
+[[main]]
+name = "Situations sensibles"
+identifier = "situations-sensibles"
+parent = "offres"
+url = "/situations-sensibles"
+weight = 5
+
+[[main]]
+name = "Tarifs"
+identifier = "tarifs"
+parent = "offres"
+url = "/tarifs"
+weight = 6
+
+[[main]]
+name = "Ressources partagées"
+identifier = "ressources"
+url = "/articles/"
+weight = 4
+
+[[main]]
+name = "Parlons de vous"
+identifier = "parlons-de-vous"
+url = "/parlons-de-vous/"
+weight = 5
+
+[[footer]]
+name = "Mentions Légales"
+url = "/mentions-legales/"
+weight = 10

@@ -1,0 +1,64 @@
+{{ with .Site.GoogleAnalytics }}
+  <div class="cookie-popup pointer-events-none fixed inset-x-4 bottom-4 z-50 sm:left-4 sm:right-auto">
+    <div class="pointer-events-auto mx-auto flex w-full flex-col items-center justify-between gap-x-8 gap-y-4 rounded-xl bg-white p-6 px-4 shadow-lg ring-1 ring-gray-900/10 sm:max-w-sm lg:px-8">
+      <div class="class">
+        <p class="max-w-4xl text-center text-sm leading-6 text-gray-900">Ce site utilise des cookies via Google Analytics pour analyser le trafic et améliorer l'expérience utilisateur sur notre site.</p>
+      </div>
+
+      <div class="flex flex-none items-center gap-x-5">
+        <button id="accept" type="button" class="rounded-md bg-primary-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">Accepter</button>
+        <button id="reject" type="button" class="rounded-md border border-gray-300 px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900">Refuser</button>
+      </div>
+    </div>
+  </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var cookiePopup = document.querySelector(".cookie-popup");
+    var acceptButton = document.getElementById("accept");
+    var rejectButton = document.getElementById("reject");
+
+    // Check if user has already made a choice
+    var userChoice = localStorage.getItem("cookieConsent");
+
+    if (userChoice) {
+        if (userChoice === "accept") {
+            // Initialize GA4 if they accepted
+            initGA4();
+        }
+        // Hide the popup if a choice was made
+        cookiePopup.style.display = "none";
+    } else {
+        cookiePopup.style.display = "block";
+    }
+
+    acceptButton.addEventListener("click", function() {
+        localStorage.setItem("cookieConsent", "accept");
+        initGA4();
+        cookiePopup.style.display = "none";
+    });
+
+    rejectButton.addEventListener("click", function() {
+        localStorage.setItem("cookieConsent", "reject");
+        cookiePopup.style.display = "none";
+    });
+});
+
+function initGA4() {
+    // Dynamically load the GA4 script
+    var script = document.createElement('script');
+    script.src = 'https://www.googletagmanager.com/gtag/js?id={{ . }}';
+    script.async = true;
+    document.head.appendChild(script);
+
+    // Initialize GA4 after the script is loaded
+    script.onload = function() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', {{ . }});
+    };
+}
+
+</script>
+{{ end }}

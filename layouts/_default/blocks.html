@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ $blocks := .Params.blocks }}
+  {{ range $blocks }}
+    {{ if eq .block "content" }}
+      <section class="overflow-hidden {{ if eq .mode "muted" }}bg-primary-50{{ else if eq .mode "dark-muted" }}dark bg-primary-900{{ else if eq .mode "dark" }}dark bg-primary-950{{ end }}">
+        <div class="px-6 lg:px-8 {{ if eq .padding "top" }}pt-20 lg:pt-32{{ else if eq .padding "bottom" }}pb-20 lg:pb-32{{ else if eq .padding "none" }}{{ else }}py-20 lg:py-32{{ end }}">
+          <div class="max-w-3xl mx-auto px-6 lg:px-8">
+            <div class="max-w-none prose sm:prose-lg dark:prose-invert prose-headings:scroll-mt-32 hover:prose-a:text-primary-500">{{ $.Page.Content }}</div>
+          </div>
+        </div>
+      </section>
+    {{ else }}
+      {{ $file := (printf "%s%s%s" "blocks/" .block ".html" ) }}
+      {{ partial $file . }}
+    {{ end }}
+  {{ end }}
+{{ end }}

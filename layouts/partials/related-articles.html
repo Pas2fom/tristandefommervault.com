@@ -1,0 +1,30 @@
+<section class="bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-5xl text-left">
+      <!-- <p class="text-xl font-semibold uppercase text-gray-900 lg:text-2xl">superheading</p> -->
+
+      <h2 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-4xl">Articles Liés</h2>
+    </div>
+
+    {{ $related := (where (.Site.RegularPages.Related .) "Type" "articles") | first 6 }}
+
+    {{ with  $related }}
+      <div class="mx-auto mt-12 grid max-w-md grid-cols-1 gap-16 sm:mt-16 md:max-w-5xl md:grid-cols-3 xl:gap-16">
+        {{ range . }}
+          <div class="group">
+            <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="aspect-w-16 aspect-h-9 block overflow-hidden rounded-xl">
+              {{ with .Params.images }}
+                <img src="{{ index . 0 | absURL }}" alt="" class="h-full w-full transform object-cover transition-all duration-200 group-hover:scale-110" loading="lazy" decoding="async" />
+              {{ end }}
+            </a>
+            <h3 class="mt-6 text-lg font-semibold text-gray-900 group-hover:text-gray-600 xl:text-xl">
+              <a href="{{ .RelPermalink }}" title="" class=""> {{ .Title }} </a>
+            </h3>
+            <p class="mt-3 text-sm font-medium text-gray-500">{{ .Date | time.Format ":date_long" }} <span class=""> </span></p>
+          </div>
+        {{ end }}
+
+      </div>
+    {{ end }}
+  </div>
+</section>

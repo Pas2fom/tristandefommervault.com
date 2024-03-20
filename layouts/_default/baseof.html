@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="{{ .Language.Lang }}" class="scroll-smooth">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    {{ partial "navbar.html" . }}
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
+
+
+    <script>
+      ScrollReveal().reveal(".fade-in", {
+        distance: "0px",
+        opacity: 0,
+        duration: 1500,
+      });
+
+      var slideUp = {
+        distance: "100%",
+        origin: "bottom",
+        opacity: null,
+      };
+
+      ScrollReveal().reveal(".slide-up", slideUp);
+      ScrollReveal().reveal(".scrollreveal");
+      ScrollReveal().reveal(".seq", { interval: 100 });
+      ScrollReveal().reveal(".zoom", { scale: 0.85, duration: 800, easing: "ease-in-out" });
+    </script>
+
+    <!-- <script>
+      const swiper1 = new Swiper(".swiper1", {
+        direction: "horizontal",
+        autoplay: true,
+
+        loop: true,
+        speed: 1000,
+        // effect: "fade",
+        fadeEffect: {
+          crossFade: true,
+        },
+        autoplay: {
+          delay: 6000,
+          disableOnInteraction: false,
+        },
+
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+
+      const swiper2 = new Swiper(".swiper2", {
+        direction: "horizontal",
+
+        spaceBetween: 30,
+
+        loop: true,
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script> -->
+    {{ partial "cookie-consent.html" . }}
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{{define "main"}}
+<div class="dark:bg-primary-950">
+  <div class="max-w-5xl mx-auto px-6 lg:px-8 py-16 lg:py-24">
+    <div class="max-w-3xl mx-auto text-center space-y-4 lg:space-y-5">
+      {{ with .Params }}
+        {{ partial "components/superheading.html" . }}
+      {{ end }}
+      <h1 class="text-center text-4xl sm:text-5xl font-bold tracking-tight text-primary-950 dark:text-white">{{ .Title | markdownify }}</h1>
+      {{ with .Params }}
+        {{ partial "components/subheading.html" . }}
+      {{ end }}
+    </div>
+    {{ with .Params.image }}
+      <div class="flex justify-center mt-10 lg:mt-14">
+        {{ partial "components/image-responsive" (dict "src" (. | relLangURL) "alt" $.Title "class" "rounded-2xl" "sizes" "(min-width: 1024px) 50vw, 100vw" "widths" (slice 640 1024 2048)) }}
+      </div>
+    {{ end }}
+    <div class="mt-10 lg:mt-14 mx-auto prose sm:prose-lg dark:prose-invert prose-headings:scroll-mt-32 hover:prose-a:text-primary-500">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+{{end}}

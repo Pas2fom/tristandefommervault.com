@@ -1,0 +1,40 @@
+# forms
+name:
+  other: "Name"
+email:
+  other: "Email"
+message:
+  other: "Message"
+send_message:
+  other: "Send message"
+message_sent:
+  other: "The message has been successfully sent!"
+phone:
+  other: "Phone"
+
+pricing:
+  other: "Pricing"
+choose_plan:
+  other: "Choose your plan"
+
+tags:
+  other: "Categories"
+all_tags:
+  other: "All Categories"
+follow_us:
+  other: "Follow us on social media:"
+
+previous:
+  other: "Previous"
+next:
+  other: "Next"
+
+subscribe:
+  other: "Subscribe"
+subscribe_placeholder:
+  other: "Your email address"
+
+related_posts:
+  other: "Related Posts"
+toc:
+  other: "Table Of Contents"

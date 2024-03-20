@@ -1,0 +1,35 @@
+{{ define "main" }}
+  {{ with .Params.tarifs }}
+    <div class="bg-white">
+      <div class="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+        {{ with .heading }}
+          <h2 class="m-0 -mt-6 mb-6 text-center text-3xl font-semibold text-gray-600">
+            {{ . }}
+          </h2>
+        {{ end }}
+        {{ with .subheading }}
+          <h3 class="m-0 mx-auto mb-12 max-w-3xl text-center text-xl font-light text-gray-500">
+            {{ . }}
+          </h3>
+        {{ end }}
+        <div class="mx-auto grid max-w-7xl gap-8 sm:grid-cols-2 lg:max-w-none lg:grid-cols-3">
+          {{ range .tarifs }}
+            <div class="seq zoom load-hidden group flex transform flex-col overflow-hidden rounded-xl border border-gray-100 shadow transition-all duration-200 hover:-translate-y-1">
+              <div class="bg-primary-500 px-4 py-8">
+                <h3 class="text-center font-lexend text-base font-normal text-white">{{ .heading | markdownify }}</h3>
+              </div>
+              <div class="flex-1 bg-white">
+                <div class="prose prose-sm mx-4 my-8">
+                  {{ .items | markdownify }}
+                </div>
+              </div>
+              <div class="mb-4 flex items-center justify-center">
+                <a class="mb-4 rounded-md bg-primary-500 px-6 py-3 text-center text-sm text-white shadow transition duration-200 hover:bg-primary-600" href="{{ .url }}">{{ .link }}</a>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,260 @@
+{{ define "main" }}
+  {{ with .Params.hero }}
+    <section class="relative flex aspect-auto h-auto items-center justify-start overflow-hidden bg-cover bg-center bg-no-repeat sm:aspect-auto sm:h-[80vh]">
+      {{ partial "components/image-responsive" (dict "src" (.image) "alt" "Hero" "class" "absolute inset-0 sm:aspect-auto z-10 h-full w-full object-cover object-center xl:object-center" "loading" "eager" "sizes" "(min-width: 1024px) 50vw, 100vw" "widths" (slice 320 640 1024 1280 1440 1920 2560)) }}
+      <!-- <picture>
+        <source srcset="{{ site.Params.cloudinary_url }}/w_400{{ strings.TrimPrefix site.Params.cloudinary_url .image }} 500w, {{ site.Params.cloudinary_url }}/w_800{{ strings.TrimPrefix site.Params.cloudinary_url .image }} 1000w, {{ site.Params.cloudinary_url }}/w_1200{{ strings.TrimPrefix site.Params.cloudinary_url .image }} 1420w" alt="{{ .Params.alt }}" />
+        <img class="absolute inset-0 z-10 h-full w-full object-cover object-center sm:aspect-auto xl:object-center" srcset="{{ site.Params.cloudinary_url }}/w_400{{ strings.TrimPrefix site.Params.cloudinary_url .image }} 500w, {{ site.Params.cloudinary_url }}/w_800{{ strings.TrimPrefix site.Params.cloudinary_url .image }} 1000w, {{ site.Params.cloudinary_url }}/w_1200{{ strings.TrimPrefix site.Params.cloudinary_url .image }} 1420w" alt="featured" />
+      </picture> -->
+      <!-- <div class="absolute inset-0 z-20 h-full w-full bg-gray-900/30 backdrop-brightness-50"></div> -->
+      <div class="z-20 mx-auto w-full max-w-7xl px-6 py-16">
+        <div class="z-20 flex max-w-7xl flex-col justify-start">
+          {{ with .heading }}
+            <h1 class="max-w-3xl text-3xl font-bold leading-tight text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] sm:text-3xl lg:text-5xl xl:leading-tight">{{ . | markdownify }}</h1>
+          {{ end }}
+          {{ with .subheading }}
+            <p class="mt-6 max-w-xl text-xl font-normal leading-relaxed text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.4)] sm:mt-6 sm:text-2xl sm:leading-relaxed">{{ . | markdownify }}</p>
+          {{ end }}
+        </div>
+        {{ partial "components/list.html" . }}
+        {{ with .buttons }}
+          <div class="mt-8 flex flex-wrap gap-3">
+            {{ range . }}
+              <a href="{{ .url | relLangURL }}" {{ if in .url "http" }}target="_blank" rel="noopener noreferrer"{{ end }} class="block w-auto rounded-md bg-primary-500 px-6 py-2 text-center text-base font-medium tracking-wide text-white transition duration-300 hover:bg-primary-600 focus:outline-none sm:inline-block sm:w-auto md:px-6 md:py-3 md:text-lg">
+                {{ .text }}
+              </a>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+  {{ with .Params.hero_links }}
+    <div class="mx-auto w-full max-w-6xl px-4 sm:px-6">
+      <div class="z-40 -mt-8 mb-16 grid grid-cols-2 gap-4 sm:-mt-32 sm:gap-8">
+        {{ range .tabs }}
+          <div class="z-40 flex flex-col items-center justify-center gap-4 rounded bg-white px-2 py-6 shadow-lg sm:px-6 sm:py-16">
+            <!-- <div class="flex h-16 w-16 items-center justify-center rounded-md bg-zinc-100"> -->
+            <i class="{{ .icon }} text-3xl text-primary-500 sm:text-4xl"></i>
+            <!-- </div> -->
+            <h2 class="text-center text-xl font-light text-gray-600 sm:text-2xl">{{ .heading }}</h2>
+            <div class="relative max-w-xs flex-grow text-center text-sm leading-normal text-gray-600 sm:text-base">{{ .text | markdownify }}</div>
+            <a href="{{ .link_url }}" class="mt-2.5 rounded-md bg-primary-500 px-4 py-3 text-center text-xs text-white no-underline hover:bg-primary-600 sm:px-6 sm:text-sm">{{ .link }}</a>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+  {{ with .Params.partners }}
+    <div class="bg-zinc-50">
+      <div class="mx-auto max-w-7xl px-6 pb-20 pt-16 lg:px-8">
+        {{ with .text }}
+          <p style="padding-top: 0px" class="m-0 mx-2 mb-12 text-center text-lg font-normal text-gray-600 md:my-24 md:text-2xl">
+            {{ . }}
+          </p>
+        {{ end }}
+        {{ with .heading }}
+          <h2 class="m-0 mb-12 text-center text-3xl font-semibold text-gray-600">
+            {{ . }}
+          </h2>
+        {{ end }}
+        {{ with .subheading }}
+          <div class="prose prose-xl mx-auto -mt-6 mb-12 text-center font-lexend font-light text-gray-500">
+            {{ . | markdownify }}
+          </div>
+        {{ end }}
+        <div class="flex flex-wrap items-start justify-center gap-6 sm:gap-6">
+          {{ range .companies }}
+            {{ $heading := .heading }}
+            {{ $imagePath := printf "%s" .image }}
+            <a href="{{ .link }}" rel="noopener noreferrer" target="_blank" class="zoom seq load-hidden flex flex-col items-center justify-center rounded-xl bg-white shadow transition duration-200 hover:shadow-lg md:flex-1">
+              <div class="w-full">
+                {{ with resources.Get $imagePath }}
+                  {{ $webp := .Process "webp" }}
+                  <img class="h-full w-full rounded-t-xl object-cover" src="{{ $webp.RelPermalink }}" alt="{{ $heading }}" width="{{ $webp.Width }}" height="{{ $webp.Height }}" loading="lazy" />
+                {{ end }}
+              </div>
+              <div class="flex w-full flex-col items-start justify-start gap-2 p-4">
+                <h3 class="text-base font-bold">{{ .heading }}</h3>
+                <p class="text-base text-gray-500">{{ .subheading }}</p>
+              </div>
+            </a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  {{ end }}
+
+  {{ with .Params.testimonials }}
+    <div class="bg-white">
+      <div class="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+        {{ with .heading }}
+          <h2 class="m-0 -mt-6 mb-12 text-center text-3xl font-semibold text-gray-600">
+            {{ . }}
+          </h2>
+        {{ end }}
+        {{ with .subheading }}
+          <h3 class="m-0 mb-12 text-center text-xl font-light text-gray-500">
+            {{ . }}
+          </h3>
+        {{ end }}
+        <div class="mx-auto grid max-w-7xl gap-8 lg:max-w-none lg:grid-cols-3">
+          {{ range .testimonials }}
+            <div class="seq zoom load-hidden group flex transform flex-col gap-6 overflow-hidden rounded-xl border border-gray-100 bg-white p-8 shadow transition-all duration-200 hover:-translate-y-1">
+              <div class="">
+                <h3 class="font-lexend text-xl font-bold">{{ .name | markdownify }}</h3>
+                <p class="mt-1 text-base font-normal text-gray-500">{{ .position | markdownify }}</p>
+                <p class="mt-1 text-base font-normal text-gray-900">{{ .company | markdownify }}</p>
+              </div>
+              <div class="flex-1">
+                <p class="pb-2 text-base font-normal leading-relaxed text-gray-500">{{ .quote | markdownify }}</p>
+
+                <div class="mt-auto py-5">
+                  <div class="flex items-center justify-between">
+                    <p class="sr-only">5 out of 5 stars</p>
+                    <div class="flex gap-x-1 text-primary-500">
+                      <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+                      </svg>
+                      <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+                      </svg>
+                      <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+                      </svg>
+                      <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+                      </svg>
+                      <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="font-inter flex justify-end p-6"> -->
+              <svg class="absolute bottom-8 right-8 h-9 w-auto text-gray-200" viewBox="0 0 43 35" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M42.28 34.3H26.04C24.4533 29.1667 23.66 23.8467 23.66 18.34C23.66 12.74 25.1067 8.30666 28 5.03999C30.9867 1.68 35.3733 0 41.16 0V7.84C36.4933 7.84 34.16 10.6867 34.16 16.38V19.04H42.28V34.3ZM18.62 34.3H2.38C0.793333 29.1667 0 23.8467 0 18.34C0 12.74 1.44667 8.30666 4.34 5.03999C7.32667 1.68 11.7133 0 17.5 0V7.84C12.8333 7.84 10.5 10.6867 10.5 16.38V19.04H18.62V34.3Z" />
+              </svg>
+              <!-- </div> -->
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  {{ end }}
+
+  {{ with .Params.references }}
+    <div id="references" class="bg-white py-8">
+      <div class="mx-auto max-w-6xl px-6 pb-8 pt-16 lg:px-8">
+        <h2 class="m-0 -mt-6 mb-12 text-center text-3xl font-semibold text-gray-600">
+          {{ .heading }}
+        </h2>
+      </div>
+
+      <div class="mx-auto w-full pb-16">
+        <div class="text-center">
+          <!-- Logo Carousel animation -->
+          <div
+            x-data="{}"
+            x-init="$nextTick(() => {
+                  let ul = $refs.logos;
+                  ul.insertAdjacentHTML('afterend', ul.outerHTML);
+                  ul.nextSibling.setAttribute('aria-hidden', 'true');
+              })"
+            class="inline-flex w-full flex-nowrap overflow-hidden">
+            <ul x-ref="logos" class="flex animate-infinite-scroll items-center justify-center md:justify-start [&_img]:max-w-none [&_li]:mx-8">
+              {{ with .logos }}
+                {{ range . }}
+                  <li>
+                    <div class="flex items-center justify-center">
+                      <img class="h-24 object-contain" src="{{ .logo }}" alt="{{ .name }}" width="200" height="" />
+                    </div>
+                  </li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+          <!-- End: Logo Carousel animation -->
+        </div>
+      </div>
+    </div>
+  {{ end }}
+
+  {{ partial "contact.html" . }}
+
+  {{ with .Params.coach }}
+    <section id="{{ .id }}" class="bg-white py-12 sm:py-16 lg:py-20">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mx-auto flex flex-col">
+          <div class="flex flex-col items-center justify-center">
+            <img class="mx-auto h-32 w-32 rounded-full object-cover lg:h-44 lg:w-44" src="{{ .image }}" alt="{{ .heading }}" />
+            <p class="mt-5 text-lg font-bold text-gray-900 sm:mt-8 sm:text-2xl">{{ .heading }}</p>
+            <p class="mt-2 text-lg font-normal text-gray-600">{{ .subheading }}</p>
+
+            <div class="prose mx-auto my-8 px-6 prose-a:text-primary-500 hover:prose-a:text-primary-600 prose-blockquote:font-normal prose-blockquote:text-gray-600">{{ .copy | markdownify }}</div>
+          </div>
+
+          <div class="mx-auto max-w-xs px-6 text-center"><a class="text-primary-500 underline hover:text-primary-600" href="{{ .link_url }}">{{ .link }}</a></div>
+
+          <div class="flex justify-center space-x-6">
+            {{ range site.Params.social }}
+              <a href="{{ .link }}" class="flex h-10 w-10 items-center justify-center rounded-full bg-primary-500 text-white transition duration-300 hover:scale-110" rel="noopener noreferrer" target="_blank">
+                <span class="sr-only">{{ .name }}</span>
+                <i class="{{ .icon }} text-xl"></i>
+              </a>
+            {{ end }}
+          </div>
+
+          <!-- <div class="mx-auto max-w-xs px-6 text-center"><a class="mt-2.5 rounded-md bg-primary-500 px-4 py-3 text-center text-xs text-white no-underline hover:bg-primary-600 sm:px-6 sm:text-sm" href="{{ .link_url }}">{{ .link }}</a></div> -->
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+  {{ partial "articles.html" . }}
+
+  {{ with .Params.faq }}
+    <div class="mx-auto my-16 max-w-3xl px-6 lg:px-8">
+      {{ with .heading }}
+        <h2 class="m-0 mb-12 text-center text-3xl font-semibold text-gray-600">
+          {{ . }}
+        </h2>
+      {{ end }}
+
+
+      <div class="my-8">
+        <div x-data="{ open: null }">
+          {{ range $index, $element := .questions }}
+            <div class="my-4 rounded-lg border-2 border-gray-100">
+              <button @click="open = open === {{ $index }} ? null : {{ $index }}" class="flex w-full items-center justify-between p-6">
+                <h1 class="text-left font-inter text-base font-semibold text-gray-700 md:text-base">{{ .question | markdownify }}</h1>
+
+                <span class="ml-6 rounded-full bg-primary-500 text-white" x-show="open !== {{ $index }}">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                  </svg>
+                </span>
+
+                <span class="ml-6 rounded-full bg-gray-200 text-gray-400" x-show="open === {{ $index }}">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 12H6"></path>
+                  </svg>
+                </span>
+              </button>
+
+              <div class="relative max-h-0 overflow-hidden transition-all duration-500" x-ref="container{{ $index }}" x-bind:style="open === {{ $index }} ? 'max-height: ' + $refs.container{{ $index }}.scrollHeight + 'px' : ''">
+                <hr class="border-gray-200 transition-opacity duration-500" x-bind:class="{'opacity-0': open !== {{ $index }}}" />
+                <div class="prose gap-2 p-8 prose-a:text-primary-500 prose-a:no-underline hover:prose-a:text-primary-600">
+                  {{ .answer | markdownify }}
+                </div>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  {{ end }}
+{{ end }}

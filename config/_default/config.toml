@@ -1,0 +1,25 @@
+baseURL = 'https://tristandefommervaultdev.netlify.app/' # replace with https://tristandefommervault.com/
+defaultContentLanguage = "fr"
+languageCode = 'fr'
+title = 'Tristan de Fommervault'
+description = 'Tristan de Fommervault'
+# googleAnalytics = "G-CKR9EMVHV1"
+
+cloudinary_url = "https://res.cloudinary.com/qualia-management/image/upload"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+# [taxonomies]
+# category = "categories"
+# tag = "tags"
+# rcategory = "rcategories"
+# rtag = "rtags"
+
+
+# [taxonomies]
+# categories = "categories"
+# tags = "tags"
+
+# [permalinks]
+# categories = "/:slug"

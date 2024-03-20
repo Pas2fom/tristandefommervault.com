@@ -1,0 +1,35 @@
+{
+  "name": "tristandefommervault",
+  "scripts": {
+    "dev": "concurrently npm:watch:*",
+    "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
+    "watch:hugo": "hugo server",
+    "build": "tinacms build && hugo"
+  },
+  "devDependencies": {
+    "@alpinejs/collapse": "latest",
+    "@alpinejs/persist": "latest",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.6",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20.11.30",
+    "alpinejs": "latest",
+    "autoprefixer": "^10.4.16",
+    "concurrently": "^8.2.2",
+    "prettier": "^3.1.1",
+    "prettier-plugin-go-template": "^0.0.15",
+    "prettier-plugin-tailwindcss": "^0.5.9",
+    "tailwindcss": "^3.3.6"
+  },
+  "dependencies": {
+    "@tinacms/auth": "^1.0.3",
+    "@tinacms/cli": "^1.5.42",
+    "esbuild": "^0.20.2",
+    "express": "^4.18.3",
+    "final-form": "^4.20.10",
+    "next-tinacms-cloudinary": "^5.0.0",
+    "postcss-cli": "^11.0.0",
+    "serverless-http": "^3.2.0",
+    "tinacms": "^1.6.0"
+  }
+}

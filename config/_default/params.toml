@@ -1,0 +1,80 @@
+title = "Tristan de Fommervault"
+description = "Tristan de Fommervault"
+copyright = "Tristan de Fommervault. All rights reserved."
+logo = '/images/logo.png'
+images = ['/images/featured.png']
+hero_image = "/images/header.jpg"
+
+cloudinary_url = "https://res.cloudinary.com/qualia-management/image/upload"
+cloudinary_base_url = "https://res.cloudinary.com/qualia-management/image/upload/"
+
+[navbar]
+sticky = true
+# mode = "dark"
+
+
+[[social]]
+name = "Twitter"
+icon = "fa-brands fa-x-twitter"
+link = "https://twitter.com/de_Fommervault"
+
+[[social]]
+name = "Facebook"
+icon = "fa-brands fa-facebook-f"
+link = "https://www.facebook.com/fommervault?ref=bookmarks"
+
+[[social]]
+name = "Instagram"
+icon = "fa-brands fa-instagram"
+link = "https://www.linkedin.com/in/tristandefommervault/"
+
+# [[social]]
+# name = "LinkedIn"
+# icon = "fa-brands fa-linkedin-in"
+# link = "https://www.linkedin.com/"
+
+# [[social]]
+# name = "YouTube"
+# icon = "fa-brands fa-youtube"
+# link = "https://www.youtube.com/"
+
+# [[social]]
+# name = "GitHub"
+# icon = "fa-brands fa-github"
+# link = "https://github.com/"
+
+# [[social]]
+# name = "Reddit"
+# icon = "fa-brands fa-reddit-alien"
+# link = "https://reddit.com/r/"
+
+# [[social]]
+# name = "Email"
+# icon = "fa-solid fa-envelope"
+# link = "mailto:info@example.com"
+
+
+# [header]
+# sticky = true
+# mode = "dark"
+
+
+[[info]]
+name = "802-489-6948"
+icon = "fa-solid fa-mobile-screen-button"
+link = "tel:8024896948"
+
+[[info]]
+name = '''
+info\@greenmtnit.com
+'''
+icon = "fa-solid fa-envelope"
+link = "mailto:info@greenmtnit.com"
+
+[[info]]
+name = '''
+70 South Winooski Ave #262
+Burlington, Vermont 05401
+'''
+icon = "fa-solid fa-location-dot"
+link = "https://maps.app.goo.gl/GFYjhMPW37Dg765U8"

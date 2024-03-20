@@ -1,0 +1,72 @@
+{{ define "main" }}
+  <section class="bg-white">
+    <div class="w-full bg-zinc-100">
+      <div class="mx-auto flex max-w-6xl flex-col items-center justify-center gap-8 md:flex-row">
+        <div class="mx-auto max-w-none flex-1 text-left">
+          <h1 class="px-6 pt-12 text-lg font-normal text-primary-500 sm:text-2xl md:pt-0">{{ .Title }}</h1>
+        </div>
+        <div class="aspect-video flex-1">
+          {{ with .Params.image }}
+            {{ $url := . }}
+            {{ $filename := path.Base $url }}
+            {{ $cloudinaryBaseURL := $.Site.Params.cloudinary_base_url }}
+
+
+            <!-- <div class="aspect-video"> -->
+            <img sizes="(min-width: 50em) 50em, 100vw" srcset="{{ $cloudinaryBaseURL }}f_auto/q_auto/w_256/f_webp/{{ $filename }} 256w, {{ $cloudinaryBaseURL }}f_auto/q_auto/w_512/f_webp/{{ $filename }} 512w, {{ $cloudinaryBaseURL }}f_auto/q_auto/w_768/f_webp/{{ $filename }} 768w, {{ $cloudinaryBaseURL }}f_auto/q_auto/w_1024/f_webp/{{ $filename }} 1024w, {{ $cloudinaryBaseURL }}f_auto/q_auto/w_1280/f_webp/{{ $filename }} 1280w" src="{{ $cloudinaryBaseURL }}f_auto/q_auto/w_512/f_webp/{{ $filename }}" alt="Featured image" class="h-full w-full object-cover" />
+            <!-- </div> -->
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <div class="mt-8 grid grid-cols-1 justify-start gap-y-8 sm:mt-12 lg:mt-16 lg:grid-cols-12 lg:gap-x-12">
+        <div class="prose prose-gray max-w-none prose-a:text-primary-500 prose-a:no-underline hover:prose-a:text-primary-600 prose-blockquote:border-l-2 prose-blockquote:border-gray-900 prose-blockquote:bg-gray-100 prose-blockquote:px-8 prose-blockquote:py-3 prose-blockquote:text-lg prose-blockquote:font-medium prose-blockquote:not-italic prose-blockquote:leading-8 prose-blockquote:text-gray-900 lg:col-span-8 prose-blockquote:lg:text-xl prose-blockquote:lg:leading-9">
+          {{ .Content }}
+        </div>
+        <div class="lg:col-span-4">
+          {{ with .Params.infobox }}
+            <div class="flex flex-col overflow-hidden rounded-2xl">
+              <div class="space-y-1 bg-primary-500 px-8 py-8">
+                <p class="font-ligth text-left text-white">{{ .superheading }}</p>
+                <h3 class="text-left font-lexend text-xl font-normal text-white">{{ .heading | markdownify }}</h3>
+              </div>
+              <div class="flex-1 space-y-3 bg-zinc-100 px-8 py-6">
+                <div class="flex items-start justify-start">
+                  <div class="min-w-28">
+                    <div class="inline-block w-6"><i aria-hidden="true" class="far fa-clock text-sm text-primary-500"></i></div>
+                    <span class="text-sm text-gray-900">Durée</span>
+                  </div>
+                  <div class="pt-px text-sm font-semibold leading-6">{{ .duration }}</div>
+                </div>
+
+                <div class="flex items-start justify-start">
+                  <div class="min-w-28">
+                    <div class="inline-block w-6"><i aria-hidden="true" class="fas fa-people-arrows mr-2 text-sm text-primary-500"></i></div>
+                    <span class="text-sm text-gray-900">Public</span>
+                  </div>
+                  <div class="pt-px text-sm font-semibold leading-6">{{ .public }}</div>
+                </div>
+
+                <div class="flex items-start justify-start">
+                  <div class="min-w-28">
+                    <div class="inline-block w-6"><i aria-hidden="true" class="far fa-arrow-alt-circle-right mr-2 text-sm text-primary-500"></i></div>
+                    <span class="text-sm text-gray-900">Prérequis</span>
+                  </div>
+                  <div class="pt-px text-sm font-semibold leading-6">{{ .prerequisites }}</div>
+                </div>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="mx-auto my-16 max-w-xs">
+        {{ partial "components/button-email.html" . }}
+      </div>
+    </div>
+    {{ if .Params.tags }}
+      {{ partial "related-articles.html" . }}
+    {{ end }}
+  </section>
+{{ end }}

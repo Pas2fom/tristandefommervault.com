@@ -1,0 +1,18 @@
+<div class="seq zoom relative rounded-2xl border border-primary-200 p-4 hover:shadow-xl sm:p-6 lg:p-6 dark:border-primary-800">
+  {{ with .Params.image }}
+    <div class="aspect-h-9 aspect-w-16 mb-7 block overflow-hidden rounded-xl lg:aspect-h-10">
+      {{ partial "components/image-responsive" (dict "src" (. | relLangURL) "alt" $.Title "class" "w-full h-full object-center object-cover" "sizes" "(min-width: 1024px) 50vw, 100vw" "widths" (slice 640 1024 2048)) }}
+    </div>
+  {{ end }}
+  <div class="flex items-start justify-between">
+    <div class="flex flex-wrap gap-1">
+      {{ if .Params.tags }}
+        {{ range .Params.tags }}<span class="inline-block rounded-full bg-primary-100 px-2 py-1 text-xs font-medium uppercase tracking-wider text-primary-500 lg:px-3 lg:py-2 dark:bg-primary-900">{{ . }}</span>{{ end }}
+      {{ end }}
+    </div>
+    <time datetime="2020-03-16" class="inline-block whitespace-nowrap rounded-full bg-slate-100 px-2 py-1 text-xs font-medium uppercase tracking-wider text-slate-600 lg:px-3 lg:py-2 dark:bg-primary-900 dark:text-slate-300">{{ dateFormat "02. January, 2006" .Date }}</time>
+  </div>
+  <h3 class="mt-5 text-2xl font-bold leading-normal text-primary-950 md:text-3xl md:leading-normal dark:text-white">{{ .Title }}</h3>
+  <p class="mt-3 line-clamp-2 text-base leading-loose text-slate-600 dark:text-slate-300">{{ .Summary }}</p>
+  <a href="{{ .Permalink }}" class="absolute inset-0" title="{{ .Title }}"></a>
+</div>

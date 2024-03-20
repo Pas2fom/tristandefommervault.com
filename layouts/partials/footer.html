@@ -1,0 +1,30 @@
+<footer class="bg-primary-500">
+  <div class="px-6 py-8 lg:px-8">
+    <div class="mx-auto flex max-w-7xl flex-col justify-center overflow-hidden md:flex-row md:justify-between">
+      <div>
+        <a href="/">
+          <img src="{{ .Site.Params.logo }}" class="mx-auto mb-4 h-16 w-auto opacity-100 brightness-0 invert sm:h-16 md:mx-0 lg:mb-2" alt="{{ .Site.Title }}" />
+          <h2 class="mt-4 text-center text-lg text-white md:pl-1 md:text-left">{{ .Site.Title }}</h2>
+        </a>
+      </div>
+
+      <div class="mt-12 flex flex-col justify-end gap-2 md:mt-0 md:gap-6">
+        <div class="flex justify-center space-x-6 md:justify-end">
+          {{ range .Site.Params.social }}
+            <a href="{{ .link }}" class="text-white hover:opacity-80" rel="noopener noreferrer" target="_blank">
+              <span class="sr-only">{{ .name }}</span>
+              <i class="{{ .icon }} text-2xl"></i>
+            </a>
+          {{ end }}
+        </div>
+
+        <div class="mt-4 flex flex-col gap-8 md:mt-0 md:flex-row">
+          {{ range .Site.Menus.footer }}
+            <a href="{{ .URL }}" class="text-center text-base text-white hover:opacity-80 dark:hover:text-primary-500"> {{ .Name }} </a>
+          {{ end }}
+          <p class="text-center text-sm leading-5 text-white md:text-base">&copy; {{ dateFormat "2006" now }} {{ .Site.Title }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
