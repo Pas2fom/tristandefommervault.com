@@ -4,21 +4,30 @@ const branch =
   process.env.GITHUB_BRANCH ||
   process.env.VERCEL_GIT_COMMIT_REF ||
   process.env.HEAD ||
-  'main';
+  'master';
 
 export default defineConfig({
   branch,
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
-  token: process.env.TINA_TOKEN,
+  clientId: "39f3fee0-947c-479c-b2c8-6f0635335a79",
+  token: "3daee86cfc6e921f041a2856c3b8229880541a62",
+  client: { skip: true },
   build: {
-    outputFolder: 'admin',
-    publicFolder: 'static',
+    outputFolder: "admin",
+    publicFolder: "static",
   },
   media: {
-    tina: {
-      mediaRoot: '',
-      publicFolder: 'static',
+    loadCustomStore: async () => {
+      const pack = await import("next-tinacms-cloudinary");
+      return pack.TinaCloudCloudinaryMediaStore;
     },
+  },
+  search: {
+    tina: {
+      indexerToken: '4e3d0cb685a5eb3dea1a0d00bff918d0e21f4088',
+      stopwordLanguages: ['fr']
+    },
+    indexBatchSize: 100,
+    maxSearchIndexFieldLength: 100
   },
   schema: {
     collections: [
@@ -28,7 +37,6 @@ export default defineConfig({
         label: "Accueil",
         path: "content",
         ui: {
-          // Don't allow editors to create new navigation items
           allowedActions: {
             create: false,
             delete: false,
