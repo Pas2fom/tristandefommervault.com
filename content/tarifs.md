@@ -46,9 +46,3 @@ tarifs:
       link: Accéder à la fiche
       url: "#"
 ---
-
-## Preise
-
-Unsere Dienstleistungen im Bereich erneuerbarer Energien umfassen eine breite Palette von Angeboten. Bitte beachten Sie jedoch, dass wir derzeit keine öffentlichen Bries-Projekte anbieten. Stattdessen entwickeln wir auf Anfrage maßgeschneiderte Lösungen für die individuellen Bedürfnisse unserer Kunden. Kontaktieren Sie uns gerne, um Ihre spezifischen Anforderungen zu besprechen und wir werden gemeinsam eine Lösung finden.
-
-Kontaktieren Sie uns: [info@aratall.com](mailto:info@aratall.com)

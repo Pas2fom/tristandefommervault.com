@@ -322,6 +322,12 @@ export default defineConfig({
               },
             ],
           },
+          {
+            type: 'rich-text',
+            name: 'body',
+            label: 'Body',
+            isBody: true,
+          },
         ],
       },
       
