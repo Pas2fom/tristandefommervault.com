@@ -8,7 +8,6 @@ description: >-
 images:
   - https://res.cloudinary.com/qualia-management/image/upload/v1612185239/tdf/joshua-ness-225844-unsplash_bsnekj.jpg
 categories: " food4thought"
-_template: article
 
 tags:
   - Situationsensible

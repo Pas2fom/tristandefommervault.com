@@ -5,7 +5,6 @@ description: Les questions "contre-intuitives" pour pendre le contre-pied de nos
 images:
   - https://res.cloudinary.com/qualia-management/image/upload/v1612185244/tdf/neurosciences_ebm4lk.png
 categories: ""
-_template: article
 
 tags:
   - PedagogieDuChangement

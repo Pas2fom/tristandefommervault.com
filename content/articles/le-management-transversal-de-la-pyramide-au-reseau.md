@@ -1,18 +1,16 @@
 ---
 date: 2020-02-02T20:00:00.000Z
-title: 'Le management transversal : de la pyramide au réseau'
+title: "Le management transversal : de la pyramide au réseau"
 description: Comment faire évoluer les pratiques de management transversal ?
 images: []
-categories: ' food4thought'
-_template: article
+categories: " food4thought"
 ---
-
 
 Comment faire émerger des compétences à manager et coopérer en transversal au sein d’organisations où le principal étalon de reconnaissance est l’expertise technique ?
 
 Pour relever ce défi, comment développer un leadership d’influence chez les responsables appelés à jouer un role transversale (par ex. pilote de projets ou de processus) tout en évitant le choc des cultures intérieures ?
 
-**Un manager sans autorité hiérarchique**   
+**Un manager sans autorité hiérarchique**  
 Le challenge d’un manager transverse est d’embarquer avec lui un collectif sans autorité hiérarchique. C’est-à-dire pas d’autorité liée au statut ni de droit associé au lien de subordination.
 
 Encourager le fonctionnement en transverse, mission impossible dans les organisations de type “pyramidales” ?

@@ -9,7 +9,7 @@ description: >-
 images:
   - https://res.cloudinary.com/qualia-management/image/upload/v1707980018/annonce-jour-j-evenement-19-juin-va_fqkmhd.png
 categories: event
-_template: article
+
 tags:
   - Codeveloppement
   - IntelligenceCollective

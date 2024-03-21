@@ -7,7 +7,6 @@ description: >-
 images:
   - https://res.cloudinary.com/qualia-management/image/upload/v1612186716/tdf/worldcafe_dockcn.jpg
 categories: " CommentFairePour"
-_template: article
 
 tags:
   - Interactivité

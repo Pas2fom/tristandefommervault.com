@@ -5,7 +5,6 @@ description: Poser des questions ou s'affirmer ? Les concilier plutôt que les o
 images:
   - https://res.cloudinary.com/qualia-management/image/upload/v1612185215/tdf/matt-walsh-tvkdgtee2c4-unsplash_uwt4r4.jpg
 categories: ""
-_template: article
 
 tags:
   - Coaching

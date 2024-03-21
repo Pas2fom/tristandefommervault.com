@@ -6,7 +6,6 @@ images:
   - https://res.cloudinary.com/qualia-management/image/upload/v1612185246/tdf/randy-fath-ymf4_9y9s_a-unsplash_orig_rkp6ti.jpg
   - https://res.cloudinary.com/qualia-management/image/upload/v1612185241/tdf/aubrey-odom-t1l9q5g7eiq-unsplash_omisds.jpg
 categories: " food4thought"
-_template: article
 ---
 
 Nos activités de travail se caractérisent par des interactions et échanges d’information toujours plus intenses, fondés sur des liens de confiance.
