@@ -9,9 +9,7 @@ description: >-
 goals: >-
   Comprendre les réactions et les étapes du changement pour l’appréhender et
   accompagner les équipes plus sereinement
-weight: 15
 theme: Construire les équilibres
-_template: formation
 image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
 infobox:
   superheading: Tarif individuel
