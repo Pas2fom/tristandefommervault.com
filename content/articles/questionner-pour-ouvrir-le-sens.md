@@ -19,7 +19,7 @@ L’absence de questionnement peut occulter les débats nécessaires dans une pr
 
 **Quand la question n’est pas là**
 
-Fort de son expérience, un directeur commercial affirmait que la clé du succès résidait dans les qualités de persuasion des vendeurs. Cette conviction l'a empêché de prendre conscience de l'importance croissante accordée par les clients à la qualité de service. Les ventes ont commencé à décliner, sans autre solution que de remplacer les vendeurs[\[1\]](applewebdata://E2F2E3ED-75CF-447B-B237-96FB6E409D87#_ftn1). Or la question n’était pas là…
+Fort de son expérience, un directeur commercial affirmait que la clé du succès résidait dans les qualités de persuasion des vendeurs. Cette conviction l'a empêché de prendre conscience de l'importance croissante accordée par les clients à la qualité de service. Les ventes ont commencé à décliner, sans autre solution que de remplacer les vendeurs[\[1\]](). Or la question n’était pas là…
 
 **Affirmer ou questionner ?**
 
@@ -47,4 +47,4 @@ Si affirmer une direction demeure un atout précieux chez un manager, savoir que
 
 ---
 
-[\[1\]](applewebdata://E2F2E3ED-75CF-447B-B237-96FB6E409D87#_ftnref1) Exemple cité dans All You Gotta So Is Ask, Chuck Yorke, Norman Bodek, éd. PCS Press, 2005.
+[\[1\]]() Exemple cité dans All You Gotta So Is Ask, Chuck Yorke, Norman Bodek, éd. PCS Press, 2005.
