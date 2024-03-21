@@ -1,4 +1,4 @@
-baseURL = 'https://tristandefommervaultdev.netlify.app/' # replace with https://tristandefommervault.com/
+baseURL = 'https://tristandefommervault.com/'
 defaultContentLanguage = "fr"
 languageCode = 'fr'
 title = 'Tristan de Fommervault'
