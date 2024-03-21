@@ -130,7 +130,4 @@ coach:
     Lao Tseu
 
     [Plus sur moi](/about/)
-
-  # link: "Plus sur moi"
-  # link_url: "/about/"
 ---

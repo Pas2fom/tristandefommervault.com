@@ -12,7 +12,7 @@ tags:
   - Interactivité
   - Pédagogieludique
   - Miseenmouvement
-  - RencontresInteractives
+  - Rencontres Interactives
 ---
 
 L’approche World Café vise avant tout à organiser l’échange d’idées et la réflexion collective. Très souple dans sa mise en œuvre, son champ d’application est étendu : de stimuler l’instauration d’échanges entre personnes qui ne se connaissent pas jusqu’à élaborer une politique ou le plan stratégique d’une organisation.

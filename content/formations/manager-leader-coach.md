@@ -7,10 +7,10 @@ description: >-
 goals: |-
   Développer les postures de Leader et de Coach dans le management de ses
   collaborateurs.
-weight: 15
+
 theme: Développer le management
 image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
-_template: formation
+
 infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC

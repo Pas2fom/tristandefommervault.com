@@ -4,7 +4,7 @@ title: Réussir sa prise de poste
 goals: Se préparer mentalement à intégrer un nouveau système professionnel
 description: Assumer une nouvelle fonction en adoptant la posture adéquate
 image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
-_template: formation
+
 infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC

@@ -13,7 +13,7 @@ category: Leadership
 image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
 weight: 10
 theme: Relier l'individu à son environnement
-_template: formation
+
 infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC

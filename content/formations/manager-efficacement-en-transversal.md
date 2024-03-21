@@ -11,10 +11,10 @@ goals: >-
   Saisir les spécificités du management non-hiérarchique pour susciter le désir
   de s’impliquer, obtenir le meilleur de chaque coéquipier pour réussir le
   projet.
-weight: 15
+
 theme: Développer le management
 image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
-_template: formation
+
 infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC

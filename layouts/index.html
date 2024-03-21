@@ -16,7 +16,7 @@
             <p class="mt-6 max-w-xl text-xl font-normal leading-relaxed text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.4)] sm:mt-6 sm:text-2xl sm:leading-relaxed">{{ . | markdownify }}</p>
           {{ end }}
         </div>
-        {{ partial "components/list.html" . }}
+        <!-- {{ partial "components/list.html" . }}
         {{ with .buttons }}
           <div class="mt-8 flex flex-wrap gap-3">
             {{ range . }}
@@ -25,7 +25,7 @@
               </a>
             {{ end }}
           </div>
-        {{ end }}
+        {{ end }} -->
       </div>
     </section>
   {{ end }}
@@ -33,11 +33,9 @@
   {{ with .Params.hero_links }}
     <div class="mx-auto w-full max-w-6xl px-4 sm:px-6">
       <div class="z-40 -mt-8 mb-16 grid grid-cols-2 gap-4 sm:-mt-32 sm:gap-8">
-        {{ range .tabs }}
+        {{ range .links }}
           <div class="z-40 flex flex-col items-center justify-center gap-4 rounded bg-white px-2 py-6 shadow-lg sm:px-6 sm:py-16">
-            <!-- <div class="flex h-16 w-16 items-center justify-center rounded-md bg-zinc-100"> -->
             <i class="{{ .icon }} text-3xl text-primary-500 sm:text-4xl"></i>
-            <!-- </div> -->
             <h2 class="text-center text-xl font-light text-gray-600 sm:text-2xl">{{ .heading }}</h2>
             <div class="relative max-w-xs flex-grow text-center text-sm leading-normal text-gray-600 sm:text-base">{{ .text | markdownify }}</div>
             <a href="{{ .link_url }}" class="mt-2.5 rounded-md bg-primary-500 px-4 py-3 text-center text-xs text-white no-underline hover:bg-primary-600 sm:px-6 sm:text-sm">{{ .link }}</a>

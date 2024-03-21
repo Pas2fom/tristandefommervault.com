@@ -1,22 +1,16 @@
 ---
-title:
-description:
-image:
-# layout: blocks
+title: "Tristan de Fommervault"
+description: "Tristan de Fommervault"
 
 hero:
-  layout: left
   image: https://res.cloudinary.com/qualia-management/image/upload/v1710967186/herobg_ffuwkt.jpg
   heading: |-
     Transmettre et accompagner, former et coacher
   subheading: |-
     Des formules d’accompagnement sur mesure pour vous aider à atteindre vos objectifs.
-  # buttons:
-  #   - text: En Savoir Plus
-  #     url: "/coaching"
 
 hero_links:
-  tabs:
+  links:
     - heading: Coaching
       icon: "fa-solid fa-comments"
       text: |-

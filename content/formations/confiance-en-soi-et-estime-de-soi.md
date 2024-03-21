@@ -7,7 +7,6 @@ description: >-
   fonctionnement de l’estime de soi et acquérir des routines permettant de la
   développer et de la cultiver
 image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
-_template: formation
 infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC

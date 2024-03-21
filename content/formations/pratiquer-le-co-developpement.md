@@ -9,7 +9,6 @@ description: >-
   structuré. Echanger sur sa pratique et ses expériences, Apprendre et
   s’enrichir des expériences et feed-back de pairs
 image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
-_template: formation
 infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC

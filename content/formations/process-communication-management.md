@@ -5,9 +5,9 @@ description: "Affirmer son leadership de manager de projet "
 goals: >-
   Décrypter les comportements et capter les sources d'énergie positive dans un
   projet
-weight: 15
+
 theme: Développer le management
-_template: formation
+
 image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
 infobox:
   superheading: Tarif individuel

@@ -5,9 +5,9 @@ description: Concilier besoins et sens pour avancer
 goals: >-
   Adapter son style et ses modes de management aux personnes, aux situations et
   aux besoins de développement de l’équipe.
-weight: 15
+
 theme: Développer le management
-_template: formation
+
 image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
 infobox:
   superheading: Tarif individuel

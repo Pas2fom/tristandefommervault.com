@@ -5,9 +5,8 @@ description: >-
   Identifier les déclencheurs de stress et se préparer à y faire face en puisant
   dans ses ressources émotionnelles, mentales et corporelles.
 goals: ""
-weight: 15
 theme: Construire les équilibres
-_template: formation
+
 image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
 infobox:
   superheading: Tarif individuel

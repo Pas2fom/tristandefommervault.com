@@ -8,7 +8,7 @@ goals: |-
 description: Oser exprimer nos priorités dans le respect de ses interlocuteurs
 theme: Relier l'individu à son environnement
 image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
-_template: formation
+
 infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC

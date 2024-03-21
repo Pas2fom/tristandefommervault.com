@@ -11,10 +11,10 @@ goals: |-
   les outils adaptés
   * Déjouer les pièges de la communication à distance
   * Organiser les circuits de partage de l'information
-weight: 15
+
 theme: Développer le management
 image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
-_template: formation
+
 infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC

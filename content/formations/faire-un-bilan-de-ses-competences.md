@@ -6,7 +6,6 @@ description: >-
   Faire un état des lieux sur ses talents, compétences, motivations, définir un
   objectif et un plan d’action pour l’avenir
 image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
-_template: formation
 infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC
