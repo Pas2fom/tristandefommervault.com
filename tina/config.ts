@@ -268,11 +268,6 @@ export default defineConfig({
         fields: [
           {
             type: 'string',
-            label: 'Layout',
-            name: 'layout',
-          },
-          {
-            type: 'string',
             label: 'Title',
             name: 'title',
           },
@@ -635,11 +630,6 @@ export default defineConfig({
             type: 'string',
             label: 'Description',
             name: 'description',
-          },
-          {
-            type: 'string',
-            label: 'Layout',
-            name: 'layout',
           },
           {
             type: 'object',
