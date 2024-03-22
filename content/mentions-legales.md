@@ -1,19 +1,19 @@
 ---
-title: "Mentions Légales"
-description: "Mentions Légales"
+title: Mentions Légales
+description: Mentions Légales
 ---
 
 ### Ce site a été réalisé par l'agence xxs
 
-Tristan de Fommervault  
+Tristan de Fommervault\
 [tristandefommervault.com](https://tristandefommervault.com/)
 
 ### Pour le compte de l'entreprise
 
-**QUALIA**  
-36 rue de Fleurus  
-75006 Paris  
-Tel : +33(0)6 61 07 90 51  
+**QUALIA**\
+36 rue de Fleurus\
+75006 Paris\
+Tel : +33(0)6 61 07 90 51\
 Fax : +33(0)6 61 07 90 51
 
 ### Hébergement
@@ -27,7 +27,7 @@ Le code de la propriété intellectuelle n'autorisant, aux termes de l'article L
 
 ### Bases de données
 
-Conformément aux dispositions de la loi n° 98-536 du 1er juillet 1998 portant transposition dans le code de la propriété intellectuelle de la directive 96/9 CE du 11 mars 1996 concernant la protection juridique des bases de données, ALTERHEGO est producteur et propriétaire de tout ou partie des bases de données composant le présent site.\
+Conformément aux dispositions de la loi n° 98-536 du 1er juillet 1998 portant transposition dans le code de la propriété intellectuelle de la directive 96/9 CE du 11 mars 1996 concernant la protection juridique des bases de données, QUALIA est producteur et propriétaire de tout ou partie des bases de données composant le présent site.\
 En accédant au présent site, vous reconnaissez que les données le composant sont légalement protégées, et, conformément aux dispositions de la loi du 01/07/98 précitée, il vous est interdit notamment d'extraire, réutiliser, stocker, reproduire, représenter ou conserver, directement ou indirectement, sur un support quelconque, par tout moyen et sous toute forme que ce soit, tout ou partie qualitativement ou quantitativement substantielle, du contenu des bases de données figurant au site auquel vous accédez ainsi que d'en faire l'extraction ou la réutilisation répétée et systématique de partie qualitativement et quantitativement non substantielles lorsque ces opérations excèdent manifestement les conditions d'utilisation normale.
 
 ### Informatique et libertés (CNIL)
