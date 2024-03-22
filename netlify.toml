@@ -1,6 +1,16 @@
 [build]
-command = "tinacms build && hugo"
+command = "npm run build"
 publish = "public"
 
 [build.environment]
 HUGO_VERSION = "0.121.2"
+NODE_VERSION = "18.4.0"
+
+[[redirects]]
+from = '/api/*'
+to = '/.netlify/functions/api/:splat'
+status = 200
+
+[functions]
+node_bundler = 'esbuild'
+external_node_modules = ["express", "cloudinary"]
