@@ -10,7 +10,7 @@ export default defineConfig({
   branch,
   clientId: "39f3fee0-947c-479c-b2c8-6f0635335a79",
   token: "3daee86cfc6e921f041a2856c3b8229880541a62",
-  client: { skip: true },
+  // client: { skip: true },
   build: {
     outputFolder: "admin",
     publicFolder: "static",
@@ -23,7 +23,7 @@ export default defineConfig({
   },
   search: {
     tina: {
-      indexerToken: '4e3d0cb685a5eb3dea1a0d00bff918d0e21f4088',
+      indexerToken: 'f02fd1c201ee3b8d815d2ad880a57cd90a1e906d',
       stopwordLanguages: ['fra']
     },
     indexBatchSize: 100,
