@@ -104,23 +104,7 @@ html {
   display: none !important;
 }
 
-.svg-sm svg {
-  width: 1.375rem;
-  height: 1.375rem;
-}
-.svg-md svg {
-  width: 1.8125rem;
-  height: 1.8125rem;
-}
-.svg-lg svg {
-  width: 2rem;
-  height: 2rem;
-}
-.svg-xl svg {
-  width: 2.75rem;
-  height: 2.75rem;
-  @apply stroke-[1.25];
-}
+
 
 @layer utilities {
   .slide {
@@ -136,102 +120,6 @@ html {
   }
 }
 
-/* h1 strong, h2 strong, h3 strong, .text-highlight, .superheading strong {
-  @apply font-bold;
-  @apply text-transparent;
-  @apply bg-clip-text; 
-  @apply bg-gradient-to-r;
-  @apply bg-primary-600; 
-  @apply from-primary-600;
-  @apply via-primary-500;
-  @apply to-primary-400;
-} */
-
-/* .button-gradient-1 {
-  @apply bg-gradient-to-r;
-  @apply bg-primary-500; 
-  @apply from-primary-500;
-  @apply via-primary-600;
-  @apply to-primary-400;
-  @apply text-white;
-  @apply hover:bg-indigo-700; 
-  @apply hover:from-indigo-700;
-  @apply hover:via-purple-700;
-  @apply hover:to-pink-700;
-}
-.button-gradient-2 {
-  @apply bg-gradient-to-r;
-  @apply bg-indigo-600; 
-  @apply from-[#602CFF];
-  @apply via-[#3B6CFF];
-  @apply to-[#32BEFF];
-  @apply text-white;
-}
-.button-muted {
-  @apply border;
-  @apply border-primary-50;
-  @apply bg-primary-50; 
-  @apply dark:bg-primary-800;
-  @apply dark:border-primary-800;
-  @apply text-primary-500; 
-  @apply dark:text-white; 
-  @apply hover:text-white; 
-  @apply hover:bg-primary-500; 
-  @apply hover:border-primary-500;
-}
-.button-primary {
-  @apply text-white; 
-  @apply bg-primary-500; 
-  @apply hover:bg-primary-600; 
-}
-.button-secondary {
-  @apply border; 
-  @apply text-white; 
-  @apply bg-primary-900; 
-  @apply hover:bg-transparent; 
-  @apply border-primary-900; 
-  @apply hover:text-primary-900; 
-  @apply dark:text-primary-900; 
-  @apply dark:bg-white; 
-  @apply dark:hover:bg-transparent; 
-  @apply dark:border-white; 
-  @apply dark:hover:text-white;
-}
-
-.button-red {
-  @apply text-white; 
-  @apply bg-primary-400; 
-  @apply hover:opacity-90; 
-  @apply shadow-md;
-  @apply hover:shadow;
-  @apply transition;
-}
-
-
-.button-outline {
-  @apply border; 
-  @apply border-primary-950; 
-  @apply hover:bg-primary-950; 
-  @apply hover:text-white; 
-  @apply dark:border-white; 
-  @apply dark:text-white; 
-  @apply dark:hover:bg-white; 
-  @apply dark:hover:text-primary-950;
-}
- */
-
-
-
-
-/* .hover-extension {
-position: absolute;
-height: 20px; 
-top: 100%;
-left: 0;
-right: 0;
-z-index: 1;
-content: '';
-} */
 
 
 .marquee {
