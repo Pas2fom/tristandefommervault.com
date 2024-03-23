@@ -3,8 +3,7 @@ _schema: default
 title: Découvrir son profil Arc-en-Ciel DISC
 date: 2023-02-23T20:00:00Z
 description: "Méthode ARC EN CIEL DISC "
-images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1677108371/tdf/DALL_E_2023-02-23_00.25.48_-_red_yellow_green_blue_visual_effect_of_speed_in_a_city_geometrical_art_vd178c.png
+image: https://res.cloudinary.com/qualia-management/image/upload/v1677108371/tdf/DALL_E_2023-02-23_00.25.48_-_red_yellow_green_blue_visual_effect_of_speed_in_a_city_geometrical_art_vd178c.png
 categories: " CommentFairePour"
 ---
 

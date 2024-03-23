@@ -2,8 +2,7 @@
 date: 2023-02-06T18:20:27.000+00:00
 title: Visionner pour mieux décider et vivre le changement
 description: Se mettre en mouvement et décider dans l'incertitude
-images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1675708918/tdf/VIE_changement_conduite_-_Page_1_nh3uzu.png
+image: https://res.cloudinary.com/qualia-management/image/upload/v1675708918/tdf/VIE_changement_conduite_-_Page_1_nh3uzu.png
 categories: ""
 
 tags:

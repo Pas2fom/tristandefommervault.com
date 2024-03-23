@@ -2,8 +2,7 @@
 title: S'étonner ou ne pas s'étonner ?
 date: 2019-01-29
 description: S’étonner, c’est accepter de ne pas tout savoir d’une situation pour faire surgir la nouveauté passée jusque là inaperçue.
-images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1612185226/tdf/colton-sturgeon-1182138-unsplash_jpi1gh.jpg
+image: https://res.cloudinary.com/qualia-management/image/upload/v1612185226/tdf/colton-sturgeon-1182138-unsplash_jpi1gh.jpg
 ---
 
 > « Que ta vision soit à chaque instant nouvelle. – Le sage est celui qui s’étonne de tout» (André Gide)

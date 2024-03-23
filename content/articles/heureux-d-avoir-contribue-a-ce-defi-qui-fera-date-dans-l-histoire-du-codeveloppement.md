@@ -6,8 +6,7 @@ title: >-
 description: >-
   Un giga codéveloppement rassemble 300 participants, 40 facilitateurs, 40
   séances simultanées
-images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1707980018/annonce-jour-j-evenement-19-juin-va_fqkmhd.png
+image: https://res.cloudinary.com/qualia-management/image/upload/v1707980018/annonce-jour-j-evenement-19-juin-va_fqkmhd.png
 categories: event
 
 tags:

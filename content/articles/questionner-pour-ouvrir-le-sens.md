@@ -2,8 +2,7 @@
 date: 2019-01-29T20:00:00.000Z
 title: "Questionner pour ouvrir le sens "
 description: Poser des questions ou s'affirmer ? Les concilier plutôt que les opposer.
-images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1612185215/tdf/matt-walsh-tvkdgtee2c4-unsplash_uwt4r4.jpg
+image: https://res.cloudinary.com/qualia-management/image/upload/v1612185215/tdf/matt-walsh-tvkdgtee2c4-unsplash_uwt4r4.jpg
 categories: ""
 
 tags:

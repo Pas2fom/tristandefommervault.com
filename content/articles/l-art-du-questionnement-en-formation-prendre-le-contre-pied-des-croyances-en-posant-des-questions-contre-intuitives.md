@@ -2,8 +2,7 @@
 date: 2021-01-19T20:00:00.000Z
 title: L'art du questionnement en formation
 description: Les questions "contre-intuitives" pour pendre le contre-pied de nos croyances.
-images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1612185244/tdf/neurosciences_ebm4lk.png
+image: https://res.cloudinary.com/qualia-management/image/upload/v1612185244/tdf/neurosciences_ebm4lk.png
 categories: ""
 
 tags:

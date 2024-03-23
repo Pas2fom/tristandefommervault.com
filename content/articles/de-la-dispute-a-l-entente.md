@@ -5,8 +5,7 @@ description: >-
   En se donnant les moyens d’une confrontation véritable, en laissant les
   différents points de vue s’exprimer et se confronter aux autres, la discussion
   progresse
-images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1612185239/tdf/joshua-ness-225844-unsplash_bsnekj.jpg
+image: https://res.cloudinary.com/qualia-management/image/upload/v1612185239/tdf/joshua-ness-225844-unsplash_bsnekj.jpg
 categories: " food4thought"
 
 tags:

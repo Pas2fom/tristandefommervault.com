@@ -3,8 +3,7 @@ _schema: default
 title: Qu'est-ce que la méthode Arc-En-Ciel ?
 date: 2023-03-01T00:00:00Z
 description: Mieux se connaître pour interagir efficacement
-images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1674817552/tdf/AEC_1_li2rtj.png
+image: https://res.cloudinary.com/qualia-management/image/upload/v1674817552/tdf/AEC_1_li2rtj.png
 
 tags:
   - Coaching

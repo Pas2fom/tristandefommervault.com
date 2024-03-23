@@ -1,12 +1,12 @@
 ---
 title: Manager dans l'incertitude ou l'art du discernement
 date: 2019-01-28T12:55:15.000+00:00
-description: L’incertitude est inéliminable par l’intelligence humaine, a fortiori
+description:
+  L’incertitude est inéliminable par l’intelligence humaine, a fortiori
   dans un système complexe.
-images:
-- https://res.cloudinary.com/qualia-management/image/upload/v1612185218/tdf/jonathan-petersson-607955-unsplash_uaijni.jpg
-
+image: https://res.cloudinary.com/qualia-management/image/upload/v1612185218/tdf/jonathan-petersson-607955-unsplash_uaijni.jpg
 ---
+
 L’adage selon lequel le passé serait garant de l’avenir n’a sans doute de nos jours jamais été autant contredit. Un changement d’actionnaire ou un retournement de marché peut à tout moment remettre en cause les projections sur l’avenir ainsi que les instruments, modèles, et croyances sur lesquelles elles s’appuient. Toujours plus changeantes et imprévisibles, les situations de management, en bousculant nos certitudes, mettent à l’épreuve notre tolérance à l’incertitude.
 
 Issu du latin Incertus « qui n’est pas fixé, déterminé à l’avance », un événement est dit incertain quand je ne peux pas le prévoir dans l’avenir.

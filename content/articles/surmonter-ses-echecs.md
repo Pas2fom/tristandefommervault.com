@@ -4,9 +4,7 @@ description:
   L’intelligence humaine fonctionne par essais, erreurs et corrections.
   Nous apprenons autant de nos réussites que de nos échecs.
 date: 2018-01-21
-images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1612185224/tdf/shirly-niv-marton-377770-unsplash_zy3lwx.jpg
-  - https://res.cloudinary.com/qualia-management/image/upload/v1707980011/shirly-niv-marton-377770-unsplash_rasoih.jpg
+image: https://res.cloudinary.com/qualia-management/image/upload/v1707980011/shirly-niv-marton-377770-unsplash_rasoih.jpg
 # canonicalURL: http://www.qualia-management.com/?p=240
 ---
 

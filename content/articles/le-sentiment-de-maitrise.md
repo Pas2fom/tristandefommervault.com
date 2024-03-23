@@ -2,8 +2,7 @@
 date: 2021-02-21T17:03:35.000Z
 title: Distinguer la maîtrise du contrôle
 description: "maîtrise contrôle apprentissage "
-images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1675158666/tdf/DALL_E_2023-01-31_10.48.48_gz6dsf.png
+image: https://res.cloudinary.com/qualia-management/image/upload/v1675158666/tdf/DALL_E_2023-01-31_10.48.48_gz6dsf.png
 categories: " food4thought"
 ---
 

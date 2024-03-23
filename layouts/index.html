@@ -3,12 +3,12 @@
     <section class="relative flex aspect-auto h-auto items-center justify-start overflow-hidden bg-cover bg-center bg-no-repeat sm:aspect-auto sm:h-[80vh]">
       {{ with .image }}
         {{ $url := . }}
-        {{ $filename := path.Base $url }}
-        {{ $cloudinary_base_url := $.Site.Params.cloudinary_base_url }}
+        {{ $cloudinary_base_url := site.Params.cloudinary_base_url }}
+        {{ $relative := strings.TrimPrefix $cloudinary_base_url $url }}
         <img
           sizes="100vw"
-          srcset="{{ $cloudinary_base_url }}f_auto/q_auto/w_256/f_webp/{{ $filename }} 256w, {{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $filename }} 512w, {{ $cloudinary_base_url }}f_auto/q_auto/w_768/f_webp/{{ $filename }} 768w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1024/f_webp/{{ $filename }} 1024w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1280/f_webp/{{ $filename }} 1280w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1440/f_webp/{{ $filename }} 1440w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1920/f_webp/{{ $filename }} 1920w"
-          src="{{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $filename }}"
+          srcset="{{ $cloudinary_base_url }}f_auto/q_auto/w_256/f_webp/{{ $relative }} 256w, {{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $relative }} 512w, {{ $cloudinary_base_url }}f_auto/q_auto/w_768/f_webp/{{ $relative }} 768w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1024/f_webp/{{ $relative }} 1024w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1280/f_webp/{{ $relative }} 1280w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1440/f_webp/{{ $relative }} 1440w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1920/f_webp/{{ $relative }} 1920w"
+          src="{{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $relative }}"
           alt="Featured image"
           class="absolute inset-0 z-10 h-full w-full object-cover object-center sm:aspect-auto xl:object-center" />
       {{ end }}
@@ -66,9 +66,9 @@
               <div class="w-full">
                 {{ with .image }}
                   {{ $url := . }}
-                  {{ $filename := path.Base $url }}
-                  {{ $cloudinary_base_url := $.Site.Params.cloudinary_base_url }}
-                  <img class="h-full w-full rounded-t-xl object-cover" src="{{ $cloudinary_base_url }}f_auto/q_auto/w_389/f_webp/{{ $filename }}" alt="{{ $heading }}" width="389" loading="lazy" />
+                  {{ $cloudinary_base_url := site.Params.cloudinary_base_url }}
+                  {{ $relative := strings.TrimPrefix $cloudinary_base_url $url }}
+                  <img class="h-full w-full rounded-t-xl object-cover" src="{{ $cloudinary_base_url }}f_auto/q_auto/w_389/f_webp/{{ $relative }}" alt="{{ $heading }}" width="389" loading="lazy" />
                 {{ end }}
               </div>
               <div class="flex w-full flex-col items-start justify-start gap-2 p-4">
@@ -164,7 +164,7 @@
                 {{ range . }}
                   <li>
                     <div class="flex items-center justify-center">
-                      <img class="h-24 object-contain" src="{{ .logo }}" alt="{{ .name }}" width="200" height="" />
+                      <img class="h-24 object-contain" src="{{ site.Params.cloudinary_base_url }}f_auto/q_auto/w_200/f_webp/{{ strings.TrimPrefix site.Params.cloudinary_base_url .logo }}" alt="{{ .name }}" width="200" loading="lazy" />
                     </div>
                   </li>
                 {{ end }}
@@ -184,7 +184,7 @@
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mx-auto flex flex-col">
           <div class="flex flex-col items-center justify-center">
-            <img class="mx-auto h-32 w-32 rounded-full object-cover lg:h-44 lg:w-44" src="{{ .image }}" alt="{{ .heading }}" />
+            <img class="mx-auto h-32 w-32 rounded-full object-cover lg:h-44 lg:w-44" src="{{ site.Params.cloudinary_base_url }}f_auto/q_auto/w_176/f_webp/{{ strings.TrimPrefix site.Params.cloudinary_base_url .image }}" alt="{{ .heading }}" width="176" loading="lazy" />
             <p class="mt-5 text-lg font-bold text-gray-900 sm:mt-8 sm:text-2xl">{{ .heading }}</p>
             <p class="mt-2 text-lg font-normal text-gray-600">{{ .subheading }}</p>
 

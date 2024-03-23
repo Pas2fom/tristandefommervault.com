@@ -2,8 +2,7 @@
 date: 2023-02-06T18:04:52Z
 title: "Passer du mode automatique au mode adaptatif "
 description: S'émanciper de ses automatismes et passer en mode adaptatif
-images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1677106916/tdf/DALL_E_2023-02-23_00.00.03_-_leaving_routines_morphing_gbfdqy.png
+image: https://res.cloudinary.com/qualia-management/image/upload/v1677106916/tdf/DALL_E_2023-02-23_00.00.03_-_leaving_routines_morphing_gbfdqy.png
 categories: " food4thought"
 draft: false
 ---

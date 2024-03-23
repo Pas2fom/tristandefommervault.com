@@ -4,8 +4,7 @@ title: "Soli[ci]tude "
 description: >-
   Comment passer de l’éloignement contraint à la distanciation créatrice, de la
   solitude passive à la solitude créatrice ?
-images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1707980019/Image_cwxtbz.png
+image: https://res.cloudinary.com/qualia-management/image/upload/v1707980019/Image_cwxtbz.png
 categories: event
 ---
 

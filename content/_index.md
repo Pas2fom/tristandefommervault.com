@@ -4,7 +4,7 @@ description: Tristan de Fommervault
 hero:
   image: >-
     https://res.cloudinary.com/qualia-management/image/upload/v1710967186/herobg_ffuwkt.jpg
-  heading: 'Transmettre et accompagner, former et coacher'
+  heading: "Transmettre et accompagner, former et coacher"
   subheading: >-
     Des formules d’accompagnement sur mesure pour vous aider à atteindre vos
     objectifs.
@@ -52,7 +52,7 @@ testimonials:
   subheading: null
   testimonials:
     - name: Sébastien Rémond
-      company: '[Société Générale CIB](https://cib.societegenerale.com/en/)'
+      company: "[Société Générale CIB](https://cib.societegenerale.com/en/)"
       position: Directeur Investment Banking
       quote: >
         Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité
@@ -100,122 +100,87 @@ references:
   heading: Références
   logos:
     - name: Adecco
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320139/logos/adecco_eznr8v.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320139/logos/adecco_eznr8v.png
     - name: AMF
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320141/logos/amf_qqud6r.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320141/logos/amf_qqud6r.png
     - name: Amundi
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320127/logos/amundi_pc2qn9.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320127/logos/amundi_pc2qn9.png
     - name: ARS
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320146/logos/ars_jxsc1d.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320146/logos/ars_jxsc1d.png
     - name: Ariane
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320134/logos/ariane-group_iwol7t.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320134/logos/ariane-group_iwol7t.png
     - name: BNP Paribas
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320137/logos/bnp-paribas_jilc6m.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320137/logos/bnp-paribas_jilc6m.png
     - name: Caisse d'Epargne
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320135/logos/caisse-d-epargne_hsmfqb.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320135/logos/caisse-d-epargne_hsmfqb.png
     - name: Colliers International
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320140/logos/colliers_i2pmwp.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320140/logos/colliers_i2pmwp.png
     - name: CPAM
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320128/logos/assurance-maladie_exyg1g.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320128/logos/assurance-maladie_exyg1g.png
     - name: Crédit Agricole
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320137/logos/credit-agricole_hc56ve.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320137/logos/credit-agricole_hc56ve.png
     - name: Cramif
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320133/logos/cramif_rhymbq.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320133/logos/cramif_rhymbq.png
     - name: Croix Rouge
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320131/logos/croix-rouge_uahtkg.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320131/logos/croix-rouge_uahtkg.png
     - name: EDF
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320129/logos/edf_kqy77y.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320129/logos/edf_kqy77y.png
     - name: Eiffage
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320148/logos/eiffage_tzk9tm.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320148/logos/eiffage_tzk9tm.png
     - name: Fondation John Bost
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320142/logos/fondation-john-bost_svg1t1.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320142/logos/fondation-john-bost_svg1t1.png
     - name: France Travail
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320145/logos/france-travail_jkgryl.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320145/logos/france-travail_jkgryl.png
     - name: Imprimerie Nationale
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320131/logos/imprimerie-nationale_odn4lj.jpg
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320131/logos/imprimerie-nationale_odn4lj.jpg
     - name: INET
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710326278/logos/inet_smiiqq.jpg
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710326278/logos/inet_smiiqq.jpg
     - name: ISG
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320128/logos/isg_zgj4ff.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320128/logos/isg_zgj4ff.png
     - name: Kedge Business School
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320143/logos/kedge-business_ej63hq.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320143/logos/kedge-business_ej63hq.png
     - name: Lefebvre Dalloz
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320146/logos/lefebvre-dalloz_k2o9z5.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320146/logos/lefebvre-dalloz_k2o9z5.png
     - name: Lydia
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320135/logos/lydia_a0wety.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320135/logos/lydia_a0wety.png
     - name: Michelin
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320146/logos/michelin_ifcyur.jpg
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320146/logos/michelin_ifcyur.jpg
     - name: OCDE
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320140/logos/oecd_lpnnbn.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320140/logos/oecd_lpnnbn.png
     - name: Orange
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320134/logos/orange_yisn4o.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320134/logos/orange_yisn4o.png
     - name: Orsys
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320130/logos/orsys-formation_ujnjmg.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320130/logos/orsys-formation_ujnjmg.png
     - name: Petits Frères des Pauvres
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320143/logos/petits-freres-des-pauvres_rj8lij.jpg
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320143/logos/petits-freres-des-pauvres_rj8lij.jpg
     - name: RATP
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320145/logos/ratp_lwhrze.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320145/logos/ratp_lwhrze.png
     - name: Safran
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320139/logos/safran_qh8tsm.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320139/logos/safran_qh8tsm.png
     - name: Saur
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320127/logos/saur_vojery.jpg
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320127/logos/saur_vojery.jpg
     - name: Schneider Electric
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320127/logos/schneider-electric_kqmeeh.jpg
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320127/logos/schneider-electric_kqmeeh.jpg
     - name: Sciences Po Paris
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320136/logos/sciences-po_dofkjp.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320136/logos/sciences-po_dofkjp.png
     - name: Shindler
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320132/logos/schindler_zmeco0.jpg
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320132/logos/schindler_zmeco0.jpg
     - name: Société Générale
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320141/logos/societe-generale_qksl5a.png
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320141/logos/societe-generale_qksl5a.png
     - name: Total
-      logo: >-
-        https://res.cloudinary.com/qualia-management/image/upload/v1710320138/logos/total_zvxgg0.jpg
+      logo: https://res.cloudinary.com/qualia-management/image/upload/v1710320138/logos/total_zvxgg0.jpg
 contact:
   heading: "Parlons\_de vous"
   phone: +33(0)6 61 07 90 51
-  phone_link: 'tel:+33661079051'
+  phone_link: "tel:+33661079051"
   email: tdefommervault@qualia-management.com
-  address: '36 rue de Fleurus, 75006 Paris'
-  address_link: 'https://maps.app.goo.gl/mbSefvj1p23ucchY6'
+  address: "36 rue de Fleurus, 75006 Paris"
+  address_link: "https://maps.app.goo.gl/mbSefvj1p23ucchY6"
 coach:
   id: coach
   heading: Tristan de Fommervault
   subheading: Coach et formateur certifié
-  image: /images/tristan2.jpg
+  image: https://res.cloudinary.com/qualia-management/image/upload/v1711226418/tristan_exvbsr.jpg
   copy: |
     Un parcours en 3 temps : Comédien, RH, Coach Formateur.
 
@@ -296,4 +261,3 @@ faq:
         compétences nécessaires à une collaboration efficace et au leadership
         dans un environnement numérique et distribué.
 ---
-

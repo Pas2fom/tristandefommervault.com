@@ -2,8 +2,7 @@
 title: La conversation, vecteur de transformation ?
 date: 2018-05-18 00:00:00 +0000
 description: Quel sens donner à ce mot légèrement passé de mode ?
-images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1612185239/tdf/joshua-ness-225844-unsplash_bsnekj.jpg
+image: https://res.cloudinary.com/qualia-management/image/upload/v1612185239/tdf/joshua-ness-225844-unsplash_bsnekj.jpg
 
 tags:
   - Coaching

@@ -2,8 +2,7 @@
 date: 2021-01-21T21:00:00.000+01:00
 title: Le moment de reconstruire
 description: Recréer un environnement de confiance
-images:
-  - https://res.cloudinary.com/qualia-management/image/upload/v1612185246/tdf/randy-fath-ymf4_9y9s_a-unsplash_orig_rkp6ti.jpg
+image: https://res.cloudinary.com/qualia-management/image/upload/v1612185246/tdf/randy-fath-ymf4_9y9s_a-unsplash_orig_rkp6ti.jpg
 categories: ""
 ---
 
