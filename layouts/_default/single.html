@@ -1,23 +1,26 @@
-{{define "main"}}
-<div class="dark:bg-primary-950">
-  <div class="max-w-5xl mx-auto px-6 lg:px-8 py-16 lg:py-24">
-    <div class="max-w-3xl mx-auto text-center space-y-4 lg:space-y-5">
-      {{ with .Params }}
-        {{ partial "components/superheading.html" . }}
-      {{ end }}
-      <h1 class="text-center text-4xl sm:text-5xl font-bold tracking-tight text-primary-950 dark:text-white">{{ .Title | markdownify }}</h1>
-      {{ with .Params }}
-        {{ partial "components/subheading.html" . }}
-      {{ end }}
-    </div>
-    {{ with .Params.image }}
-      <div class="flex justify-center mt-10 lg:mt-14">
-        {{ partial "components/image-responsive" (dict "src" (. | relLangURL) "alt" $.Title "class" "rounded-2xl" "sizes" "(min-width: 1024px) 50vw, 100vw" "widths" (slice 640 1024 2048)) }}
+{{ define "main" }}
+  <div class="dark:bg-primary-950">
+    <div class="mx-auto max-w-5xl px-6 py-16 lg:px-8 lg:py-24">
+      <div class="mx-auto max-w-3xl space-y-4 text-center lg:space-y-5">
+        {{ with .Params }}
+          {{ partial "components/superheading.html" . }}
+        {{ end }}
+        <h1 class="text-center text-4xl font-bold tracking-tight text-primary-950 sm:text-5xl dark:text-white">{{ .Title | markdownify }}</h1>
+        {{ with .Params }}
+          {{ partial "components/subheading.html" . }}
+        {{ end }}
       </div>
-    {{ end }}
-    <div class="mt-10 lg:mt-14 mx-auto prose sm:prose-lg dark:prose-invert prose-headings:scroll-mt-32 hover:prose-a:text-primary-500">
-      {{ .Content }}
+      {{ with .Params.image }}
+        <div class="mt-10 flex justify-center lg:mt-14">
+          {{ $url := . }}
+          {{ $cloudinary_base_url := site.Params.cloudinary_base_url }}
+          {{ $relative := strings.TrimPrefix $cloudinary_base_url $url }}
+          <img sizes="100vw" srcset="{{ $cloudinary_base_url }}f_auto/q_auto/w_256/f_webp/{{ $relative }} 256w, {{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $relative }} 512w, {{ $cloudinary_base_url }}f_auto/q_auto/w_768/f_webp/{{ $relative }} 768w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1024/f_webp/{{ $relative }} 1024w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1280/f_webp/{{ $relative }} 1280w" src="{{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $relative }}" loading="eager" alt="$title" class="rounded-2xl" />
+        </div>
+      {{ end }}
+      <div class="prose mx-auto mt-10 sm:prose-lg dark:prose-invert prose-headings:scroll-mt-32 hover:prose-a:text-primary-500 lg:mt-14">
+        {{ .Content }}
+      </div>
     </div>
   </div>
-</div>
-{{end}}
+{{ end }}
