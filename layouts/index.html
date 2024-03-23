@@ -62,12 +62,13 @@
         <div class="flex flex-wrap items-start justify-center gap-6 sm:gap-6">
           {{ range .companies }}
             {{ $heading := .heading }}
-            {{ $imagePath := printf "%s" .image }}
             <a href="{{ .link }}" rel="noopener noreferrer" target="_blank" class="zoom seq load-hidden flex flex-col items-center justify-center rounded-xl bg-white shadow transition duration-200 hover:shadow-lg md:flex-1">
               <div class="w-full">
-                {{ with resources.Get $imagePath }}
-                  {{ $webp := .Process "webp" }}
-                  <img class="h-full w-full rounded-t-xl object-cover" src="{{ $webp.RelPermalink }}" alt="{{ $heading }}" width="{{ $webp.Width }}" height="{{ $webp.Height }}" loading="lazy" />
+                {{ with .image }}
+                  {{ $url := . }}
+                  {{ $filename := path.Base $url }}
+                  {{ $cloudinary_base_url := $.Site.Params.cloudinary_base_url }}
+                  <img class="h-full w-full rounded-t-xl object-cover" src="{{ $cloudinary_base_url }}f_auto/q_auto/w_389/f_webp/{{ $filename }}" alt="{{ $heading }}" width="389" loading="lazy" />
                 {{ end }}
               </div>
               <div class="flex w-full flex-col items-start justify-start gap-2 p-4">
