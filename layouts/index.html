@@ -9,6 +9,7 @@
           sizes="100vw"
           srcset="{{ $cloudinary_base_url }}f_auto/q_auto/w_256/f_webp/{{ $relative }} 256w, {{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $relative }} 512w, {{ $cloudinary_base_url }}f_auto/q_auto/w_768/f_webp/{{ $relative }} 768w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1024/f_webp/{{ $relative }} 1024w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1280/f_webp/{{ $relative }} 1280w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1440/f_webp/{{ $relative }} 1440w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1920/f_webp/{{ $relative }} 1920w"
           src="{{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $relative }}"
+          loading="eager"
           alt="Featured image"
           class="absolute inset-0 z-10 h-full w-full object-cover object-center sm:aspect-auto xl:object-center" />
       {{ end }}

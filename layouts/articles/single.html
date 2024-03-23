@@ -22,16 +22,8 @@
           {{ $url := . }}
           {{ $cloudinary_base_url := site.Params.cloudinary_base_url }}
           {{ $relative := strings.TrimPrefix $cloudinary_base_url $url }}
-          <img sizes="100vw" srcset="{{ $cloudinary_base_url }}f_auto/q_auto/w_256/f_webp/{{ $relative }} 256w, {{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $relative }} 512w, {{ $cloudinary_base_url }}f_auto/q_auto/w_768/f_webp/{{ $relative }} 768w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1024/f_webp/{{ $relative }} 1024w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1280/f_webp/{{ $relative }} 1280w" src="{{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $relative }}" alt="$title" class="h-full w-full transform object-cover" />
+          <img sizes="100vw" srcset="{{ $cloudinary_base_url }}f_auto/q_auto/w_256/f_webp/{{ $relative }} 256w, {{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $relative }} 512w, {{ $cloudinary_base_url }}f_auto/q_auto/w_768/f_webp/{{ $relative }} 768w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1024/f_webp/{{ $relative }} 1024w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1280/f_webp/{{ $relative }} 1280w" src="{{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $relative }}" loading="eager" alt="$title" class="h-full w-full transform object-cover" />
         {{ end }}
-        aaa
-        {{ $title := .Title }}
-        {{ with .Params.image }}
-          <img src="{{ . }}" alt="" class="h-full w-full transform object-cover transition-all duration-200 group-hover:scale-110" loading="lazy" decoding="async" />
-          ab
-          <img class="h-full w-full transform object-cover transition-all duration-200 group-hover:scale-110" src="{{ site.Params.cloudinary_base_url }}f_auto/q_auto/w_176/f_webp/{{ strings.TrimPrefix site.Params.cloudinary_base_url . }}" alt="{{ $title }}" width="176" loading="lazy" />
-        {{ end }}
-        bbb
       </div>
       {{ with .Params.tags }}
         <div class="mt-8 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
