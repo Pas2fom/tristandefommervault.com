@@ -107,7 +107,7 @@
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mx-auto flex flex-col">
           <div class="flex flex-col items-center justify-center">
-            <img class="mx-auto h-32 w-32 rounded-full object-cover lg:h-44 lg:w-44" src="{{ .image }}" alt="{{ .heading }}" />
+            <img class="mx-auto h-32 w-32 rounded-full object-cover lg:h-44 lg:w-44" src="{{ site.Params.cloudinary_base_url }}f_auto/q_auto/w_176/f_webp/{{ strings.TrimPrefix site.Params.cloudinary_base_url .image }}" alt="{{ .heading }}" width="176" loading="lazy" />
             <p class="mt-5 text-lg font-bold text-gray-900 sm:mt-8 sm:text-2xl">{{ .heading }}</p>
             <p class="mt-2 text-lg font-normal text-gray-600">{{ .subheading }}</p>
 
@@ -124,8 +124,6 @@
               </a>
             {{ end }}
           </div>
-
-          <!-- <div class="mx-auto max-w-xs px-6 text-center"><a class="mt-2.5 rounded-md bg-primary-500 px-4 py-3 text-center text-xs text-white no-underline hover:bg-primary-600 sm:px-6 sm:text-sm" href="{{ .link_url }}">{{ .link }}</a></div> -->
         </div>
       </div>
     </section>

@@ -1,8 +1,8 @@
 <div class="zoom seq load-hidden group flex transform flex-col rounded-xl border border-gray-100 bg-white shadow transition-all duration-200 hover:-translate-y-1 hover:shadow-lg">
   <div class="aspect-video overflow-hidden rounded-t-xl">
     {{ $title := .Title }}
-    {{ with .Params.images }}
-      <img src="{{ index . 0 | absURL }}" alt="{{ $title }}" class="h-full w-full transform object-cover transition-all duration-300" loading="lazy" decoding="async" />
+    {{ with .Params.image }}
+      <img class="h-full w-full transform object-cover transition-all duration-300" src="{{ site.Params.cloudinary_base_url }}f_auto/q_auto/w_345/f_webp/{{ strings.TrimPrefix site.Params.cloudinary_base_url . }}" alt="{{ $title }}" width="345" loading="lazy" />
     {{ end }}
   </div>
   <div class="flex-1 px-4 py-5 sm:p-6">
@@ -32,7 +32,7 @@
       </svg>
     </div>
   </div>
-  <a href="{{ .RelPermalink }}" title="">
+  <a href="{{ .RelPermalink }}">
     <span class="absolute inset-0" aria-hidden="true"></span>
   </a>
 </div>

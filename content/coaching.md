@@ -113,7 +113,7 @@ faq:
 coach:
   heading: Tristan de Fommervault
   subheading: Coach et formateur certifié
-  image: "/images/tristan2.jpg"
+  image: https://res.cloudinary.com/qualia-management/image/upload/v1711226418/tristan_exvbsr.jpg
   copy: |-
     Un parcours en 3 temps : Comédien, RH, Coach Formateur. 
 

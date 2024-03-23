@@ -1,8 +1,6 @@
 <section class="bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     <div class="mx-auto max-w-5xl text-left">
-      <!-- <p class="text-xl font-semibold uppercase text-gray-900 lg:text-2xl">superheading</p> -->
-
       <h2 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-4xl">Articles Liés</h2>
     </div>
 
@@ -13,8 +11,9 @@
         {{ range . }}
           <div class="group">
             <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="aspect-w-16 aspect-h-9 block overflow-hidden rounded-xl">
-              {{ with .Params.images }}
-                <img src="{{ index . 0 | absURL }}" alt="" class="h-full w-full transform object-cover transition-all duration-200 group-hover:scale-110" loading="lazy" decoding="async" />
+              {{ $title := .Title }}
+              {{ with .Params.image }}
+                <img class="h-full w-full transform object-cover transition-all duration-200 group-hover:scale-110" src="{{ site.Params.cloudinary_base_url }}f_auto/q_auto/w_345/f_webp/{{ strings.TrimPrefix site.Params.cloudinary_base_url . }}" alt="{{ $title }}" width="345" loading="lazy" />
               {{ end }}
             </a>
             <h3 class="mt-6 text-lg font-semibold text-gray-900 group-hover:text-gray-600 xl:text-xl">

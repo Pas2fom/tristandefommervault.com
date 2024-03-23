@@ -13,18 +13,25 @@
         <h1 class="mx-auto mt-6 max-w-2xl text-4xl font-bold text-gray-900 sm:text-5xl">{{ .Title }}</h1>
 
         <div class="mt-8 flex items-center justify-center space-x-2">
-          <!-- <p class="flex items-center text-base font-medium text-gray-900">
-            <img src="/images/tim-west.webp" alt="Tim West" class="mr-2 h-6 w-6 rounded-full border border-gray-200" />
-            <span class=""> Tim West </span>
-          </p> -->
-          <!-- <span class="text-base font-medium text-gray-500"> • </span> -->
           <p class="text-xl font-normal text-gray-500">{{ .Date | time.Format ":date_long" }} <span class=""> </span></p>
         </div>
       </div>
       <div class="lg:aspect-h-6 mt-8 aspect-video sm:mt-12 lg:mt-16">
-        {{ with .Params.images }}
-          <img src="{{ index . 0 | absURL }}" alt="" class="h-full w-full transform object-cover transition-all duration-200 group-hover:scale-110" loading="lazy" decoding="async" />
+        {{ $title := .Title }}
+        {{ with .Params.image }}
+          {{ $url := . }}
+          {{ $cloudinary_base_url := site.Params.cloudinary_base_url }}
+          {{ $relative := strings.TrimPrefix $cloudinary_base_url $url }}
+          <img sizes="100vw" srcset="{{ $cloudinary_base_url }}f_auto/q_auto/w_256/f_webp/{{ $relative }} 256w, {{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $relative }} 512w, {{ $cloudinary_base_url }}f_auto/q_auto/w_768/f_webp/{{ $relative }} 768w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1024/f_webp/{{ $relative }} 1024w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1280/f_webp/{{ $relative }} 1280w" src="{{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $relative }}" alt="$title" class="h-full w-full transform object-cover" />
         {{ end }}
+        aaa
+        {{ $title := .Title }}
+        {{ with .Params.image }}
+          <img src="{{ . }}" alt="" class="h-full w-full transform object-cover transition-all duration-200 group-hover:scale-110" loading="lazy" decoding="async" />
+          ab
+          <img class="h-full w-full transform object-cover transition-all duration-200 group-hover:scale-110" src="{{ site.Params.cloudinary_base_url }}f_auto/q_auto/w_176/f_webp/{{ strings.TrimPrefix site.Params.cloudinary_base_url . }}" alt="{{ $title }}" width="176" loading="lazy" />
+        {{ end }}
+        bbb
       </div>
       {{ with .Params.tags }}
         <div class="mt-8 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
