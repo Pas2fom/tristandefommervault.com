@@ -4414,6 +4414,12 @@ html {
     gap: 2rem;
   }
 
+  .sm\:from-gray-900\/20 {
+    --tw-gradient-from: rgb(17 24 39 / 0.2) var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(17 24 39 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
   .sm\:p-12 {
     padding: 3rem;
   }
