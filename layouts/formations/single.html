@@ -9,12 +9,10 @@
           {{ with .Params.image }}
             {{ $url := . }}
             {{ $filename := path.Base $url }}
-            {{ $cloudinaryBaseURL := $.Site.Params.cloudinary_base_url }}
+            {{ $cloudinary_base_url := $.Site.Params.cloudinary_base_url }}
 
 
-            <!-- <div class="aspect-video"> -->
-            <img sizes="(min-width: 50em) 50em, 100vw" srcset="{{ $cloudinaryBaseURL }}f_auto/q_auto/w_256/f_webp/{{ $filename }} 256w, {{ $cloudinaryBaseURL }}f_auto/q_auto/w_512/f_webp/{{ $filename }} 512w, {{ $cloudinaryBaseURL }}f_auto/q_auto/w_768/f_webp/{{ $filename }} 768w, {{ $cloudinaryBaseURL }}f_auto/q_auto/w_1024/f_webp/{{ $filename }} 1024w, {{ $cloudinaryBaseURL }}f_auto/q_auto/w_1280/f_webp/{{ $filename }} 1280w" src="{{ $cloudinaryBaseURL }}f_auto/q_auto/w_512/f_webp/{{ $filename }}" alt="Featured image" class="h-full w-full object-cover" />
-            <!-- </div> -->
+            <img sizes="(min-width: 50em) 50em, 100vw" srcset="{{ $cloudinary_base_url }}f_auto/q_auto/w_256/f_webp/{{ $filename }} 256w, {{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $filename }} 512w, {{ $cloudinary_base_url }}f_auto/q_auto/w_768/f_webp/{{ $filename }} 768w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1024/f_webp/{{ $filename }} 1024w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1280/f_webp/{{ $filename }} 1280w" src="{{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $filename }}" alt="Featured image" class="h-full w-full object-cover" />
           {{ end }}
         </div>
       </div>

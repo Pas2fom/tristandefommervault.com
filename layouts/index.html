@@ -1,12 +1,18 @@
 {{ define "main" }}
   {{ with .Params.hero }}
     <section class="relative flex aspect-auto h-auto items-center justify-start overflow-hidden bg-cover bg-center bg-no-repeat sm:aspect-auto sm:h-[80vh]">
-      {{ partial "components/image-responsive" (dict "src" (.image) "alt" "Hero" "class" "absolute inset-0 sm:aspect-auto z-10 h-full w-full object-cover object-center xl:object-center" "loading" "eager" "sizes" "(min-width: 1024px) 50vw, 100vw" "widths" (slice 320 640 1024 1280 1440 1920 2560)) }}
-      <!-- <picture>
-        <source srcset="{{ site.Params.cloudinary_url }}/w_400{{ strings.TrimPrefix site.Params.cloudinary_url .image }} 500w, {{ site.Params.cloudinary_url }}/w_800{{ strings.TrimPrefix site.Params.cloudinary_url .image }} 1000w, {{ site.Params.cloudinary_url }}/w_1200{{ strings.TrimPrefix site.Params.cloudinary_url .image }} 1420w" alt="{{ .Params.alt }}" />
-        <img class="absolute inset-0 z-10 h-full w-full object-cover object-center sm:aspect-auto xl:object-center" srcset="{{ site.Params.cloudinary_url }}/w_400{{ strings.TrimPrefix site.Params.cloudinary_url .image }} 500w, {{ site.Params.cloudinary_url }}/w_800{{ strings.TrimPrefix site.Params.cloudinary_url .image }} 1000w, {{ site.Params.cloudinary_url }}/w_1200{{ strings.TrimPrefix site.Params.cloudinary_url .image }} 1420w" alt="featured" />
-      </picture> -->
-      <!-- <div class="absolute inset-0 z-20 h-full w-full bg-gray-900/30 backdrop-brightness-50"></div> -->
+      {{ with .image }}
+        {{ $url := . }}
+        {{ $filename := path.Base $url }}
+        {{ $cloudinary_base_url := $.Site.Params.cloudinary_base_url }}
+        <img
+          sizes="100vw"
+          srcset="{{ $cloudinary_base_url }}f_auto/q_auto/w_256/f_webp/{{ $filename }} 256w, {{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $filename }} 512w, {{ $cloudinary_base_url }}f_auto/q_auto/w_768/f_webp/{{ $filename }} 768w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1024/f_webp/{{ $filename }} 1024w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1280/f_webp/{{ $filename }} 1280w"
+          src="{{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $filename }}"
+          alt="Featured image"
+          class="absolute inset-0 z-10 h-full w-full object-cover object-center sm:aspect-auto xl:object-center" />
+      {{ end }}
+      <div class="absolute inset-0 z-20 bg-gradient-to-t from-gray-900/20"></div>
       <div class="z-20 mx-auto w-full max-w-7xl px-6 py-16">
         <div class="z-20 flex max-w-7xl flex-col justify-start">
           {{ with .heading }}
@@ -16,16 +22,6 @@
             <p class="mt-6 max-w-xl text-xl font-normal leading-relaxed text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.4)] sm:mt-6 sm:text-2xl sm:leading-relaxed">{{ . | markdownify }}</p>
           {{ end }}
         </div>
-        <!-- {{ partial "components/list.html" . }}
-        {{ with .buttons }}
-          <div class="mt-8 flex flex-wrap gap-3">
-            {{ range . }}
-              <a href="{{ .url | relLangURL }}" {{ if in .url "http" }}target="_blank" rel="noopener noreferrer"{{ end }} class="block w-auto rounded-md bg-primary-500 px-6 py-2 text-center text-base font-medium tracking-wide text-white transition duration-300 hover:bg-primary-600 focus:outline-none sm:inline-block sm:w-auto md:px-6 md:py-3 md:text-lg">
-                {{ .text }}
-              </a>
-            {{ end }}
-          </div>
-        {{ end }} -->
       </div>
     </section>
   {{ end }}
@@ -132,11 +128,10 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="font-inter flex justify-end p-6"> -->
+
               <svg class="absolute bottom-8 right-8 h-9 w-auto text-gray-200" viewBox="0 0 43 35" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M42.28 34.3H26.04C24.4533 29.1667 23.66 23.8467 23.66 18.34C23.66 12.74 25.1067 8.30666 28 5.03999C30.9867 1.68 35.3733 0 41.16 0V7.84C36.4933 7.84 34.16 10.6867 34.16 16.38V19.04H42.28V34.3ZM18.62 34.3H2.38C0.793333 29.1667 0 23.8467 0 18.34C0 12.74 1.44667 8.30666 4.34 5.03999C7.32667 1.68 11.7133 0 17.5 0V7.84C12.8333 7.84 10.5 10.6867 10.5 16.38V19.04H18.62V34.3Z" />
               </svg>
-              <!-- </div> -->
             </div>
           {{ end }}
         </div>
@@ -205,8 +200,6 @@
               </a>
             {{ end }}
           </div>
-
-          <!-- <div class="mx-auto max-w-xs px-6 text-center"><a class="mt-2.5 rounded-md bg-primary-500 px-4 py-3 text-center text-xs text-white no-underline hover:bg-primary-600 sm:px-6 sm:text-sm" href="{{ .link_url }}">{{ .link }}</a></div> -->
         </div>
       </div>
     </section>
