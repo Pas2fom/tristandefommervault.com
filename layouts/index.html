@@ -7,7 +7,7 @@
         {{ $cloudinary_base_url := $.Site.Params.cloudinary_base_url }}
         <img
           sizes="100vw"
-          srcset="{{ $cloudinary_base_url }}f_auto/q_auto/w_256/f_webp/{{ $filename }} 256w, {{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $filename }} 512w, {{ $cloudinary_base_url }}f_auto/q_auto/w_768/f_webp/{{ $filename }} 768w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1024/f_webp/{{ $filename }} 1024w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1280/f_webp/{{ $filename }} 1280w"
+          srcset="{{ $cloudinary_base_url }}f_auto/q_auto/w_256/f_webp/{{ $filename }} 256w, {{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $filename }} 512w, {{ $cloudinary_base_url }}f_auto/q_auto/w_768/f_webp/{{ $filename }} 768w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1024/f_webp/{{ $filename }} 1024w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1280/f_webp/{{ $filename }} 1280w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1440/f_webp/{{ $filename }} 1440w, {{ $cloudinary_base_url }}f_auto/q_auto/w_1920/f_webp/{{ $filename }} 1920w"
           src="{{ $cloudinary_base_url }}f_auto/q_auto/w_512/f_webp/{{ $filename }}"
           alt="Featured image"
           class="absolute inset-0 z-10 h-full w-full object-cover object-center sm:aspect-auto xl:object-center" />
