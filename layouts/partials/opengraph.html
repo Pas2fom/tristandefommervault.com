@@ -6,8 +6,8 @@
 {{- with $.Resources.GetMatch $.Params.image }}
   <meta property="og:image" content="{{ .Permalink }}" />
 {{- else }}
-  {{- with $.Site.Params.images }}
-    <meta property="og:image" content="{{ index . 0 | absURL }}" />
+  {{- with $.Site.Params.image }}
+    <meta property="og:image" content="{{ . | absURL }}" />
   {{- end -}}
 {{- end -}}
 

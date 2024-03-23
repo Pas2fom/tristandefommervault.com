@@ -2,9 +2,9 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="{{ .Permalink }}" />
 {{- else -}}
-  {{- with $.Site.Params.images -}}
+  {{- with $.Site.Params.image -}}
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="{{ index . 0 | absURL }}" />
+    <meta name="twitter:image" content="{{ . | absURL }}" />
   {{- else -}}
     <meta name="twitter:card" content="summary" />
   {{- end -}}
