@@ -1,4 +1,5 @@
 ---
+draft: false
 category: Développement des qualités humaines et des compétences relationnelles
 title: "Développer sa créativité "
 goals: ""

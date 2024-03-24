@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Manager dans l'incertitude ou l'art du discernement
 date: 2019-01-28T12:55:15.000+00:00
 description:

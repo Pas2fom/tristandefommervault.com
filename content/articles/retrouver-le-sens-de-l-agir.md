@@ -1,4 +1,5 @@
 ---
+draft: false
 title: La conversation, vecteur de transformation ?
 date: 2018-05-18 00:00:00 +0000
 description: Quel sens donner à ce mot légèrement passé de mode ?

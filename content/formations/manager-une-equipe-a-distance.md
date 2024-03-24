@@ -1,4 +1,5 @@
 ---
+draft: true
 category: Management d’équipe
 title: Manager une équipe à distance
 description: >-
@@ -21,7 +22,6 @@ infobox:
   duration: 4 jours
   public: Coach, psychologue du travail, manager, chef de projets, RRH, consultant
   prerequisites: Aucun
-draft: true
 ---
 
 - Comprendre les spécificités du « remote management »

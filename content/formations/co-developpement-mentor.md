@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Je te développe, tu me développes… nous nous co-développons !
 description:
   Dans le champ de l'intelligence collective, le co-développement permet
@@ -12,5 +13,4 @@ infobox:
   duration: 4 jours
   public: Coach, psychologue du travail, manager, chef de projets, RRH, consultant
   prerequisites: Aucun
-published: false
 ---

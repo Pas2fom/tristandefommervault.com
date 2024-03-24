@@ -1,4 +1,5 @@
 ---
+draft: false
 category: Communication interpersonnelle
 title: Mieux communiquer grâce à la Process Com©
 description: >-

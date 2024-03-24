@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Gérer son stress : cultiver la perma-formance"
 description: >-
   Accélération, complexification, perturbation profonde des schémas d'action,
@@ -16,7 +17,6 @@ infobox:
   duration: 4 jours
   public: Coach, psychologue du travail, manager, chef de projets, RRH, consultant
   prerequisites: Aucun
-draft: true
 ---
 
 **Définir les mécanismes du stress**

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Manager le développement des collaborateurs et la dynamique d’équipe
 description: >-
   Clarifier son rôle de manager, individualiser son management en fonction de la

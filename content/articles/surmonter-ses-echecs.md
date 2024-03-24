@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Surmonter ses échecs
 description:
   L’intelligence humaine fonctionne par essais, erreurs et corrections.

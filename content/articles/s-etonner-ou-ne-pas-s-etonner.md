@@ -1,4 +1,5 @@
 ---
+draft: false
 title: S'étonner ou ne pas s'étonner ?
 date: 2019-01-29
 description: S’étonner, c’est accepter de ne pas tout savoir d’une situation pour faire surgir la nouveauté passée jusque là inaperçue.

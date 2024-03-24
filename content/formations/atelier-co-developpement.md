@@ -1,4 +1,5 @@
 ---
+draft: false
 category: Ateliers
 title: Parcours collectif de codeveloppement
 description: ""
@@ -22,7 +23,6 @@ infobox:
   duration: 4 jours
   public: Coach, psychologue du travail, manager, chef de projets, RRH, consultant
   prerequisites: Aucun
-# draft: true
 ---
 
 **Objectif** :

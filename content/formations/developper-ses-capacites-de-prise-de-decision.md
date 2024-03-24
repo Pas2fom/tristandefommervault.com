@@ -1,4 +1,5 @@
 ---
+draft: false
 category: Leadership
 title: Développer ses capacités de prise de décision
 description: >-

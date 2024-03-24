@@ -1,4 +1,5 @@
 ---
+draft: false
 category: Management d’équipe
 title: "Manager, leader, coach"
 description: >-

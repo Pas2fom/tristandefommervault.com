@@ -1,5 +1,5 @@
 ---
-_schema: default
+draft: false
 title: Découvrir son profil Arc-en-Ciel DISC
 date: 2023-02-23T20:00:00Z
 description: "Méthode ARC EN CIEL DISC "

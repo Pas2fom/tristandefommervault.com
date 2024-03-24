@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Apprendre à s’affirmer en groupe
 description: Poser le socle d’une communication constructive
 images: []
@@ -13,5 +14,4 @@ infobox:
   duration: 4 jours
   public: Coach, psychologue du travail, manager, chef de projets, RRH, consultant
   prerequisites: Aucun
-draft: true
 ---

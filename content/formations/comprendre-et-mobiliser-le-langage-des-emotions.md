@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Comprendre et mobiliser le langage des émotions pour renforcer son leadership
 date: "2020-05-09T22:00:00.000+00:00"
 description: >-

@@ -1,4 +1,5 @@
 ---
+draft: false
 date: 2021-01-31T20:00:00.000Z
 title: Animer un World Café en salle ou à distance
 description: >-

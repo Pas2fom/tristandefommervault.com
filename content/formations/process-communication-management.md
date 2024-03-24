@@ -1,4 +1,5 @@
 ---
+draft: true
 category: Management transversal
 title: Manager en transversal avec la Process communication
 description: "Affirmer son leadership de manager de projet "
@@ -15,7 +16,6 @@ infobox:
   duration: 4 jours
   public: Coach, psychologue du travail, manager, chef de projets, RRH, consultant
   prerequisites: Aucun
-draft: true
 ---
 
 - Optimiser la coopération au sein de son projet

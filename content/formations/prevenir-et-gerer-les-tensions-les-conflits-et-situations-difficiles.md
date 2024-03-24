@@ -1,4 +1,5 @@
 ---
+draft: false
 category: Développement des qualités humaines et des compétences relationnelles
 title: "Prévenir et gérer les tensions, les conflits et situations difficiles"
 goals: >-

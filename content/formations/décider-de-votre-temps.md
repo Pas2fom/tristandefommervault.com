@@ -1,4 +1,5 @@
 ---
+draft: true
 category: Développement des qualités humaines et des compétences relationnelles
 title: "Décider de votre temps "
 goals: ""
@@ -7,8 +8,6 @@ description: >-
   dérangements et structurer le temps en réunion, faire de la procrastination un
   levier
 image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
-draft: true
-
 infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC

@@ -1,4 +1,5 @@
 ---
+draft: false
 date: 2023-02-06T18:20:27.000+00:00
 title: Visionner pour mieux décider et vivre le changement
 description: Se mettre en mouvement et décider dans l'incertitude

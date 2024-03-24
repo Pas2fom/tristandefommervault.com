@@ -1,4 +1,5 @@
 ---
+draft: false
 category: Ateliers
 title: Pratiquer le co-développement
 goals: >-

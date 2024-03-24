@@ -1,4 +1,5 @@
 ---
+draft: true
 _schema: default
 title: "Manager des situations surprenantes \_"
 goals: |-
@@ -17,5 +18,4 @@ infobox:
   duration: 4 jours
   public: Coach, psychologue du travail, manager, chef de projets, RRH, consultant
   prerequisites: Aucun
-draft: true
 ---

@@ -1,10 +1,10 @@
 ---
+draft: false
 date: 2023-02-06T18:04:52Z
 title: "Passer du mode automatique au mode adaptatif "
 description: S'émanciper de ses automatismes et passer en mode adaptatif
 image: https://res.cloudinary.com/qualia-management/image/upload/v1677106916/tdf/DALL_E_2023-02-23_00.00.03_-_leaving_routines_morphing_gbfdqy.png
 categories: " food4thought"
-draft: false
 ---
 
 Nous sommes souvent pris dans l'adrénaline de l'action, dans le stress et nous avons besoin d'agir pour nous rassurer. Cependant, cette réaction peut parfois nous pousser à prendre des risques et à faire des erreurs. Il est donc important de se recentrer pour se dire que ce n'est pas toujours le moment opportun pour agir.

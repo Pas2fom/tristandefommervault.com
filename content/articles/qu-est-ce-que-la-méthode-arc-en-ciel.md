@@ -1,5 +1,5 @@
 ---
-_schema: default
+draft: false
 title: Qu'est-ce que la méthode Arc-En-Ciel ?
 date: 2023-03-01T00:00:00Z
 description: Mieux se connaître pour interagir efficacement

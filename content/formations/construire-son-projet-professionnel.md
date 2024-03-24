@@ -1,4 +1,5 @@
 ---
+draft: false
 category: Réussir une transition professionnelle
 title: "Construire son projet professionnel "
 goals: ""

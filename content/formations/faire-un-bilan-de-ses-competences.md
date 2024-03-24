@@ -1,4 +1,5 @@
 ---
+draft: true
 category: Bilan de compétences
 title: Faire un bilan de ses compétences
 goals: ""
@@ -12,5 +13,4 @@ infobox:
   duration: 4 jours
   public: Coach, psychologue du travail, manager, chef de projets, RRH, consultant
   prerequisites: Aucun
-draft: true
 ---

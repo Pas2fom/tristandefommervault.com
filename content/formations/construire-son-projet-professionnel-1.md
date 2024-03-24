@@ -1,4 +1,5 @@
 ---
+draft: false
 category: Réussir une transition professionnelle
 title: Réussir sa prise de poste
 goals: Se préparer mentalement à intégrer un nouveau système professionnel

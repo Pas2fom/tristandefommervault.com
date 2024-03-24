@@ -1,4 +1,5 @@
 ---
+draft: false
 category: Management transversal
 title: Manager efficacement en transversal
 description: >-

@@ -1,4 +1,5 @@
 ---
+draft: true
 category: Développement des qualités humaines et des compétences relationnelles
 title: "Développer la confiance en soi et l'estime de soi : "
 goals: ""
@@ -13,5 +14,4 @@ infobox:
   duration: 4 jours
   public: Coach, psychologue du travail, manager, chef de projets, RRH, consultant
   prerequisites: Aucun
-draft: true
 ---

@@ -1,4 +1,5 @@
 ---
+draft: false
 date: 2020-02-03T20:00:00.000Z
 title: Se faire confiance et coopérer
 description: "La confiance, un concept mou ? "

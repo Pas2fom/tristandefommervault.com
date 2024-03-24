@@ -1,4 +1,5 @@
 ---
+draft: false
 date: 2019-01-29T20:00:00.000Z
 title: "Questionner pour ouvrir le sens "
 description: Poser des questions ou s'affirmer ? Les concilier plutôt que les opposer.
