@@ -408,9 +408,8 @@ export default defineConfig({
           },
           {
             type: 'image',
-            name: 'images',
-            label: 'Images',
-            list: true, 
+            name: 'image',
+            label: 'Image',
           },
           {
             type: 'string',
