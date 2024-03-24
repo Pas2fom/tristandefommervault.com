@@ -10,7 +10,7 @@
       <div class="mx-auto mt-12 grid max-w-md grid-cols-1 gap-16 sm:mt-16 md:max-w-5xl md:grid-cols-3 xl:gap-16">
         {{ range . }}
           <div class="group">
-            <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="aspect-w-16 aspect-h-9 block overflow-hidden rounded-xl">
+            <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="block overflow-hidden rounded-xl">
               {{ $title := .Title }}
               {{ with .Params.image }}
                 <img class="h-full w-full transform object-cover transition-all duration-200 group-hover:scale-110" src="{{ site.Params.cloudinary_base_url }}f_auto/q_auto/w_345/f_webp/{{ strings.TrimPrefix site.Params.cloudinary_base_url . }}" alt="{{ $title }}" width="345" loading="lazy" />

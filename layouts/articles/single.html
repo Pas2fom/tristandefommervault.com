@@ -16,7 +16,7 @@
           <p class="text-xl font-normal text-gray-500">{{ .Date | time.Format ":date_long" }} <span class=""> </span></p>
         </div>
       </div>
-      <div class="lg:aspect-h-6 mt-8 aspect-video sm:mt-12 lg:mt-16">
+      <div class="mt-8 aspect-video sm:mt-12 lg:mt-16">
         {{ $title := .Title }}
         {{ with .Params.image }}
           {{ $url := . }}
