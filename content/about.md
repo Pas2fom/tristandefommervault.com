@@ -1,6 +1,6 @@
 ---
 title: "À propos de moi"
-description: "description"
+description: "À propos de moi"
 ---
 
 ## Tristan de Fommervault
