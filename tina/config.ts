@@ -386,6 +386,13 @@ export default defineConfig({
         path: 'content/articles',
         fields: [
           {
+            name: 'draft',
+            label: 'Draft',
+            type: 'boolean',
+            required: true,
+            description: 'Si cela est coché, l\'article ne sera pas publié.',
+          },
+          {
             type: 'datetime',
             name: 'date',
             label: 'Date',
@@ -437,6 +444,13 @@ export default defineConfig({
         label: 'Formations',
         path: 'content/formations',
         fields: [
+          {
+            name: 'draft',
+            label: 'Draft',
+            type: 'boolean',
+            required: true,
+            description: 'Si cela est coché, l\'article ne sera pas publié.',
+          },
           {
             type: 'string',
             name: 'category',
