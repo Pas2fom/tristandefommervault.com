@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "À propos de moi"
 description: "description"
 ---
 
