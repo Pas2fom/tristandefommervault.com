@@ -515,9 +515,12 @@ export default defineConfig({
             ],
           },
           {
-            type: 'rich-text',
+            type: 'string',
             name: 'goals',
             label: 'Goals',
+            ui: {
+              component: 'textarea', 
+            },
           },
           {
             type: 'object',
