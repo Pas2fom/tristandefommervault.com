@@ -292,8 +292,8 @@ faq:
       answer: >
         Tous nos programmes de formation peuvent être proposés en distantiel ou
         en hybride. Dans ce cas, la pédagogie et l'animation s'ajustent aux
-        contraintes du distantiel afin de garantir aux participants des
-        séquences qui conjuguent  interactivité et réflexion personnelle,
-        attention et stimulation, découverte et ancrage.
+        contraintes du distantiel afin d'offrir aux participants des séquences
+        qui conjuguent interactivité et réflexion personnelle, stimulation
+        cognitive et émotionnelle, découverte et ancrage.
 ---
 
