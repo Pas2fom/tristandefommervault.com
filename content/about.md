@@ -22,3 +22,5 @@ Une citation qui m’inspire :
 > Veille à ton caractère, il devient ton destin.
 
 Lao Tseu
+
+![](https://res.cloudinary.com/qualia-management/image/upload/v1711473838/DSC6615_f1ykhx.jpg)
