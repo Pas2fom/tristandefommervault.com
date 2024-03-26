@@ -1,6 +1,6 @@
 ---
-title: "À propos de moi"
-description: "À propos de moi"
+title: À propos de moi
+description: À propos de moi
 ---
 
 ## Tristan de Fommervault
@@ -20,3 +20,5 @@ Une citation qui m’inspire :
 > Veille à ton caractère, il devient ton destin.
 
 Lao Tseu
+
+![](https://res.cloudinary.com/qualia-management/image/upload/v1711465020/_DSC6615_bsjluf.jpg)
