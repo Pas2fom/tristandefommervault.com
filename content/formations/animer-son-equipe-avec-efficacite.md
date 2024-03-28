@@ -10,8 +10,8 @@ infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC
   duration: 2 jours
-  public: 'Coach, psychologue du travail, manager, chef de projets, RRH, consultant'
-  prerequisites: Aucun
+  public: Managers
+  prerequisites: Disposer d'une première expérience managériale
 goals: >
   Adapter son style et ses modes de management aux personnes, aux situations et
   aux besoins de développement de l’équipe.
