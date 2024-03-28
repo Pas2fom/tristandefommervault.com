@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 category: Management d’équipe
 title: 'Animer son équipe '
 description: Concilier besoins et sens pour avancer
