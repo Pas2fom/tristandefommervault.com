@@ -12,8 +12,8 @@ image: >-
 infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC
-  duration: 4 jours
-  public: 'Toute personne ou collectif souhaitant optimiser la coopération à distance. '
+  duration: 2 jours
+  public: 'Toute personne souhaitant optimiser la coopération à distance. '
   prerequisites: Aucun
 goals: >-
   Faire de la distance une opportunité pour activer des leviers de coopération
