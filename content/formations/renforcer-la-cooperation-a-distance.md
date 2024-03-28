@@ -1,6 +1,6 @@
 ---
 _schema: default
-draft: true
+draft: false
 category: Ateliers
 title: Renforcer la coopération à distance
 description: >-
