@@ -14,7 +14,9 @@ infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC
   duration: 2 jours
-  public: 'Coach, psychologue du travail, manager, chef de projets, RRH, consultant'
+  public: >-
+    Acteurs et agents du changement (chefs de projet, managers, consultants,
+    ...)
   prerequisites: Aucun
 goals: >
   Comprendre les réactions et les étapes du changement pour l’appréhender et
