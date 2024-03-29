@@ -50,12 +50,15 @@ export default defineConfig({
           {
             type: 'string',
             name: 'title',
-            label: 'Page Title',
+            label: 'Titre',
           },
           {
             type: 'string',
             name: 'description',
-            label: 'Page Description',
+            label: 'Description',
+            ui: {
+              component: 'textarea', 
+            },
           },
           // {
           //   type: 'image',
@@ -65,11 +68,11 @@ export default defineConfig({
           {
             type: 'object',
             name: 'hero',
-            label: 'Hero Section',
+            label: 'Le Hero Header',
             fields: [
-              { type: 'image', name: 'image', label: 'Hero Image' },
-              { type: 'string', name: 'heading', label: 'Heading', ui: {component: 'textarea'} },
-              { type: 'string', name: 'subheading', label: 'Subheading', ui: {component: 'textarea'} },
+              { type: 'image', name: 'image', label: 'Image' },
+              { type: 'string', name: 'heading', label: 'Titre', ui: {component: 'textarea'} },
+              { type: 'string', name: 'subheading', label: 'Sous-titre', ui: {component: 'textarea'} },
             ],
           },
 
@@ -77,11 +80,11 @@ export default defineConfig({
           {
             type: 'object',
             name: 'hero_links',
-            label: 'Hero Links',
+            label: 'Liens',
             fields: [
               {
                 type: 'object',
-                label: 'Links',
+                label: 'Liens',
                 name: 'links',
                 list: true, 
                 ui: {
@@ -92,12 +95,12 @@ export default defineConfig({
                 fields: [
                   {
                     type: 'string',
-                    label: 'Heading',
+                    label: 'Titre',
                     name: 'heading',
                   },
                   {
                     type: 'string',
-                    label: 'Icon',
+                    label: 'Icône',
                     name: 'icon',
                   },
                   {
@@ -110,12 +113,12 @@ export default defineConfig({
                   },
                   {
                     type: 'string',
-                    label: 'Link Text',
+                    label: 'Texte du Lien',
                     name: 'link',
                   },
                   {
                     type: 'string',
-                    label: 'Link URL',
+                    label: 'URL du Lien',
                     name: 'link_url',
                   },
                 ],
@@ -128,14 +131,14 @@ export default defineConfig({
           {
             type: 'object',
             name: 'partners',
-            label: 'Partners Section',
+            label: 'Partenaires',
             fields: [
-              { type: 'string', name: 'heading', label: 'Heading' },
-              { type: 'string', name: 'subheading', label: 'Subheading', ui: {component: 'textarea'} },
+              { type: 'string', name: 'heading', label: 'Titre' },
+              { type: 'string', name: 'subheading', label: 'Sous-titre', ui: {component: 'textarea'} },
               {
                 type: 'object',
                 name: 'companies',
-                label: 'Companies',
+                label: 'Entreprises',
                 list: true, 
                 ui: {
                   itemProps: (item) => {
@@ -143,10 +146,10 @@ export default defineConfig({
                   },
                 },
                 fields: [
-                  { type: 'string', name: 'heading', label: 'Company Name' },
+                  { type: 'string', name: 'heading', label: 'Nom de l\'Entreprise' },
                   { type: 'string', name: 'subheading', label: 'Description', ui: {component: 'textarea'} },
                   { type: 'image', name: 'image', label: 'Image' },
-                  { type: 'string', name: 'link', label: 'Link URL' },
+                  { type: 'string', name: 'link', label: 'URL du Lien' },
                 ],
               },
             ],
@@ -154,14 +157,14 @@ export default defineConfig({
           {
             type: 'object',
             name: 'testimonials',
-            label: 'Testimonials Section',
+            label: 'Témoignages',
             fields: [
-              { type: 'string', name: 'heading', label: 'Heading' },
-              { type: 'string', name: 'subheading', label: 'Subheading', ui: {component: 'textarea'} },
+              { type: 'string', name: 'heading', label: 'Titre' },
+              { type: 'string', name: 'subheading', label: 'Sous-titre', ui: {component: 'textarea'} },
               {
                 type: 'object',
                 name: 'testimonials',
-                label: 'Testimonials',
+                label: 'Témoignages',
                 list: true,
                 ui: {
                   itemProps: (item) => {
@@ -169,10 +172,10 @@ export default defineConfig({
                   },
                 },
                 fields: [
-                  { type: 'string', name: 'name', label: 'Name' },
-                  { type: 'string', name: 'company', label: 'Company' },
-                  { type: 'string', name: 'position', label: 'Position' },
-                  { type: 'rich-text', name: 'quote', label: 'Quote' },
+                  { type: 'string', name: 'name', label: 'Nom', },
+                  { type: 'string', name: 'company', label: 'Entreprise' },
+                  { type: 'string', name: 'position', label: 'Poste' },
+                  { type: 'rich-text', name: 'quote', label: 'Citation' },
                 ],
               },
             ],
@@ -180,9 +183,9 @@ export default defineConfig({
           {
             type: 'object',
             name: 'references',
-            label: 'References Section',
+            label: 'Références',
             fields: [
-              { type: 'string', name: 'heading', label: 'Heading' },
+              { type: 'string', name: 'heading', label: 'Titre' },
               {
                 type: 'object',
                 name: 'logos',
@@ -194,7 +197,7 @@ export default defineConfig({
                   },
                 },
                 fields: [
-                  { type: 'string', name: 'name', label: 'Name' },
+                  { type: 'string', name: 'name', label: 'Nom', },
                   { type: 'image', name: 'logo', label: 'Logo' },
                 ],
               },
@@ -203,24 +206,24 @@ export default defineConfig({
           {
             type: 'object',
             name: 'contact',
-            label: 'Contact Section',
+            label: 'Contact',
             fields: [
-              { type: 'string', name: 'heading', label: 'Heading' },
-              { type: 'string', name: 'phone', label: 'Phone Number' },
-              { type: 'string', name: 'phone_link', label: 'Phone Link', description: 'Telephone link in the format tel:+123456789' },
-              { type: 'string', name: 'email', label: 'Email Address' },
-              { type: 'string', name: 'address', label: 'Physical Address', ui: { component: 'textarea' } },
-              { type: 'string', name: 'address_link', label: 'Google Maps Link', description: 'Google Maps link to the address' },
+              { type: 'string', name: 'heading', label: 'Titre' },
+              { type: 'string', name: 'phone', label: 'Numéro de Téléphone' },
+              { type: 'string', name: 'phone_link', label: 'Lien Téléphonique', description: 'Telephone link in the format tel:+123456789' },
+              { type: 'string', name: 'email', label: 'Adresse Email' },
+              { type: 'string', name: 'address', label: 'Adresse Physique', ui: { component: 'textarea' } },
+              { type: 'string', name: 'address_link', label: 'Lien Google Maps', description: 'Lien Google Maps vers l\'adresse' },
             ],
           },
           {
             type: 'object',
             name: 'coach',
-            label: 'Coach Section',
+            label: 'Coach',
             fields: [
               { type: 'string', name: 'id', label: 'ID' },
-              { type: 'string', name: 'heading', label: 'Heading' },
-              { type: 'string', name: 'subheading', label: 'Subheading' },
+              { type: 'string', name: 'heading', label: 'Titre' },
+              { type: 'string', name: 'subheading', label: 'Sous-titre' },
               { type: 'image', name: 'image', label: 'Image' },
               { type: 'rich-text', name: 'copy', label: 'Description' },
             ],
@@ -228,9 +231,9 @@ export default defineConfig({
           {
             type: 'object',
             name: 'faq',
-            label: 'FAQ Section',
+            label: 'FAQ',
             fields: [
-              { type: 'string', name: 'heading', label: 'Heading' },
+              { type: 'string', name: 'heading', label: 'Titre' },
               {
                 type: 'object',
                 name: 'questions',
@@ -243,7 +246,7 @@ export default defineConfig({
                 },
                 fields: [
                   { type: 'string', name: 'question', label: 'Question' },
-                  { type: 'rich-text', name: 'answer', label: 'Answer' },
+                  { type: 'rich-text', name: 'answer', label: 'Réponse' },
                 ],
               },
             ],
@@ -268,13 +271,16 @@ export default defineConfig({
         fields: [
           {
             type: 'string',
-            label: 'Title',
+            label: 'Titre',
             name: 'title',
           },
           {
             type: 'string',
             label: 'Description',
             name: 'description',
+            ui: {
+              component: 'textarea', 
+            },
           },
           {
             type: 'string', 
@@ -300,7 +306,7 @@ export default defineConfig({
                 fields: [
                   {
                     type: 'string',
-                    label: 'Heading',
+                    label: 'Titre',
                     name: 'heading',
                   },
                   {
@@ -319,7 +325,7 @@ export default defineConfig({
             fields: [
               {
                 type: 'string',
-                label: 'Heading',
+                label: 'Titre',
                 name: 'heading',
               },
               {
@@ -340,7 +346,7 @@ export default defineConfig({
                   },
                   {
                     type: 'rich-text',
-                    label: 'Answer',
+                    label: 'Réponse',
                     name: 'answer',
                   },
                 ],
@@ -354,12 +360,12 @@ export default defineConfig({
             fields: [
               {
                 type: 'string',
-                label: 'Heading',
+                label: 'Titre',
                 name: 'heading',
               },
               {
                 type: 'string',
-                label: 'Subheading',
+                label: 'Sous-titre',
                 name: 'subheading',
               },
               {
@@ -401,7 +407,7 @@ export default defineConfig({
           {
             type: 'string',
             name: 'title',
-            label: 'Title',
+            label: 'Titre',
             isTitle: true,
             required: true,
           },
@@ -421,7 +427,7 @@ export default defineConfig({
           {
             type: 'string',
             name: 'categories',
-            label: 'Categories',
+            label: 'Catégories',
           },
           {
             type: 'string', 
@@ -432,7 +438,7 @@ export default defineConfig({
           {
             type: 'rich-text',
             name: 'body',
-            label: 'Body',
+            label: 'Corps',
             isBody: true,
           },
         ],
@@ -454,13 +460,13 @@ export default defineConfig({
           {
             type: 'string',
             name: 'category',
-            label: 'Category',
+            label: 'Catégorie',
             required: true,
           },
           {
             type: 'string',
             name: 'title',
-            label: 'Title',
+            label: 'Titre',
             isTitle: true,
             required: true,
           },
@@ -475,7 +481,7 @@ export default defineConfig({
           {
             type: 'string',
             name: 'theme',
-            label: 'Theme',
+            label: 'Thème',
           },
           {
             type: 'image',
@@ -490,17 +496,17 @@ export default defineConfig({
               {
                 type: 'string',
                 name: 'superheading',
-                label: 'Superheading',
+                label: 'Sur-titre',
               },
               {
                 type: 'string',
                 name: 'heading',
-                label: 'Heading',
+                label: 'Titre',
               },
               {
                 type: 'string',
                 name: 'duration',
-                label: 'Duration',
+                label: 'Durée',
               },
               {
                 type: 'string',
@@ -510,35 +516,35 @@ export default defineConfig({
               {
                 type: 'string',
                 name: 'prerequisites',
-                label: 'Prerequisites',
+                label: 'Prérequis',
               },
             ],
           },
           {
             type: 'string',
             name: 'goals',
-            label: 'Goals',
+            label: 'Objectifs',
             ui: {
               component: 'textarea', 
             },
           },
-          {
-            type: 'object',
-            name: 'strategies',
-            label: 'Strategies',
-            list: true,
-            fields: [
-              {
-                type: 'string',
-                name: 'strategy',
-                label: 'Strategy',
-              },
-            ],
-          },
+          // {
+          //   type: 'object',
+          //   name: 'strategies',
+          //   label: 'Stratégies',
+          //   list: true,
+          //   fields: [
+          //     {
+          //       type: 'string',
+          //       name: 'strategy',
+          //       label: 'Stratégie',
+          //     },
+          //   ],
+          // },
           {
             type: 'rich-text',
             name: 'body',
-            label: 'Body',
+            label: 'Corps',
             isBody: true,
           },
         ],
@@ -562,7 +568,7 @@ export default defineConfig({
         fields: [
           {
             type: 'string',
-            label: 'Title',
+            label: 'Titre',
             name: 'title',
           },
           {
@@ -575,12 +581,12 @@ export default defineConfig({
           },
           {
             type: 'string',
-            label: 'Heading',
+            label: 'Titre',
             name: 'heading',
           },
           {
             type: 'string', 
-            label: 'Subheading',
+            label: 'Sous-titre',
             name: 'subheading',
             ui: {
               component: "textarea"
@@ -588,7 +594,7 @@ export default defineConfig({
           },
           {
             type: 'object',
-            label: 'Tarifs Details',
+            label: 'Détails des Tarifs',
             name: 'tarifs',
             list: true, 
             ui: {
@@ -599,7 +605,7 @@ export default defineConfig({
             fields: [
               {
                 type: 'string',
-                label: 'Heading',
+                label: 'Titre',
                 name: 'heading',
               },
               {
@@ -609,7 +615,7 @@ export default defineConfig({
               },
               {
                 type: 'string',
-                label: 'Link Text',
+                label: 'Texte du Lien',
                 name: 'link',
               },
               {
@@ -639,32 +645,35 @@ export default defineConfig({
         fields: [
           {
             type: 'string',
-            label: 'Title',
+            label: 'Titre',
             name: 'title',
           },
           {
             type: 'string',
             label: 'Description',
             name: 'description',
+            ui: {
+              component: 'textarea', 
+            },
           },
           {
             type: 'object',
-            label: 'Contact Information',
+            label: 'Informations de Contact',
             name: 'contact',
             fields: [
               {
                 type: 'string',
-                label: 'Heading',
+                label: 'Titre',
                 name: 'heading',
               },
               {
                 type: 'string',
-                label: 'Phone',
+                label: 'Téléphone',
                 name: 'phone',
               },
               {
                 type: 'string',
-                label: 'Phone Link',
+                label: 'Lien Téléphonique',
                 name: 'phone_link',
               },
               {
@@ -674,7 +683,7 @@ export default defineConfig({
               },
               {
                 type: 'string',
-                label: 'Address',
+                label: 'Addresse',
                 name: 'address',
                 ui: {
                   component: 'textarea', // Use a textarea for multiline address
@@ -682,7 +691,7 @@ export default defineConfig({
               },
               {
                 type: 'string',
-                label: 'Address Link',
+                label: 'Lien Google Maps pour l\'adresse',
                 name: 'address_link',
               },
             ],
@@ -691,7 +700,7 @@ export default defineConfig({
       },
 
       {
-        label: 'Other Pages',
+        label: 'Autres Pages',
         name: 'other_pages',
         path: 'content',
         match: {
@@ -702,7 +711,7 @@ export default defineConfig({
         fields: [
           {
             type: 'string',
-            label: 'Title',
+            label: 'Titre',
             name: 'title',
           },
           {
@@ -716,7 +725,7 @@ export default defineConfig({
           {
             type: 'rich-text',
             name: 'body',
-            label: 'Body',
+            label: 'Corps',
             isBody: true,
           },
         ],
