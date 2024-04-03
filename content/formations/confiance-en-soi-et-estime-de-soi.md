@@ -11,7 +11,7 @@ image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/fl
 infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC
-  duration: 4 jours
-  public: Coach, psychologue du travail, manager, chef de projets, RRH, consultant
+  duration: 2 jours
+  public: Tous publics
   prerequisites: Aucun
 ---
