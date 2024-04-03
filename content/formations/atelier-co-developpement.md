@@ -1,28 +1,27 @@
 ---
-draft: false
-category: Ateliers
-title: Parcours collectif de codeveloppement
-description: ""
-goals: >-
-  Echanger sur sa pratique et ses expériences, Apprendre et s’enrichir des
-  expériences et feed-backs de pairs (applicable aux thèmes de formation
-  préalablement mentionnés)
-image: "https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg"
 weight: 20
-theme: Développer le management
-
 tags:
   - Codeveloppement
   - Intelligencecollective
   - Analysedepratique
   - Coaching
-
+draft: false
+category: Ateliers
+title: Parcours collectif de codeveloppement
+description: ''
+theme: Développer le management
+image: >-
+  https://res.cloudinary.com/qualia-management/image/upload/v1709193921/flower_xtyxkp.jpg
 infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC
-  duration: 4 jours
-  public: Coach, psychologue du travail, manager, chef de projets, RRH, consultant
+  duration: '2,5 jours '
+  public: Tous publics
   prerequisites: Aucun
+goals: >-
+  Echanger sur sa pratique et ses expériences, Apprendre et s’enrichir des
+  expériences et feed-backs de pairs (applicable aux thèmes de formation
+  préalablement mentionnés)
 ---
 
 **Objectif** :
@@ -59,11 +58,11 @@ Pour l'organisation, il s'agit d'une stratégie efficace pour stimuler le dével
 
 ## Déroulement d’une session
 
-- Présentation d'une situation apportée par un des participants
-- Apports des feed-back formalisés et concis par les autres participants
-- Le bénéficiaire reformule les apports du groupe et ouvre des perspectives
-- Chacun identifie ce qu'il a appris pour lui-même de la situation traitée
-- Mise en commun et ancrage des apprentissages du groupe
+* Présentation d'une situation apportée par un des participants
+* Apports des feed-back formalisés et concis par les autres participants
+* Le bénéficiaire reformule les apports du groupe et ouvre des perspectives
+* Chacun identifie ce qu'il a appris pour lui-même de la situation traitée
+* Mise en commun et ancrage des apprentissages du groupe
 
 ## Méthodes Pédagogiques
 
