@@ -10,7 +10,7 @@ infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC
   duration: 2 jours
-  public: 'Toute personne disposant d'une première expérience en management'
+  public: 'Toute personne avec une première expérience en management'
   prerequisites: Aucun
 goals: ''
 ---
