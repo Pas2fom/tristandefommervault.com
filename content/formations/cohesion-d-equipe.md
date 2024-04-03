@@ -9,8 +9,8 @@ image: >-
 infobox:
   superheading: Tarif individuel
   heading: 700 € HT soit 840 € TTC
-  duration: 4 jours
-  public: 'Coach, psychologue du travail, manager, chef de projets, RRH, consultant'
+  duration: 2 jours
+  public: 'Toute personne disposant d'une première expérience en management'
   prerequisites: Aucun
 goals: ''
 ---
