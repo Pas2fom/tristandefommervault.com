@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 category: Management transversal
 title: Manager en transversal avec la Process communication
 description: 'Affirmer son leadership de manager de projet '
