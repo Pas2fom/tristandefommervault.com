@@ -21,4 +21,4 @@ Une citation qui m’inspire :
 
 Lao Tseu
 
-![](https://res.cloudinary.com/qualia-management/image/upload/v1711473838/DSC6615_f1ykhx.jpg)
+![](https://res.cloudinary.com/qualia-management/image/upload/v1711473838/DSC6615_f1ykhx.jpg)![](https://res.cloudinary.com/qualia-management/image/upload/v1711465027/_DSC6402_t9io9q.jpg)
