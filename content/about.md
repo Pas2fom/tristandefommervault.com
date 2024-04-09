@@ -3,9 +3,9 @@ title: À propos de moi
 description: À propos de moi
 ---
 
-## Tristan de Fommervault
+![](https://res.cloudinary.com/qualia-management/image/upload/v1712676420/portrait_Tristan_de_Fommervault_itvfwv_-_Profile_Picture_oydbvb.png)
 
-### Coach et formateur certifié
+#### Tristan de Fommervault
 
 Un parcours en 3 temps : Comédien, RH, Coach Formateur.
 
