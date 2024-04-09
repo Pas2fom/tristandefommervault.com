@@ -7,8 +7,6 @@ description: À propos de moi
 
 ### Coach et formateur certifié
 
-![](https://res.cloudinary.com/qualia-management/image/upload/v1711474301/portrait_Tristan_de_Fommervault_itvfwv.png)
-
 Un parcours en 3 temps : Comédien, RH, Coach Formateur.
 
 J’accompagne les personnes et les collectifs en situation de transformation.
