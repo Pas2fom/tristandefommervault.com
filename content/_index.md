@@ -243,7 +243,7 @@ faq:
         interactions pratiques et ludiques pour établir un équilibre, faciliter
         l'accompagnement des changements, gérer le stress, résoudre les
         conflits, et cultiver les compétences de leadership et de management
-        nécessaire au succès des équipes et des projets.
+        nécessaires au succès des équipes et des projets.
     - question: >-
         Comment notre approche aborde-t-elle le défi des échecs de projets liés
         à la gestion du changement ?
