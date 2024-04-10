@@ -245,23 +245,6 @@ faq:
         conflits, et cultiver les compétences de leadership et de management
         nécessaires au succès des équipes et des projets.
     - question: >-
-        Comment notre approche aborde-t-elle le défi des échecs de projets liés
-        à la gestion du changement ?
-      answer: >
-        En mettant l'accent sur un accompagnement efficace du changement, nous
-        transformons les collaborateurs en acteurs clés du processus, réduisant
-        ainsi le taux d'échec des projets de transformation. Notre méthode cible
-        la prévention de la perte de repères, une cause majeure d'échec, en
-        impliquant activement chaque membre dans le changement.
-    - question: Quelles stratégies sont proposées pour gérer le stress au travail ?
-      answer: >
-        Pour combattre le stress, nos formations proposent des stratégies basées
-        sur l'identification des sources de stress et l'utilisation des
-        ressources émotionnelles, mentales et physiques. Elles visent à
-        transformer le stress en énergie positive et à développer des mécanismes
-        d'adaptation efficaces pour une meilleure gestion des défis
-        professionnels.
-    - question: >-
         Comment notre formation vise-t-elle à prévenir et gérer les tensions,
         les conflits et les situations difficiles ?
       answer: >
@@ -295,5 +278,21 @@ faq:
         contraintes du distantiel afin d'offrir aux participants des séquences
         qui conjuguent interactivité et réflexion personnelle, stimulation
         cognitive et émotionnelle, découverte et ancrage.
+    - question: Quelles stratégies pour développer la Qualité de Vie au Travail ?
+      answer: >
+        Pour développer la QVT, nos formations proposent des stratégies basées
+        sur l'identification des sources de stress et la mobilisation des
+        ressources émotionnelles, mentales et physiques. Elles visent à
+        transformer le stress en énergie positive et à développer des mécanismes
+        d'adaptation efficaces pour mieux relever les défis d'aujourd'hui.
+    - question: >-
+        Comment notre approche aborde-t-elle le défi des échecs de projets liés
+        à la gestion du changement ?
+      answer: >
+        En mettant l'accent sur un accompagnement efficace du changement, nous
+        transformons les collaborateurs en acteurs clés du processus, réduisant
+        ainsi le taux d'échec des projets de transformation. Notre méthode cible
+        la prévention de la perte de repères, une cause majeure d'échec, en
+        impliquant activement chaque membre dans le changement.
 ---
 
