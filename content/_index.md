@@ -49,7 +49,14 @@ partners:
       link: /formations/atelier-co-developpement/
 testimonials:
   heading: Témoignages
-  subheading: null
+  subheading: >-
+    La satisfaction de nos clients repose sur notre capacité à contextualiser,
+    notre quête d'amélioration et ... notre bonne humeur ! A vos côtés, pour
+    accompagner la montée en compétences de vos salariés de A à Z 
+
+    en amont pour évaluer les besoins de progrès ; en aval, pour mesurer la
+    progression et superviser le déploiement effectif des compétences en
+    situation de travail.
   testimonials:
     - name: Sébastien Rémond
       company: '[Société Générale CIB](https://cib.societegenerale.com/en/)'
