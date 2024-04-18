@@ -18,7 +18,7 @@ hero_links:
       link: En Savoir Plus
       link_url: /coaching
     - heading: Formation
-      icon: fa-solid fa-users
+      icon: ''
       text: >-
         Des formations sur mesure, ludiques, concrètes et digitalisées pour
         développer vos compétences de leadership
