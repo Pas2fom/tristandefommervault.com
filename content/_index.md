@@ -11,7 +11,7 @@ hero:
 hero_links:
   links:
     - heading: Coaching
-      icon: fa-solid fa-comments
+      icon: ''
       text: >-
         Un accompagnement personnalisé pour accélérer l'atteinte de son objectif
         et accomplir son rêve.
