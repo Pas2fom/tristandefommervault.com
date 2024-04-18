@@ -1,11 +1,9 @@
 ---
-title: À propos de moi
-description: À propos de moi
+title: Tristan de Fommervault
+description: ''
 ---
 
-![](https://res.cloudinary.com/qualia-management/image/upload/v1712676420/portrait_Tristan_de_Fommervault_itvfwv_-_Profile_Picture_oydbvb.png)
-
-#### Tristan de Fommervault
+![](https://res.cloudinary.com/qualia-management/image/upload/v1711473838/DSC6615_f1ykhx.jpg)
 
 Un parcours en 3 temps : Comédien, RH, Coach Formateur.
 
@@ -21,4 +19,7 @@ Une citation qui m’inspire :
 
 Lao Tseu
 
-![](https://res.cloudinary.com/qualia-management/image/upload/v1711473838/DSC6615_f1ykhx.jpg)![](https://res.cloudinary.com/qualia-management/image/upload/v1711465027/_DSC6402_t9io9q.jpg)
+![](https://res.cloudinary.com/qualia-management/image/upload/v1711465027/_DSC6402_t9io9q.jpg)
+
+```javascript
+```
