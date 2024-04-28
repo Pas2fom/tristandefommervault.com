@@ -49,14 +49,14 @@
 
   {{ with .Params.hero_links }}
     <div class="mx-auto w-full max-w-6xl px-4 sm:px-6">
-      <div class="z-40 -mt-8 mb-16 flex items-center justify-center gap-4 sm:-mt-32 sm:gap-8">
+      <div class="z-40 -mt-8 flex items-center justify-center gap-4 sm:-mt-32 sm:gap-8 lg:mb-16">
         {{ range .links }}
-          <div class="group relative z-40 flex aspect-square max-w-96 flex-col items-center justify-center gap-8 rounded bg-white px-2 py-6 shadow-lg sm:px-6 ">
+          <div class="group relative z-40 flex h-72 max-w-96 flex-col items-center justify-center gap-8 rounded bg-white px-2 py-6 shadow-lg sm:aspect-square sm:h-80 sm:px-6 md:h-auto ">
             <video class="absolute inset-0 h-full w-full object-cover opacity-0 transition-all duration-300 group-hover:opacity-100" loop autoplay muted>
               <source src="{{ .video }}" type="video/mp4" />
             </video>
-            <h2 class="z-50 pt-12 text-center text-xl font-light text-gray-600 group-hover:opacity-0 group-hover:[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] sm:text-2xl">{{ .heading }}</h2>
-            <div class="relative max-w-xs flex-grow text-center text-base leading-normal text-gray-600 group-hover:opacity-0 sm:text-lg">{{ .text | markdownify }}</div>
+            <h2 class="z-50 text-center text-xl font-light text-gray-600 group-hover:opacity-0 group-hover:[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] sm:text-2xl md:pt-12">{{ .heading }}</h2>
+            <div class="relative max-w-xs flex-grow text-center text-xs leading-normal text-gray-600 group-hover:opacity-0 sm:text-lg">{{ .text | markdownify }}</div>
             <a href="{{ .link_url }}" class="z-50 mt-2.5 rounded-md bg-primary-500 px-4 py-3 text-center text-xs text-white no-underline hover:bg-primary-600 sm:px-6 sm:text-sm">{{ .link }}</a>
           </div>
         {{ end }}
