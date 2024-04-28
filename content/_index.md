@@ -4,21 +4,21 @@ description: Tristan de Fommervault
 hero:
   image: >-
     https://res.cloudinary.com/qualia-management/image/upload/v1710967186/herobg_ffuwkt.jpg
-  heading: 'Transmettre et accompagner, former et coacher'
+  heading: "Transmettre et accompagner, former et coacher"
   subheading: >-
     Des formules d’accompagnement sur mesure pour vous aider à atteindre vos
     objectifs.
 hero_links:
   links:
     - heading: Coaching
-      icon: ''
+      video: /videos/coaching.mp4
       text: >-
         Un accompagnement personnalisé pour accélérer l'atteinte de son objectif
         et accomplir son rêve.
       link: En Savoir Plus
       link_url: /coaching
     - heading: Formation
-      icon: ''
+      video: /videos/formation.mp4
       text: >-
         Des formations sur mesure, ludiques, concrètes et digitalisées pour
         développer vos compétences de leadership
@@ -59,7 +59,7 @@ testimonials:
     situation de travail.
   testimonials:
     - name: Sébastien Rémond
-      company: '[Société Générale CIB](https://cib.societegenerale.com/en/)'
+      company: "[Société Générale CIB](https://cib.societegenerale.com/en/)"
       position: Directeur Investment Banking
       quote: >
         Tristan a beaucoup apporté à ces ateliers grâce à sa personnalité
@@ -214,10 +214,10 @@ references:
 contact:
   heading: "Parlons\_de vous"
   phone: +33(0)6 61 07 90 51
-  phone_link: 'tel:+33661079051'
+  phone_link: "tel:+33661079051"
   email: tdefommervault@qualia-management.com
-  address: '36 rue de Fleurus, 75006 Paris'
-  address_link: 'https://maps.app.goo.gl/mbSefvj1p23ucchY6'
+  address: "36 rue de Fleurus, 75006 Paris"
+  address_link: "https://maps.app.goo.gl/mbSefvj1p23ucchY6"
 coach:
   id: coach
   heading: Tristan de Fommervault
@@ -302,4 +302,3 @@ faq:
         la prévention de la perte de repères, une cause majeure d'échec, en
         impliquant activement chaque membre dans le changement.
 ---
-
