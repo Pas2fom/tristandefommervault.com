@@ -11,7 +11,8 @@ tags:
   - ''
 ---
 
-Souvenir ! A l'approche du Grand Chelem parisien (J-17 !!!), retour en vidéo sur une journée d'équipe de Direction à #Roland Garros #PhilippeChatrier  (Direction Régionale Nord Ouest Adecco).
+Souvenir ! A l'approche du Grand Chelem parisien (J-17 !!!), retour en vidéo sur une journée d'équipe de Direction à #Roland Garros #CourtPhilippeChatrier  #DirectionRégionaleNordOuest #Adecco\
+\#Orsys #TristandeFommervault #QualiaManagement
 
  \
 [adecco\_teambuilding](https://res.cloudinary.com/qualia-management/video/upload/v1713781823/video/adecco_teambuilding.mp4 "adecco_teambuilding")
