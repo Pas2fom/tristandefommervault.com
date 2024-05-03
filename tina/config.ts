@@ -440,6 +440,24 @@ export default defineConfig({
             name: 'body',
             label: 'Corps',
             isBody: true,
+            templates: [
+              {
+                name: 'video',
+                label: 'Video',
+                match: {
+                  start: '{{<',
+                  end: '>}}',
+                },
+                fields: [
+                  {
+                    name: 'src',
+                    label: 'Video',
+                    type: 'string',
+                    required: true,
+                  },
+                ],
+              },
+            ],
           },
         ],
       },
