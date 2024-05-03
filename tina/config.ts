@@ -452,7 +452,7 @@ export default defineConfig({
                   {
                     name: 'src',
                     label: 'Video',
-                    type: 'string',
+                    type: 'image',
                     required: true,
                   },
                 ],
