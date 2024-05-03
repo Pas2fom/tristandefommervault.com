@@ -443,7 +443,7 @@ export default defineConfig({
             templates: [
               {
                 name: 'video',
-                label: 'Video',
+                label: 'Vidéo',
                 match: {
                   start: '{{<',
                   end: '>}}',
@@ -564,6 +564,24 @@ export default defineConfig({
             name: 'body',
             label: 'Corps',
             isBody: true,
+            templates: [
+              {
+                name: 'video',
+                label: 'Vidéo',
+                match: {
+                  start: '{{<',
+                  end: '>}}',
+                },
+                fields: [
+                  {
+                    name: 'src',
+                    label: 'Video',
+                    type: 'image',
+                    required: true,
+                  },
+                ],
+              },
+            ],
           },
         ],
       },
@@ -745,6 +763,24 @@ export default defineConfig({
             name: 'body',
             label: 'Corps',
             isBody: true,
+            templates: [
+              {
+                name: 'video',
+                label: 'Vidéo',
+                match: {
+                  start: '{{<',
+                  end: '>}}',
+                },
+                fields: [
+                  {
+                    name: 'src',
+                    label: 'Video',
+                    type: 'image',
+                    required: true,
+                  },
+                ],
+              },
+            ],
           },
         ],
       },
