@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 date: 2024-05-04T22:00:00.000Z
 title: Journée de partage en équipe à Rolland Garros
 description: 'Au programme : stratégie, tactique et entraînement '
