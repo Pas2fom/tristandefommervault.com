@@ -1,8 +1,8 @@
 ---
 draft: false
 date: 2024-05-04T22:00:00.000Z
-title: 'A Rolland Garros pour un échange construit et gagnant '
-description: ''
+title: Journée de partage en équipe à Rolland Garros
+description: 'Au programme : stratégie, tactique et entraînement '
 image: >-
   https://res.cloudinary.com/qualia-management/image/upload/v1714744200/tennis_wppon6.jpg
 tags:
