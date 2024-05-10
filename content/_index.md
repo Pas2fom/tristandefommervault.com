@@ -26,7 +26,7 @@ partners:
   heading: Angle d'approche
   subheading: >-
     Les outils que nous mobilisons font référence au niveau international et
-    font l’objet d’une évaluation régulière
+    font l’objet d’une évaluation régulière.
   companies:
     - heading: Arc-En-Ciel DISC
       subheading: Connaître sa personnalité et ses motivations; mapping d'équipe
