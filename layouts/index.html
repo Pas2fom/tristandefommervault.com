@@ -27,26 +27,6 @@
     </section>
   {{ end }}
 
-
-  <!-- {{ with .Params.hero_links }}
-    <div class="mx-auto w-full max-w-6xl px-4 sm:px-6">
-      <div class="z-40 -mt-8 mb-16 grid grid-cols-2 gap-4 sm:-mt-32 sm:gap-8">
-        {{ range .links }}
-          <div class=" flex flex-col items-center justify-center gap-4 overflow-hidden rounded bg-white px-2 py-6 shadow-lg sm:px-6 sm:py-16">
-            <video class="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100" autoplay muted>
-              <source src="{{ .video }}" type="video/mp4" />
-            </video>
-            <i class="{{ .icon }} text-3xl text-primary-500 sm:text-4xl"></i>
-            <h2 class="text-center text-xl font-light text-gray-600 sm:text-2xl">{{ .heading }}</h2>
-            <div class="relative max-w-xs flex-grow text-center text-sm leading-normal text-gray-600 sm:text-base">{{ .text | markdownify }}</div>
-            <a href="{{ .link_url }}" class="mt-2.5 rounded-md bg-primary-500 px-4 py-3 text-center text-xs text-white no-underline hover:bg-primary-600 sm:px-6 sm:text-sm">{{ .link }}</a>
-          </div>
-        {{ end }}
-      </div>
-    </div>
-  {{ end }}
-   -->
-
   {{ with .Params.hero_links }}
     <div class="mx-auto w-full max-w-6xl px-4 sm:px-6">
       <div class="z-40 -mt-8 flex items-center justify-center gap-4 sm:-mt-32 sm:gap-8 lg:mb-16">

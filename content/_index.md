@@ -11,12 +11,14 @@ hero:
 hero_links:
   links:
     - heading: Coaching
+      video: /videos/coaching.mp4
       text: >-
         Un accompagnement personnalisé pour accélérer l'atteinte de son objectif
         et accomplir son rêve.
       link: En Savoir Plus
       link_url: /coaching
     - heading: Formation
+      video: /videos/formation.mp4
       text: >-
         Des formations sur mesure, ludiques, concrètes et digitalisées pour
         développer vos compétences de leadership

@@ -100,8 +100,8 @@ export default defineConfig({
                   },
                   {
                     type: 'string',
-                    label: 'Icône',
-                    name: 'icon',
+                    label: 'Vidéo',
+                    name: 'video',
                   },
                   {
                     type: 'string',
