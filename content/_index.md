@@ -45,7 +45,6 @@ partners:
       image: >-
         https://res.cloudinary.com/qualia-management/image/upload/v1711222553/mentor_hugkln.jpg
       link: /formations/atelier-co-developpement/
-    - {}
 testimonials:
   heading: Témoignages
   subheading: >-
