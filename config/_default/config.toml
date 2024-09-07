@@ -3,7 +3,10 @@ defaultContentLanguage = "fr"
 languageCode = 'fr'
 title = 'Tristan de Fommervault'
 description = 'Tristan de Fommervault'
-# googleAnalytics = "G-CKR9EMVHV1"
+
+# [services]
+# [services.googleAnalytics]
+# id = 'G-CKR9EMVHV1'
 
 cloudinary_url = "https://res.cloudinary.com/qualia-management/image/upload"
 

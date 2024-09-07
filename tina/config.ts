@@ -8,8 +8,8 @@ const branch =
 
 export default defineConfig({
   branch,
-  clientId: "39f3fee0-947c-479c-b2c8-6f0635335a79",
-  token: "3daee86cfc6e921f041a2856c3b8229880541a62",
+  clientId: process.env.TINA_CLIENT_ID,
+  token: process.env.TINA_TOKEN,
   // client: { skip: true },
   build: {
     outputFolder: "admin",
@@ -23,7 +23,7 @@ export default defineConfig({
   },
   search: {
     tina: {
-      indexerToken: 'f02fd1c201ee3b8d815d2ad880a57cd90a1e906d',
+      indexerToken: process.env.TINA_SEARCH_TOKEN,
       stopwordLanguages: ['fra']
     },
     indexBatchSize: 100,
