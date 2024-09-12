@@ -9,22 +9,23 @@
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.9",
     "@tailwindcss/typography": "^0.5.15",
+    "@tinacms/cli": "^1.6.3",
     "@types/node": "^22.5.4",
     "autoprefixer": "^10.4.20",
-    "concurrently": "^8.2.2",
+    "concurrently": "^9.0.1",
     "prettier": "^3.3.3",
     "prettier-plugin-go-template": "^0.0.15",
     "prettier-plugin-tailwindcss": "^0.6.6",
-    "tailwindcss": "^3.4.10"
+    "tailwindcss": "^3.4.11"
   },
   "dependencies": {
     "@tinacms/auth": "^1.0.6",
-    "@tinacms/cli": "^1.6.2",
     "esbuild": "^0.23.1",
-    "express": "^4.19.2",
+    "express": "^4.21.0",
     "final-form": "^4.20.10",
-    "next-tinacms-cloudinary": "^8.0.2",
+    "next-tinacms-cloudinary": "^8.0.3",
     "serverless-http": "^3.2.0",
-    "tinacms": "^2.2.2"
+    "tinacms": "^2.2.3"
   }
 }
+
