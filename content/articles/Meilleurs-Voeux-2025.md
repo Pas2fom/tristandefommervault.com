@@ -16,9 +16,12 @@ description: >-
   plaisir de parcourir encore un bout de chemin ensemble ;-) 
 categories: Voeux
 tags:
+  - Galoper vers vos projets les plus créatifs
+  - Santé
+  - Sérénité
   - All the best
-  - Wish
   - '2025'
+  - Succès
 ---
 
 Ouf… 2024 était intense !
