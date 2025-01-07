@@ -21,7 +21,7 @@ tags:
   - Santé
   - Sérénité
   - All the best
-  - '2025'
+  - Happy New Year
   - Succès
 ---
 
