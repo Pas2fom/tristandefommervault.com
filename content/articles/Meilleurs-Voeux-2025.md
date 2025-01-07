@@ -16,7 +16,7 @@ description: >-
   plaisir de parcourir encore un bout de chemin ensemble ;-) 
 categories: Voeux
 tags:
-  - Galoper vers vos projets les plus créatifs
+  - Mettre vos projets les plus créatifs au galop
   - Santé
   - Sérénité
   - All the best
