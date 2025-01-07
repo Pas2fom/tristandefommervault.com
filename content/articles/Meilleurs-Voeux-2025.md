@@ -33,4 +33,4 @@ Bien chaleureusement,
 
 Tristan de Fommervault
 
-{{< video src="https://res.cloudinary.com/qualia-management/video/upload/v1736267235/video/groj7dfxvqdwe0bbbms2.mp4" >}}
+{{< video src="https://res.cloudinary.com/qualia-management/video/upload/v1736267235/video/Voeux2025_Tristan_de_Fommervault_Qualia.mp4" >}}
