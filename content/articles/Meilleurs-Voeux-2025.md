@@ -14,7 +14,8 @@ description: >-
 
   Au pas, au trot, ou au galop, de belles réussites dans vos projets… et le
   plaisir de parcourir encore un bout de chemin ensemble ;-) 
-image: ''
+image: >-
+  https://res.cloudinary.com/qualia-management/video/upload/v1736267235/video/Voeux2025_Tristan_de_Fommervault_Qualia.mp4
 categories: Voeux
 tags:
   - Mettre vos projets les plus créatifs au galop
