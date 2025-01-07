@@ -14,8 +14,7 @@ description: >-
 
   Au pas, au trot, ou au galop, de belles réussites dans vos projets… et le
   plaisir de parcourir encore un bout de chemin ensemble ;-) 
-image: >-
-  https://res.cloudinary.com/qualia-management/image/upload/v1736268950/tdf/meilleursvoeux25.png
+image: ''
 categories: Voeux
 tags:
   - Mettre vos projets les plus créatifs au galop
