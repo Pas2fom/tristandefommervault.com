@@ -1,13 +1,28 @@
 <div class="zoom seq load-hidden group flex transform flex-col rounded-xl border border-gray-100 bg-white shadow transition-all duration-200 hover:-translate-y-1 hover:shadow-lg">
+  <!-- <div class="aspect-video overflow-hidden rounded-t-xl">
+    {{ $title := .Title }}
+    {{ with .Params.image }}
+    <img class="h-full w-full transform object-cover transition-all duration-300" src="{{ site.Params.cloudinary_base_url }}f_auto/q_auto/w_345/f_webp/{{ strings.TrimPrefix site.Params.cloudinary_base_url . }}" alt="{{ $title }}" width="345" loading="lazy" />
+  {{ end }}
+  </div> -->
   <div class="aspect-video overflow-hidden rounded-t-xl">
     {{ $title := .Title }}
     {{ with .Params.image }}
-      <img class="h-full w-full transform object-cover transition-all duration-300" src="{{ site.Params.cloudinary_base_url }}f_auto/q_auto/w_345/f_webp/{{ strings.TrimPrefix site.Params.cloudinary_base_url . }}" alt="{{ $title }}" width="345" loading="lazy" />
+      {{ $cloudinary_base_url := site.Params.cloudinary_base_url }}
+      {{ $url := . }}
+      {{ $isVideo := strings.HasSuffix $url ".mp4" }}
+      {{ if $isVideo }}
+        {{ $videoUrl := strings.TrimSuffix ".mp4" $url | printf "%s.webp" }}
+        <img class="h-full w-full transform object-cover transition-all duration-300" src="{{ $videoUrl }}" alt="{{ $title }}" width="345" loading="lazy" />
+      {{ else }}
+        {{ $relative := strings.TrimPrefix $cloudinary_base_url $url }}
+        <img class="h-full w-full transform object-cover transition-all duration-300" src="{{ $cloudinary_base_url }}f_auto/q_auto/w_345/f_webp/{{ $relative }}" alt="{{ $title }}" width="345" loading="lazy" />
+      {{ end }}
     {{ end }}
   </div>
   <div class="flex-1 px-4 py-5 sm:p-6">
     <p class="text-lg font-bold text-gray-900">{{ .Title }}</p>
-    <p class="mt-3 line-clamp-4 text-sm font-normal leading-6 text-gray-500">{{ .Summary | truncate 180 }}</p>
+    <p class="mt-3 line-clamp-4 text-sm font-normal leading-6 text-gray-500">{{ .Plain | truncate 180 }}</p>
   </div>
   <div class="mt-auto border-t border-gray-100 px-4 py-5 sm:px-6">
     <div class="flex items-center justify-between">

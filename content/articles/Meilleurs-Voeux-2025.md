@@ -2,8 +2,8 @@
 draft: false
 date: 2025-01-06T23:00:00.000Z
 title: Meilleurs Voeux 2025
-description: ''
-image: ''
+description: ""
+image:
 categories: Voeux
 tags:
   - Mettre vos projets les plus créatifs au galop
