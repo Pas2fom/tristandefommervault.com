@@ -7,25 +7,25 @@
     "build": "tinacms build && hugo"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.9",
-    "@tailwindcss/typography": "^0.5.15",
-    "@tinacms/cli": "^1.6.3",
-    "@types/node": "^22.5.4",
-    "autoprefixer": "^10.4.20",
-    "concurrently": "^9.0.1",
-    "prettier": "^3.3.3",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.19",
+    "@tinacms/cli": "^1.11.0",
+    "@types/node": "^24.9.2",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.2.1",
+    "prettier": "^3.6.2",
     "prettier-plugin-go-template": "^0.0.15",
-    "prettier-plugin-tailwindcss": "^0.6.6",
+    "prettier-plugin-tailwindcss": "^0.7.1",
     "tailwindcss": "^3.4.11"
   },
   "dependencies": {
-    "@tinacms/auth": "^1.0.6",
-    "esbuild": "^0.23.1",
-    "express": "^4.21.0",
-    "final-form": "^4.20.10",
-    "next-tinacms-cloudinary": "^8.0.3",
-    "serverless-http": "^3.2.0",
-    "tinacms": "^2.2.3"
+    "@tinacms/auth": "^1.1.0",
+    "esbuild": "^0.25.12",
+    "express": "^5.1.0",
+    "final-form": "^5.0.0",
+    "next-tinacms-cloudinary": "^15.0.0",
+    "serverless-http": "^4.0.0",
+    "tinacms": "^2.9.0"
   }
 }
 
