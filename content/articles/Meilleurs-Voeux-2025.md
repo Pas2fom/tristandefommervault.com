@@ -1,30 +1,16 @@
 ---
 draft: false
-date: 2025-01-06T23:00:00.000Z
-title: Meilleurs Voeux 2025
+date: 2026-01-12T00:00:00.000Z
+title: Meilleurs Voeux 2026
 description: ''
-image: >-
-  https://res.cloudinary.com/qualia-management/image/upload/v1737385832/Voeux2025_Tristan_de_Fommervault_Qualia_ofnbgd.jpg
+image: ''
 categories: Voeux
 tags:
-  - Mettre vos projets les plus créatifs au galop
-  - Santé
-  - Sérénité
-  - All the best
-  - Happy New Year
-  - Succès
+  - '2026'
+  - douceur
+  - 'énergie '
+  - Happy New Year !
+  - mouvement
 ---
 
-{{< video src="https://res.cloudinary.com/qualia-management/video/upload/v1736267235/video/Voeux2025_Tristan_de_Fommervault_Qualia.mp4" >}}
-
-Ouf… 2024 était intense !
-
-En 2025, de l’intensité joyeuse, sous toutes ses formes !
-
-Prêt.e ?
-
-Au pas, au trot, ou au galop, de belles réussites dans vos projets… et le plaisir de parcourir encore un bout de chemin ensemble ;-)
-
-Bien chaleureusement,
-
-Tristan de Fommervault
+![](https://res.cloudinary.com/qualia-management/image/upload/v1768591353/26_Voeux_tristandefommervault.com_dqlqni.jpg)Tristan de Fommervault
