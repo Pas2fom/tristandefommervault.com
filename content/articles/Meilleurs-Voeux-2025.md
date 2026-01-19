@@ -11,6 +11,14 @@ tags:
   - 'énergie '
   - Happy New Year !
   - mouvement
+  - Stimulation
+  - Sens
+  - Accomplissement
+  - 'Rencontres '
+  - Etonnement
+  - Découvertes
+  - Confiance
+  - Cheminer ensemble
 ---
 
 Tristan de Fommervault
